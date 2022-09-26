@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?><xbrli:xbrl  xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:dbs04-role="http://www.rbi.org/in/xbrl/dbs04-role/1.0.0" xmlns:dbs04-entry="http://www.rbi.org/in/xbrl/dbs04-entry" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par" xmlns:rbi-par="http://www.rbi.org/in/xbrl/rbi-par" xmlns:in-rbi-rep-types="http://www.rbi.org/in/xbrl/2012-05-07/in-rbi-rep-types" xmlns:rbi-type="http://www.rbi.org/in/xbrl/rbi-type" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dtr="http://www.xbrl.org/dtr/type/numeric" xmlns:gen="http://xbrl.org/2008/generic" xmlns:DBS04-role="http://www.rbi.org/in/xbrl/dbs04-role" xmlns:filinginfo-role="http://www.rbi.org/in/xbrl/filinginfo-role/1.0.0" xmlns:filinginfo-entry="http://www.rbi.org/in/xbrl/filinginfo-entry" xmlns:FilingInfo-role="http://www.rbi.org/in/xbrl/filinginfo-role" xmlns:signatoryinfo-role="http://www.rbi.org/in/xbrl/signatoryinfo-role/1.0.0" xmlns:signatoryinfo-entry="http://www.rbi.org/in/xbrl/signatoryinfo-entry" xmlns:SignatoryInfo-role="http://www.rbi.org/in/xbrl/signatoryinfo-role" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" >
+<link:schemaRef xlink:type="simple" xlink:href="dbs04-entry.xsd"/>
+<xbrli:context id="fromto_2020010120200331">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:SLRInvestmentsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:SLRInvestmentsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:GOITreasuryBillsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:GOITreasuryBillsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOISecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:GOISecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOISecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:GOISecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:StateGovernmentSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:StateGovernmentSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:OtherApprovedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:OtherApprovedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AggregateDebtSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AggregateDebtSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AggregateDebtSecuritiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AggregateDebtSecuritiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:PSUBondsMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:PSUBondsMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:MutualFundsDebtOrientedMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:MutualFundsDebtOrientedMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:BankCertificateOfDepositsMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:BankCertificateOfDepositsMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AllOtherDebtSecuritiesExcludingEquitiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AllOtherDebtSecuritiesExcludingEquitiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AggregateDebtSecuritiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AggregateDebtSecuritiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:PSUBondsMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:PSUBondsMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:MutualFundsDebtOrientedMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:MutualFundsDebtOrientedMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:BankCertificateOfDepositsMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:BankCertificateOfDepositsMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AllOtherDebtSecuritiesExcludingEquitiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:AllOtherDebtSecuritiesExcludingEquitiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:EquitiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:EquitiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:EquitiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:EquitiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:QuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:EquitiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:EquitiesMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:SecuritiesTypeAxis">in-rbi-rep:UnQuotedSecuritiesMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:GrossInvestmentsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="in-rbi-rep:ValuationAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="in-rbi-rep:InvestmentsNatureDimension">in-rbi-rep:GrossInvestmentsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-01-01</xbrli:startDate>
+<xbrli:endDate>2020-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="CounterPartyBankNameDomainbjktrgrtCounterPartyBankDomicileDomaintytyhasof_20200331">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension="in-rbi-rep:CounterPartyBankNameAxis">
+<in-rbi-rep-par:CounterPartyBankNameDomain>bjktrgrt</in-rbi-rep-par:CounterPartyBankNameDomain>
+</xbrldi:typedMember>
+<xbrldi:typedMember dimension="in-rbi-rep:CounterPartyBankDomicileAxis">
+<in-rbi-rep-par:CounterPartyBankDomicileDomain>tytyh</in-rbi-rep-par:CounterPartyBankDomicileDomain>
+</xbrldi:typedMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200331_ExposureToCounterpartiesAxis_TotalExposureMember">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+<xbrli:segment><xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">in-rbi-rep:TotalExposureMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200331">
+<xbrli:entity>
+<xbrli:identifier scheme="A">A</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:unit id="INR">
+<xbrli:measure>iso4217:INR</xbrli:measure>
+</xbrli:unit>
+
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:NameOfSignatory contextRef="fromto_2020010120200331">gfhjjhgj</in-rbi-rep:NameOfSignatory>
+
+<in-rbi-rep:DesignationOfSignatory contextRef="fromto_2020010120200331">tdytry</in-rbi-rep:DesignationOfSignatory>
+
+<rbi-core:AuthorisedSignatoryOfficialLandlineNumber contextRef="fromto_2020010120200331">2312545669</rbi-core:AuthorisedSignatoryOfficialLandlineNumber>
+
+<in-rbi-rep:MobileNumberOfAuthorisedSignatory contextRef="fromto_2020010120200331">9874563210</in-rbi-rep:MobileNumberOfAuthorisedSignatory>
+
+<in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_2020010120200331">frdhgty5</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+
+<in-rbi-rep:Remarks contextRef="fromto_2020010120200331">thtu</in-rbi-rep:Remarks>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">5</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">4</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">65</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">546</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">65</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">23</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">45</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_SLRInvestmentsMember">34</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">56</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">5</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">54</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">67</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">567</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">23</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">34</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOITreasuryBillsMember">34</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOISecuritiesMember">56</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOISecuritiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOISecuritiesMember">34</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GOISecuritiesMember">6</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOISecuritiesMember">65</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOISecuritiesMember">123</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOISecuritiesMember">54</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GOISecuritiesMember">34</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">67</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">34</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">4</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">56</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">12</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">45</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_StateGovernmentSecuritiesMember">23</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">56</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">34</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">54</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">45</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">456</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">45</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_OtherApprovedSecuritiesMember">34</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">564</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">6</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">23</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">456</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">675</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">45</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember">23</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">45</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">76</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">23</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">56</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">54</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">45</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">23</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">45</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">67</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">123</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">56</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">65</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">6</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">45</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">23</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">65</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">23</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">756</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">54</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">567</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">54</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_QuotedSecuritiesMember">43</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">67</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">76</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">3</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">677</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">54</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">76</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">45</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_QuotedSecuritiesMember">43</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">56</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">67</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">23</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">87</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">56</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">87</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">654</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">54</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">89</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">678</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">23</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">87</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">5</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">66</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">56</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AggregateDebtSecuritiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">34</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">09</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">657</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">23</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">89</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">45</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">67</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">54</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_PSUBondsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">12</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">09</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">67</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">123</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">87</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">434</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">87</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">56</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_MutualFundsDebtOrientedMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">23</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">79</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">787</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">232</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">67</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">23</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">567</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">56</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_BankCertificateOfDepositsMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">34</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">89</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">78</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">332</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">56</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">32</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">98</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_AllOtherDebtSecuritiesExcludingEquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">34</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember">889</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember">87</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember">34</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember">89</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember">23</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember">87</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember">3</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">87</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">078</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">21</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">78</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">54</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">56</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">56</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_QuotedSecuritiesMember">36</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">68</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">9</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">12</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">7</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">32</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">6</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">4</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_EquitiesMember_SecuritiesTypeAxis_UnQuotedSecuritiesMember">7</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">789</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">89</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">34</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_BookValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">646</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:InvestmentsHeldToMaturity decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">23</in-rbi-rep:InvestmentsHeldToMaturity>
+
+<in-rbi-rep:InvestmentsAvailableForSale decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">5</in-rbi-rep:InvestmentsAvailableForSale>
+
+<in-rbi-rep:InvestmentsHeldForTrading decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">54</in-rbi-rep:InvestmentsHeldForTrading>
+
+<in-rbi-rep:InvestmentPortfolio decimals="0" unitRef="INR" contextRef="fromto_2020010120200331_ValuationAxis_MarketValueMember_InvestmentsNatureDimension_GrossInvestmentsMember">879</in-rbi-rep:InvestmentPortfolio>
+
+<in-rbi-rep:ExposureAmount decimals="0" unitRef="INR" contextRef="CounterPartyBankNameDomainbjktrgrtCounterPartyBankDomicileDomaintytyhasof_20200331">5665</in-rbi-rep:ExposureAmount>
+
+<rbi-core:TotalExposureAsPercentageOfOutsideLiabilities decimals="INF" unitRef="PURE" contextRef="CounterPartyBankNameDomainbjktrgrtCounterPartyBankDomicileDomaintytyhasof_20200331">544</rbi-core:TotalExposureAsPercentageOfOutsideLiabilities>
+
+<in-rbi-rep:ExposureAmount decimals="0" unitRef="INR" contextRef="asof_20200331_ExposureToCounterpartiesAxis_TotalExposureMember">45546</in-rbi-rep:ExposureAmount>
+
+<rbi-core:TotalExposureAsPercentageOfOutsideLiabilities decimals="INF" unitRef="PURE" contextRef="asof_20200331_ExposureToCounterpartiesAxis_TotalExposureMember">4234</rbi-core:TotalExposureAsPercentageOfOutsideLiabilities>
+
+<in-rbi-rep:ReturnName contextRef="fromto_2020010120200331">Return on Investment Portfolio</in-rbi-rep:ReturnName>
+
+<in-rbi-rep:ReturnCode contextRef="fromto_2020010120200331">R125</in-rbi-rep:ReturnCode>
+
+<in-rbi-rep:BankCode contextRef="asof_20200331">888</in-rbi-rep:BankCode>
+
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_2020010120200331">Citi Bank (888)</in-rbi-rep:NameOfReportingInstitution>
+
+<rbi-core:InstitutionType contextRef="fromto_2020010120200331">Bank</rbi-core:InstitutionType>
+
+<in-rbi-rep:ReportingFrequency contextRef="fromto_2020010120200331">Quarterly</in-rbi-rep:ReportingFrequency>
+
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20200331">2020-01-01</in-rbi-rep:ReportingPeriodStartDate>
+
+<in-rbi-rep:ReportingPeriodEndDate contextRef="asof_20200331">2020-03-31</in-rbi-rep:ReportingPeriodEndDate>
+
+<rbi-core:ReportingCurrency contextRef="fromto_2020010120200331">INR</rbi-core:ReportingCurrency>
+
+<rbi-core:ReportingScale contextRef="fromto_2020010120200331">Actuals</rbi-core:ReportingScale>
+
+<rbi-core:TaxonomyVersion contextRef="fromto_2020010120200331">1.0.0</rbi-core:TaxonomyVersion>
+
+<in-rbi-rep:ToolName contextRef="fromto_2020010120200331">abcd</in-rbi-rep:ToolName>
+
+<rbi-core:ToolVersion contextRef="fromto_2020010120200331">ererdf</rbi-core:ToolVersion>
+
+<in-rbi-rep:ReportStatus contextRef="fromto_2020010120200331">Audited</in-rbi-rep:ReportStatus>
+
+<in-rbi-rep:DateOfAudit contextRef="asof_20200331">2020-04-09</in-rbi-rep:DateOfAudit>
+
+</xbrli:xbrl>

@@ -1,0 +1,5 @@
+<!--  Schema for Numeric types submitted by SBR NL  -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dtr="http://www.xbrl.org/dtr/type/numeric" xmlns:xbrli="http://www.xbrl.org/2003/instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.xbrl.org/dtr/type/numeric">
+<xs:include schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" />
+<xs:include  schemaLocation="http://www.xbrl.org/dtr/type/numeric-2012-06-30.xsd" />
+</xs:schema>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<!-- <tableSet label="FilingInfo"> -->
+<!-- <table label="FilingInfo_Layout1" header="Filing Information"/> -->
+<!-- <table label="FilingInfo_Layout2" header="Scoping Question"/> -->
+<!-- </tableSet> -->
+<tableSet label="DBS_BLR_BLR1Consolidated">
+<table label="DBSBLRBLR1Consolidated_Layout1" header="Panel I"/>
+<table label="DBSBLRBLR1Consolidated_Layout2" header="Panel II - Cash Outflows"/>
+<table label="DBSBLRBLR1Consolidated_Layout3" header="Panel II - Cash Inflows"/>
+<table label="DBSBLRBLR1Consolidated_Layout4" header="Panel II - Net Cash outflows over the 30 days period"/>
+<table label="DBSBLRBLR1Consolidated_Layout5" header="Liquidity Coverage Ratio"/>
+<table label="DBSBLRBLR1Consolidated_Layout6" header="Memo Item No.1"/>
+<table label="DBSBLRBLR1Consolidated_Layout7" header="Memo Item No.2 Foreign Sovereigns"/>
+<table label="DBSBLRBLR1Consolidated_Layout8" header="Memo Item No.2 Foreign Sovereigns"/>
+<table label="DBSBLRBLR1Consolidated_Layout9" header="Memo Item No.2 Public Sector Entities"/>
+<table label="DBSBLRBLR1Consolidated_Layout10" header="Memo Item No.2 Public Sector Entities"/>
+<table label="DBSBLRBLR1Consolidated_Layout11" header="Memo Item No.2 MDBs, BIS, IMF"/>
+<table label="DBSBLRBLR1Consolidated_Layout12" header=""/>
+<table label="DBSBLRBLR1Consolidated_Layout13" header="Memo Item No.3 (Name of the subsidiary and amount for the adjustment done in HQLA to reflect liquidity transfer restrictions.)"/>
+<table label="DBSBLRBLR1Consolidated_Layout14" header="Memo Item No.3 (Name of the subsidiary and amount for the adjustment done in HQLA to reflect liquidity transfer restrictions.)"/>
+</tableSet>
+<tableSet label="DBS_BLR_BLR1Standalone">
+<table label="DBSBLRBLR1Standalone_Layout1" header="Panel I"/>
+<table label="DBSBLRBLR1Standalone_Layout2" header="Panel II - Cash Outflows"/>
+<table label="DBSBLRBLR1Standalone_Layout3" header="Panel II - Cash Inflows"/>
+<table label="DBSBLRBLR1Standalone_Layout4" header="Panel II - Net Cash outflows over the 30 days period"/>
+<table label="DBSBLRBLR1Standalone_Layout5" header="Liquidity Coverage Ratio"/>
+<table label="DBSBLRBLR1Standalone_Layout6" header="Memo Item No.1"/>
+<table label="DBSBLRBLR1Standalone_Layout7" header="Memo Item No.2 Foreign Sovereigns "/>
+<table label="DBSBLRBLR1Standalone_Layout8" header="Memo Item No.2 Foreign Sovereigns "/>
+<table label="DBSBLRBLR1Standalone_Layout9" header="Memo Item No.2 Public Sector Entities "/>
+<table label="DBSBLRBLR1Standalone_Layout10" header="Memo Item No.2 Public Sector Entities"/>
+<table label="DBSBLRBLR1Standalone_Layout11" header="Memo Item No.2 MDBs, BIS, IMF"/>
+<table label="DBSBLRBLR1Standalone_Layout12" header="Memo Item No.2 MDBs, BIS, IMF"/>
+</tableSet>
+<!-- <tableSet label="DBS_AuthorisedSignatory"> -->
+<!-- <table label="DBSAuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/> -->
+<!-- </tableSet> -->
+</tableModel>

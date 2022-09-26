@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="MPD03">
+<table label="MPD03_Layout1" header="Table 1 - Net Demand and Time Liabilities (NDTL)"/>
+<table label="MPD03_Layout2" header="Table 2 - Cash Reserves with RBI"/>
+<table label="MPD03_Layout3" header="Table 2 - Cash Reserves with RBI"/>
+</tableSet>
+</tableModel>

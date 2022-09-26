@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<table label="FilingInfo_Layout2" header="Scoping Question"/>
+</tableSet>
+<tableSet label="FMRD10">
+<table label="FMRD10_Layout1" header="Table 1. Commodity Hedging"/>
+<table label="FMRD10_Layout2" header="Table 2. Total outstanding SBLCs / Guarantees issued for hedging of commodity price risk:"/>
+<table label="FMRD10_Layout3" header="Table 3. SBLCs / Guarantees invoked by the overseas counterparty (Customer wise):"/>
+</tableSet>
+</tableModel>

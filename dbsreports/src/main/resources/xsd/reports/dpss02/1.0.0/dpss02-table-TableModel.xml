@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="Filing Info">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="DPSS02NonMICR">
+<table label="DPSS02NonMICR_Layout1" header="Table 1: Cheque clearing  - ECCS clearing"/>
+</tableSet>
+</tableModel>

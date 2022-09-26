@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<!-- <tableSet label="FilingInfo"> -->
+<!-- <table label="FilingInfo_Layout1" header="Filing Information"/> -->
+<!-- <table label="FilingInfo_Layout2" header="Scoping Question"/> -->
+<!-- </tableSet> -->
+<tableSet label="DBS_BLR_BLR6Standalone">
+<table label="DBSBLRBLR6Standalone_Layout1" header="Intraday Liquidity Management Monitoring Tools Return"/>
+<table label="DBSBLRBLR6Standalone_Layout2" header="BLOCK - 1"/>
+<table label="DBSBLRBLR6Standalone_Layout3" header="Daily maximum intraday liquidity usage"/>
+<table label="DBSBLRBLR6Standalone_Layout4" header="Available intraday liquidity at the start of the business day"/>
+<table label="DBSBLRBLR6Standalone_Layout5" header="Available intraday liquidity at the start of the business day - Others"/>
+<table label="DBSBLRBLR6Standalone_Layout6" header="Total payments"/>
+<table label="DBSBLRBLR6Standalone_Layout7" header="Time-specific obligations"/>
+<table label="DBSBLRBLR6Standalone_Layout8" header="Intraday throughput - (Applicable only for Direct Participants)"/>
+<table label="DBSBLRBLR6Standalone_Layout9" header="Data on Corresponding Banking Services - (Applicable only for banks that provide correspondent banking services)"/>
+</tableSet>
+<tableSet label="DBS_BLR_BLR6Consolidated">
+<table label="DBSBLRBLR6Consolidated_Layout1" header="Intraday Liquidity Management Monitoring Tools Return"/>
+<table label="DBSBLRBLR6Consolidated_Layout2" header="BLOCK - 1"/>
+<table label="DBSBLRBLR6Consolidated_Layout3" header="Daily maximum intraday liquidity usage"/>
+<table label="DBSBLRBLR6Consolidated_Layout4" header="Available intraday liquidity at the start of the business day"/>
+<table label="DBSBLRBLR6Consolidated_Layout5" header="Available intraday liquidity at the start of the business day - Others"/>
+<table label="DBSBLRBLR6Consolidated_Layout6" header="Total payments"/>
+<table label="DBSBLRBLR6Consolidated_Layout7" header="Time-specific obligations"/>
+<table label="DBSBLRBLR6Consolidated_Layout8" header="Intraday throughput - (Applicable only for Direct Participants)"/>
+<table label="DBSBLRBLR6Consolidated_Layout9" header="Data on Corresponding Banking Services - (Applicable only for banks that provide correspondent banking services)"/>
+</tableSet>
+<!-- <tableSet label="DBS_AuthorisedSignatory"> -->
+<!-- <table label="DBSAuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/> -->
+<!-- </tableSet> -->
+</tableModel>

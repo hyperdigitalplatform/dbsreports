@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core"
+xmlns:rbi-par="http://www.rbi.org/in/xbrl/rbi-par"
+>
+<link:schemaRef xlink:type="simple" xlink:href="dpss1202-entry.xsd" />
+<xbrli:context id="fromto_20170701_20170930">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InternetBankingTransactionsFundTransferMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InternetBankingTransactionsFundTransferMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_IntrabankMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:IntrabankMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InterbankMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InterbankMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InterbankNEFTFundTransferMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InterbankNEFTFundTransferMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InterbankRTGSFundTransferMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InterbankRTGSFundTransferMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InterbankIMPSFundTransferMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InterbankIMPSFundTransferMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InterbankUPIFundTransferMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InterbankUPIFundTransferMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_EWalletMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:EWalletMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_POSTerminalsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:POSTerminalsMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_ATMMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>in-rbi-rep:ATMMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_ChannelsOtherThanThoseSpecifiedInTheListMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:ChannelsOtherThanThoseSpecifiedInTheListMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InternetBankingTransactionsPaymentOfGoodsAndServicesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InternetBankingTransactionsPaymentOfGoodsAndServicesMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InternetBankingTransactionsIntrabankPaymentOfGoodsAndServicesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InternetBankingTransactionsIntrabankPaymentOfGoodsAndServicesMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InternetBankingTransactionsInterbankPaymentOfGoodsAndServicesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:ChannelsOfPaymentAxis'>rbi-core:InternetBankingTransactionsInterbankPaymentOfGoodsAndServicesMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_TotalMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:TypeofValueAxis'>in-rbi-rep:TotalMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_sadfsf">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='rbi-core:QuantumMasterAxis'><rbi-par:QuantumMasterDomain>sadfsf</rbi-par:QuantumMasterDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_rerer">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='rbi-core:QuantumMasterAxis'><rbi-par:QuantumMasterDomain>rerer</rbi-par:QuantumMasterDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_dfadsfasfdds">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='rbi-core:QuantumMasterAxis'><rbi-par:QuantumMasterDomain>dfadsfasfdds</rbi-par:QuantumMasterDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_AA">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='rbi-core:StateAxis'><rbi-par:StateDomain>AA</rbi-par:StateDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_BB">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='rbi-core:StateAxis'><rbi-par:StateDomain>BB</rbi-par:StateDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_CC">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='rbi-core:StateAxis'><rbi-par:StateDomain>CC</rbi-par:StateDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_InwardRemittanceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TransactionAxis'>rbi-core:InwardRemittanceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_InwardRemittanceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TransactionAxis'>rbi-core:InwardRemittanceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_OutwardRemittanceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TransactionAxis'>rbi-core:OutwardRemittanceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_OutwardRemittanceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TransactionAxis'>rbi-core:OutwardRemittanceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TransactionAxis'>rbi-core:PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TransactionAxis'>rbi-core:PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_AadharBasedAccountsMember_BeginningBalanceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:AadharBasedAccountsMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:MeasurementAxis'>rbi-core:BeginningBalanceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_AadharBasedAccountsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:AadharBasedAccountsMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_AadharBasedAccountsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:AadharBasedAccountsMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_FullKYCMember_BeginningBalanceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:FullKYCMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:MeasurementAxis'>rbi-core:BeginningBalanceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_FullKYCMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:FullKYCMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_FullKYCMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:FullKYCMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_MinimumKYCMember_BeginningBalanceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:MinimumKYCMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:MeasurementAxis'>rbi-core:BeginningBalanceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_MinimumKYCMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:MinimumKYCMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_MinimumKYCMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:KYCCategoryAxis'>rbi-core:MinimumKYCMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_UrbanMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ClassificationOfAccountsAxis'>in-rbi-rep:UrbanMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_UrbanMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ClassificationOfAccountsAxis'>in-rbi-rep:UrbanMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20170930_RuralMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ClassificationOfAccountsAxis'>in-rbi-rep:RuralMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20170701_20170930_RuralMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ClassificationOfAccountsAxis'>in-rbi-rep:RuralMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-07-01</xbrli:startDate>
+<xbrli:endDate>2017-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="INR">
+<xbrli:measure>iso4217:INR</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20170701_20170930" >asdfjsajdf</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20170701_20170930" >100</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20170701_20170930" >banking</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20170930" >101</in-rbi-rep:BankCode>
+<rbi-core:InstitutionType contextRef="fromto_20170701_20170930" >private</rbi-core:InstitutionType>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20170701_20170930" >Quarterly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20170930" >2017-07-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:ReportingPeriodEndDate contextRef="asof_20170930" >2017-09-30</in-rbi-rep:ReportingPeriodEndDate>
+<rbi-core:ReportingCurrency contextRef="fromto_20170701_20170930" >INR</rbi-core:ReportingCurrency>
+<rbi-core:ReportingScale contextRef="fromto_20170701_20170930" >Lakhs</rbi-core:ReportingScale>
+<rbi-core:TaxonomyVersion contextRef="fromto_20170701_20170930" >1.1</rbi-core:TaxonomyVersion>
+<in-rbi-rep:ToolName contextRef="fromto_20170701_20170930" >iFile</in-rbi-rep:ToolName>
+<rbi-core:ToolVersion contextRef="fromto_20170701_20170930" >1.2</rbi-core:ToolVersion>
+<in-rbi-rep:ReportStatus contextRef="fromto_20170701_20170930" >Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:DateOfAudit contextRef="asof_20170930" >2017-11-28</in-rbi-rep:DateOfAudit>
+<in-rbi-rep:GeneralRemarks contextRef="fromto_20170701_20170930" >sdfasdfasdfs</in-rbi-rep:GeneralRemarks>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsFundTransferMember" unitRef="PURE" decimals="INF" >126</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsFundTransferMember" unitRef="INR" decimals="-5" >112000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsFundTransferMember" unitRef="PURE" decimals="INF" >225</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsFundTransferMember" unitRef="INR" decimals="-5" >171000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_IntrabankMember" unitRef="PURE" decimals="INF" >10</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_IntrabankMember" unitRef="INR" decimals="-5" >10000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_IntrabankMember" unitRef="PURE" decimals="INF" >21</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_IntrabankMember" unitRef="INR" decimals="-5" >16000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankMember" unitRef="PURE" decimals="INF" >116</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankMember" unitRef="INR" decimals="-5" >102000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankMember" unitRef="PURE" decimals="INF" >204</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankMember" unitRef="INR" decimals="-5" >155000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankNEFTFundTransferMember" unitRef="PURE" decimals="INF" >11</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankNEFTFundTransferMember" unitRef="INR" decimals="-5" >11000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankNEFTFundTransferMember" unitRef="PURE" decimals="INF" >22</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankNEFTFundTransferMember" unitRef="INR" decimals="-5" >16500000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankRTGSFundTransferMember" unitRef="PURE" decimals="INF" >12</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankRTGSFundTransferMember" unitRef="INR" decimals="-5" >11500000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankRTGSFundTransferMember" unitRef="PURE" decimals="INF" >23</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankRTGSFundTransferMember" unitRef="INR" decimals="-5" >17000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankIMPSFundTransferMember" unitRef="PURE" decimals="INF" >13</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankIMPSFundTransferMember" unitRef="INR" decimals="-5" >12000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankIMPSFundTransferMember" unitRef="PURE" decimals="INF" >24</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankIMPSFundTransferMember" unitRef="INR" decimals="-5" >18000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankUPIFundTransferMember" unitRef="PURE" decimals="INF" >14</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InterbankUPIFundTransferMember" unitRef="INR" decimals="-5" >12500000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankUPIFundTransferMember" unitRef="PURE" decimals="INF" >25</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InterbankUPIFundTransferMember" unitRef="INR" decimals="-5" >19000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_EWalletMember" unitRef="PURE" decimals="INF" >15</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_EWalletMember" unitRef="INR" decimals="-5" >13000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_EWalletMember" unitRef="PURE" decimals="INF" >26</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_EWalletMember" unitRef="INR" decimals="-5" >20000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_POSTerminalsMember" unitRef="PURE" decimals="INF" >16</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_POSTerminalsMember" unitRef="INR" decimals="-5" >13500000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_POSTerminalsMember" unitRef="PURE" decimals="INF" >27</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_POSTerminalsMember" unitRef="INR" decimals="-5" >21000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_ATMMember" unitRef="PURE" decimals="INF" >17</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_ATMMember" unitRef="INR" decimals="-5" >14000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_ATMMember" unitRef="PURE" decimals="INF" >28</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_ATMMember" unitRef="INR" decimals="-5" >21500000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_ChannelsOtherThanThoseSpecifiedInTheListMember" unitRef="PURE" decimals="INF" >18</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_ChannelsOtherThanThoseSpecifiedInTheListMember" unitRef="INR" decimals="-5" >14500000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_ChannelsOtherThanThoseSpecifiedInTheListMember" unitRef="PURE" decimals="INF" >29</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_ChannelsOtherThanThoseSpecifiedInTheListMember" unitRef="INR" decimals="-5" >22000000</rbi-core:AmountOfOutwardRemittances>
+<in-rbi-rep:Remarks contextRef="fromto_20170701_20170930_ChannelsOtherThanThoseSpecifiedInTheListMember" >asdfjfdjjfdsasdfdfsa</in-rbi-rep:Remarks>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsPaymentOfGoodsAndServicesMember" unitRef="PURE" decimals="INF" >39</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsPaymentOfGoodsAndServicesMember" unitRef="INR" decimals="-5" >30500000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsPaymentOfGoodsAndServicesMember" unitRef="PURE" decimals="INF" >61</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsPaymentOfGoodsAndServicesMember" unitRef="INR" decimals="-5" >45500000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsIntrabankPaymentOfGoodsAndServicesMember" unitRef="PURE" decimals="INF" >19</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsIntrabankPaymentOfGoodsAndServicesMember" unitRef="INR" decimals="-5" >15000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsIntrabankPaymentOfGoodsAndServicesMember" unitRef="PURE" decimals="INF" >30</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsIntrabankPaymentOfGoodsAndServicesMember" unitRef="INR" decimals="-5" >22500000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsInterbankPaymentOfGoodsAndServicesMember" unitRef="PURE" decimals="INF" >20</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsInterbankPaymentOfGoodsAndServicesMember" unitRef="INR" decimals="-5" >15500000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsInterbankPaymentOfGoodsAndServicesMember" unitRef="PURE" decimals="INF" >31</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_InternetBankingTransactionsInterbankPaymentOfGoodsAndServicesMember" unitRef="INR" decimals="-5" >23000000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_TotalMember" unitRef="PURE" decimals="INF" >99</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_TotalMember" unitRef="INR" decimals="-5" >69600000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_TotalMember" unitRef="PURE" decimals="INF" >108</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_TotalMember" unitRef="INR" decimals="-5" >70500000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:ChargesCollectedForTransactions contextRef="fromto_20170701_20170930_TotalMember" unitRef="INR" decimals="-5" >71400000</rbi-core:ChargesCollectedForTransactions>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_sadfsf" unitRef="PURE" decimals="INF" >32</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_sadfsf" unitRef="INR" decimals="-5" >23100000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_sadfsf" unitRef="PURE" decimals="INF" >35</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_sadfsf" unitRef="INR" decimals="-5" >23400000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:ChargesCollectedForTransactions contextRef="fromto_20170701_20170930_sadfsf" unitRef="INR" decimals="-5" >23700000</rbi-core:ChargesCollectedForTransactions>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_rerer" unitRef="PURE" decimals="INF" >33</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_rerer" unitRef="INR" decimals="-5" >23200000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_rerer" unitRef="PURE" decimals="INF" >36</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_rerer" unitRef="INR" decimals="-5" >23500000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:ChargesCollectedForTransactions contextRef="fromto_20170701_20170930_rerer" unitRef="INR" decimals="-5" >23800000</rbi-core:ChargesCollectedForTransactions>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_dfadsfasfdds" unitRef="PURE" decimals="INF" >34</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_dfadsfasfdds" unitRef="INR" decimals="-5" >23300000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_dfadsfasfdds" unitRef="PURE" decimals="INF" >37</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_dfadsfasfdds" unitRef="INR" decimals="-5" >23600000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:ChargesCollectedForTransactions contextRef="fromto_20170701_20170930_dfadsfasfdds" unitRef="INR" decimals="-5" >23900000</rbi-core:ChargesCollectedForTransactions>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_AA" unitRef="PURE" decimals="INF" >38</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_AA" unitRef="INR" decimals="-5" >24000000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_AA" unitRef="PURE" decimals="INF" >41</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_AA" unitRef="INR" decimals="-5" >24300000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_BB" unitRef="PURE" decimals="INF" >39</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_BB" unitRef="INR" decimals="-5" >24100000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_BB" unitRef="PURE" decimals="INF" >42</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_BB" unitRef="INR" decimals="-5" >24400000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfInwardRemittances contextRef="fromto_20170701_20170930_CC" unitRef="PURE" decimals="INF" >40</rbi-core:NumberOfInwardRemittances>
+<rbi-core:AmountOfInwardRemittances contextRef="fromto_20170701_20170930_CC" unitRef="INR" decimals="-5" >24200000</rbi-core:AmountOfInwardRemittances>
+<rbi-core:NumberOfOutwardRemittances contextRef="fromto_20170701_20170930_CC" unitRef="PURE" decimals="INF" >43</rbi-core:NumberOfOutwardRemittances>
+<rbi-core:AmountOfOutwardRemittances contextRef="fromto_20170701_20170930_CC" unitRef="INR" decimals="-5" >24500000</rbi-core:AmountOfOutwardRemittances>
+<rbi-core:NumberOfFailedTransactions contextRef="asof_20170930_InwardRemittanceMember" unitRef="PURE" decimals="INF" >44</rbi-core:NumberOfFailedTransactions>
+<rbi-core:AmountOfFailedTransaction contextRef="asof_20170930_InwardRemittanceMember" unitRef="INR" decimals="-5" >24600000</rbi-core:AmountOfFailedTransaction>
+<rbi-core:ReasonForFailedTransactions contextRef="fromto_20170701_20170930_InwardRemittanceMember" >47</rbi-core:ReasonForFailedTransactions>
+<rbi-core:TransactionsCompletedOnNextDay contextRef="fromto_20170701_20170930_InwardRemittanceMember" unitRef="PURE" decimals="INF" >249</rbi-core:TransactionsCompletedOnNextDay>
+<rbi-core:TransactionsCompletedBeyondNextDay contextRef="fromto_20170701_20170930_InwardRemittanceMember" unitRef="PURE" decimals="INF" >252</rbi-core:TransactionsCompletedBeyondNextDay>
+<rbi-core:NumberOfFailedTransactions contextRef="asof_20170930_OutwardRemittanceMember" unitRef="PURE" decimals="INF" >45</rbi-core:NumberOfFailedTransactions>
+<rbi-core:AmountOfFailedTransaction contextRef="asof_20170930_OutwardRemittanceMember" unitRef="INR" decimals="-5" >24700000</rbi-core:AmountOfFailedTransaction>
+<rbi-core:ReasonForFailedTransactions contextRef="fromto_20170701_20170930_OutwardRemittanceMember" >48</rbi-core:ReasonForFailedTransactions>
+<rbi-core:TransactionsCompletedOnNextDay contextRef="fromto_20170701_20170930_OutwardRemittanceMember" unitRef="PURE" decimals="INF" >250</rbi-core:TransactionsCompletedOnNextDay>
+<rbi-core:TransactionsCompletedBeyondNextDay contextRef="fromto_20170701_20170930_OutwardRemittanceMember" unitRef="PURE" decimals="INF" >253</rbi-core:TransactionsCompletedBeyondNextDay>
+<rbi-core:NumberOfFailedTransactions contextRef="asof_20170930_PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember" unitRef="PURE" decimals="INF" >46</rbi-core:NumberOfFailedTransactions>
+<rbi-core:AmountOfFailedTransaction contextRef="asof_20170930_PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember" unitRef="INR" decimals="-5" >24800000</rbi-core:AmountOfFailedTransaction>
+<rbi-core:ReasonForFailedTransactions contextRef="fromto_20170701_20170930_PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember" >49</rbi-core:ReasonForFailedTransactions>
+<rbi-core:TransactionsCompletedOnNextDay contextRef="fromto_20170701_20170930_PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember" unitRef="PURE" decimals="INF" >251</rbi-core:TransactionsCompletedOnNextDay>
+<rbi-core:TransactionsCompletedBeyondNextDay contextRef="fromto_20170701_20170930_PenalInterestPaidForDelayedCreditToBeneficiariesAccountsMember" unitRef="PURE" decimals="INF" >254</rbi-core:TransactionsCompletedBeyondNextDay>
+<in-rbi-rep:NumberOfAccounts contextRef="asof_20170930_AadharBasedAccountsMember_BeginningBalanceMember" unitRef="PURE" decimals="INF" >50</in-rbi-rep:NumberOfAccounts>
+<in-rbi-rep:NumberOfAccounts contextRef="asof_20170930_AadharBasedAccountsMember" unitRef="PURE" decimals="INF" >53</in-rbi-rep:NumberOfAccounts>
+<rbi-core:NumberOfAccountsOpenedDuringTheSpecifiedPeriod contextRef="fromto_20170701_20170930_AadharBasedAccountsMember" unitRef="PURE" decimals="INF" >56</rbi-core:NumberOfAccountsOpenedDuringTheSpecifiedPeriod>
+<in-rbi-rep:NumberOfAccounts contextRef="asof_20170930_FullKYCMember_BeginningBalanceMember" unitRef="PURE" decimals="INF" >51</in-rbi-rep:NumberOfAccounts>
+<in-rbi-rep:NumberOfAccounts contextRef="asof_20170930_FullKYCMember" unitRef="PURE" decimals="INF" >54</in-rbi-rep:NumberOfAccounts>
+<rbi-core:NumberOfAccountsOpenedDuringTheSpecifiedPeriod contextRef="fromto_20170701_20170930_FullKYCMember" unitRef="PURE" decimals="INF" >57</rbi-core:NumberOfAccountsOpenedDuringTheSpecifiedPeriod>
+<in-rbi-rep:NumberOfAccounts contextRef="asof_20170930_MinimumKYCMember_BeginningBalanceMember" unitRef="PURE" decimals="INF" >52</in-rbi-rep:NumberOfAccounts>
+<in-rbi-rep:NumberOfAccounts contextRef="asof_20170930_MinimumKYCMember" unitRef="PURE" decimals="INF" >55</in-rbi-rep:NumberOfAccounts>
+<rbi-core:NumberOfAccountsOpenedDuringTheSpecifiedPeriod contextRef="fromto_20170701_20170930_MinimumKYCMember" unitRef="PURE" decimals="INF" >58</rbi-core:NumberOfAccountsOpenedDuringTheSpecifiedPeriod>
+<in-rbi-rep:NumberOfAccounts contextRef="asof_20170930_UrbanMember" unitRef="PURE" decimals="INF" >59</in-rbi-rep:NumberOfAccounts>
+<in-rbi-rep:NumberOfTransactions contextRef="fromto_20170701_20170930_UrbanMember" unitRef="PURE" decimals="INF" >61</in-rbi-rep:NumberOfTransactions>
+<rbi-core:AverageBalanceHeld contextRef="fromto_20170701_20170930_UrbanMember" unitRef="INR" decimals="-5" >6300000</rbi-core:AverageBalanceHeld>
+<in-rbi-rep:NumberOfAccounts contextRef="asof_20170930_RuralMember" unitRef="PURE" decimals="INF" >60</in-rbi-rep:NumberOfAccounts>
+<in-rbi-rep:NumberOfTransactions contextRef="fromto_20170701_20170930_RuralMember" unitRef="PURE" decimals="INF" >62</in-rbi-rep:NumberOfTransactions>
+<rbi-core:AverageBalanceHeld contextRef="fromto_20170701_20170930_RuralMember" unitRef="INR" decimals="-5" >6400000</rbi-core:AverageBalanceHeld>
+
+</xbrli:xbrl>

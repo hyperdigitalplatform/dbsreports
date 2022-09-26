@@ -1,0 +1,3152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<link:linkbase xmlns:table="http://xbrl.org/2014/table"
+xmlns:xbrlte= "http://xbrl.org/2014/table/error"
+xmlns:tablemodel= "http://xbrl.org/2014/table/model"
+xmlns:label="http://xbrl.org/2008/label"
+xmlns:reference="http://xbrl.org/2008/reference"
+xmlns:eg= "http://www.iris.com/tablelinbase"
+xmlns:link ="http://www.xbrl.org/2003/linkbase"
+xmlns:xbrli= "http://www.xbrl.org/2003/instance"
+xmlns:xfi= "http://www.xbrl.org/2005/function/instance"
+xmlns:xbrldi= "http://xbrl.org/2006/xbrldi"
+xmlns:xbrldt= "http://xbrl.org/2005/xbrldt"
+xmlns:xl= "http://www.xbrl.org/2003/XLink"
+xmlns:xlink= "http://www.w3.org/1999/xlink"
+xmlns:xs= "http://www.w3.org/2001/XMLSchema"
+xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+xmlns:gen= "http://xbrl.org/2008/generic"
+xmlns:var= "http://xbrl.org/2008/variable"
+xmlns:formula= "http://xbrl.org/2008/formula"
+xmlns:tuple= "http://xbrl.org/2010/formula/tuple"
+xmlns:df="http://xbrl.org/2008/filter/dimension"
+xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core"
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:PRE1="http://www.rbi.org/in/xbrl/filinginfo-entry/1.0.0"
+xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/reference http://www.xbrl.org/2008/generic-reference.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2014/table http://www.xbrl.org/2014/table.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd">
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/table-breakdown" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#table-breakdown"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/breakdown-tree" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#breakdown-tree"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/definition-node-subtree" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#definition-node-subtree"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#aspect-node-filter"/>
+
+<!-- <link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/FilingInfo_Layout1" xlink:type="simple" xlink:href="dbs0702-role.xsd#FilingInfo_Layout1"/> -->
+ <!-- <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/FilingInfo_Layout1"> -->
+
+
+ <!-- <table:table id="id_FilingInfo_Layout1" xlink:type="resource" xlink:label="FilingInfo_Layout1" parentChildOrder="children-first"/> -->
+
+<!-- <table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_0" parentChildOrder="parent-first"  id="Breakdownx_0"/> -->
+<!-- <table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_1" parentChildOrder="parent-first"  id="Breakdowny_1"/> -->
+ <!-- <table:ruleNode id="id_RuleNode_1" xlink:type="resource" xlink:label="RuleNode_1" abstract="true"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_4" xlink:type="resource" xlink:label="RuleNode_4" abstract="false"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_3" xlink:type="resource" xlink:label="RuleNode_3" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:ReturnName -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_5" xlink:type="resource" xlink:label="RuleNode_5" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:ReturnCode -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_6" xlink:type="resource" xlink:label="RuleNode_6" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:BankCode -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:instant value="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_7" xlink:type="resource" xlink:label="RuleNode_7" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:NameOfReportingInstitution -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_8" xlink:type="resource" xlink:label="RuleNode_8" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- rbi-core:InstitutionType -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_9" xlink:type="resource" xlink:label="RuleNode_9" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:ReportingFrequency -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_10" xlink:type="resource" xlink:label="RuleNode_10" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:ReportingPeriodStartDate -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:instant value="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_11" xlink:type="resource" xlink:label="RuleNode_11" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:ReportingPeriodEndDate -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:instant value="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_12" xlink:type="resource" xlink:label="RuleNode_12" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- rbi-core:ReportingCurrency -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_13" xlink:type="resource" xlink:label="RuleNode_13" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- rbi-core:ReportingScale -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_14" xlink:type="resource" xlink:label="RuleNode_14" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- rbi-core:TaxonomyVersion -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_15" xlink:type="resource" xlink:label="RuleNode_15" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:ToolName -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_16" xlink:type="resource" xlink:label="RuleNode_16" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- rbi-core:ToolVersion -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_17" xlink:type="resource" xlink:label="RuleNode_17" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:ReportStatus -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_18" xlink:type="resource" xlink:label="RuleNode_18" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:DateOfAudit -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:instant value="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_19" xlink:type="resource" xlink:label="RuleNode_19" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:GeneralRemarks -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_2" xlink:type="resource" xlink:label="RuleNode_2" abstract="true"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="FilingInfo_Layout1" xlink:to="Label_Breakdownx_0" axis="x" order="0"/> -->
+ <!-- <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="FilingInfo_Layout1" xlink:to="Label_Breakdowny_1" axis="y" order="1"/> -->
+ <!-- <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_0" xlink:to="RuleNode_1" order="0"/> -->
+ <!-- <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_1" xlink:to="RuleNode_2" order="0"/> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_1" xlink:to="RuleNode_4" order="0" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_3" order="1" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_5" order="2" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_6" order="3" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_7" order="4" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_8" order="5" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_9" order="6" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_10" order="7" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_11" order="8" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_12" order="9" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_13" order="10" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_14" order="11" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_15" order="12" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_16" order="13" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_17" order="14" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_18" order="15" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_19" order="16" /> </gen:link> -->
+ 
+ <!-- <link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/FilingInfo_Layout3" xlink:type="simple" xlink:href="dbs0702-role.xsd#FilingInfo_Layout3"/> -->
+ <!-- <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/FilingInfo_Layout3"> -->
+
+
+ <!-- <table:table id="id_FilingInfo_Layout3" xlink:type="resource" xlink:label="FilingInfo_Layout3" parentChildOrder="children-first"/> -->
+
+<!-- <table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_2a" parentChildOrder="parent-first"  id="Breakdownx_2a"/> -->
+<!-- <table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_3a" parentChildOrder="parent-first"  id="Breakdowny_3a"/> -->
+ <!-- <table:ruleNode id="id_RuleNode_20a" xlink:type="resource" xlink:label="RuleNode_20a" abstract="true"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_23a" xlink:type="resource" xlink:label="RuleNode_23a" abstract="false"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_22a" xlink:type="resource" xlink:label="RuleNode_22a" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- rbi-core:WhetherTheBankHasOverseasOperationsIncludingIBU -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:instant value="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_21a" xlink:type="resource" xlink:label="RuleNode_21a" abstract="true"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="FilingInfo_Layout3" xlink:to="Label_Breakdownx_2a" axis="x" order="2"/> -->
+ <!-- <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="FilingInfo_Layout3" xlink:to="Label_Breakdowny_3a" axis="y" order="3"/> -->
+ <!-- <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_2a" xlink:to="RuleNode_20a" order="0"/> -->
+ <!-- <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_3a" xlink:to="RuleNode_21a" order="0"/> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_20a" xlink:to="RuleNode_23a" order="0" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_21a" xlink:to="RuleNode_22a" order="1" /> </gen:link> -->
+ 
+
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout1" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout1"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout1">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout1" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout1" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_4" parentChildOrder="parent-first"  id="Breakdownx_4"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_5" parentChildOrder="parent-first"  id="Breakdowny_5"/>
+ <table:ruleNode id="id_RuleNode_24" xlink:type="resource" xlink:label="RuleNode_24" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_27" xlink:type="resource" xlink:label="RuleNode_27" abstract="false">
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:AssetLiabilityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_26" xlink:type="resource" xlink:label="RuleNode_26" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_28" xlink:type="resource" xlink:label="RuleNode_28" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_29" xlink:type="resource" xlink:label="RuleNode_29" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_25" xlink:type="resource" xlink:label="RuleNode_25" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout1" xlink:to="Label_Breakdownx_4" axis="x" order="4"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout1" xlink:to="Label_Breakdowny_5" axis="y" order="5"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_4" xlink:to="RuleNode_24" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_5" xlink:to="RuleNode_25" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_24" xlink:to="RuleNode_27" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_25" xlink:to="RuleNode_26" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_25" xlink:to="RuleNode_28" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_25" xlink:to="RuleNode_29" order="3" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout2" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout2"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout2">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout2" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout2" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_6" parentChildOrder="parent-first"  id="Breakdownx_6"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_7" parentChildOrder="parent-first"  id="Breakdowny_7"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_1" xlink:label="AspectNode_1">
+<table:dimensionAspect>in-rbi-rep:NameOfDepositorsAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter1" xlink:title="explicitDimensionFilter1" id="explicitDimensionFilter1">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:DomesticMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_1" xlink:to="explicitDimensionFilter1" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter2" xlink:title="explicitDimensionFilter2" id="explicitDimensionFilter2">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantCounterpartyDepositsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_1" xlink:to="explicitDimensionFilter2" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_30" xlink:type="resource" xlink:label="RuleNode_30" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_32" xlink:type="resource" xlink:label="RuleNode_32" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_33" xlink:type="resource" xlink:label="RuleNode_33" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_34" xlink:type="resource" xlink:label="RuleNode_34" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDepositsToLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout2" xlink:to="Label_Breakdownx_6" axis="x" order="6"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout2" xlink:to="Label_Breakdowny_7" axis="y" order="7"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_6" xlink:to="RuleNode_30" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_7" xlink:to="AspectNode_1" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_30" xlink:to="RuleNode_32" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_30" xlink:to="RuleNode_33" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_30" xlink:to="RuleNode_34" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout3" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout3"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout3">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout3" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout3" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_8" parentChildOrder="parent-first"  id="Breakdownx_8"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_9" parentChildOrder="parent-first"  id="Breakdowny_9"/>
+ <table:ruleNode id="id_RuleNode_35" xlink:type="resource" xlink:label="RuleNode_35" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_38" xlink:type="resource" xlink:label="RuleNode_38" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_39" xlink:type="resource" xlink:label="RuleNode_39" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_40" xlink:type="resource" xlink:label="RuleNode_40" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDepositsToLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_37" xlink:type="resource" xlink:label="RuleNode_37" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_36" xlink:type="resource" xlink:label="RuleNode_36" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout3" xlink:to="Label_Breakdownx_8" axis="x" order="8"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout3" xlink:to="Label_Breakdowny_9" axis="y" order="9"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_8" xlink:to="RuleNode_35" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_9" xlink:to="RuleNode_36" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_35" xlink:to="RuleNode_38" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_35" xlink:to="RuleNode_39" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_35" xlink:to="RuleNode_40" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_36" xlink:to="RuleNode_37" order="3" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout4" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout4"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout4">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout4" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout4" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_10" parentChildOrder="parent-first"  id="Breakdownx_10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_11" parentChildOrder="parent-first"  id="Breakdowny_11"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_2" xlink:label="AspectNode_2">
+<table:dimensionAspect>in-rbi-rep:NameOfBorrowerAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter3" xlink:title="explicitDimensionFilter3" id="explicitDimensionFilter3">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:DomesticMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_2" xlink:to="explicitDimensionFilter3" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter4" xlink:title="explicitDimensionFilter4" id="explicitDimensionFilter4">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantCounterpartyBorrowingsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_2" xlink:to="explicitDimensionFilter4" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_41" xlink:type="resource" xlink:label="RuleNode_41" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_43" xlink:type="resource" xlink:label="RuleNode_43" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_44" xlink:type="resource" xlink:label="RuleNode_44" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_45" xlink:type="resource" xlink:label="RuleNode_45" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowingsToLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout4" xlink:to="Label_Breakdownx_10" axis="x" order="10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout4" xlink:to="Label_Breakdowny_11" axis="y" order="11"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_10" xlink:to="RuleNode_41" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_11" xlink:to="AspectNode_2" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_41" xlink:to="RuleNode_43" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_41" xlink:to="RuleNode_44" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_41" xlink:to="RuleNode_45" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout5" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout5"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout5">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout5" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout5" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_12" parentChildOrder="parent-first"  id="Breakdownx_12"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_13" parentChildOrder="parent-first"  id="Breakdowny_13"/>
+ <table:ruleNode id="id_RuleNode_46" xlink:type="resource" xlink:label="RuleNode_46" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_49" xlink:type="resource" xlink:label="RuleNode_49" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_50" xlink:type="resource" xlink:label="RuleNode_50" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_51" xlink:type="resource" xlink:label="RuleNode_51" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowingsToLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_48" xlink:type="resource" xlink:label="RuleNode_48" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_47" xlink:type="resource" xlink:label="RuleNode_47" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout5" xlink:to="Label_Breakdownx_12" axis="x" order="12"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout5" xlink:to="Label_Breakdowny_13" axis="y" order="13"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_12" xlink:to="RuleNode_46" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_13" xlink:to="RuleNode_47" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_46" xlink:to="RuleNode_49" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_46" xlink:to="RuleNode_50" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_46" xlink:to="RuleNode_51" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_47" xlink:to="RuleNode_48" order="3" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout6" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout6"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout6">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout6" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout6" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_14" parentChildOrder="parent-first"  id="Breakdownx_14"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_15" parentChildOrder="parent-first"  id="Breakdowny_15"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_16" parentChildOrder="parent-first"  id="Breakdowny_16"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_3" xlink:label="AspectNode_3">
+<table:dimensionAspect>in-rbi-rep:NameOfDepositorsAxis</table:dimensionAspect>
+</table:aspectNode>
+
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter5" xlink:title="explicitDimensionFilter5" id="explicitDimensionFilter5">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:DomesticMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_3" xlink:to="explicitDimensionFilter5" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter6" xlink:title="explicitDimensionFilter6" id="explicitDimensionFilter6">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:TopTwentyLargeDepositsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_3" xlink:to="explicitDimensionFilter6" order="1.0" use="optional" />
+
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_4" xlink:label="AspectNode_4">
+<table:dimensionAspect>in-rbi-rep:TypesOfDepositsAxis</table:dimensionAspect>
+</table:aspectNode>
+<df:explicitDimension xlink:type="resource" id="Id_FilterNode_4" xlink:label="FilterNode_4">
+<df:dimension>
+<df:qname>in-rbi-rep:TypesOfDepositsAxis</df:qname>
+</df:dimension>
+<df:member>
+<df:qname>in-rbi-rep:DepositsDomain</df:qname>
+<df:linkrole>http://www.rbi.org/in/xbrl/dbs0702-role/DBS0702-Table7</df:linkrole>
+<df:arcrole>http://xbrl.org/int/dim/arcrole/domain-member</df:arcrole>
+<df:axis>descendant</df:axis>
+</df:member>
+</df:explicitDimension>
+ <table:ruleNode id="id_RuleNode_52" xlink:type="resource" xlink:label="RuleNode_52" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_54" xlink:type="resource" xlink:label="RuleNode_54" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTwentyLargeDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_55" xlink:type="resource" xlink:label="RuleNode_55" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTwentyLargeDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout6" xlink:to="Label_Breakdownx_14" axis="x" order="14"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout6" xlink:to="Label_Breakdowny_15" axis="y" order="15"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout6" xlink:to="Label_Breakdowny_16" axis="y" order="16"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_14" xlink:to="RuleNode_52" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_15" xlink:to="AspectNode_3" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_16" xlink:to="AspectNode_4" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_52" xlink:to="RuleNode_54" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_52" xlink:to="RuleNode_55" order="1" />
+ <table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter"  xlink:from="AspectNode_4" xlink:to="FilterNode_4" complement="false"/> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout7" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout7"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout7">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout7" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout7" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_17" parentChildOrder="parent-first"  id="Breakdownx_17"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_18" parentChildOrder="parent-first"  id="Breakdowny_18"/>
+ <table:ruleNode id="id_RuleNode_56" xlink:type="resource" xlink:label="RuleNode_56" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_59" xlink:type="resource" xlink:label="RuleNode_59" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTwentyLargeDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_60" xlink:type="resource" xlink:label="RuleNode_60" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTwentyLargeDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_58" xlink:type="resource" xlink:label="RuleNode_58" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_57" xlink:type="resource" xlink:label="RuleNode_57" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout7" xlink:to="Label_Breakdownx_17" axis="x" order="17"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout7" xlink:to="Label_Breakdowny_18" axis="y" order="18"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_17" xlink:to="RuleNode_56" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_18" xlink:to="RuleNode_57" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_56" xlink:to="RuleNode_59" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_56" xlink:to="RuleNode_60" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_57" xlink:to="RuleNode_58" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout8" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout8"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout8">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout8" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout8" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_19" parentChildOrder="parent-first"  id="Breakdownx_19"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_20" parentChildOrder="parent-first"  id="Breakdowny_20"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_5" xlink:label="AspectNode_5">
+<table:dimensionAspect>in-rbi-rep:NameOfBorrowerAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter7" xlink:title="explicitDimensionFilter7" id="explicitDimensionFilter7">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:DomesticMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_5" xlink:to="explicitDimensionFilter7" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter8" xlink:title="explicitDimensionFilter8" id="explicitDimensionFilter8">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:TopTenborrowingsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_5" xlink:to="explicitDimensionFilter8" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_61" xlink:type="resource" xlink:label="RuleNode_61" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_63" xlink:type="resource" xlink:label="RuleNode_63" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTenborrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_64" xlink:type="resource" xlink:label="RuleNode_64" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTenborrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout8" xlink:to="Label_Breakdownx_19" axis="x" order="19"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout8" xlink:to="Label_Breakdowny_20" axis="y" order="20"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_19" xlink:to="RuleNode_61" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_20" xlink:to="AspectNode_5" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_61" xlink:to="RuleNode_63" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_61" xlink:to="RuleNode_64" order="1" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout9" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout9"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout9">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout9" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout9" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_21" parentChildOrder="parent-first"  id="Breakdownx_21"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_22" parentChildOrder="parent-first"  id="Breakdowny_22"/>
+ <table:ruleNode id="id_RuleNode_65" xlink:type="resource" xlink:label="RuleNode_65" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_68" xlink:type="resource" xlink:label="RuleNode_68" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTenborrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_69" xlink:type="resource" xlink:label="RuleNode_69" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTenborrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_67" xlink:type="resource" xlink:label="RuleNode_67" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_66" xlink:type="resource" xlink:label="RuleNode_66" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout9" xlink:to="Label_Breakdownx_21" axis="x" order="21"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout9" xlink:to="Label_Breakdowny_22" axis="y" order="22"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_21" xlink:to="RuleNode_65" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_22" xlink:to="RuleNode_66" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_65" xlink:to="RuleNode_68" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_65" xlink:to="RuleNode_69" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_66" xlink:to="RuleNode_67" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout10" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout10"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout10">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout10" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout10" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_23" parentChildOrder="parent-first"  id="Breakdownx_23"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_24" parentChildOrder="parent-first"  id="Breakdowny_24"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_6" xlink:label="AspectNode_6">
+<table:dimensionAspect>in-rbi-rep:InstrumentNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter9" xlink:title="explicitDimensionFilter9" id="explicitDimensionFilter9">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:DomesticMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_6" xlink:to="explicitDimensionFilter9" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter10" xlink:title="explicitDimensionFilter10" id="explicitDimensionFilter10">
+      <df:dimension>
+        <df:qname>in-rbi-rep:InstrumentTypeDimension</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantInstrumentOrProductMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_6" xlink:to="explicitDimensionFilter10" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_70" xlink:type="resource" xlink:label="RuleNode_70" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_72" xlink:type="resource" xlink:label="RuleNode_72" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantInstrumentOrProductMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_73" xlink:type="resource" xlink:label="RuleNode_73" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantInstrumentOrProductMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout10" xlink:to="Label_Breakdownx_23" axis="x" order="23"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout10" xlink:to="Label_Breakdowny_24" axis="y" order="24"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_23" xlink:to="RuleNode_70" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_24" xlink:to="AspectNode_6" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_70" xlink:to="RuleNode_72" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_70" xlink:to="RuleNode_73" order="1" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout11" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout11"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout11">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout11" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout11" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_25" parentChildOrder="parent-first"  id="Breakdownx_25"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_26" parentChildOrder="parent-first"  id="Breakdowny_26"/>
+ <table:ruleNode id="id_RuleNode_74" xlink:type="resource" xlink:label="RuleNode_74" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_77" xlink:type="resource" xlink:label="RuleNode_77" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantInstrumentOrProductMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_78" xlink:type="resource" xlink:label="RuleNode_78" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantInstrumentOrProductMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_76" xlink:type="resource" xlink:label="RuleNode_76" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_75" xlink:type="resource" xlink:label="RuleNode_75" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout11" xlink:to="Label_Breakdownx_25" axis="x" order="25"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout11" xlink:to="Label_Breakdowny_26" axis="y" order="26"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_25" xlink:to="RuleNode_74" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_26" xlink:to="RuleNode_75" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_74" xlink:to="RuleNode_77" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_74" xlink:to="RuleNode_78" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_75" xlink:to="RuleNode_76" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout12" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout12"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout12">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout12" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout12" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_27" parentChildOrder="parent-first"  id="Breakdownx_27"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_28" parentChildOrder="parent-first"  id="Breakdowny_28"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_7" xlink:label="AspectNode_7">
+<table:dimensionAspect>in-rbi-rep:InstrumentNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter11" xlink:title="explicitDimensionFilter11" id="explicitDimensionFilter11">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:DomesticMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_7" xlink:to="explicitDimensionFilter11" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter12" xlink:title="explicitDimensionFilter12" id="explicitDimensionFilter12">
+      <df:dimension>
+        <df:qname>in-rbi-rep:InstrumentTypeDimension</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SecuritisationFundingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_7" xlink:to="explicitDimensionFilter12" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_79" xlink:type="resource" xlink:label="RuleNode_79" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_81" xlink:type="resource" xlink:label="RuleNode_81" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SecuritisationFundingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_82" xlink:type="resource" xlink:label="RuleNode_82" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SecuritisationFundingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout12" xlink:to="Label_Breakdownx_27" axis="x" order="27"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout12" xlink:to="Label_Breakdowny_28" axis="y" order="28"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_27" xlink:to="RuleNode_79" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_28" xlink:to="AspectNode_7" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_79" xlink:to="RuleNode_81" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_79" xlink:to="RuleNode_82" order="1" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout13" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Domestic_Layout13"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Domestic_Layout13">
+
+
+ <table:table id="id_DBSBLRBLR2Domestic_Layout13" xlink:type="resource" xlink:label="DBSBLRBLR2Domestic_Layout13" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_29" parentChildOrder="parent-first"  id="Breakdownx_29"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_30" parentChildOrder="parent-first"  id="Breakdowny_30"/>
+ <table:ruleNode id="id_RuleNode_83" xlink:type="resource" xlink:label="RuleNode_83" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_86" xlink:type="resource" xlink:label="RuleNode_86" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SecuritisationFundingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_87" xlink:type="resource" xlink:label="RuleNode_87" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:DomesticMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SecuritisationFundingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_85" xlink:type="resource" xlink:label="RuleNode_85" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_84" xlink:type="resource" xlink:label="RuleNode_84" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout13" xlink:to="Label_Breakdownx_29" axis="x" order="29"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Domestic_Layout13" xlink:to="Label_Breakdowny_30" axis="y" order="30"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_29" xlink:to="RuleNode_83" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_30" xlink:to="RuleNode_84" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_83" xlink:to="RuleNode_86" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_83" xlink:to="RuleNode_87" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_84" xlink:to="RuleNode_85" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout1" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout1"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout1">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout1" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout1" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_31" parentChildOrder="parent-first"  id="Breakdownx_31"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_32" parentChildOrder="parent-first"  id="Breakdowny_32"/>
+ <table:ruleNode id="id_RuleNode_88" xlink:type="resource" xlink:label="RuleNode_88" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_91" xlink:type="resource" xlink:label="RuleNode_91" abstract="false">
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:AssetLiabilityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_90" xlink:type="resource" xlink:label="RuleNode_90" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_92" xlink:type="resource" xlink:label="RuleNode_92" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_93" xlink:type="resource" xlink:label="RuleNode_93" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_89" xlink:type="resource" xlink:label="RuleNode_89" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout1" xlink:to="Label_Breakdownx_31" axis="x" order="31"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout1" xlink:to="Label_Breakdowny_32" axis="y" order="32"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_31" xlink:to="RuleNode_88" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_32" xlink:to="RuleNode_89" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_88" xlink:to="RuleNode_91" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_89" xlink:to="RuleNode_90" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_89" xlink:to="RuleNode_92" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_89" xlink:to="RuleNode_93" order="3" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout2" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout2"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout2">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout2" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout2" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_33.10" parentChildOrder="parent-first"  id="Breakdownz_33.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_33" parentChildOrder="parent-first"  id="Breakdownx_33"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_34" parentChildOrder="parent-first"  id="Breakdowny_34"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_8" xlink:label="AspectNode_8">
+<table:dimensionAspect>in-rbi-rep:NameOfDepositorsAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter13" xlink:title="explicitDimensionFilter13" id="explicitDimensionFilter13">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantCounterpartyDepositsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_8" xlink:to="explicitDimensionFilter13" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter14" xlink:title="explicitDimensionFilter14" id="explicitDimensionFilter14">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:OverseasMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_8" xlink:to="explicitDimensionFilter14" order="1.0" use="optional" />
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_8.10" xlink:label="AspectNode_8.10">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter15" xlink:title="explicitDimensionFilter15" id="explicitDimensionFilter15">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantCounterpartyDepositsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_8.10" xlink:to="explicitDimensionFilter15" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_94" xlink:type="resource" xlink:label="RuleNode_94" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_96" xlink:type="resource" xlink:label="RuleNode_96" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_97" xlink:type="resource" xlink:label="RuleNode_97" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_98" xlink:type="resource" xlink:label="RuleNode_98" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDepositsToLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+<table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout2" xlink:to="Label_Breakdownz_33.10" axis="z" order="33.10"/>
+<table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout2" xlink:to="Label_Breakdownx_33" axis="x" order="33"/>
+<table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout2" xlink:to="Label_Breakdowny_34" axis="y" order="34"/>
+<table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_33" xlink:to="RuleNode_94" order="0"/>
+<table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_34" xlink:to="AspectNode_8" order="0"/>
+<table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_33.10" xlink:to="AspectNode_8.10" order="0"/>
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_94" xlink:to="RuleNode_96" order="0" />
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_94" xlink:to="RuleNode_97" order="1" />
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_94" xlink:to="RuleNode_98" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout3" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout3"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout3">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout3" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout3" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_35.10" parentChildOrder="parent-first"  id="Breakdownz_35.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_35" parentChildOrder="parent-first"  id="Breakdownx_35"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_36" parentChildOrder="parent-first"  id="Breakdowny_36"/>
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_8.20" xlink:label="AspectNode_8.20">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter16" xlink:title="explicitDimensionFilter16" id="explicitDimensionFilter16">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantCounterpartyDepositsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_8.20" xlink:to="explicitDimensionFilter16" order="1.0" use="optional" />
+
+
+ <table:ruleNode id="id_RuleNode_99" xlink:type="resource" xlink:label="RuleNode_99" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_102" xlink:type="resource" xlink:label="RuleNode_102" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_103" xlink:type="resource" xlink:label="RuleNode_103" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_104" xlink:type="resource" xlink:label="RuleNode_104" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDepositsToLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_101" xlink:type="resource" xlink:label="RuleNode_101" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_100" xlink:type="resource" xlink:label="RuleNode_100" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout3" xlink:to="Label_Breakdownz_35.10" axis="z" order="35.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout3" xlink:to="Label_Breakdownx_35" axis="x" order="35"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout3" xlink:to="Label_Breakdowny_36" axis="y" order="36"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_35" xlink:to="RuleNode_99" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_36" xlink:to="RuleNode_100" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_35.10" xlink:to="AspectNode_8.20" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_99" xlink:to="RuleNode_102" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_99" xlink:to="RuleNode_103" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_99" xlink:to="RuleNode_104" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_100" xlink:to="RuleNode_101" order="3" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout4" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout4"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout4">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout4" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout4" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_37.10" parentChildOrder="parent-first"  id="Breakdownz_37.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_37" parentChildOrder="parent-first"  id="Breakdownx_37"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_38" parentChildOrder="parent-first"  id="Breakdowny_38"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_9" xlink:label="AspectNode_9">
+<table:dimensionAspect>in-rbi-rep:NameOfBorrowerAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter17" xlink:title="explicitDimensionFilter17" id="explicitDimensionFilter17">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantCounterpartyBorrowingsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_9" xlink:to="explicitDimensionFilter17" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter18" xlink:title="explicitDimensionFilter18" id="explicitDimensionFilter18">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:OverseasMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_9" xlink:to="explicitDimensionFilter18" order="1.0" use="optional" />
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_9.10" xlink:label="AspectNode_9.10">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter19" xlink:title="explicitDimensionFilter19" id="explicitDimensionFilter19">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantCounterpartyBorrowingsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_9.10" xlink:to="explicitDimensionFilter19" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_105" xlink:type="resource" xlink:label="RuleNode_105" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_107" xlink:type="resource" xlink:label="RuleNode_107" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_108" xlink:type="resource" xlink:label="RuleNode_108" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_109" xlink:type="resource" xlink:label="RuleNode_109" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowingsToLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout4" xlink:to="Label_Breakdownz_37.10" axis="z" order="37.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout4" xlink:to="Label_Breakdownx_37" axis="x" order="37"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout4" xlink:to="Label_Breakdowny_38" axis="y" order="38"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_37" xlink:to="RuleNode_105" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_37.10" xlink:to="AspectNode_9.10" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_38" xlink:to="AspectNode_9" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_105" xlink:to="RuleNode_107" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_105" xlink:to="RuleNode_108" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_105" xlink:to="RuleNode_109" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout5" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout5"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout5">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout5" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout5" parentChildOrder="children-first"/>
+
+ <table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_39.10" parentChildOrder="parent-first"  id="Breakdownz_39.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_39" parentChildOrder="parent-first"  id="Breakdownx_39"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_40" parentChildOrder="parent-first"  id="Breakdowny_40"/>
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_9.20" xlink:label="AspectNode_9.20">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter20" xlink:title="explicitDimensionFilter20" id="explicitDimensionFilter20">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantCounterpartyBorrowingsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_9.20" xlink:to="explicitDimensionFilter20" order="1.0" use="optional" />
+
+
+ <table:ruleNode id="id_RuleNode_110" xlink:type="resource" xlink:label="RuleNode_110" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_113" xlink:type="resource" xlink:label="RuleNode_113" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_114" xlink:type="resource" xlink:label="RuleNode_114" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_115" xlink:type="resource" xlink:label="RuleNode_115" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowingsToLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantCounterpartyBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_112" xlink:type="resource" xlink:label="RuleNode_112" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_111" xlink:type="resource" xlink:label="RuleNode_111" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout5" xlink:to="Label_Breakdownz_39.10" axis="z" order="39.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout5" xlink:to="Label_Breakdownx_39" axis="x" order="39"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout5" xlink:to="Label_Breakdowny_40" axis="y" order="40"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_39" xlink:to="RuleNode_110" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_40" xlink:to="RuleNode_111" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_39.10" xlink:to="AspectNode_9.20" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_110" xlink:to="RuleNode_113" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_110" xlink:to="RuleNode_114" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_110" xlink:to="RuleNode_115" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_111" xlink:to="RuleNode_112" order="3" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout6" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout6"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout6">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout6" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout6" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_41.10" parentChildOrder="parent-first"  id="Breakdownz_41.10"/> 
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_41" parentChildOrder="parent-first"  id="Breakdownx_41"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_42" parentChildOrder="parent-first"  id="Breakdowny_42"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_43" parentChildOrder="parent-first"  id="Breakdowny_43"/>
+
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_10" xlink:label="AspectNode_10">
+<table:dimensionAspect>in-rbi-rep:NameOfDepositorsAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter21" xlink:title="explicitDimensionFilter21" id="explicitDimensionFilter21">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:TopTwentyLargeDepositsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_10" xlink:to="explicitDimensionFilter21" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter22" xlink:title="explicitDimensionFilter22" id="explicitDimensionFilter22">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:OverseasMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_10" xlink:to="explicitDimensionFilter22" order="1.0" use="optional" />
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_10.10" xlink:label="AspectNode_10.10">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter23" xlink:title="explicitDimensionFilter23" id="explicitDimensionFilter23">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:TopTwentyLargeDepositsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_10.10" xlink:to="explicitDimensionFilter23" order="1.0" use="optional" />
+
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_11" xlink:label="AspectNode_11">
+<table:dimensionAspect>in-rbi-rep:TypesOfDepositsAxis</table:dimensionAspect>
+</table:aspectNode>
+<df:explicitDimension xlink:type="resource" id="Id_FilterNode_11" xlink:label="FilterNode_11">
+<df:dimension>
+<df:qname>in-rbi-rep:TypesOfDepositsAxis</df:qname>
+</df:dimension>
+<df:member>
+<df:qname>in-rbi-rep:DepositsDomain</df:qname>
+<df:linkrole>http://www.rbi.org/in/xbrl/dbs0702-role/DBS0702-Table7</df:linkrole>
+<df:arcrole>http://xbrl.org/int/dim/arcrole/domain-member</df:arcrole>
+<df:axis>descendant</df:axis>
+</df:member>
+</df:explicitDimension>
+ <table:ruleNode id="id_RuleNode_116" xlink:type="resource" xlink:label="RuleNode_116" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_118" xlink:type="resource" xlink:label="RuleNode_118" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTwentyLargeDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_119" xlink:type="resource" xlink:label="RuleNode_119" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTwentyLargeDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout6" xlink:to="Label_Breakdownz_41.10" axis="z" order="41.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout6" xlink:to="Label_Breakdownx_41" axis="x" order="41"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout6" xlink:to="Label_Breakdowny_42" axis="y" order="42"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout6" xlink:to="Label_Breakdowny_43" axis="y" order="43"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_41" xlink:to="RuleNode_116" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_41.10" xlink:to="AspectNode_10.10" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_42" xlink:to="AspectNode_10" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_43" xlink:to="AspectNode_11" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_116" xlink:to="RuleNode_118" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_116" xlink:to="RuleNode_119" order="1" />
+ <table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter"  xlink:from="AspectNode_11" xlink:to="FilterNode_11" complement="false"/> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout7" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout7"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout7">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout7" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout7" parentChildOrder="children-first"/>
+
+ <table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_44.10" parentChildOrder="parent-first"  id="Breakdownz_44.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_44" parentChildOrder="parent-first"  id="Breakdownx_44"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_45" parentChildOrder="parent-first"  id="Breakdowny_45"/>
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_10.20" xlink:label="AspectNode_10.20">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter24" xlink:title="explicitDimensionFilter24" id="explicitDimensionFilter24">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:TopTwentyLargeDepositsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_10.20" xlink:to="explicitDimensionFilter24" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_120" xlink:type="resource" xlink:label="RuleNode_120" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_123" xlink:type="resource" xlink:label="RuleNode_123" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTwentyLargeDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_124" xlink:type="resource" xlink:label="RuleNode_124" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfDeposits
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTwentyLargeDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_122" xlink:type="resource" xlink:label="RuleNode_122" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_121" xlink:type="resource" xlink:label="RuleNode_121" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout7" xlink:to="Label_Breakdownz_44.10" axis="z" order="44.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout7" xlink:to="Label_Breakdownx_44" axis="x" order="44"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout7" xlink:to="Label_Breakdowny_45" axis="y" order="45"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_44" xlink:to="RuleNode_120" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_45" xlink:to="RuleNode_121" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_44.10" xlink:to="AspectNode_10.20" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_120" xlink:to="RuleNode_123" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_120" xlink:to="RuleNode_124" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_121" xlink:to="RuleNode_122" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout8" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout8"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout8">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout8" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout8" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_46.10" parentChildOrder="parent-first"  id="Breakdownz_46.10"/> 
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_46" parentChildOrder="parent-first"  id="Breakdownx_46"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_47" parentChildOrder="parent-first"  id="Breakdowny_47"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_12" xlink:label="AspectNode_12">
+<table:dimensionAspect>in-rbi-rep:NameOfBorrowerAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter25" xlink:title="explicitDimensionFilter25" id="explicitDimensionFilter25">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:TopTenborrowingsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_12" xlink:to="explicitDimensionFilter25" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter26" xlink:title="explicitDimensionFilter26" id="explicitDimensionFilter26">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:OverseasMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_12" xlink:to="explicitDimensionFilter26" order="1.0" use="optional" />
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_12.10" xlink:label="AspectNode_12.10">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter27" xlink:title="explicitDimensionFilter27" id="explicitDimensionFilter27">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:TopTenborrowingsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_12.10" xlink:to="explicitDimensionFilter27" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_125" xlink:type="resource" xlink:label="RuleNode_125" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_127" xlink:type="resource" xlink:label="RuleNode_127" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTenborrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_128" xlink:type="resource" xlink:label="RuleNode_128" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTenborrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout8" xlink:to="Label_Breakdownz_46.10" axis="z" order="46.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout8" xlink:to="Label_Breakdownx_46" axis="x" order="46"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout8" xlink:to="Label_Breakdowny_47" axis="y" order="47"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_46" xlink:to="RuleNode_125" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_46.10" xlink:to="AspectNode_12.10" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_47" xlink:to="AspectNode_12" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_125" xlink:to="RuleNode_127" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_125" xlink:to="RuleNode_128" order="1" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout9" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout9"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout9">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout9" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout9" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_48.10" parentChildOrder="parent-first"  id="Breakdownz_48.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_48" parentChildOrder="parent-first"  id="Breakdownx_48"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_49" parentChildOrder="parent-first"  id="Breakdowny_49"/>
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_12.20" xlink:label="AspectNode_12.20">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter28" xlink:title="explicitDimensionFilter28" id="explicitDimensionFilter28">
+      <df:dimension>
+        <df:qname>rbi-core:CounterPartyAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:TopTenborrowingsMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_12.20" xlink:to="explicitDimensionFilter28" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_129" xlink:type="resource" xlink:label="RuleNode_129" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_132" xlink:type="resource" xlink:label="RuleNode_132" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Borrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTenborrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_133" xlink:type="resource" xlink:label="RuleNode_133" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:TopTenborrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_131" xlink:type="resource" xlink:label="RuleNode_131" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_130" xlink:type="resource" xlink:label="RuleNode_130" abstract="true">
+ </table:ruleNode> 
+
+ 
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout9" xlink:to="Label_Breakdownz_48.10" axis="z" order="48.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout9" xlink:to="Label_Breakdownx_48" axis="x" order="48"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout9" xlink:to="Label_Breakdowny_49" axis="y" order="49"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_48" xlink:to="RuleNode_129" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_49" xlink:to="RuleNode_130" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_48.10" xlink:to="AspectNode_12.20" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_129" xlink:to="RuleNode_132" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_129" xlink:to="RuleNode_133" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_130" xlink:to="RuleNode_131" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout10" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout10"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout10">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout10" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout10" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_50.10" parentChildOrder="parent-first"  id="Breakdownz_50.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_50" parentChildOrder="parent-first"  id="Breakdownx_50"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_51" parentChildOrder="parent-first"  id="Breakdowny_51"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_13" xlink:label="AspectNode_13">
+<table:dimensionAspect>in-rbi-rep:InstrumentNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter29" xlink:title="explicitDimensionFilter29" id="explicitDimensionFilter29">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:OverseasMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_13" xlink:to="explicitDimensionFilter29" order="1.0" use="optional" />
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter30" xlink:title="explicitDimensionFilter30" id="explicitDimensionFilter30">
+      <df:dimension>
+        <df:qname>in-rbi-rep:InstrumentTypeDimension</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantInstrumentOrProductMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_13" xlink:to="explicitDimensionFilter30" order="1.0" use="optional" />
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_13.10" xlink:label="AspectNode_13.10">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter31" xlink:title="explicitDimensionFilter31" id="explicitDimensionFilter31">
+      <df:dimension>
+        <df:qname>in-rbi-rep:InstrumentTypeDimension</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantInstrumentOrProductMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_13.10" xlink:to="explicitDimensionFilter31" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_134" xlink:type="resource" xlink:label="RuleNode_134" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_136" xlink:type="resource" xlink:label="RuleNode_136" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantInstrumentOrProductMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_137" xlink:type="resource" xlink:label="RuleNode_137" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantInstrumentOrProductMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout10" xlink:to="Label_Breakdownz_50.10" axis="z" order="50.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout10" xlink:to="Label_Breakdownx_50" axis="x" order="50"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout10" xlink:to="Label_Breakdowny_51" axis="y" order="51"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_50" xlink:to="RuleNode_134" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_51" xlink:to="AspectNode_13" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_50.10" xlink:to="AspectNode_13.10" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_134" xlink:to="RuleNode_136" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_134" xlink:to="RuleNode_137" order="1" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout11" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout11"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout11">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout11" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout11" parentChildOrder="children-first"/>
+
+ <table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_52.10" parentChildOrder="parent-first"  id="Breakdownz_52.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_52" parentChildOrder="parent-first"  id="Breakdownx_52"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_53" parentChildOrder="parent-first"  id="Breakdowny_53"/>
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_13.20" xlink:label="AspectNode_13.20">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter32" xlink:title="explicitDimensionFilter32" id="explicitDimensionFilter32">
+      <df:dimension>
+        <df:qname>in-rbi-rep:InstrumentTypeDimension</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SignificantInstrumentOrProductMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_13.20" xlink:to="explicitDimensionFilter32" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_138" xlink:type="resource" xlink:label="RuleNode_138" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_141" xlink:type="resource" xlink:label="RuleNode_141" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantInstrumentOrProductMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_142" xlink:type="resource" xlink:label="RuleNode_142" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SignificantInstrumentOrProductMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_140" xlink:type="resource" xlink:label="RuleNode_140" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_139" xlink:type="resource" xlink:label="RuleNode_139" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout11" xlink:to="Label_Breakdownz_52.10" axis="z" order="52.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout11" xlink:to="Label_Breakdownx_52" axis="x" order="52"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout11" xlink:to="Label_Breakdowny_53" axis="y" order="53"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_52" xlink:to="RuleNode_138" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_53" xlink:to="RuleNode_139" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_52.10" xlink:to="AspectNode_13.20" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_138" xlink:to="RuleNode_141" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_138" xlink:to="RuleNode_142" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_139" xlink:to="RuleNode_140" order="2" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout12" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout12"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout12">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout12" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout12" parentChildOrder="children-first"/>
+
+ <table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_54.10" parentChildOrder="parent-first"  id="Breakdownz_54.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_54" parentChildOrder="parent-first"  id="Breakdownx_54"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_55" parentChildOrder="parent-first"  id="Breakdowny_55"/>
+ <table:aspectNode xlink:type="resource" id="Id_AspectNode_14" xlink:label="AspectNode_14">
+<table:dimensionAspect>in-rbi-rep:InstrumentNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter33" xlink:title="explicitDimensionFilter33" id="explicitDimensionFilter33">
+      <df:dimension>
+        <df:qname>rbi-core:GeographicalLocationAxis</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>in-rbi-rep:OverseasMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_14" xlink:to="explicitDimensionFilter33" order="1.0" use="optional" />
+
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter34" xlink:title="explicitDimensionFilter34" id="explicitDimensionFilter34">
+      <df:dimension>
+        <df:qname>in-rbi-rep:InstrumentTypeDimension</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SecuritisationFundingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_14" xlink:to="explicitDimensionFilter34" order="1.0" use="optional" />
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_14.10" xlink:label="AspectNode_14.10">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter35" xlink:title="explicitDimensionFilter35" id="explicitDimensionFilter35">
+      <df:dimension>
+        <df:qname>in-rbi-rep:InstrumentTypeDimension</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SecuritisationFundingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_14.10" xlink:to="explicitDimensionFilter35" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_143" xlink:type="resource" xlink:label="RuleNode_143" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_145" xlink:type="resource" xlink:label="RuleNode_145" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SecuritisationFundingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_146" xlink:type="resource" xlink:label="RuleNode_146" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SecuritisationFundingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ 
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout12" xlink:to="Label_Breakdownz_54.10" axis="z" order="54.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout12" xlink:to="Label_Breakdownx_54" axis="x" order="54"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout12" xlink:to="Label_Breakdowny_55" axis="y" order="55"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_54" xlink:to="RuleNode_143" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_55" xlink:to="AspectNode_14" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_54.10" xlink:to="AspectNode_14.10" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_143" xlink:to="RuleNode_145" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_143" xlink:to="RuleNode_146" order="1" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout13" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSBLRBLR2Overseas_Layout13"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSBLRBLR2Overseas_Layout13">
+
+
+ <table:table id="id_DBSBLRBLR2Overseas_Layout13" xlink:type="resource" xlink:label="DBSBLRBLR2Overseas_Layout13" parentChildOrder="children-first"/>
+
+ <table:breakdown xlink:type="resource" xlink:label="Label_Breakdownz_56.10" parentChildOrder="parent-first"  id="Breakdownz_56.10"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_56" parentChildOrder="parent-first"  id="Breakdownx_56"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_57" parentChildOrder="parent-first"  id="Breakdowny_57"/>
+
+<table:aspectNode xlink:type="resource" id="Id_AspectNode_14.20" xlink:label="AspectNode_14.20">
+<table:dimensionAspect>in-rbi-rep:CountryNameAxis</table:dimensionAspect>
+</table:aspectNode>
+
+<df:explicitDimension xlink:type="resource" xlink:label="explicitDimensionFilter36" xlink:title="explicitDimensionFilter36" id="explicitDimensionFilter36">
+      <df:dimension>
+        <df:qname>in-rbi-rep:InstrumentTypeDimension</df:qname>
+      </df:dimension>
+      <df:member>
+        <df:qname>rbi-core:SecuritisationFundingMember</df:qname>
+      </df:member>
+    </df:explicitDimension>
+<table:aspectNodeFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:from="AspectNode_14.20" xlink:to="explicitDimensionFilter36" order="1.0" use="optional" />
+
+ <table:ruleNode id="id_RuleNode_147" xlink:type="resource" xlink:label="RuleNode_147" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_150" xlink:type="resource" xlink:label="RuleNode_150" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:Liabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SecuritisationFundingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_151" xlink:type="resource" xlink:label="RuleNode_151" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:PercentageOfLiabilities
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:GeographicalLocationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OverseasMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:InstrumentTypeDimension">
+<formula:member>
+<formula:qname>
+rbi-core:SecuritisationFundingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_149" xlink:type="resource" xlink:label="RuleNode_149" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_148" xlink:type="resource" xlink:label="RuleNode_148" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout13" xlink:to="Label_Breakdownz_56.10" axis="z" order="56.10"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout13" xlink:to="Label_Breakdownx_56" axis="x" order="56"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSBLRBLR2Overseas_Layout13" xlink:to="Label_Breakdowny_57" axis="y" order="57"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_56" xlink:to="RuleNode_147" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_57" xlink:to="RuleNode_148" order="0"/>
+<table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownz_56.10" xlink:to="AspectNode_14.20" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_147" xlink:to="RuleNode_150" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_147" xlink:to="RuleNode_151" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_148" xlink:to="RuleNode_149" order="2" /> </gen:link>
+ 
+ 
+ <!-- <link:roleRef roleURI="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSAuthorisedSignatory_Layout1" xlink:type="simple" xlink:href="dbs0702-role.xsd#DBSAuthorisedSignatory_Layout1"/> -->
+ <!-- <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dbs0702-entry/1.0.0/DBSAuthorisedSignatory_Layout1"> -->
+
+
+ <!-- <table:table id="id_DBSAuthorisedSignatory_Layout1" xlink:type="resource" xlink:label="DBSAuthorisedSignatory_Layout1" parentChildOrder="children-first"/> -->
+
+<!-- <table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_8a" parentChildOrder="parent-first"  id="Breakdownx_8a"/> -->
+<!-- <table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_9a" parentChildOrder="parent-first"  id="Breakdowny_9a"/> -->
+ <!-- <table:ruleNode id="id_RuleNode_69a" xlink:type="resource" xlink:label="RuleNode_69a" abstract="true"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_72a" xlink:type="resource" xlink:label="RuleNode_72a" abstract="false"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_71a" xlink:type="resource" xlink:label="RuleNode_71a" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:NameOfSignatory -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_73a" xlink:type="resource" xlink:label="RuleNode_73a" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:DesignationOfSignatory -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_74a" xlink:type="resource" xlink:label="RuleNode_74a" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- rbi-core:AuthorisedSignatoryOfficialLandlineNumber -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_75a" xlink:type="resource" xlink:label="RuleNode_75a" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:MobileNumberOfAuthorisedSignatory -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_76a" xlink:type="resource" xlink:label="RuleNode_76a" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:EMailIDOfAuthorisedReportingOfficial -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_77a" xlink:type="resource" xlink:label="RuleNode_77a" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:Remarks -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:ruleNode id="id_RuleNode_70a" xlink:type="resource" xlink:label="RuleNode_70a" abstract="true"> -->
+ <!-- </table:ruleNode>  -->
+
+ <!-- <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSAuthorisedSignatory_Layout1" xlink:to="Label_Breakdownx_8a" axis="x" order="8"/> -->
+ <!-- <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DBSAuthorisedSignatory_Layout1" xlink:to="Label_Breakdowny_9a" axis="y" order="9"/> -->
+ <!-- <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_8a" xlink:to="RuleNode_69a" order="0"/> -->
+ <!-- <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_9a" xlink:to="RuleNode_70a" order="0"/> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_69a" xlink:to="RuleNode_72a" order="0" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_70a" xlink:to="RuleNode_71a" order="1" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_70a" xlink:to="RuleNode_73a" order="2" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_70a" xlink:to="RuleNode_74a" order="3" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_70a" xlink:to="RuleNode_75a" order="4" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_70a" xlink:to="RuleNode_76a" order="5" /> -->
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_70a" xlink:to="RuleNode_77a" order="6" /> </gen:link> -->
+ 
+ </link:linkbase>

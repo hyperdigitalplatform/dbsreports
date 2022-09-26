@@ -1,0 +1,3899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<link:linkbase xmlns:table="http://xbrl.org/2014/table"
+xmlns:xbrlte= "http://xbrl.org/2014/table/error"
+xmlns:tablemodel= "http://xbrl.org/2014/table/model"
+xmlns:label="http://xbrl.org/2008/label"
+xmlns:reference="http://xbrl.org/2008/reference"
+xmlns:eg= "http://www.iris.com/tablelinbase"
+xmlns:link ="http://www.xbrl.org/2003/linkbase"
+xmlns:xbrli= "http://www.xbrl.org/2003/instance"
+xmlns:xfi= "http://www.xbrl.org/2005/function/instance"
+xmlns:xbrldi= "http://xbrl.org/2006/xbrldi"
+xmlns:xbrldt= "http://xbrl.org/2005/xbrldt"
+xmlns:xl= "http://www.xbrl.org/2003/XLink"
+xmlns:xlink= "http://www.w3.org/1999/xlink"
+xmlns:xs= "http://www.w3.org/2001/XMLSchema"
+xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+xmlns:gen= "http://xbrl.org/2008/generic"
+xmlns:var= "http://xbrl.org/2008/variable"
+xmlns:formula= "http://xbrl.org/2008/formula"
+xmlns:tuple= "http://xbrl.org/2010/formula/tuple"
+xmlns:df="http://xbrl.org/2008/filter/dimension"
+xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core"
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:PRE1="http://www.rbi.org/in/xbrl/filinginfo-entry/1.0.0"
+xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/reference http://www.xbrl.org/2008/generic-reference.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2014/table http://www.xbrl.org/2014/table.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd">
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/table-breakdown" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#table-breakdown"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/breakdown-tree" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#breakdown-tree"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/definition-node-subtree" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#definition-node-subtree"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#aspect-node-filter"/>
+
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dnbs-ir-entry/1.0.0/FilingInfo_Layout1" xlink:type="simple" xlink:href="dnbs-ir-role.xsd#FilingInfo_Layout1"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dnbs-ir-entry/1.0.0/FilingInfo_Layout1">
+
+
+ <table:table id="id_FilingInfo_Layout1" xlink:type="resource" xlink:label="FilingInfo_Layout1" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_0" parentChildOrder="parent-first"  id="Breakdownx_0"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_1" parentChildOrder="parent-first"  id="Breakdowny_1"/>
+ <table:ruleNode id="id_RuleNode_1" xlink:type="resource" xlink:label="RuleNode_1" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_4" xlink:type="resource" xlink:label="RuleNode_4" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_3" xlink:type="resource" xlink:label="RuleNode_3" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReturnName
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_5" xlink:type="resource" xlink:label="RuleNode_5" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReturnCode
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_6" xlink:type="resource" xlink:label="RuleNode_6" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:NameOfReportingInstitution
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_7" xlink:type="resource" xlink:label="RuleNode_7" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankCode
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_8" xlink:type="resource" xlink:label="RuleNode_8" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:InstitutionType
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_9" xlink:type="resource" xlink:label="RuleNode_9" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReportingFrequency
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_10" xlink:type="resource" xlink:label="RuleNode_10" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReportingPeriodStartDate
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_11" xlink:type="resource" xlink:label="RuleNode_11" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReportingPeriodEndDate
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_12" xlink:type="resource" xlink:label="RuleNode_12" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:ReportingCurrency
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_13" xlink:type="resource" xlink:label="RuleNode_13" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:ReportingScale
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_14" xlink:type="resource" xlink:label="RuleNode_14" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:TaxonomyVersion
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_15" xlink:type="resource" xlink:label="RuleNode_15" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ToolName
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_16" xlink:type="resource" xlink:label="RuleNode_16" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:ToolVersion
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_17" xlink:type="resource" xlink:label="RuleNode_17" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReportStatus
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_18" xlink:type="resource" xlink:label="RuleNode_18" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:DateOfAudit
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_19" xlink:type="resource" xlink:label="RuleNode_19" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:GeneralRemarks
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_2" xlink:type="resource" xlink:label="RuleNode_2" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="FilingInfo_Layout1" xlink:to="Label_Breakdownx_0" axis="x" order="0"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="FilingInfo_Layout1" xlink:to="Label_Breakdowny_1" axis="y" order="1"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_0" xlink:to="RuleNode_1" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_1" xlink:to="RuleNode_2" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_1" xlink:to="RuleNode_4" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_3" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_5" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_6" order="3" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_7" order="4" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_8" order="5" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_9" order="6" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_10" order="7" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_11" order="8" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_12" order="9" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_13" order="10" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_14" order="11" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_15" order="12" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_16" order="13" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_17" order="14" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_18" order="15" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_19" order="16" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dnbs-ir-entry/1.0.0/AuthorisedSignatory_Layout1" xlink:type="simple" xlink:href="dnbs-ir-role.xsd#AuthorisedSignatory_Layout1"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dnbs-ir-entry/1.0.0/AuthorisedSignatory_Layout1">
+
+
+ <table:table id="id_AuthorisedSignatory_Layout1" xlink:type="resource" xlink:label="AuthorisedSignatory_Layout1" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_2" parentChildOrder="parent-first"  id="Breakdownx_2"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_3" parentChildOrder="parent-first"  id="Breakdowny_3"/>
+ <table:ruleNode id="id_RuleNode_20" xlink:type="resource" xlink:label="RuleNode_20" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_23" xlink:type="resource" xlink:label="RuleNode_23" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_22" xlink:type="resource" xlink:label="RuleNode_22" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:NameOfSignatory
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_24" xlink:type="resource" xlink:label="RuleNode_24" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:DesignationOfSignatory
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_25" xlink:type="resource" xlink:label="RuleNode_25" abstract="false">
+<formula:concept>
+<formula:qname>
+rbi-core:AuthorisedSignatoryOfficialLandlineNumber
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_26" xlink:type="resource" xlink:label="RuleNode_26" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:MobileNumberOfAuthorisedSignatory
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_27" xlink:type="resource" xlink:label="RuleNode_27" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:EMailIDOfAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_28" xlink:type="resource" xlink:label="RuleNode_28" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:Date
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_29" xlink:type="resource" xlink:label="RuleNode_29" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:PlaceOfDesignatedOffice
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_21" xlink:type="resource" xlink:label="RuleNode_21" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="AuthorisedSignatory_Layout1" xlink:to="Label_Breakdownx_2" axis="x" order="2"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="AuthorisedSignatory_Layout1" xlink:to="Label_Breakdowny_3" axis="y" order="3"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_2" xlink:to="RuleNode_20" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_3" xlink:to="RuleNode_21" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_20" xlink:to="RuleNode_23" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_21" xlink:to="RuleNode_22" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_21" xlink:to="RuleNode_24" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_21" xlink:to="RuleNode_25" order="3" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_21" xlink:to="RuleNode_26" order="4" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_21" xlink:to="RuleNode_27" order="5" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_21" xlink:to="RuleNode_28" order="6" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_21" xlink:to="RuleNode_29" order="7" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/dnbs-ir-entry/1.0.0/DNBSIR_PART1_Layout1" xlink:type="simple" xlink:href="dnbs-ir-role.xsd#DNBSIR_PART1_Layout1"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/dnbs-ir-entry/1.0.0/DNBSIR_PART1_Layout1">
+
+
+ <table:table id="id_DNBSIR_PART1_Layout1" xlink:type="resource" xlink:label="DNBSIR_PART1_Layout1" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_4" parentChildOrder="parent-first"  id="Breakdownx_4"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_5" parentChildOrder="parent-first"  id="Breakdowny_5"/>
+ <table:ruleNode id="id_RuleNode_30" xlink:type="resource" xlink:label="RuleNode_30" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_33" xlink:type="resource" xlink:label="RuleNode_33" abstract="false" tagSelector="Id_CustomNode_34">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_35" xlink:type="resource" xlink:label="RuleNode_35" abstract="false" tagSelector="Id_CustomNode_36">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_32" xlink:type="resource" xlink:label="RuleNode_32" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:NameOfReportingInstitution
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForNameOfNBFC
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_37" xlink:type="resource" xlink:label="RuleNode_37" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:CategoryOfNBFC
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForCategoryOfNBFC
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_38" xlink:type="resource" xlink:label="RuleNode_38" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:ClassificationOfCompany
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForClassificationOfNBFC
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_39" xlink:type="resource" xlink:label="RuleNode_39" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_40" xlink:type="resource" xlink:label="RuleNode_40" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:OwnedFunds
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:TransactionAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OwnedFundsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_41" xlink:type="resource" xlink:label="RuleNode_41" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:NetOwnedFunds
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:TierCapitalClassificationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:TierIMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:TransactionAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NetOwnedFundsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:TierCapitalClassificationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:TierIMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_42" xlink:type="resource" xlink:label="RuleNode_42" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:AdjustedNetWorth
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:TransactionAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AdjustedNetWorthMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_43" xlink:type="resource" xlink:label="RuleNode_43" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_44" xlink:type="resource" xlink:label="RuleNode_44" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:BorrowingsFromBanks
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:BankBorrowingsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_45" xlink:type="resource" xlink:label="RuleNode_45" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:TermLoansFromBanks
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:TermLoanMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_46" xlink:type="resource" xlink:label="RuleNode_46" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:WorkingCapitalLoansFromBanks
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:WorkingCapitalMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_47" xlink:type="resource" xlink:label="RuleNode_47" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:CashCredit
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CashCreditMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_48" xlink:type="resource" xlink:label="RuleNode_48" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Overdrafts
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OverdraftsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_49" xlink:type="resource" xlink:label="RuleNode_49" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CommercialPaper
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CommercialPaperMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_50" xlink:type="resource" xlink:label="RuleNode_50" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CommercialPaper
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:RetailInvestorsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CommercialPaperMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:RetailInvestorsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_51" xlink:type="resource" xlink:label="RuleNode_51" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CommercialPaper
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:MutualFundsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CommercialPaperMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:MutualFundsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_52" xlink:type="resource" xlink:label="RuleNode_52" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CommercialPaper
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:BanksMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CommercialPaperMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:BanksMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_53" xlink:type="resource" xlink:label="RuleNode_53" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CommercialPaper
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:NBFCsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CommercialPaperMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:NBFCsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_54" xlink:type="resource" xlink:label="RuleNode_54" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CommercialPaper
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:InsuranceCompaniesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CommercialPaperMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:InsuranceCompaniesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_55" xlink:type="resource" xlink:label="RuleNode_55" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CommercialPaper
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:PensionFundsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CommercialPaperMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:PensionFundsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_56" xlink:type="resource" xlink:label="RuleNode_56" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CommercialPaper
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OtherCounterPartiesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CommercialPaperMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OtherCounterPartiesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_57" xlink:type="resource" xlink:label="RuleNode_57" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AggregateFixedDeposits
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:FixedDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_58" xlink:type="resource" xlink:label="RuleNode_58" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:InterCorporateBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:LoanInterCorporateDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_59" xlink:type="resource" xlink:label="RuleNode_59" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:InterCorporateBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CompaniesInTheSameGroupMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:LoanInterCorporateDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CompaniesInTheSameGroupMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_60" xlink:type="resource" xlink:label="RuleNode_60" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:InterCorporateBorrowings
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CompaniesNotInSameGroupMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:LoanInterCorporateDepositsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:CounterPartyAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CompaniesNotInSameGroupMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_61" xlink:type="resource" xlink:label="RuleNode_61" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:DebenturesOutstanding
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:DebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_62" xlink:type="resource" xlink:label="RuleNode_62" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:DebenturesOutstanding
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:TypeOfSecuritiesAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ConvertibleDebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:DebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:TypeOfSecuritiesAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ConvertibleDebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_63" xlink:type="resource" xlink:label="RuleNode_63" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:DebenturesOutstanding
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:TypeOfSecuritiesAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NonConvertibleDebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:DebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:TypeOfSecuritiesAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NonConvertibleDebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_64" xlink:type="resource" xlink:label="RuleNode_64" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:DebenturesOutstanding
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:UnSecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:DebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:UnSecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_65" xlink:type="resource" xlink:label="RuleNode_65" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:DebenturesOutstanding
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:UnSecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:TypeOfSecuritiesAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ConvertibleDebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:DebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:UnSecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:TypeOfSecuritiesAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ConvertibleDebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_66" xlink:type="resource" xlink:label="RuleNode_66" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:DebenturesOutstanding
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:UnSecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:TypeOfSecuritiesAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NonConvertibleDebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:DebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:StatusOfSecurityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:UnSecuredMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="in-rbi-rep:TypeOfSecuritiesAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NonConvertibleDebenturesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_67" xlink:type="resource" xlink:label="RuleNode_67" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:SubordinateDebts
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:SubordinateDebtMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_68" xlink:type="resource" xlink:label="RuleNode_68" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:OtherLiabilities
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OtherLiabilitiesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_69" xlink:type="resource" xlink:label="RuleNode_69" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AggregateLiabilities
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:PublicFundsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_70" xlink:type="resource" xlink:label="RuleNode_70" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:PublicFundsOutstanding
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:LiabilityMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_71" xlink:type="resource" xlink:label="RuleNode_71" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:TotalOutsideLiabilities
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:LiabilityItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OutsideLiabilitiesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_72" xlink:type="resource" xlink:label="RuleNode_72" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_73" xlink:type="resource" xlink:label="RuleNode_73" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:Assets
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:AggregateAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_74" xlink:type="resource" xlink:label="RuleNode_74" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:NetAssets
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NetAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_75" xlink:type="resource" xlink:label="RuleNode_75" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:FixedAssets
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:FixedAssetsNetMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_76" xlink:type="resource" xlink:label="RuleNode_76" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:LoansAndAdvances
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:AggregateLoansAndAdvancesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_77" xlink:type="resource" xlink:label="RuleNode_77" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AggregateInvestments
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:InvestmentsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_78" xlink:type="resource" xlink:label="RuleNode_78" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CashAndBankBalances
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:CashAndBankBalancesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_79" xlink:type="resource" xlink:label="RuleNode_79" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:OtherAssets
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OtherAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_80" xlink:type="resource" xlink:label="RuleNode_80" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:DeferredTaxAssets
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:DeferredTaxAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_81" xlink:type="resource" xlink:label="RuleNode_81" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AccumulatedLosses
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AccumulatedLossMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_82" xlink:type="resource" xlink:label="RuleNode_82" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CreditExposure
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+rbi-core:GrossCreditExposureMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:GrossCreditExposureMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_83" xlink:type="resource" xlink:label="RuleNode_83" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:QualifyingAssets
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+rbi-core:QualifyingAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_84" xlink:type="resource" xlink:label="RuleNode_84" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:RiskWeightedAssets
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OnBalancesheetMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:RiskWeightedAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OnBalancesheetMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_85" xlink:type="resource" xlink:label="RuleNode_85" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:RiskWeightedAssets
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OffBalanceSheetMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:RiskWeightedAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:OffBalanceSheetMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_86" xlink:type="resource" xlink:label="RuleNode_86" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:RiskWeightedAssets
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:RiskWeightedAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_87" xlink:type="resource" xlink:label="RuleNode_87" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:TotalEstimatedRealisableValueOfAssets
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:AssetItemAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:EstimatedRealisableValueMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_88" xlink:type="resource" xlink:label="RuleNode_88" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_89" xlink:type="resource" xlink:label="RuleNode_89" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AggregateExposureAmount
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:AggregateCapitalMarketExposuresMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:AggregateCapitalMarketExposuresMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_90" xlink:type="resource" xlink:label="RuleNode_90" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AggregateExposureAmount
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:RealEstateExposureMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:RealEstateExposureMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_91" xlink:type="resource" xlink:label="RuleNode_91" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AggregateExposureAmount
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:FundBasedExposureMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:FundBasedExposureMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_92" xlink:type="resource" xlink:label="RuleNode_92" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AggregateExposureAmount
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:NonFundBasedExposureMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:ExposureTypeAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:NonFundBasedExposureMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_93" xlink:type="resource" xlink:label="RuleNode_93" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_94" xlink:type="resource" xlink:label="RuleNode_94" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:GrossNPAs
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForGrossNonPerformingAssets
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_95" xlink:type="resource" xlink:label="RuleNode_95" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:TotalNPAProvisionsHeld
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForProvisionsForNonPerformingAssets
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_96" xlink:type="resource" xlink:label="RuleNode_96" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:WriteOffsOfAssetsAndLosses
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForWriteOffForNonPerformingAssets
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_97" xlink:type="resource" xlink:label="RuleNode_97" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:NetNPAs
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForNetNonPerformingAssets
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_98" xlink:type="resource" xlink:label="RuleNode_98" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:NetNPAsAsPercentageToNetAdvances
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NetNPAPercentageMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_99" xlink:type="resource" xlink:label="RuleNode_99" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:SlippageRatio
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SlippageRatioMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_100" xlink:type="resource" xlink:label="RuleNode_100" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:ProvisionsForDepreciationOnInvestment
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForProvisionsForDiminutionInInvestments
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_101" xlink:type="resource" xlink:label="RuleNode_101" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_102" xlink:type="resource" xlink:label="RuleNode_102" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:Income
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:TransactionAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:GrossIncomeMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_103" xlink:type="resource" xlink:label="RuleNode_103" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:Expenditure
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:TransactionAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ExpensesMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_104" xlink:type="resource" xlink:label="RuleNode_104" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:OperatingProfitLoss
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:TransactionAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OperatingProfitAndLossMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_105" xlink:type="resource" xlink:label="RuleNode_105" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:NetProfitLossForPeriod
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/iso4217','iso4217:INR')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="in-rbi-rep:TransactionAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NetProfitAndLossMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_106" xlink:type="resource" xlink:label="RuleNode_106" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_107" xlink:type="resource" xlink:label="RuleNode_107" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:LeverageRatio
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:LeverageRatioMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_108" xlink:type="resource" xlink:label="RuleNode_108" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CapitalAdequacyRatio
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CapitalAdequacyRatioMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:TypeOfBalanceAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AggregateMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_109" xlink:type="resource" xlink:label="RuleNode_109" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:CapitalAdequacyRatio
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:TierCapitalClassificationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:TierIIMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CapitalAdequacyRatioMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:TierCapitalClassificationAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:TierIIMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_110" xlink:type="resource" xlink:label="RuleNode_110" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:MinimumCapitalRatio
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:MinimumCapitalRatioMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_111" xlink:type="resource" xlink:label="RuleNode_111" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:GrossNPAsAsPercentageToGrossAdvances
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+in-rbi-rep:GrossNPAMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_112" xlink:type="resource" xlink:label="RuleNode_112" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:PercentageOfAverageCostOfFunds
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:WeightedAverageCostOfFundsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_113" xlink:type="resource" xlink:label="RuleNode_113" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:ReturnOnAssetsBeforeTax
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ReturnOnAssetsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_114" xlink:type="resource" xlink:label="RuleNode_114" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:ReturnOnEquity
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ReturnOnEquityMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_115" xlink:type="resource" xlink:label="RuleNode_115" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:NetInterestMargin
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:NetInterestMarginMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_116" xlink:type="resource" xlink:label="RuleNode_116" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:LiquidityRatio
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:LiquidityRatioMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_117" xlink:type="resource" xlink:label="RuleNode_117" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_118" xlink:type="resource" xlink:label="RuleNode_118" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:AssetLiabilityNegativeMismatchNumber
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:NegativeMismatchPeriodAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OneMonthMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StructuralLiquidityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AssetLiabilityNegativeMismatchMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:NegativeMismatchPeriodAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OneMonthMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_119" xlink:type="resource" xlink:label="RuleNode_119" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:AssetLiabilityNegativeMismatchNumber
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:NegativeMismatchPeriodAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OverOneMonthAndUptoTwoMonthsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StructuralLiquidityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AssetLiabilityNegativeMismatchMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:NegativeMismatchPeriodAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OverOneMonthAndUptoTwoMonthsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_120" xlink:type="resource" xlink:label="RuleNode_120" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:AssetLiabilityNegativeMismatchNumber
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:NegativeMismatchPeriodAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OverTwoMonthsAndUptoThreeMonthsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StructuralLiquidityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AssetLiabilityNegativeMismatchMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:NegativeMismatchPeriodAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OverTwoMonthsAndUptoThreeMonthsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_121" xlink:type="resource" xlink:label="RuleNode_121" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:FinancialAssetsToTotalAssetsRatio
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:FinancialAssetsToTotalAssetMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_122" xlink:type="resource" xlink:label="RuleNode_122" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:FinancialIncomeToTotalIncomeRatio
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:FinancialRatiosAxis">
+<formula:member>
+<formula:qname>
+rbi-core:FinancialIncomeToTotalIncomeMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_123" xlink:type="resource" xlink:label="RuleNode_123" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:MoreThan15PercentVariationObservedInActualAndProjectedInflowNumber
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:NegativeMismatchPeriodAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OneMonthMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:StructuralLiquidityAxis">
+<formula:member>
+<formula:qname>
+rbi-core:MoreThan15PercentVariationMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:explicitDimension dimension="rbi-core:NegativeMismatchPeriodAxis">
+<formula:member>
+<formula:qname>
+rbi-core:OneMonthMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_124" xlink:type="resource" xlink:label="RuleNode_124" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_125" xlink:type="resource" xlink:label="RuleNode_125" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:SupervisoryRating
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ObservationDomain
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_126" xlink:type="resource" xlink:label="RuleNode_126" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:CapitalAdequacyRemark
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CapitalAdequacyMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_127" xlink:type="resource" xlink:label="RuleNode_127" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:AssetsQualityRemark
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AssetsQualityMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_128" xlink:type="resource" xlink:label="RuleNode_128" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:ManagementRemark
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:ManagementMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_129" xlink:type="resource" xlink:label="RuleNode_129" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:EarningRemark
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:EarningsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_130" xlink:type="resource" xlink:label="RuleNode_130" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:LiquidityRemark
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:LiquidityMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_131" xlink:type="resource" xlink:label="RuleNode_131" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:SystemsAndControlsRemark
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:SystemsAndControlsMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_132" xlink:type="resource" xlink:label="RuleNode_132" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+in-rbi-rep:AdjustedCompositeRating
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:AdjustedCompositeRatingMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_133" xlink:type="resource" xlink:label="RuleNode_133" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:DowngradeOfCreditRating
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksAndDescription
+</formula:qname>
+</formula:concept>
+<formula:explicitDimension dimension="rbi-core:ObservationAxis">
+<formula:member>
+<formula:qname>
+rbi-core:CreditRatingDowngradeMember
+</formula:qname>
+</formula:member>
+</formula:explicitDimension>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_134" xlink:type="resource" xlink:label="RuleNode_134" abstract="true">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:Abstract
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_135" xlink:type="resource" xlink:label="RuleNode_135" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:PercentageOfSharesHeldByPromoter
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForShareholdingOfPromoters
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_136" xlink:type="resource" xlink:label="RuleNode_136" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:NumberOfDirectors
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForDirectorsInTheBoard
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_137" xlink:type="resource" xlink:label="RuleNode_137" abstract="false">
+<table:ruleSet tag="Id_CustomNode_34"><formula:concept>
+<formula:qname>
+rbi-core:NumberOfPromoterDirectorsOrNomineeOfPromoterDirector
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+rbi-core:RemarksForPromoterDirectorsOrNomineeOfPromoterDirectorInTheBoard
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_31" xlink:type="resource" xlink:label="RuleNode_31" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DNBSIR_PART1_Layout1" xlink:to="Label_Breakdownx_4" axis="x" order="4"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="DNBSIR_PART1_Layout1" xlink:to="Label_Breakdowny_5" axis="y" order="5"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_4" xlink:to="RuleNode_30" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_5" xlink:to="RuleNode_31" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_30" xlink:to="RuleNode_33" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_30" xlink:to="RuleNode_35" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_32" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_37" order="3" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_38" order="4" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_39" order="5" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_39" xlink:to="RuleNode_40" order="6" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_39" xlink:to="RuleNode_41" order="7" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_39" xlink:to="RuleNode_42" order="8" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_43" order="9" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_44" order="10" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_44" xlink:to="RuleNode_45" order="11" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_44" xlink:to="RuleNode_46" order="12" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_44" xlink:to="RuleNode_47" order="13" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_44" xlink:to="RuleNode_48" order="14" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_49" order="15" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_49" xlink:to="RuleNode_50" order="16" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_49" xlink:to="RuleNode_51" order="17" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_49" xlink:to="RuleNode_52" order="18" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_49" xlink:to="RuleNode_53" order="19" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_49" xlink:to="RuleNode_54" order="20" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_49" xlink:to="RuleNode_55" order="21" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_49" xlink:to="RuleNode_56" order="22" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_57" order="23" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_58" order="24" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_58" xlink:to="RuleNode_59" order="25" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_58" xlink:to="RuleNode_60" order="26" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_61" order="27" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_61" xlink:to="RuleNode_62" order="28" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_61" xlink:to="RuleNode_63" order="29" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_64" order="30" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_64" xlink:to="RuleNode_65" order="31" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_64" xlink:to="RuleNode_66" order="32" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_67" order="33" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_68" order="34" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_69" order="35" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_70" order="36" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_43" xlink:to="RuleNode_71" order="37" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_72" order="38" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_73" order="39" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_74" order="40" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_75" order="41" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_76" order="42" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_77" order="43" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_78" order="44" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_79" order="45" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_80" order="46" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_81" order="47" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_82" order="48" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_83" order="49" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_84" order="50" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_85" order="51" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_86" order="52" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_72" xlink:to="RuleNode_87" order="53" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_88" order="54" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_88" xlink:to="RuleNode_89" order="55" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_88" xlink:to="RuleNode_90" order="56" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_88" xlink:to="RuleNode_91" order="57" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_88" xlink:to="RuleNode_92" order="58" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_93" order="59" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_93" xlink:to="RuleNode_94" order="60" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_93" xlink:to="RuleNode_95" order="61" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_93" xlink:to="RuleNode_96" order="62" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_93" xlink:to="RuleNode_97" order="63" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_93" xlink:to="RuleNode_98" order="64" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_93" xlink:to="RuleNode_99" order="65" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_93" xlink:to="RuleNode_100" order="66" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_101" order="67" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_101" xlink:to="RuleNode_102" order="68" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_101" xlink:to="RuleNode_103" order="69" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_101" xlink:to="RuleNode_104" order="70" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_101" xlink:to="RuleNode_105" order="71" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_106" order="72" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_107" order="73" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_108" order="74" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_109" order="75" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_110" order="76" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_111" order="77" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_112" order="78" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_113" order="79" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_114" order="80" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_115" order="81" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_106" xlink:to="RuleNode_116" order="82" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_117" order="83" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_117" xlink:to="RuleNode_118" order="84" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_117" xlink:to="RuleNode_119" order="85" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_117" xlink:to="RuleNode_120" order="86" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_117" xlink:to="RuleNode_121" order="87" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_117" xlink:to="RuleNode_122" order="88" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_117" xlink:to="RuleNode_123" order="89" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_124" order="90" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_125" order="91" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_126" order="92" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_127" order="93" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_128" order="94" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_129" order="95" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_130" order="96" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_131" order="97" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_132" order="98" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_124" xlink:to="RuleNode_133" order="99" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_134" order="100" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_134" xlink:to="RuleNode_135" order="101" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_134" xlink:to="RuleNode_136" order="102" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_134" xlink:to="RuleNode_137" order="103" /> </gen:link>
+ </link:linkbase>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="DEPR01">
+<table label="DEPR01_Layout1" header="Table 1: Data on call/notice/term money operations"/>
+</tableSet>
+</tableModel>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<table label="FilingInfo_Layout2" header="Scoping Question"/>
+</tableSet>
+<tableSet label="DNBS10MAINSACCICs">
+<table label="DNBS10MAINSACCICs_Layout1" header="Part A: Details of Audit Firm and Auditor / Partner"/>
+<table label="DNBS10MAINSACCICs_Layout2" header="Part B: Certificate from Statutory Auditor of the Company on Key Business Financials of the NBFC "/>
+</tableSet>
+<tableSet label="DNBS10SACAnnexCICs">
+<table label="DNBS10SACAnnexCICs_Layout1" header="Table 1: CAPITAL FUNDS-TIER  I"/>
+<table label="DNBS10SACAnnexCICs_Layout2" header="Table 2: List of all entities where CIC has exposure and all the NBFCs registered with RBI in Group (including NBFCs where there is NIL exposure)"/>
+</tableSet>
+<tableSet label="DNBS10MainSACARCs">
+<table label="DNBS10MainSACARCs_Layout1" header="Part A: Details of Audit Firm and Auditor/Partner"/>
+<table label="DNBS10MainSACARCs_Layout2" header="Part B: Certificate from Statutory Auditor of the Company on Key Business Financials of the NBFC "/>
+</tableSet>
+<tableSet label="DNBS10SACAnnexARCs">
+<table label="DNBS10SACAnnexARCs_Layout1" header="Table 1: CAPITAL FUNDS-TIER  I"/>
+<table label="DNBS10SACAnnexARCs_Layout2" header="Table 2: List of all entities in the group where ARC has exposure and all the NBFCs registered with RBI in Group (including NBFCs where there is NIL exposure)"/>
+</tableSet>
+<tableSet label="DNBS10MainSACP2Ps">
+<table label="DNBS10MainSACP2Ps_Layout1" header="Part A: Details of Audit Firm and Auditor/Partner"/>
+<table label="DNBS10MainSACP2Ps_Layout2" header="Part B: Certificate from Statutory Auditor of the Company on Key Business Financials of the NBFC "/>
+</tableSet>
+<tableSet label="DNBS10SACAnnexP2Ps">
+<table label="DNBS10SACAnnexP2Ps_Layout1" header="Table 1: CAPITAL FUNDS-TIER  I"/>
+<table label="DNBS10SACAnnexP2Ps_Layout2" header="Table 2: List of all group entities where P2Ps has exposure and all the NBFCs registered with RBI in Group (including NBFCs where there is NIL exposure)"/>
+</tableSet>
+<tableSet label="DNBS10MainSACOtherNBFCs">
+<table label="DNBS10MainSACOtherNBFCs_Layout1" header="Part A: Details of Audit Firm and Auditor/Partner"/>
+<table label="DNBS10MainSACOtherNBFCs_Layout2" header="Part B: Certificate from Statutory Auditor of the Company on Key Business Financials of the NBFC"/>
+</tableSet>
+<tableSet label="DNBS10SACAnnexOtherNBFCs">
+<table label="DNBS10SACAnnexOtherNBFCs_Layout1" header="Table 1: CAPITAL FUNDS-TIER I"/>
+<table label="DNBS10SACAnnexOtherNBFCs_Layout2" header="Table 2: List of all entities in the Group where NBFC has exposure and all the NBFCs registered with RBI in the Group (including NBFCs where there is NIL exposure)"/>
+<table label="DNBS10SACAnnexOtherNBFCs_Layout3" header="Table 3: Financial Assets to Total Assets"/>
+<table label="DNBS10SACAnnexOtherNBFCs_Layout4" header="Table 4: Financial Income to Total Income"/>
+</tableSet>
+</tableModel>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="DPSS07">
+<table label="DPSS07_Layout1" header="Table 1: Number of merchant establishment"/>
+<table label="DPSS07_Layout2" header="Table 2: Physical Merchant Establishment details"/>
+<table label="DPSS07_Layout3" header="Table 3: Number of cards"/>
+<table label="DPSS07_Layout4" header="Table 4: Usage of credit and debit cards - In India"/>
+<table label="DPSS07_Layout5" header="Table 5: Usage of credit and debit cards - Outside India"/>
+<table label="DPSS07_Layout6" header="Table 6: Online usage of credit and debit cards - In India"/>
+<table label="DPSS07_Layout7" header="Table 7: Online usage of credit and debit cards - Outside India"/>
+</tableSet>
+</tableModel>

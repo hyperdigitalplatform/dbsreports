@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<!-- <table label="FilingInfo_Layout2" header="Scoping Question"/> -->
+</tableSet>
+<tableSet label="AuthorisedSignatory">
+<table label="AuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+<tableSet label="ProfileData">
+<table label="ProfileData_Layout1" header="Table 1 - Shareholding pattern"/>
+<table label="ProfileData_Layout2" header="Table 2 - Board of directors"/>
+<table label="ProfileData_Layout3" header="Table 3 - List of Principal Officers"/>
+</tableSet>
+<tableSet label="DNBS06PART1">
+<table label="DNBS06PART1_Layout1" header="Part 1 - Public Deposits, Approved Investments"/>
+</tableSet>
+<tableSet label="DNBS06PART2">
+<table label="DNBS06PART2_Layout1" header="Part 2 - Details of NOF, Compliance, etc."/>
+</tableSet>
+<tableSet label="DNBS06PART3">
+<table label="DNBS06PART3_Layout1" header="Part 3 - Particulars of Deposits Outstanding as on the reporting period end date"/>
+<table label="DNBS06PART3_Layout2" header="Break-up of deposits shown under item 2 of Part - 1"/>
+<table label="DNBS06PART3_Layout3" header="II. Interest-rate wise details of deposits"/>
+<table label="DNBS06PART3_Layout4" header="Details of defaults in respect of deposits shown at item 2 in Part I"/>
+<table label="DNBS06PART3_Layout5" header="Annexure - Repayment of deposits matured and become payable but not paid"/>
+</tableSet>
+<tableSet label="DNBS06PART4">
+<table label="DNBS06PART4_Layout1" header=" Part 4 - Particulars of exempted borrowings not counting as deposits in terms of section 45-I (BB) of the Reserve Bank of India Act, 1934"/>
+</tableSet>
+<tableSet label="DNBS06PART5">
+<table label="DNBS06PART5_Layout1" header="Part 5- Net Owned Fund - [Figures to be furnished as per the latest balance sheet preceding the date of the Return or as per balance sheet as on the date of return]  "/>
+<table label="DNBS06PART5_Layout2" header="(i) Names of the Subsidiary Companies:"/>
+<table label="DNBS06PART5_Layout3" header="(i) Names of the Subsidiary Companies:"/>
+<table label="DNBS06PART5_Layout4" header="(ii) Companies in the same group:"/>
+<table label="DNBS06PART5_Layout5" header="(ii) Companies in the same group:"/>
+<table label="DNBS06PART5_Layout6" header="(iii) Other NBFCs"/>
+<table label="DNBS06PART5_Layout7" header="(iii) Other NBFCs"/>
+<table label="DNBS06PART5_Layout8" header="(i) Names of the Subsidiary Companies:"/>
+<table label="DNBS06PART5_Layout9" header="(i) Names of the Subsidiary Companies:"/>
+<table label="DNBS06PART5_Layout10" header="(ii) Companies in the same group:"/>
+<table label="DNBS06PART5_Layout11" header="(ii) Companies in the same group:"/>
+<table label="DNBS06PART5_Layout12" header="(iii) Other NBFCs"/>
+<table label="DNBS06PART5_Layout13" header="(iii) Other NBFCs"/>
+<table label="DNBS06PART5_Layout14" header="(i) Names of the Subsidiary Companies:"/>
+<table label="DNBS06PART5_Layout15" header="(i) Names of the Subsidiary Companies:"/>
+<table label="DNBS06PART5_Layout16" header="(ii) Companies in the same group:"/>
+<table label="DNBS06PART5_Layout17" header="(ii) Companies in the same group:"/>
+<table label="DNBS06PART5_Layout18" header="(iii) Other NBFCs"/>
+<table label="DNBS06PART5_Layout19" header="(iii) Other NBFCs"/>
+</tableSet>
+<tableSet label="DNBS06PART6">
+<table label="DNBS06PART6_Layout1" header="Part 6 - Particulars relating to security for depositors as at the preceding 30th September and 31st  March, 20….,  the date of this return"/>
+</tableSet>
+<tableSet label="DNBS06PART7">
+<table label="DNBS06PART7_Layout1" header=" Part 7- Investments - Statement showing investments at book value (other than those mentioned at items 3 & 4  of Part-5)"/>
+<table label="DNBS06PART7_Layout2" header=" Part 7 (i) - Investments-annex- Details of Investments in shares of and debentures/bonds & commercial papers issued by companies and contribution to the capital of firms and proprietary concerns where directors of the company hold substantial interest."/>
+<table label="DNBS06PART7_Layout3" header=" Part 7 (i) - Investments-annex- Details of Investments in shares of and debentures/bonds & commercial papers issued by companies and contribution to the capital of firms and proprietary concerns where directors of the company hold substantial interest."/>
+</tableSet>
+<tableSet label="DNBS06PART8">
+<table label="DNBS06PART8_Layout1" header="Part 8 - Credit Exposures - Statement showing outstanding credit exposures viz., loans and advances, hire-purchase and equipment leasing, bills discounting, inter-corporate deposits (other than those mentioned at item 5 of Part - 5)"/>
+<table label="DNBS06PART8_Layout2" header="Details of credit exposure to companies, firms and proprietary concerns where directors have substantial interest"/>
+</tableSet>
+<tableSet label="DNBS06PART9">
+<table label="DNBS06PART9_Layout1" header="Part 9 -Particulars of selected Income and Expenditure Parameters (Please see instructions given below)   "/>
+<table label="DNBS06PART9_Layout2" header="Table 1: Auditor Detail"/>
+</tableSet>
+<tableSet label="DNBS06PART10">
+<table label="DNBS06PART10_Layout1" header="Part 10 (A) - Business statistics / information for the reporting period end date"/>
+<table label="DNBS06PART10_Layout2" header="Part 10(B) -Status of Overdues"/>
+</tableSet>
+<tableSet label="DNBS06PART11">
+<table label="DNBS06PART11_Layout1" header="PART 11 (A) :  Format for  furnishing the details of  branches :"/>
+<table label="DNBS06PART11_Layout2" header="PART 11 (A) :  Format for  furnishing the details of  branches :"/>
+<table label="DNBS06PART11_Layout3" header="PART 11 (A) : Format for furnishing the details subsidiaries:"/>
+</tableSet>
+<tableSet label="DNBS06PART12">
+<table label="DNBS06PART12_Layout1" header="(a) List of  branches/offices opened:"/>
+<table label="DNBS06PART12_Layout2" header="(a) List of  branches/offices closed:"/>
+</tableSet>
+<tableSet label="DNBS06Annex">
+<table label="DNBS06Annex_Layout1" header="Annexure-1 : List of approved securities held towards liquid assets requirement"/>
+<table label="DNBS06Annex_Layout2" header="Annexure-1 : List of approved securities held towards liquid assets requirement"/>
+<table label="DNBS06Annex_Layout3" header="Annexure-2 : List of approved securities held towards liquid assets requirement"/>
+<table label="DNBS06Annex_Layout4" header="Annexure-2 : List of approved securities held towards liquid assets requirement"/>
+<table label="DNBS06Annex_Layout5" header="Annexure-3 : Name and address of designated bank(s)"/>
+<table label="DNBS06Annex_Layout6" header="Annexure-4 : Details of shortfall in maintenance of liquid assets"/>
+<table label="DNBS06Annex_Layout7" header="Annexure-5 : Mutual Fund:"/>
+</tableSet>
+</tableModel>

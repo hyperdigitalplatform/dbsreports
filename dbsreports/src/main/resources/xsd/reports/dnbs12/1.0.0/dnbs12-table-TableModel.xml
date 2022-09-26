@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<table label="FilingInfo_Layout2" header="Scoping Question"/>
+</tableSet>
+<tableSet label="AuthorisedSignatory">
+<table label="AuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+<tableSet label="DNBS12PART1">
+<table label="DNBS12PART1_Layout1" header="Table 2 : Owned Funds as appearing in the last audited balance sheet as at the end of the financial year"/>
+<table label="DNBS12PART1_Layout2" header="Table 3: Details of Share Holding Pattern"/>
+</tableSet>
+<tableSet label="DNBS12PART2">
+<table label="DNBS12PART2_Layout1" header="Table 4: Weighted Assets i.e. On-Balance Sheet Items s on the date of the last audited balance sheet as at the end of the financial year"/>
+<table label="DNBS12PART2_Layout2" header="Table 5: Current Assets"/>
+<table label="DNBS12PART2_Layout3" header="Table 5: Current Assets"/>
+<table label="DNBS12PART2_Layout4" header="Table 6: Other Assets"/>
+<table label="DNBS12PART2_Layout5" header="Table 6: Other Assets"/>
+</tableSet>
+<tableSet label="DNBS12PART3">
+<table label="DNBS12PART3_Layout1" header="Table 7: Weighted Non-Funded Exposures/Off-Balance Sheet Items"/>
+<table label="DNBS12PART3_Layout2" header="Table 8: Interest Rate futures transactions for the purpose of hedging"/>
+</tableSet>
+<tableSet label="DNBS12PART4">
+<table label="DNBS12PART4_Layout1" header="Table 9: Risk Assets And Off-Balance Sheet Items "/>
+</tableSet>
+<tableSet label="DNBS12PART5">
+<table label="DNBS12PART5_Layout1" header="Table 10: Particulars regarding investments in and advances to companies/firms in the same group and other non-banking financial companies  "/>
+<table label="DNBS12PART5_Layout2" header="Table 11: Appendix I"/>
+<table label="DNBS12PART5_Layout3" header="Table 11: Appendix I"/>
+<table label="DNBS12PART5_Layout4" header="Table 12: Appendix II"/>
+<table label="DNBS12PART5_Layout5" header="Table 12: Appendix II"/>
+<table label="DNBS12PART5_Layout6" header="Table 13: Appendix III"/>
+<table label="DNBS12PART5_Layout7" header="Table 13: Appendix III"/>
+</tableSet>
+<tableSet label="DNBS12PART6">
+<table label="DNBS12PART6_Layout1" header="Table 14: Particulars regarding investments in premises and unquoted shares"/>
+</tableSet>
+<tableSet label="DNBS12PART7">
+<table label="DNBS12PART7_Layout1" header="Table 15: Particulars on suit filed and decreed debts by the non-banking financial company and against it"/>
+</tableSet>
+</tableModel>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-I-(1)(a)(b)(c)">
+<table label="DBS10_FINCONI1abc_Layout1" header="(1) (a) Information on Specified Financial Intermediaries (SFIs)"/>
+<table label="DBS10_FINCONI1abc_Layout2" header="(1) (b) Information on Non-specified Financial Intermediaries (NSFIs)"/>
+<table label="DBS10_FINCONI1abc_Layout3" header="(1) (c) Information on Non Financial Entities (NFEs)"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-I-(2)">
+<table label="DBS10_FINCONI2_Layout1" header="2)(a)(i) Extent of cross linkage - Shares held by the promoters in SFIs as on reporting period end date"/>
+<table label="DBS10_FINCONI2_Layout2" header="2)(a)(ii) Extent of cross linkage - Shares held by other group entities in SFIs as on reporting period end date"/>
+<table label="DBS10_FINCONI2_Layout3" header="2)(a)(iii) Extent of cross linkage - Extent of liability (borrowings) of SFIs to other group entities as on reporting period end date"/>
+<table label="DBS10_FINCONI2_Layout4" header="2)(b)(i) Extent of cross linkage - Shares held by the promoters in NSFIs as on reporting period end date"/>
+<table label="DBS10_FINCONI2_Layout5" header="2)(b)(ii) Extent of cross linkage - Shares held by other group entities in NSFIs as on reporting period end date"/>
+<table label="DBS10_FINCONI2_Layout6" header="2)(b)(iii) Extent of cross linkage - Extent of liability (borrowings) of NSFIs to other group entities as on reporting period end date"/>
+<table label="DBS10_FINCONI2_Layout7" header="2)(c)(i) Extent of cross linkage - Shares held by the promoters in NFEs as on reporting period end date"/>
+<table label="DBS10_FINCONI2_Layout8" header="2)(c)(ii) Extent of cross linkage - Shares held by other group entities in NFEs as on reporting period end date"/>
+<table label="DBS10_FINCONI2_Layout9" header="2)(c)(iii) Extent of cross linkage - Extent of liability (borrowings) of NFEs to other group entities as on reporting period end date"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-II-(1)(a)">
+<table label="DBS10_FINCONII1a_Layout1" header="(1) (a) Important financial information of SFIs (On Balance Sheet Items)           "/>
+</tableSet>
+<tableSet label="DBS10_FINCON-II-(1)(b)">
+<table label="DBS10_FINCONII1b_Layout1" header="(1) (b) Important financial information of SFIs (Off-balance sheet exposure)"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-II-(1)(c)">
+<table label="DBS10_FINCONII1c_Layout1" header="(1) (c) (ii) Particulars for specific category of SFIs"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-II-(2)">
+<table label="DBS10_FINCONII2_Layout1" header="(2) (i) Important financial information of non-specified financial intermediaries (NSFIs) for the latest balance sheet period"/>
+<table label="DBS10_FINCONII2_Layout2" header="(2) (ii)  Important financial information of non-financial entities (NFEs) for the latest balance sheet period"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-II-(3)">
+<table label="DBS10_FINCONII3_Layout1" header="(3) Information on Group-wide capital adequacy ratio (G-CAR) in respect of banking conglomerates (I.e., those conglomerates which has a banking entity in its fold.  The banking entity in these coinglomerates may or may not be the parent)"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-II-(4)">
+<table label="DBS10_FINCONII4_Layout1" header="4) Information on revenue earned by the SFIs"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(1)(a)">
+<table label="DBS10_FINCONIII1a_Layout1" header="(1) (a) Fund based ITEs (ITEs involving overseas parent/holding company/reporting office are also captured under this section.): Aggregate volume of FB (Capital) intra-group transactions during the reporting period  "/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(1)(b)">
+<table label="DBS10_FINCONIII1b_Layout1" header="(1)(b)(i) Details of FB (Capital) intra-group transactions with a threshold limit of Rs.10 crore and above relating to each of the transaction-types ( i.e. Loans extended, Deposit placed, Bonds/Debentures, CP, CD, Purchase of assets, units of group MF schemes***, units of group Venture Funds schemes etc.) during the reporting period for each SFI       "/>
+<table label="DBS10_FINCONIII1b_Layout2" header="(1)(b)(ii) Details of FB (Capital) intra-group transactions with a threshold limit of Rs.10 crore and above relating to each of contracts/derivatives transaction-types during the reporting period for each SFI   "/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(1)(c)">
+<table label="DBS10_FINCONIII1c_Layout1" header="(1) (c) Outstanding FB (Capital) Intra-group Exposures (Actual drawl): position as on financial year end date.     "/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(2)(a)">
+<table label="DBS10_FINCONIII2a_Layout1" header="(2) (a) Aggregate volume of NFB intra-group transactions of each SFI during the reporting period"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(2)(b)">
+<table label="DBS10_FINCONIII2b_Layout1" header="(2) (b) Details of NFB  intra-group transactions with a threshold limit of Rs.25 crore and above relating to each of the transaction-types (i.e. Letter of credit, Letter of guarantee, Acceptance & Endorsements, Underwriting & standby commitments etc,) during the reporting period"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(2)(c)">
+<table label="DBS10_FINCONIII2c_Layout1" header="(2) (c) Outstanding NFB intra-group Exposures of each SFI - Position as on financial year end date - To be reported in terms of credit equivalents."/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(2)(d)">
+<table label="DBS10_FINCONIII2d_Layout1" header="(2) (d) Details of all kinds of letters of comfort, corporate guarantee or other commitments issued by each SFI to other group entities or outsiders - as on financial year end date."/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(3)">
+<table label="DBS10_FINCONIII3_Layout1" header="(3)  Details of business done by the SFI (viz. insurance companies/AMCs) through other group entities or outsiders – Position as on reporting period end date"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(4)">
+<table label="DBS10_FINCONIII4_Layout1" header="(4) Details on Revenue Transactions with a threshold limit of Rs. 1 crore and above relating to each of the transaction-types, i.e. interest paid/received on loans, interest paid/received on deposits and fee/commission/brokerage paid/received for shared services by/for each SFI during the reporting period (as per the records available in the books of SFIs only)"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(4)(a)">
+<table label="DBS10_FINCONIII4a_Layout1" header="(4) (a) Exposures of SFIs: Exposures (Higher of the limits sanctioned or actual drawings) to group entities"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(4)(b)">
+<table label="DBS10_FINCONIII4b_Layout1" header="(4) (b) Top-10 Exposures (Higher of the limits sanctioned or actual drawings) to entities other than group entities (Even if a counterparty is not within Top 10 during the next quarter/previous quarter the extent of exposure of the entity to that counterparty may still be reported.)"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-III-(4)(c)">
+<table label="DBS10_FINCONIII4c_Layout1" header="(4) (c) Outstanding Exposure of each SFI to various Markets"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-IV-(1)(a)(b)(c)">
+<table label="DBS10_FINCONIV1abc_Layout1" header="(1) (a) Composition of Board, Commonality of directors and trustees amongst the group entities"/>
+<table label="DBS10_FINCONIV1abc_Layout2" header="(1) (b) Commonality of back-office arrangements and other service arrangements - details thereof"/>
+<table label="DBS10_FINCONIV1abc_Layout3" header="(1) (c) Information on adverse events, viz., fraud, penalty/strictures etc levied/passed by regulatory/administrative agencies"/>
+</tableSet>
+<tableSet label="DBS10_FINCON-AddInfo">
+<table label="DBS10_FINCONAddInfo_Layout1" header="Additional Information during the reporting period"/>
+</tableSet>
+<tableSet label="DBS_AuthorisedSignatory">
+<table label="DBS_AuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+</tableModel>

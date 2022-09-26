@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="DPSS03">
+<table label="DPSS03_Layout1" header="Table 1: Number of customers"/>
+<table label="DPSS03_Layout2" header="Table 2: Details of transactions - Interbank"/>
+<table label="DPSS03_Layout3" header="Table 3: Details of transactions - Intrabank"/>
+</tableSet>
+</tableModel>

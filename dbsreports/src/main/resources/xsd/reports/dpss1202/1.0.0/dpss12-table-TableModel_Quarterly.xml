@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="DPSS1202">
+<table label="DPSS1202_Layout1" header="Table 1: Payment Channel Used for Conducting Remittance Operations "/>
+<table label="DPSS1202_Layout2" header="Table 1(i): Payment Channel Used for Conducting Remittance Operations-Others (pls. specify)"/>
+<table label="DPSS1202_Layout3" header="Table 2: Quantum wise Details of Remittances "/>
+<table label="DPSS1202_Layout4" header="Table 2: Quantum wise Details of Remittances "/>
+<table label="DPSS1202_Layout5" header="Table 3: Destination Details of Remittances"/>
+<table label="DPSS1202_Layout6" header="Table 4: Details of Failed Transactions"/>
+<table label="DPSS1202_Layout7" header="Table 5: Details of KYC Type of Account"/>
+<table label="DPSS1202_Layout8" header="Table 6: Details of Type of Account Holder"/>
+</tableSet>
+<tableSet label="DPSS_AuthorisedSignatory">
+<table label="DPSS_AuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+</tableModel>

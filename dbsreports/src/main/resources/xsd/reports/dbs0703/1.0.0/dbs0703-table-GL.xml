@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic"
+xmlns:label="http://xbrl.org/2008/label"
+xmlns:link="http://www.xbrl.org/2003/linkbase"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd">
+<link:roleRef roleURI="http://www.xbrl.org/2008/role/link"
+xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"
+xlink:type="simple"/>
+<link:roleRef roleURI="http://www.xbrl.org/2008/role/label"
+xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"
+xlink:type="simple"/>
+<link:roleRef roleURI="http://www.xbrl.org/2008/role/terseLabel"
+xlink:href="http://www.xbrl.org/2008/generic-label.xsd#terse-label"
+xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label"
+xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"
+xlink:type="simple"/>
+<gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+<!-- <label:label xlink:label="res_1" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Filing Information</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_FilingInfo_Layout1" xlink:label="loc_1" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1" xlink:to="res_1" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_2" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">FilingInfo_Layout1</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1" xlink:to="res_2" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_3" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Information</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_4" xlink:label="loc_3" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_3" xlink:to="res_3" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_4" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Return Name</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_3" xlink:label="loc_4" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_4" xlink:to="res_4" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_5" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Return Code</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_5" xlink:label="loc_5" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_5" xlink:to="res_5" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_6" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Bank Code</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_6" xlink:label="loc_6" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_6" xlink:to="res_6" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_7" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Name of reporting institution</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_7" xlink:label="loc_7" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_7" xlink:to="res_7" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_8" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Institution Type</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_8" xlink:label="loc_8" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_8" xlink:to="res_8" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_9" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Reporting frequency</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_9" xlink:label="loc_9" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_9" xlink:to="res_9" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_10" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Reporting start date </label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_10" xlink:label="loc_10" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_10" xlink:to="res_10" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_11" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Reporting end date </label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_11" xlink:label="loc_11" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_11" xlink:to="res_11" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_12" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Reporting currency</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_12" xlink:label="loc_12" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_12" xlink:to="res_12" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_13" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Reporting scale</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_13" xlink:label="loc_13" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_13" xlink:to="res_13" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_14" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Taxonomy version</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_14" xlink:label="loc_14" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_14" xlink:to="res_14" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_15" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Tool name</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_15" xlink:label="loc_15" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_15" xlink:to="res_15" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_16" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Tool version</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_16" xlink:label="loc_16" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_16" xlink:to="res_16" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_17" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Report status</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_17" xlink:label="loc_17" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_17" xlink:to="res_17" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_18" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Date of Audit</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_18" xlink:label="loc_18" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_18" xlink:to="res_18" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_19" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">General remarks</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_19" xlink:label="loc_19" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_19" xlink:to="res_19" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_20" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"></label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_2" xlink:label="loc_20" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_20" xlink:to="res_20" xlink:type="arc" order="0" />
+<label:label xlink:label="res_21" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Scoping Question</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_FilingInfo_Layout2" xlink:label="loc_21" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_21" xlink:to="res_21" xlink:type="arc" order="0" />
+<label:label xlink:label="res_22" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">FilingInfo_Layout2</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_21" xlink:to="res_22" xlink:type="arc" order="1" />
+<label:label xlink:label="res_23" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Whether Bank Has Subsidiaries</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_22" xlink:label="loc_24" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_24" xlink:to="res_23" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_24" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"></label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_21" xlink:label="loc_25" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_25" xlink:to="res_24" xlink:type="arc" order="0" /> -->
+<label:label xlink:label="res_25" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Available unencumbered assets that are marketable as collateral in secondary markets and/or eligible for central bank's standing facilities</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_DBSBLRBLR3_Layout1" xlink:label="loc_26" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_26" xlink:to="res_25" xlink:type="arc" order="0" />
+<label:label xlink:label="res_26" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">DBSBLRBLR3_Layout1</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_26" xlink:to="res_26" xlink:type="arc" order="1" />
+<label:label xlink:label="res_27" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Type of Asset</label:label>
+<link:loc xlink:href="dbs0703-table.xml#Breakdowny_5" xlink:label="loc_27" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_27" xlink:to="res_27" xlink:type="arc" order="0"/>
+<label:label xlink:label="res_28" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Location</label:label>
+<link:loc xlink:href="dbs0703-table.xml#Breakdowny_6" xlink:label="loc_28" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_28" xlink:to="res_28" xlink:type="arc" order="1"/>
+<label:label xlink:label="res_29" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Value (Rupees in lakh)</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_26" xlink:label="loc_30" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_30" xlink:to="res_29" xlink:type="arc" order="0" />
+<label:label xlink:label="res_30" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X010</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_30" xlink:to="res_30" xlink:type="arc" order="1" />
+<label:label xlink:label="res_31" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Estimated haircut required by the secondary market (in percent)</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_27" xlink:label="loc_31" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_31" xlink:to="res_31" xlink:type="arc" order="0" />
+<label:label xlink:label="res_32" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X020</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_31" xlink:to="res_32" xlink:type="arc" order="1" />
+<label:label xlink:label="res_33" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Expected monetised value of the collateral (Rupees in lakh)</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_28" xlink:label="loc_32" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_32" xlink:to="res_33" xlink:type="arc" order="0" />
+<label:label xlink:label="res_34" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X030</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_32" xlink:to="res_34" xlink:type="arc" order="1" />
+<label:label xlink:label="res_35" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Available unencumbered assets that are marketable as collateral in secondary markets and/or eligible for central bank's standing facilities</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_DBSBLRBLR3_Layout2" xlink:label="loc_33" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_33" xlink:to="res_35" xlink:type="arc" order="0" />
+<label:label xlink:label="res_36" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">DBSBLRBLR3_Layout2</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_33" xlink:to="res_36" xlink:type="arc" order="1" />
+<label:label xlink:label="res_37" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Value (Rupees in lakh)</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_32" xlink:label="loc_35" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_35" xlink:to="res_37" xlink:type="arc" order="0" />
+<label:label xlink:label="res_38" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X040</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_35" xlink:to="res_38" xlink:type="arc" order="1" />
+<label:label xlink:label="res_39" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Expected monetised value of the collateral (Rupees in lakh)</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_33" xlink:label="loc_36" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_36" xlink:to="res_39" xlink:type="arc" order="0" />
+<label:label xlink:label="res_40" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X050</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_36" xlink:to="res_40" xlink:type="arc" order="1" />
+<label:label xlink:label="res_41" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Total</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_31" xlink:label="loc_37" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_37" xlink:to="res_41" xlink:type="arc" order="0" />
+<label:label xlink:label="res_42" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">Y010</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_37" xlink:to="res_42" xlink:type="arc" order="1" />
+<label:label xlink:label="res_43" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"></label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_30" xlink:label="loc_38" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_38" xlink:to="res_43" xlink:type="arc" order="0" />
+<label:label xlink:label="res_44" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Available unencumbered assets that are marketable as collateral in secondary markets and/or eligible for central bank's standing facilities by significant currency</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_DBSBLRBLR3_Layout3" xlink:label="loc_39" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_39" xlink:to="res_44" xlink:type="arc" order="0" />
+<label:label xlink:label="res_45" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">DBSBLRBLR3_Layout3</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_39" xlink:to="res_45" xlink:type="arc" order="1" />
+<label:label xlink:label="res_46" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Type of Asset</label:label>
+<link:loc xlink:href="dbs0703-table.xml#Breakdowny_10" xlink:label="loc_40" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_40" xlink:to="res_46" xlink:type="arc" order="0"/>
+<label:label xlink:label="res_47" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Location</label:label>
+<link:loc xlink:href="dbs0703-table.xml#Breakdowny_11" xlink:label="loc_41" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_41" xlink:to="res_47" xlink:type="arc" order="1"/>
+<label:label xlink:label="res_48" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Value  (Amount in million)</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_36" xlink:label="loc_43" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_43" xlink:to="res_48" xlink:type="arc" order="0" />
+<label:label xlink:label="res_49" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X060</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_43" xlink:to="res_49" xlink:type="arc" order="1" />
+<label:label xlink:label="res_50" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Estimated haircut required by the secondary market ( in percent)</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_37" xlink:label="loc_44" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_44" xlink:to="res_50" xlink:type="arc" order="0" />
+<label:label xlink:label="res_51" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X070</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_44" xlink:to="res_51" xlink:type="arc" order="1" />
+<label:label xlink:label="res_52" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Expected monetised value of the collateral  (Amount in million)</label:label>
+<link:loc xlink:href="dbs0703-table.xml#id_RuleNode_38" xlink:label="loc_45" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_45" xlink:to="res_52" xlink:type="arc" order="0" />
+<label:label xlink:label="res_53" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X080</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_45" xlink:to="res_53" xlink:type="arc" order="1" /> 
+
+<label:label xlink:label="res_500" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Currency</label:label>
+<link:loc xlink:href="dbs0703-table.xml#Breakdownz_9.10" xlink:label="loc_500" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_500" xlink:to="res_500" xlink:type="arc" order="0"/>
+
+
+
+<!-- <label:label xlink:label="res_1111" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Table 1: Authorised Signatory</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_DBSAuthorisedSignatory_Layout1" xlink:label="loc_699" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_699" xlink:to="res_1111" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1122" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">DBSAuthorisedSignatory_Layout1</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_699" xlink:to="res_1122" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_1133" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Value</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_72a" xlink:label="loc_711" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_711" xlink:to="res_1133" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1144" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">X010</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_711" xlink:to="res_1144" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_1155" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Name of Authorised Signatory</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_71a" xlink:label="loc_722" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_722" xlink:to="res_1155" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1166" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">Y010</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_722" xlink:to="res_1166" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_1177" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Designation</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_73a" xlink:label="loc_733" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_733" xlink:to="res_1177" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1188" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">Y020</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_733" xlink:to="res_1188" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_1199" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Contact Number (with STD Code)</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_74a" xlink:label="loc_744" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_744" xlink:to="res_1199" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1200" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">Y030</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_744" xlink:to="res_1200" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_1211" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Contact No. (Mobile/Cell)</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_75a" xlink:label="loc_755" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_755" xlink:to="res_1211" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1222" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">Y040</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_755" xlink:to="res_1222" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_1233" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Email Id</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_76a" xlink:label="loc_766" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_766" xlink:to="res_1233" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1244" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">Y050</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_766" xlink:to="res_1244" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_1255" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Remarks (Optional)</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_77a" xlink:label="loc_777" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_777" xlink:to="res_1255" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1266" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">Y060</label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_777" xlink:to="res_1266" xlink:type="arc" order="1" /> -->
+<!-- <label:label xlink:label="res_1277" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Particulars</label:label> -->
+<!-- <link:loc xlink:href="dbs0703-table.xml#id_RuleNode_70a" xlink:label="loc_788" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_788" xlink:to="res_1277" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1288" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"></label:label> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_788" xlink:to="res_1288" xlink:type="arc" order="1" />  -->
+
+
+
+</gen:link>
+ </link:linkbase>

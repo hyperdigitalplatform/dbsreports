@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<ScalesForElelments>
+<Scale RuleNodeId="id_RuleNode_3" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_5" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_6" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_7" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_8" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_9" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_10" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:dateItemType" />
+<Scale RuleNodeId="id_RuleNode_11" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:dateItemType" />
+<Scale RuleNodeId="id_RuleNode_12" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_13" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.rbi.org/in/xbrl/rbi-type:ReportingScale" />
+<Scale RuleNodeId="id_RuleNode_14" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_15" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_16" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_17" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.rbi.org/in/xbrl/2012-05-07/in-rbi-rep-types:ReportStatusItemType" />
+<Scale RuleNodeId="id_RuleNode_18" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:dateItemType" />
+<Scale RuleNodeId="id_RuleNode_19" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/dtr/type/non-numeric:textBlockItemType" />
+<Scale RuleNodeId="id_RuleNode_89" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_91" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/dtr/type/numeric:nonNegativeMonetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_92" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_93" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_94" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_95" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_96" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_97" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_98" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_99" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_100" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_101" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_102" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_103" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_104" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_105" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_106" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_107" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_108" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_109" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_165" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_208" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_210" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_212" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_214" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_221" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_222" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_223" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_224" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_228" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_234" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_236" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_238" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_240" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_247" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_248" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_249" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_250" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_254" CustomNodeId="" ScaleLabel="Lakhs" ScaleMeasure="100000" DataType="http://www.xbrl.org/2003/instance:monetaryItemType" />
+<Scale RuleNodeId="id_RuleNode_257" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_259" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_260" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_261" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.rbi.org/in/xbrl/rbi-type:MobileNumber10Digit" />
+<Scale RuleNodeId="id_RuleNode_262" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.rbi.org/in/xbrl/rbi-type:MailAddress" />
+<Scale RuleNodeId="id_RuleNode_263" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+</ScalesForElelments>

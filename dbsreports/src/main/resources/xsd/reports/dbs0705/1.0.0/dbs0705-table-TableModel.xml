@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<!-- <tableSet label="FilingInfo"> -->
+<!-- <table label="FilingInfo_Layout1" header="Filing Information"/> -->
+<!-- <table label="FilingInfo_Layout2" header="Scoping Question"/> -->
+<!-- </tableSet> -->
+<tableSet label="DBS_BLR_BLR5">
+<table label="DBSBLRBLR5_Layout1" header="A. Movement in Equity Share Prices for listed entities of the Group"/>
+<table label="DBSBLRBLR5_Layout2" header="B. Movement in prices of Non-equity, debt and money market instruments issued by the bank"/>
+<table label="DBSBLRBLR5_Layout3" header="A. Breach/Penalty in respect of Domestic Regulatory Liquidity Requirements (CRR and SLR) "/>
+<table label="DBSBLRBLR5_Layout4" header="B. Breach/Penalty in respect of Domestic Regulatory Liquidity Requirements of Overseas Branches - Please give details of regulatory requirements "/>
+<table label="DBSBLRBLR5_Layout5" header="C. Details of Letters of Displeasures/Strictures, if any issued by RBI and regulators/supervisors abroad on account of liquidity issues, or which could pose liquidity problems for the bank."/>
+</tableSet>
+<!-- <tableSet label="DBS_AuthorisedSignatory"> -->
+<!-- <table label="DBSAuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/> -->
+<!-- </tableSet> -->
+</tableModel>

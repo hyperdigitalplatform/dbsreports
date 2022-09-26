@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<table label="FilingInfo_Layout2" header="Scoping Question"/>
+</tableSet>
+<tableSet label="AuthorisedSignatory">
+<table label="AuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+<tableSet label="DNBS07PART1">
+<table label="DNBS07PART1_Layout1" header="Table 2: SOURCES OF FUNDS"/>
+<table label="DNBS07PART1_Layout2" header="Table 3: FOREIGN SOURCES OF FUNDS"/>
+</tableSet>
+<tableSet label="DNBS07PART2">
+<table label="DNBS07PART2_Layout1" header="Table 4: APPLICATION OF FUNDS"/>
+</tableSet>
+<tableSet label="DNBS07PART3">
+<table label="DNBS07PART3_Layout1" header="Table 5: PROFIT AND LOSS ACCOUNT"/>
+</tableSet>
+<tableSet label="DNBS07PART4">
+<table label="DNBS07PART4_Layout1" header="Table 6: Top 25 fund-based exposures undertaken by ARC. This includes exposure to trusts other than through SRs."/>
+<table label="DNBS07PART4_Layout2" header="Table 6: Top 25 fund-based exposures undertaken by ARC. This includes exposure to trusts other than through SRs."/>
+<table label="DNBS07PART4_Layout3" header="Table 7: Top 25 non-fund-based exposures undertaken by ARC. This includes exposure to trusts other than through SRs"/>
+<table label="DNBS07PART4_Layout4" header="Table 7: Top 25 non-fund-based exposures undertaken by ARC. This includes exposure to trusts other than through SRs"/>
+</tableSet>
+<tableSet label="DNBS07PART5">
+<table label="DNBS07PART5_Layout1" header="Table 8: CAPITAL FUNDS - TIER  I "/>
+</tableSet>
+<tableSet label="DNBS07PART6">
+<table label="DNBS07PART6_Layout1" header="Table 9: WEIGHTED ASSETS"/>
+</tableSet>
+<tableSet label="DNBS07PART7">
+<table label="DNBS07PART7_Layout1" header="Table 10: Acquisition/Realisation of financial assets from banks/FIs in terms of Section 9 of the SARFAESI Act, 2002"/>
+</tableSet>
+<tableSet label="DNBS07PART8">
+<table label="DNBS07PART8_Layout1" header="Table 11: Information about Security Receipts (SRs) "/>
+<table label="DNBS07PART8_Layout2" header="Table 12: Information about Security Receipts (SRs) "/>
+</tableSet>
+<tableSet label="DNBS07PART8A">
+<table label="DNBS07PART8A_Layout1" header="Table 13: Details of Issue of Security Receipts for Top 25 SR issued (according to SR outstanding amount)"/>
+</tableSet>
+<tableSet label="DNBS07PART9">
+<table label="DNBS07PART9_Layout1" header="Table 14: General Information - (The information is to be given based on acquisition value)"/>
+<table label="DNBS07PART9_Layout2" header="Table 15: Year-wise breakup of assets acquired still pending for resolution"/>
+<table label="DNBS07PART9_Layout3" header="Table 15: Year-wise breakup of assets acquired still pending for resolution"/>
+<table label="DNBS07PART9_Layout4" header="Table 16: Year-wise breakup of SRs Outstanding still pending for redemption"/>
+<table label="DNBS07PART9_Layout5" header="Table 16: Year-wise breakup of SRs Outstanding still pending for redemption"/>
+<table label="DNBS07PART9_Layout6" header="Table 17: Year-wise breakup of assets resolved"/>
+</tableSet>
+<tableSet label="DNBS07PART10">
+<table label="DNBS07PART10_Layout1" header="Table 18: Status of Top twenty five  borrowers at end of quarter (As per total cost of acquisition per borrower and still pending for resolution)"/>
+</tableSet>
+<tableSet label="DNBS07PART11">
+<table label="DNBS07PART11_Layout1" header="Table 19: Status of Top twenty five SRs acquired as at end of quarter (As per amount pending for in each case)*"/>
+</tableSet>
+<tableSet label="DNBS07PART12">
+<table label="DNBS07PART12_Layout1" header="Table 20: Statement on Trust Accounts Closed During the Quarter"/>
+</tableSet>
+<tableSet label="DNBS07PART13">
+<table label="DNBS07PART13_Layout1" header="Table 21: Statement on Assets acquired, securitized and reconstructed – Bank/FI wise (Total)"/>
+<table label="DNBS07PART13_Layout2" header="Table 21: Statement on Assets acquired, securitized and reconstructed – Bank/FI wise (Total)"/>
+</tableSet>
+<tableSet label="DNBS07PART14">
+<table label="DNBS07PART14_Layout1" header="Table 22: Assets acquired from other ARCs for the purpose of Debt Aggregation "/>
+</tableSet>
+<tableSet label="DNBS07PART15">
+<table label="DNBS07PART15_Layout1" header="Table 23: Asset Resolution by Conversion of debt into shares of borrowers (for Top 25 borrower according to Total Debt Acquisition amount)"/>
+</tableSet>
+<tableSet label="DNBS07PART16">
+<table label="DNBS07PART16_Layout1" header="Table 24: Resolution of Assets Acquired: Change in or takeover of Management for Top 25 borrower (according to SR outstanding)"/>
+</tableSet>
+<tableSet label="DNBS07PART17">
+<table label="DNBS07PART17_Layout1" header="Table 25: Information on expenses incurred on trust formation and recovery thereof for Top 25 accounts (according to NAV of SR issued)"/>
+</tableSet>
+<tableSet label="DNBS07PART18">
+<table label="DNBS07PART18_Layout1" header="Table 26: Status of Top ten accounts acquired as at end of quarter (As per cost of acquisition and still pending for resolution)"/>
+</tableSet>
+<tableSet label="DNBS07PART19">
+<table label="DNBS07PART19_Layout1" header="Table 27: Details of accounts pending for resolution for more than 5 years - Top 25 by SRs outstanding"/>
+</tableSet>
+<tableSet label="DNBS07Annex1">
+<table label="DNBS07Annex1_Layout1" header="Table 28: Rating sheet"/>
+</tableSet>
+<tableSet label="DNBS07Annex2">
+<table label="DNBS07Annex2_Layout1" header="Table 29: Shareholding pattern"/>
+</tableSet>
+<tableSet label="DNBS07Annex3">
+<table label="DNBS07Annex3_Layout1" header="Table 30: Board of directors"/>
+</tableSet>
+<tableSet label="DNBS07Annex4">
+<table label="DNBS07Annex4_Layout1" header="Table 31: Top 25 Subscribers of debentures (secured) by aggregate outstanding amount"/>
+</tableSet>
+<tableSet label="DNBS07Annex5">
+<table label="DNBS07Annex5_Layout1" header="Table 32: Top 25 Inter Corporate Deposits (ICDs) Placed with the NBFC by aggregate outstanding amount"/>
+</tableSet>
+<tableSet label="DNBS07Annex6">
+<table label="DNBS07Annex6_Layout1" header="Table 33: Top 25 subscribers of CPs by aggregate outstanding amount"/>
+</tableSet>
+<tableSet label="DNBS07Annex7">
+<table label="DNBS07Annex7_Layout1" header="Table 34: Top 25 subscribers of debentures (un-secured) by aggregate outstanding amount"/>
+</tableSet>
+<tableSet label="DNBS07Annex8">
+<table label="DNBS07Annex8_Layout1" header="Table 35: Top 25 subscribers of subordinated debt by aggregate outstanding amount"/>
+</tableSet>
+<tableSet label="DNBS07Annex9">
+<table label="DNBS07Annex9_Layout1" header="Table 36: Top 25 investment made by NBFCs"/>
+</tableSet>
+<tableSet label="DNBS07Annex10">
+<table label="DNBS07Annex10_Layout1" header="Table 37: Data on NBFCs and other financial entities of the Group to which reporting NBFC belongs"/>
+</tableSet>
+<tableSet label="DNBS07Annex11">
+<table label="DNBS07Annex11_Layout1" header="Branch details of branches which were opened or closed in the reporting quarter"/>
+</tableSet>
+</tableModel>

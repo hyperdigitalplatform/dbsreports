@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<!-- <tableSet label="FilingInfo"> -->
+<!-- <table label="FilingInfo_Layout1" header="Filing Information"/> -->
+<!-- <table label="FilingInfo_Layout2" header="Scoping Question"/> -->
+<!-- </tableSet> -->
+<tableSet label="DBS_BLR_BLR3">
+<table label="DBSBLRBLR3_Layout1" header="Available unencumbered assets that are marketable as collateral in secondary markets and/or eligible for central bank’s standing facilities"/>
+<table label="DBSBLRBLR3_Layout2" header="Available unencumbered assets that are marketable as collateral in secondary markets and/or eligible for central bank’s standing facilities"/>
+<table label="DBSBLRBLR3_Layout3" header="Available unencumbered assets that are marketable as collateral in secondary markets and/or eligible for central bank's standing facilities by significant currency"/>
+</tableSet>
+<!-- <tableSet label="DBS_AuthorisedSignatory"> -->
+<!-- <table label="DBSAuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/> -->
+<!-- </tableSet> -->
+</tableModel>

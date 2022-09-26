@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core"
+>
+<link:schemaRef xlink:type="simple" xlink:href="depr01-entry.xsd" />
+<xbrli:context id="fromto_20181116_20181130">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-11-16</xbrli:startDate>
+<xbrli:endDate>2018-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20181130">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-11-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20181130_CallMoneyMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:MoneyMarketInstrumentTypeAxis'>rbi-core:CallMoneyMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-11-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20181130_NoticeMoneyMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:MoneyMarketInstrumentTypeAxis'>rbi-core:NoticeMoneyMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-11-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20181130_TermMoneyMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:MoneyMarketInstrumentTypeAxis'>rbi-core:TermMoneyMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-11-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20181130_AggregateMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:MoneyMarketInstrumentTypeAxis'>rbi-core:AggregateMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-11-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="INR">
+<xbrli:measure>iso4217:INR</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20181116_20181130" >Data on Call/Notice/Term money transaction of Primary Dealers</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20181116_20181130" >DEPR01</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20181116_20181130" >PBN BANK</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20181130" >600</in-rbi-rep:BankCode>
+<rbi-core:InstitutionType contextRef="fromto_20181116_20181130" >GHGFG</rbi-core:InstitutionType>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20181116_20181130" >Fortnight</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20181130" >2018-11-16</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:ReportingPeriodEndDate contextRef="asof_20181130" >2018-11-30</in-rbi-rep:ReportingPeriodEndDate>
+<rbi-core:ReportingCurrency contextRef="fromto_20181116_20181130" >INR </rbi-core:ReportingCurrency>
+<rbi-core:ReportingScale contextRef="fromto_20181116_20181130" >Crores</rbi-core:ReportingScale>
+<rbi-core:TaxonomyVersion contextRef="fromto_20181116_20181130" >1.0.0</rbi-core:TaxonomyVersion>
+<in-rbi-rep:ToolName contextRef="fromto_20181116_20181130" >iFile</in-rbi-rep:ToolName>
+<rbi-core:ToolVersion contextRef="fromto_20181116_20181130" >1.0.0</rbi-core:ToolVersion>
+<in-rbi-rep:ReportStatus contextRef="fromto_20181116_20181130" >Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:DateOfAudit contextRef="asof_20181130" >2018-11-30</in-rbi-rep:DateOfAudit>
+<in-rbi-rep:GeneralRemarks contextRef="fromto_20181116_20181130" >Apple </in-rbi-rep:GeneralRemarks>
+<in-rbi-rep:BorrowingsFromBanks contextRef="asof_20181130_CallMoneyMember" unitRef="INR" decimals="-5" >850001100000</in-rbi-rep:BorrowingsFromBanks>
+<in-rbi-rep:BorrowingsFromBanks contextRef="asof_20181130_NoticeMoneyMember" unitRef="INR" decimals="-5" >650001500000</in-rbi-rep:BorrowingsFromBanks>
+<in-rbi-rep:BorrowingsFromBanks contextRef="asof_20181130_TermMoneyMember" unitRef="INR" decimals="-5" >555555500000</in-rbi-rep:BorrowingsFromBanks>
+<in-rbi-rep:BorrowingsFromBanks contextRef="asof_20181130_AggregateMember" unitRef="INR" decimals="-5" >2055558100000</in-rbi-rep:BorrowingsFromBanks>
+<rbi-core:LendingToBanks contextRef="asof_20181130_CallMoneyMember" unitRef="INR" decimals="-5" >1500001200000</rbi-core:LendingToBanks>
+<rbi-core:LendingToBanks contextRef="asof_20181130_NoticeMoneyMember" unitRef="INR" decimals="-6" >565655000000</rbi-core:LendingToBanks>
+<rbi-core:LendingToBanks contextRef="asof_20181130_TermMoneyMember" unitRef="INR" decimals="-5" >999995500000</rbi-core:LendingToBanks>
+<rbi-core:LendingToBanks contextRef="asof_20181130_AggregateMember" unitRef="INR" decimals="-5" >3065651700000</rbi-core:LendingToBanks>
+<rbi-core:NetBorrowingLending contextRef="asof_20181130_CallMoneyMember" unitRef="INR" decimals="-5" >650000100000</rbi-core:NetBorrowingLending>
+<rbi-core:NetBorrowingLending contextRef="asof_20181130_NoticeMoneyMember" unitRef="INR" decimals="-5" >-84346500000</rbi-core:NetBorrowingLending>
+<rbi-core:NetBorrowingLending contextRef="asof_20181130_TermMoneyMember" unitRef="INR" decimals="-7" >444440000000</rbi-core:NetBorrowingLending>
+<rbi-core:NetBorrowingLending contextRef="asof_20181130_AggregateMember" unitRef="INR" decimals="-5" >1010093600000</rbi-core:NetBorrowingLending>
+
+</xbrli:xbrl>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="DBS_PB_ROR">
+<table label="DBSPBROR_Layout1" header="Table 1: Operating Results"/>
+<table label="DBSPBROR_Layout2" header="Table 2: Details of Other interest expenses"/>
+</tableSet>
+<tableSet label="DBS_AuthorisedSignatory">
+<table label="DBSAuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+</tableModel>

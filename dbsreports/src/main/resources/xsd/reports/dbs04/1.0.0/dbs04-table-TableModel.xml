@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+</tableSet>
+<tableSet label="DBS_PB_RIP">
+<table label="DBSPBRIP_Layout1" header="Table 1 - Part A: Quality of Investment Portfolio"/>
+<table label="DBSPBRIP_Layout2" header="Table 2- Part B: Exposure to Banks"/>
+<table label="DBSPBRIP_Layout3" header="Table 2- Part B: Exposure to Banks"/>
+</tableSet>
+<tableSet label="DBS_AuthorisedSignatory">
+<table label="DBSAuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+</tableModel>

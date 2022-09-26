@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core"
+>
+<link:schemaRef xlink:type="simple" xlink:href="fed01-entry.xsd" />
+<xbrli:context id="fromto_20161001_20161031">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20161031">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2016-11-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_OpeningOfForeignCurrencyAccountMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:OpeningOfForeignCurrencyAccountMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_PurchaseOfImmovablePropertyMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:PurchaseOfImmovablePropertyMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_OverseasInvestmentsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:OverseasInvestmentsMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_OverseasInvestmentsInEquityMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:OverseasInvestmentsInEquityMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_OverseasInvestmentsInDebtInstrumentsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:OverseasInvestmentsInDebtInstrumentsMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_OverseasInvestmentsInJointVentureAndWhollyOwnedSubsidiariesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:OverseasInvestmentsInJointVentureAndWhollyOwnedSubsidiariesMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_AcquisitionOfQualificationSharesOrSharesTowardsProfessionalServicesOrDirectorsRemunerationMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:AcquisitionOfQualificationSharesOrSharesTowardsProfessionalServicesOrDirectorsRemunerationMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_OverseasInvestmentsInIDRsMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:OverseasInvestmentsInIDRsMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_GiftMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:GiftMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_DonationMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:DonationMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_TravelMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:TravelMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_BusinessTravelMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:BusinessTravelMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_TravelForPilgrimageMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:TravelForPilgrimageMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_PrivateTravelMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:PrivateTravelMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_PaymentOfInternationalDebitCardsForTravelMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:PaymentOfInternationalDebitCardsForTravelMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_PaymentForEmigrationMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:PaymentForEmigrationMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_FamilyMaintenanceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:FamilyMaintenanceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_MedicalTreatmentMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:MedicalTreatmentMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_PaymentForMedicalTreatmentMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:PaymentForMedicalTreatmentMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_TravelForMedicalTreatmentMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:TravelForMedicalTreatmentMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_EducationMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>in-rbi-rep:EducationMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_PaymentForStudiesAbroadMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:PaymentForStudiesAbroadMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_TravelForEducationMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:TravelForEducationMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_OtherRemittancesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:OtherRemittancesMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_LoansToNRICloseRelativesMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:LoansToNRICloseRelativesMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_PaymentForHealthInsuranceMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:PaymentForHealthInsuranceMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20161001_20161031_AggregateMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in">876</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='rbi-core:PurposeOfRemittanceAxis'>rbi-core:AggregateMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2016-11-01</xbrli:startDate>
+<xbrli:endDate>2016-11-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="USD">
+<xbrli:measure>iso4217:USD</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20161001_20161031" >Liberalized Remittance Scheme</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20161001_20161031" >FED01</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20161001_20161031" >ICICI Bank</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20161031" >639</in-rbi-rep:BankCode>
+<rbi-core:InstitutionType contextRef="fromto_20161001_20161031" >Bank</rbi-core:InstitutionType>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20161001_20161031" >Monthly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20161031" >2016-11-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:ReportingPeriodEndDate contextRef="asof_20161031" >2016-11-30</in-rbi-rep:ReportingPeriodEndDate>
+<rbi-core:ReportingCurrency contextRef="fromto_20161001_20161031" >USD</rbi-core:ReportingCurrency>
+<rbi-core:ReportingScale contextRef="fromto_20161001_20161031" >Actuals</rbi-core:ReportingScale>
+<rbi-core:TaxonomyVersion contextRef="fromto_20161001_20161031" >1.0.8</rbi-core:TaxonomyVersion>
+<in-rbi-rep:ToolName contextRef="fromto_20161001_20161031" >RBI iFiLe</in-rbi-rep:ToolName>
+<rbi-core:ToolVersion contextRef="fromto_20161001_20161031" >1.0.0</rbi-core:ToolVersion>
+<in-rbi-rep:ReportStatus contextRef="fromto_20161001_20161031" >Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:DateOfAudit contextRef="asof_20161031" >2016-11-30</in-rbi-rep:DateOfAudit>
+<in-rbi-rep:GeneralRemarks contextRef="fromto_20161001_20161031" >Text</in-rbi-rep:GeneralRemarks>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OpeningOfForeignCurrencyAccountMember" unitRef="PURE" decimals="INF" >1</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OpeningOfForeignCurrencyAccountMember" unitRef="USD" decimals="0" >101</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PurchaseOfImmovablePropertyMember" unitRef="PURE" decimals="INF" >2</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PurchaseOfImmovablePropertyMember" unitRef="USD" decimals="0" >102</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsMember" unitRef="PURE" decimals="INF" >83</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsMember" unitRef="USD" decimals="0" >5015</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsInEquityMember" unitRef="PURE" decimals="INF" >3</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsInEquityMember" unitRef="USD" decimals="0" >1001</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsInDebtInstrumentsMember" unitRef="PURE" decimals="INF" >4</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsInDebtInstrumentsMember" unitRef="USD" decimals="0" >1002</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsInJointVentureAndWhollyOwnedSubsidiariesMember" unitRef="PURE" decimals="INF" >15</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsInJointVentureAndWhollyOwnedSubsidiariesMember" unitRef="USD" decimals="0" >1003</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_AcquisitionOfQualificationSharesOrSharesTowardsProfessionalServicesOrDirectorsRemunerationMember" unitRef="PURE" decimals="INF" >25</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_AcquisitionOfQualificationSharesOrSharesTowardsProfessionalServicesOrDirectorsRemunerationMember" unitRef="USD" decimals="0" >1004</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsInIDRsMember" unitRef="PURE" decimals="INF" >36</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OverseasInvestmentsInIDRsMember" unitRef="USD" decimals="0" >1005</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_GiftMember" unitRef="PURE" decimals="INF" >54</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_GiftMember" unitRef="USD" decimals="0" >1006</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_DonationMember" unitRef="PURE" decimals="INF" >56</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_DonationMember" unitRef="USD" decimals="0" >1007</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_TravelMember" unitRef="PURE" decimals="INF" >115</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_TravelMember" unitRef="USD" decimals="0" >5050</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_BusinessTravelMember" unitRef="PURE" decimals="INF" >21</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_BusinessTravelMember" unitRef="USD" decimals="0" >1008</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_TravelForPilgrimageMember" unitRef="PURE" decimals="INF" >22</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_TravelForPilgrimageMember" unitRef="USD" decimals="0" >1009</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PrivateTravelMember" unitRef="PURE" decimals="INF" >23</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PrivateTravelMember" unitRef="USD" decimals="0" >1010</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentOfInternationalDebitCardsForTravelMember" unitRef="PURE" decimals="INF" >24</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentOfInternationalDebitCardsForTravelMember" unitRef="USD" decimals="0" >1011</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentForEmigrationMember" unitRef="PURE" decimals="INF" >25</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentForEmigrationMember" unitRef="USD" decimals="0" >1012</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_FamilyMaintenanceMember" unitRef="PURE" decimals="INF" >26</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_FamilyMaintenanceMember" unitRef="USD" decimals="0" >1013</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_MedicalTreatmentMember" unitRef="PURE" decimals="INF" >55</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_MedicalTreatmentMember" unitRef="USD" decimals="0" >2029</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentForMedicalTreatmentMember" unitRef="PURE" decimals="INF" >27</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentForMedicalTreatmentMember" unitRef="USD" decimals="0" >1014</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_TravelForMedicalTreatmentMember" unitRef="PURE" decimals="INF" >28</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_TravelForMedicalTreatmentMember" unitRef="USD" decimals="0" >1015</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_EducationMember" unitRef="PURE" decimals="INF" >59</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_EducationMember" unitRef="USD" decimals="0" >2033</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentForStudiesAbroadMember" unitRef="PURE" decimals="INF" >29</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentForStudiesAbroadMember" unitRef="USD" decimals="0" >1016</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_TravelForEducationMember" unitRef="PURE" decimals="INF" >30</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_TravelForEducationMember" unitRef="USD" decimals="0" >1017</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OtherRemittancesMember" unitRef="PURE" decimals="INF" >63</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_OtherRemittancesMember" unitRef="USD" decimals="0" >2037</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_LoansToNRICloseRelativesMember" unitRef="PURE" decimals="INF" >31</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_LoansToNRICloseRelativesMember" unitRef="USD" decimals="0" >1018</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentForHealthInsuranceMember" unitRef="PURE" decimals="INF" >32</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_PaymentForHealthInsuranceMember" unitRef="USD" decimals="0" >1019</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+<rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_AggregateMember" unitRef="PURE" decimals="INF" >514</rbi-core:NumberOfApplicantsUnderLiberalizedRemittanceScheme>
+<rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme contextRef="fromto_20161001_20161031_AggregateMember" unitRef="USD" decimals="0" >19393</rbi-core:AmountRemittedUnderLiberalizedRemittanceScheme>
+
+</xbrli:xbrl>
