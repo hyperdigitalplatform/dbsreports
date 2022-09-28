@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class FilingInfo_Layout2EntityRepository extends JpaRepository<FilingInfo_Layout2Entity, Long> {
+public interface FilingInfo_Layout2EntityRepository extends JpaRepository<FilingInfo_Layout2Entity, Long> {
 }

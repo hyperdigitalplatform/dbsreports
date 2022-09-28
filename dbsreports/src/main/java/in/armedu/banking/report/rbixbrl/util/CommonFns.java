@@ -17,7 +17,9 @@ public class CommonFns {
         .reduce(0, (count, ch) -> (ch == '0') ? count + 1 : 0);
         int trailingZerosScaleMeasures = String.valueOf(scaleMeasures).chars()
         .reduce(0, (count, ch) -> (ch == '0') ? count + 1 : 0);
-        
+        if(scaleMeasures.equalsIgnoreCase("1")){
+            return getDecimals(amount);
+        }
         if(trailingZeros >= trailingZerosScaleMeasures) {
             return String.format("-%d", trailingZerosScaleMeasures);
         } else if (trailingZeros >=(trailingZerosScaleMeasures-2) ) {

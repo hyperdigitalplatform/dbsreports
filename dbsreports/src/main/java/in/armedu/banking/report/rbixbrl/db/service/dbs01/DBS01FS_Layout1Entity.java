@@ -14,7 +14,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Table(name = "DBS01FS_Layout1Entity_TABLE")
+@Table(name = "DBS01FS_Layout1Entity")
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter

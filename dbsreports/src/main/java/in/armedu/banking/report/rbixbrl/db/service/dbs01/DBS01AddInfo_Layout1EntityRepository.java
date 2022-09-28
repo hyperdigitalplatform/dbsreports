@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class DBS01AddInfo_Layout1EntityRepository extends JpaRepository<DBS01AddInfo_Layout1Entity, Long> {
+public interface DBS01AddInfo_Layout1EntityRepository extends JpaRepository<DBS01AddInfo_Layout1Entity, Long> {
 }
