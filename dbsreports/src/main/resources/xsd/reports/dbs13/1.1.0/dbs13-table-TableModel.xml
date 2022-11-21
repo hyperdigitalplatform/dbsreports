@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<table label="FilingInfo_Layout2" header="Scoping Question"/>
+</tableSet>
+<tableSet label="DBS_LEF_A_20LE_Standalone">
+<table label="DBS_LEF_A_20LE_Standalone_Layout1" header="Table 1 - Eligible Capital Base"/>
+<table label="DBS_LEF_A_20LE_Standalone_Layout2" header="Table 2 - A. Bank's 20 Largest Exposures to counterparties (single as well as group of connected counterparties) irrespective of their values relative to bank's eligible capital base"/>
+</tableSet>
+<tableSet label="DBS_LEF_B_SpecExp_Standalone">
+<table label="DBS_LEF_B_SpecExp_Standalone_Layout1" header="Table 3 - B. Bank's exposure with values equal to or above 10% of Tier 1 Capital"/>
+</tableSet>
+<tableSet label="DBS_LEF_C_OthExp_Standalone">
+<table label="DBS_LEF_C_OthExp_Standalone_Layout1" header="Table 4 - C. Bank's other exposures (measured without effect of CRM) with values equal to or above 10% of Tier 1 capital (not including exposures reported in B) "/>
+</tableSet>
+<tableSet label="DBS_LEF_D_ExempExp_Standalone">
+<table label="DBS_LEF_D_ExempExp_Standalone_Layout1" header="Table 5 - D. Bank's exempted exposures with values equal to or above 10% of Tier 1 Capital"/>
+</tableSet>
+<tableSet label="DBS_LEF_A_20LE_Consolidated">
+<table label="DBS_LEF_A_20LE_Consolidated_Layout1" header="Table 6 - Eligible Capital Base"/>
+<table label="DBS_LEF_A_20LE_Consolidated_Layout2" header="Table 7 - A. Bank's 20 Largest Exposures to counterparties (single as well as group of connected counterparties) irrespective of their values relative to bank's eligible capital base"/>
+</tableSet>
+<tableSet label="DBS_LEF_B_SpecExp_Consolidated">
+<table label="DBS_LEF_B_SpecExp_Consolidated_Layout1" header="Table 8 - B. Bank's exposure with values equal to or above 10% of Tier 1 Capital"/>
+</tableSet>
+<tableSet label="DBS_LEF_C_OthExp_Consolidated">
+<table label="DBS_LEF_C_OthExp_Consolidated_Layout1" header="Table 9 - C. Bank's other exposures (measured without effect of CRM) with values equal to or above 10% of Tier 1 capital (not including exposures reported in B) "/>
+</tableSet>
+<tableSet label="DBS_LEF_D_ExempExp_Consolidated">
+<table label="DBS_LEF_D_ExempExp_Consolidated_Layout1" header="Table 10 - D. Bank's exempted exposures with values equal to or above 10% of Tier 1 Capital"/>
+</tableSet>
+<tableSet label="DBS_AuthorisedSignatory">
+<table label="DBS_AuthorisedSignatory_Layout1" header="Authorised Signatory"/>
+</tableSet>
+</tableModel>

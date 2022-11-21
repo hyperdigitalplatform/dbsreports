@@ -8,9 +8,9 @@
 </xsd:annotation>
 <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
 <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
-<!-- <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" /> -->
-<!-- <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2012-06-30.xsd" /> -->
-<xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="numeric.xsd" />
+<xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" />
+<xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2012-06-30.xsd" />
+<!-- <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="numeric.xsd" /> -->
 
 <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
 <xsd:import namespace="http://www.rbi.org/in-rbi-rep-par" schemaLocation="in-rbi-rep-par.xsd" />

@@ -34,6 +34,7 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
@@ -55,6 +56,7 @@
 			<artifactId>jaxb-core</artifactId>
 			<version>2.3.0</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
@@ -79,60 +81,38 @@
 	</dependencies>
 
 	<build>
-		<plugins>
+		
 			
-			<!-- <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
-				<configuration>
-					<release>11</release>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>jaxb2-maven-plugin</artifactId>
-				<version>2.5.0</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>xjc</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<sources>
-						<source>src/main/resources/xsd/reports/dbs06/1.0.0/dbs06-entry.xsd</source>
-					</sources>
-					<packageName>com.yourcompany.xsd</packageName>
-				</configuration>
-			</plugin> -->
-			<plugin>
-				<groupId>org.jvnet.jaxb2.maven2</groupId>
-				<artifactId>maven-jaxb2-plugin</artifactId>
-				<version>0.15.1</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-					</execution>
-				</executions>
-				
-				<configuration>
-					<schemaDirectory>src/main/resources/xsd/reports</schemaDirectory>
-					<schemaIncludes>
-						<include>dbs01/**/*.xsd</include>
-						<include>dbs06/**/*.xsd</include>
-					</schemaIncludes>
+			<plugins>
+				<plugin>
+					<groupId>org.jvnet.jaxb2.maven2</groupId>
+					<artifactId>maven-jaxb2-plugin</artifactId>
+					<version>0.15.1</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>generate</goal>
+							</goals>
+						</execution>
+					</executions>
 					
-					<bindingDirectory>src/main/resources</bindingDirectory>
-					<bindingIncludes>
-						<include>bindings/*.xjb</include>
-					</bindingIncludes>
-				</configuration>
-			</plugin>
-		</plugins>
+					<configuration>
+						<schemaDirectory>src/main/resources</schemaDirectory>
+						<schemaIncludes>
+							<include>xsd/**/*.xsd</include>
+						</schemaIncludes>
+						
+						<bindingDirectory>src/main/resources</bindingDirectory>
+						<bindingIncludes>
+							<include>bindings/*.xjb</include>
+						</bindingIncludes>
+						<strict>false</strict>
+						<verbose>true</verbose>
+						
+					</configuration>
+				</plugin>
+				
+			</plugins>
 
 	</build>
 	<repositories>
