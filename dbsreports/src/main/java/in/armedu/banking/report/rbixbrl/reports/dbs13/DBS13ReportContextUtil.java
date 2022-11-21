@@ -99,23 +99,23 @@ public class DBS13ReportContextUtil {
 
     
     
-    public static Context createFromToContextDBS_LEF_A_20LE_Standalone_Layout2(String bankCode, String startDate, String endDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createFromToContextDBS_LEF_A_20LE_Standalone_Layout2(String bankCode, String startDate, String endDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createFromToContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2(bankCode, startDate, endDate, counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
+        return createFromToContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2(bankCode, startDate, endDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
     }
-    public static Context createAsOfContextDBS_LEF_A_20LE_Standalone_Layout2(String bankCode, String reportDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createAsOfContextDBS_LEF_A_20LE_Standalone_Layout2(String bankCode, String reportDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2(bankCode, reportDate,  counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
+        return createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2(bankCode, reportDate,  permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
     }
-    public static Context createFromToContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2(String bankCode, String startDate, String endDate, String counterPartyAxis,String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createFromToContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2(String bankCode, String startDate, String endDate, String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,counterPartyAxis  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
+        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
         Context context = createFromToContext(bankCode, startDate, endDate, contextRefFromToForBorrowerString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_A_20LE_Standalone_Layout2( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_A_20LE_Standalone_Layout2( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -123,15 +123,15 @@ public class DBS13ReportContextUtil {
         return context;
     }
 
-    public static Context createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2(String bankCode, String reportDate,  String counterPartyAxis, String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2(String bankCode, String reportDate,  String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
+        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
         Context context = createAsOfContext(bankCode, reportDate, contextRefAsOfFundTypeString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_A_20LE_Standalone_Layout2( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_A_20LE_Standalone_Layout2( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -141,28 +141,16 @@ public class DBS13ReportContextUtil {
 
     }
     
-    public static List<TypedMember> createTypedMembersDBS_LEF_A_20LE_Standalone_Layout2(String counterPartyAxis  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
+    public static List<TypedMember> createTypedMembersDBS_LEF_A_20LE_Standalone_Layout2(String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        
-
-        if(counterPartyAxis != null && !counterPartyAxis.isEmpty()){
-            StringItemType counterPartyAxisValue = new StringItemType();
-            counterPartyAxisValue.setValue(counterPartyAxis);
-            TypedMember typedMemberForCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyAxis"));
-            typedMemberForCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_core.ObjectFactory()
-                                            .createCounterPartyDomain(counterPartyAxisValue.getValue()));
-            typedMembers.add(typedMemberForCounterPartyAxis);
-        }
         
 
         if(permanentAccountNumberOrGroupIDOfCounterpartyAxis != null && !permanentAccountNumberOrGroupIDOfCounterpartyAxis.isEmpty()){
             StringItemType permanentAccountNumberOrGroupIDOfCounterpartyAxisValue = new StringItemType();
             permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.setValue(permanentAccountNumberOrGroupIDOfCounterpartyAxis);
             TypedMember typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
             typedMembers.add(typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis);
         }
         
@@ -171,9 +159,8 @@ public class DBS13ReportContextUtil {
             StringItemType nameOfCounterPartyAxisValue = new StringItemType();
             nameOfCounterPartyAxisValue.setValue(nameOfCounterPartyAxis);
             TypedMember typedMemberForNameOfCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfCounterPartyAxis"));
-            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
+            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "NameOfCounterPartyAxis"));
+            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
             typedMembers.add(typedMemberForNameOfCounterPartyAxis);
         }
         
@@ -181,23 +168,23 @@ public class DBS13ReportContextUtil {
     }
     
     
-    public static Context createFromToContextDBS_LEF_B_SpecExp_Standalone_Layout1(String bankCode, String startDate, String endDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createFromToContextDBS_LEF_B_SpecExp_Standalone_Layout1(String bankCode, String startDate, String endDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createFromToContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1(bankCode, startDate, endDate, counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
+        return createFromToContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1(bankCode, startDate, endDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
     }
-    public static Context createAsOfContextDBS_LEF_B_SpecExp_Standalone_Layout1(String bankCode, String reportDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createAsOfContextDBS_LEF_B_SpecExp_Standalone_Layout1(String bankCode, String reportDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1(bankCode, reportDate,  counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
+        return createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1(bankCode, reportDate,  permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
     }
-    public static Context createFromToContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1(String bankCode, String startDate, String endDate, String counterPartyAxis,String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createFromToContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1(String bankCode, String startDate, String endDate, String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,counterPartyAxis  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
+        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
         Context context = createFromToContext(bankCode, startDate, endDate, contextRefFromToForBorrowerString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_B_SpecExp_Standalone_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_B_SpecExp_Standalone_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -205,15 +192,15 @@ public class DBS13ReportContextUtil {
         return context;
     }
 
-    public static Context createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1(String bankCode, String reportDate,  String counterPartyAxis, String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1(String bankCode, String reportDate,  String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
+        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
         Context context = createAsOfContext(bankCode, reportDate, contextRefAsOfFundTypeString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_B_SpecExp_Standalone_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_B_SpecExp_Standalone_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -223,28 +210,16 @@ public class DBS13ReportContextUtil {
 
     }
     
-    public static List<TypedMember> createTypedMembersDBS_LEF_B_SpecExp_Standalone_Layout1(String counterPartyAxis  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
+    public static List<TypedMember> createTypedMembersDBS_LEF_B_SpecExp_Standalone_Layout1(String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        
-
-        if(counterPartyAxis != null && !counterPartyAxis.isEmpty()){
-            StringItemType counterPartyAxisValue = new StringItemType();
-            counterPartyAxisValue.setValue(counterPartyAxis);
-            TypedMember typedMemberForCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyAxis"));
-            typedMemberForCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createCounterPartyDomain(counterPartyAxisValue.getValue()));
-            typedMembers.add(typedMemberForCounterPartyAxis);
-        }
         
 
         if(permanentAccountNumberOrGroupIDOfCounterpartyAxis != null && !permanentAccountNumberOrGroupIDOfCounterpartyAxis.isEmpty()){
             StringItemType permanentAccountNumberOrGroupIDOfCounterpartyAxisValue = new StringItemType();
             permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.setValue(permanentAccountNumberOrGroupIDOfCounterpartyAxis);
             TypedMember typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
             typedMembers.add(typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis);
         }
         
@@ -253,9 +228,8 @@ public class DBS13ReportContextUtil {
             StringItemType nameOfCounterPartyAxisValue = new StringItemType();
             nameOfCounterPartyAxisValue.setValue(nameOfCounterPartyAxis);
             TypedMember typedMemberForNameOfCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfCounterPartyAxis"));
-            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
+            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "NameOfCounterPartyAxis"));
+            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
             typedMembers.add(typedMemberForNameOfCounterPartyAxis);
         }
         
@@ -263,23 +237,23 @@ public class DBS13ReportContextUtil {
     }
     
     
-    public static Context createFromToContextDBS_LEF_C_OthExp_Standalone_Layout1(String bankCode, String startDate, String endDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createFromToContextDBS_LEF_C_OthExp_Standalone_Layout1(String bankCode, String startDate, String endDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createFromToContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1(bankCode, startDate, endDate, counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
+        return createFromToContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1(bankCode, startDate, endDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
     }
-    public static Context createAsOfContextDBS_LEF_C_OthExp_Standalone_Layout1(String bankCode, String reportDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createAsOfContextDBS_LEF_C_OthExp_Standalone_Layout1(String bankCode, String reportDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1(bankCode, reportDate,  counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
+        return createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1(bankCode, reportDate,  permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
     }
-    public static Context createFromToContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1(String bankCode, String startDate, String endDate, String counterPartyAxis,String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createFromToContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1(String bankCode, String startDate, String endDate, String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,counterPartyAxis  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
+        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
         Context context = createFromToContext(bankCode, startDate, endDate, contextRefFromToForBorrowerString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_C_OthExp_Standalone_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_C_OthExp_Standalone_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -287,15 +261,15 @@ public class DBS13ReportContextUtil {
         return context;
     }
 
-    public static Context createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1(String bankCode, String reportDate,  String counterPartyAxis, String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1(String bankCode, String reportDate,  String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
+        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
         Context context = createAsOfContext(bankCode, reportDate, contextRefAsOfFundTypeString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_C_OthExp_Standalone_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_C_OthExp_Standalone_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -305,28 +279,16 @@ public class DBS13ReportContextUtil {
 
     }
     
-    public static List<TypedMember> createTypedMembersDBS_LEF_C_OthExp_Standalone_Layout1(String counterPartyAxis  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
+    public static List<TypedMember> createTypedMembersDBS_LEF_C_OthExp_Standalone_Layout1(String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        
-
-        if(counterPartyAxis != null && !counterPartyAxis.isEmpty()){
-            StringItemType counterPartyAxisValue = new StringItemType();
-            counterPartyAxisValue.setValue(counterPartyAxis);
-            TypedMember typedMemberForCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyAxis"));
-            typedMemberForCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createCounterPartyDomain(counterPartyAxisValue.getValue()));
-            typedMembers.add(typedMemberForCounterPartyAxis);
-        }
         
 
         if(permanentAccountNumberOrGroupIDOfCounterpartyAxis != null && !permanentAccountNumberOrGroupIDOfCounterpartyAxis.isEmpty()){
             StringItemType permanentAccountNumberOrGroupIDOfCounterpartyAxisValue = new StringItemType();
             permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.setValue(permanentAccountNumberOrGroupIDOfCounterpartyAxis);
             TypedMember typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
             typedMembers.add(typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis);
         }
         
@@ -335,9 +297,8 @@ public class DBS13ReportContextUtil {
             StringItemType nameOfCounterPartyAxisValue = new StringItemType();
             nameOfCounterPartyAxisValue.setValue(nameOfCounterPartyAxis);
             TypedMember typedMemberForNameOfCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfCounterPartyAxis"));
-            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
+            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "NameOfCounterPartyAxis"));
+            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
             typedMembers.add(typedMemberForNameOfCounterPartyAxis);
         }
         
@@ -345,23 +306,23 @@ public class DBS13ReportContextUtil {
     }
     
     
-    public static Context createFromToContextDBS_LEF_D_ExempExp_Standalone_Layout1(String bankCode, String startDate, String endDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createFromToContextDBS_LEF_D_ExempExp_Standalone_Layout1(String bankCode, String startDate, String endDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createFromToContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1(bankCode, startDate, endDate, counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
+        return createFromToContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1(bankCode, startDate, endDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
     }
-    public static Context createAsOfContextDBS_LEF_D_ExempExp_Standalone_Layout1(String bankCode, String reportDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createAsOfContextDBS_LEF_D_ExempExp_Standalone_Layout1(String bankCode, String reportDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1(bankCode, reportDate,  counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
+        return createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1(bankCode, reportDate,  permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
     }
-    public static Context createFromToContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1(String bankCode, String startDate, String endDate, String counterPartyAxis,String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createFromToContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1(String bankCode, String startDate, String endDate, String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,counterPartyAxis  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
+        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
         Context context = createFromToContext(bankCode, startDate, endDate, contextRefFromToForBorrowerString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_D_ExempExp_Standalone_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_D_ExempExp_Standalone_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -369,15 +330,15 @@ public class DBS13ReportContextUtil {
         return context;
     }
 
-    public static Context createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1(String bankCode, String reportDate,  String counterPartyAxis, String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1(String bankCode, String reportDate,  String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
+        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
         Context context = createAsOfContext(bankCode, reportDate, contextRefAsOfFundTypeString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_D_ExempExp_Standalone_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_D_ExempExp_Standalone_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -387,28 +348,16 @@ public class DBS13ReportContextUtil {
 
     }
     
-    public static List<TypedMember> createTypedMembersDBS_LEF_D_ExempExp_Standalone_Layout1(String counterPartyAxis  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
+    public static List<TypedMember> createTypedMembersDBS_LEF_D_ExempExp_Standalone_Layout1(String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        
-
-        if(counterPartyAxis != null && !counterPartyAxis.isEmpty()){
-            StringItemType counterPartyAxisValue = new StringItemType();
-            counterPartyAxisValue.setValue(counterPartyAxis);
-            TypedMember typedMemberForCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyAxis"));
-            typedMemberForCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createCounterPartyDomain(counterPartyAxisValue.getValue()));
-            typedMembers.add(typedMemberForCounterPartyAxis);
-        }
         
 
         if(permanentAccountNumberOrGroupIDOfCounterpartyAxis != null && !permanentAccountNumberOrGroupIDOfCounterpartyAxis.isEmpty()){
             StringItemType permanentAccountNumberOrGroupIDOfCounterpartyAxisValue = new StringItemType();
             permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.setValue(permanentAccountNumberOrGroupIDOfCounterpartyAxis);
             TypedMember typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
             typedMembers.add(typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis);
         }
         
@@ -417,9 +366,8 @@ public class DBS13ReportContextUtil {
             StringItemType nameOfCounterPartyAxisValue = new StringItemType();
             nameOfCounterPartyAxisValue.setValue(nameOfCounterPartyAxis);
             TypedMember typedMemberForNameOfCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfCounterPartyAxis"));
-            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
+            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "NameOfCounterPartyAxis"));
+            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
             typedMembers.add(typedMemberForNameOfCounterPartyAxis);
         }
         
@@ -427,23 +375,23 @@ public class DBS13ReportContextUtil {
     }
     
     
-    public static Context createFromToContextDBS_LEF_A_20LE_Consolidated_Layout2(String bankCode, String startDate, String endDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createFromToContextDBS_LEF_A_20LE_Consolidated_Layout2(String bankCode, String startDate, String endDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createFromToContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2(bankCode, startDate, endDate, counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
+        return createFromToContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2(bankCode, startDate, endDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
     }
-    public static Context createAsOfContextDBS_LEF_A_20LE_Consolidated_Layout2(String bankCode, String reportDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createAsOfContextDBS_LEF_A_20LE_Consolidated_Layout2(String bankCode, String reportDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2(bankCode, reportDate,  counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
+        return createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2(bankCode, reportDate,  permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
     }
-    public static Context createFromToContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2(String bankCode, String startDate, String endDate, String counterPartyAxis,String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createFromToContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2(String bankCode, String startDate, String endDate, String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,counterPartyAxis  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
+        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
         Context context = createFromToContext(bankCode, startDate, endDate, contextRefFromToForBorrowerString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_A_20LE_Consolidated_Layout2( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_A_20LE_Consolidated_Layout2( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -451,15 +399,15 @@ public class DBS13ReportContextUtil {
         return context;
     }
 
-    public static Context createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2(String bankCode, String reportDate,  String counterPartyAxis, String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2(String bankCode, String reportDate,  String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
+        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
         Context context = createAsOfContext(bankCode, reportDate, contextRefAsOfFundTypeString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_A_20LE_Consolidated_Layout2( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_A_20LE_Consolidated_Layout2( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -469,28 +417,16 @@ public class DBS13ReportContextUtil {
 
     }
     
-    public static List<TypedMember> createTypedMembersDBS_LEF_A_20LE_Consolidated_Layout2(String counterPartyAxis  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
+    public static List<TypedMember> createTypedMembersDBS_LEF_A_20LE_Consolidated_Layout2(String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        
-
-        if(counterPartyAxis != null && !counterPartyAxis.isEmpty()){
-            StringItemType counterPartyAxisValue = new StringItemType();
-            counterPartyAxisValue.setValue(counterPartyAxis);
-            TypedMember typedMemberForCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyAxis"));
-            typedMemberForCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createCounterPartyDomain(counterPartyAxisValue.getValue()));
-            typedMembers.add(typedMemberForCounterPartyAxis);
-        }
         
 
         if(permanentAccountNumberOrGroupIDOfCounterpartyAxis != null && !permanentAccountNumberOrGroupIDOfCounterpartyAxis.isEmpty()){
             StringItemType permanentAccountNumberOrGroupIDOfCounterpartyAxisValue = new StringItemType();
             permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.setValue(permanentAccountNumberOrGroupIDOfCounterpartyAxis);
             TypedMember typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
             typedMembers.add(typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis);
         }
         
@@ -499,9 +435,8 @@ public class DBS13ReportContextUtil {
             StringItemType nameOfCounterPartyAxisValue = new StringItemType();
             nameOfCounterPartyAxisValue.setValue(nameOfCounterPartyAxis);
             TypedMember typedMemberForNameOfCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfCounterPartyAxis"));
-            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
+            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "NameOfCounterPartyAxis"));
+            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
             typedMembers.add(typedMemberForNameOfCounterPartyAxis);
         }
         
@@ -509,23 +444,23 @@ public class DBS13ReportContextUtil {
     }
     
     
-    public static Context createFromToContextDBS_LEF_B_SpecExp_Consolidated_Layout1(String bankCode, String startDate, String endDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createFromToContextDBS_LEF_B_SpecExp_Consolidated_Layout1(String bankCode, String startDate, String endDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createFromToContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(bankCode, startDate, endDate, counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
+        return createFromToContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(bankCode, startDate, endDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
     }
-    public static Context createAsOfContextDBS_LEF_B_SpecExp_Consolidated_Layout1(String bankCode, String reportDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createAsOfContextDBS_LEF_B_SpecExp_Consolidated_Layout1(String bankCode, String reportDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(bankCode, reportDate,  counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
+        return createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(bankCode, reportDate,  permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
     }
-    public static Context createFromToContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(String bankCode, String startDate, String endDate, String counterPartyAxis,String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createFromToContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(String bankCode, String startDate, String endDate, String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,counterPartyAxis  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
+        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
         Context context = createFromToContext(bankCode, startDate, endDate, contextRefFromToForBorrowerString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -533,15 +468,15 @@ public class DBS13ReportContextUtil {
         return context;
     }
 
-    public static Context createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(String bankCode, String reportDate,  String counterPartyAxis, String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(String bankCode, String reportDate,  String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
+        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
         Context context = createAsOfContext(bankCode, reportDate, contextRefAsOfFundTypeString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -551,28 +486,16 @@ public class DBS13ReportContextUtil {
 
     }
     
-    public static List<TypedMember> createTypedMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(String counterPartyAxis  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
+    public static List<TypedMember> createTypedMembersDBS_LEF_B_SpecExp_Consolidated_Layout1(String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        
-
-        if(counterPartyAxis != null && !counterPartyAxis.isEmpty()){
-            StringItemType counterPartyAxisValue = new StringItemType();
-            counterPartyAxisValue.setValue(counterPartyAxis);
-            TypedMember typedMemberForCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyAxis"));
-            typedMemberForCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createCounterPartyDomain(counterPartyAxisValue.getValue()));
-            typedMembers.add(typedMemberForCounterPartyAxis);
-        }
         
 
         if(permanentAccountNumberOrGroupIDOfCounterpartyAxis != null && !permanentAccountNumberOrGroupIDOfCounterpartyAxis.isEmpty()){
             StringItemType permanentAccountNumberOrGroupIDOfCounterpartyAxisValue = new StringItemType();
             permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.setValue(permanentAccountNumberOrGroupIDOfCounterpartyAxis);
             TypedMember typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
             typedMembers.add(typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis);
         }
         
@@ -581,9 +504,8 @@ public class DBS13ReportContextUtil {
             StringItemType nameOfCounterPartyAxisValue = new StringItemType();
             nameOfCounterPartyAxisValue.setValue(nameOfCounterPartyAxis);
             TypedMember typedMemberForNameOfCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfCounterPartyAxis"));
-            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
+            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "NameOfCounterPartyAxis"));
+            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
             typedMembers.add(typedMemberForNameOfCounterPartyAxis);
         }
         
@@ -591,23 +513,23 @@ public class DBS13ReportContextUtil {
     }
     
     
-    public static Context createFromToContextDBS_LEF_C_OthExp_Consolidated_Layout1(String bankCode, String startDate, String endDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createFromToContextDBS_LEF_C_OthExp_Consolidated_Layout1(String bankCode, String startDate, String endDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createFromToContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1(bankCode, startDate, endDate, counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
+        return createFromToContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1(bankCode, startDate, endDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
     }
-    public static Context createAsOfContextDBS_LEF_C_OthExp_Consolidated_Layout1(String bankCode, String reportDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createAsOfContextDBS_LEF_C_OthExp_Consolidated_Layout1(String bankCode, String reportDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1(bankCode, reportDate,  counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
+        return createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1(bankCode, reportDate,  permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
     }
-    public static Context createFromToContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1(String bankCode, String startDate, String endDate, String counterPartyAxis,String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createFromToContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1(String bankCode, String startDate, String endDate, String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,counterPartyAxis  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
+        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
         Context context = createFromToContext(bankCode, startDate, endDate, contextRefFromToForBorrowerString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_C_OthExp_Consolidated_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_C_OthExp_Consolidated_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -615,15 +537,15 @@ public class DBS13ReportContextUtil {
         return context;
     }
 
-    public static Context createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1(String bankCode, String reportDate,  String counterPartyAxis, String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1(String bankCode, String reportDate,  String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
+        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
         Context context = createAsOfContext(bankCode, reportDate, contextRefAsOfFundTypeString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_C_OthExp_Consolidated_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_C_OthExp_Consolidated_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -633,28 +555,16 @@ public class DBS13ReportContextUtil {
 
     }
     
-    public static List<TypedMember> createTypedMembersDBS_LEF_C_OthExp_Consolidated_Layout1(String counterPartyAxis  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
+    public static List<TypedMember> createTypedMembersDBS_LEF_C_OthExp_Consolidated_Layout1(String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        
-
-        if(counterPartyAxis != null && !counterPartyAxis.isEmpty()){
-            StringItemType counterPartyAxisValue = new StringItemType();
-            counterPartyAxisValue.setValue(counterPartyAxis);
-            TypedMember typedMemberForCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyAxis"));
-            typedMemberForCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createCounterPartyDomain(counterPartyAxisValue.getValue()));
-            typedMembers.add(typedMemberForCounterPartyAxis);
-        }
         
 
         if(permanentAccountNumberOrGroupIDOfCounterpartyAxis != null && !permanentAccountNumberOrGroupIDOfCounterpartyAxis.isEmpty()){
             StringItemType permanentAccountNumberOrGroupIDOfCounterpartyAxisValue = new StringItemType();
             permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.setValue(permanentAccountNumberOrGroupIDOfCounterpartyAxis);
             TypedMember typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
             typedMembers.add(typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis);
         }
         
@@ -663,9 +573,8 @@ public class DBS13ReportContextUtil {
             StringItemType nameOfCounterPartyAxisValue = new StringItemType();
             nameOfCounterPartyAxisValue.setValue(nameOfCounterPartyAxis);
             TypedMember typedMemberForNameOfCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfCounterPartyAxis"));
-            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
+            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "NameOfCounterPartyAxis"));
+            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
             typedMembers.add(typedMemberForNameOfCounterPartyAxis);
         }
         
@@ -673,23 +582,23 @@ public class DBS13ReportContextUtil {
     }
     
     
-    public static Context createFromToContextDBS_LEF_D_ExempExp_Consolidated_Layout1(String bankCode, String startDate, String endDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createFromToContextDBS_LEF_D_ExempExp_Consolidated_Layout1(String bankCode, String startDate, String endDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createFromToContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(bankCode, startDate, endDate, counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
+        return createFromToContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(bankCode, startDate, endDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis, emptyMap);
     }
-    public static Context createAsOfContextDBS_LEF_D_ExempExp_Consolidated_Layout1(String bankCode, String reportDate  , String counterPartyAxis , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
+    public static Context createAsOfContextDBS_LEF_D_ExempExp_Consolidated_Layout1(String bankCode, String reportDate  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis , String nameOfCounterPartyAxis ){
         Map<String, String> emptyMap = new HashMap<String, String>(); 
-        return createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(bankCode, reportDate,  counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
+        return createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(bankCode, reportDate,  permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis, emptyMap );
     }
-    public static Context createFromToContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(String bankCode, String startDate, String endDate, String counterPartyAxis,String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createFromToContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(String bankCode, String startDate, String endDate, String permanentAccountNumberOrGroupIDOfCounterpartyAxis,String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,counterPartyAxis  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
+        String contextRefFromToForBorrowerString = ContextUtil.getIdForFromTo("fromto", startDate, endDate, emMap.values()  ,permanentAccountNumberOrGroupIDOfCounterpartyAxis  ,nameOfCounterPartyAxis  );
         Context context = createFromToContext(bankCode, startDate, endDate, contextRefFromToForBorrowerString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -697,15 +606,15 @@ public class DBS13ReportContextUtil {
         return context;
     }
 
-    public static Context createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(String bankCode, String reportDate,  String counterPartyAxis, String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
+    public static Context createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(String bankCode, String reportDate,  String permanentAccountNumberOrGroupIDOfCounterpartyAxis, String nameOfCounterPartyAxis, Map<String, String> emMap ){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
-        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,counterPartyAxis,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
+        String contextRefAsOfFundTypeString = ContextUtil.getIdForAsOf("asof", reportDate, emMap.values() ,permanentAccountNumberOrGroupIDOfCounterpartyAxis,nameOfCounterPartyAxis);
         Context context = createAsOfContext(bankCode, reportDate, contextRefAsOfFundTypeString);
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
         List<ExplicitMember> explicitMembers = createExplicitMembers(emMap);
-        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
+        List<TypedMember> typeMembers = createTypedMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis); 
         segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
@@ -715,28 +624,16 @@ public class DBS13ReportContextUtil {
 
     }
     
-    public static List<TypedMember> createTypedMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(String counterPartyAxis  , String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
+    public static List<TypedMember> createTypedMembersDBS_LEF_D_ExempExp_Consolidated_Layout1(String permanentAccountNumberOrGroupIDOfCounterpartyAxis  , String nameOfCounterPartyAxis ) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        
-
-        if(counterPartyAxis != null && !counterPartyAxis.isEmpty()){
-            StringItemType counterPartyAxisValue = new StringItemType();
-            counterPartyAxisValue.setValue(counterPartyAxis);
-            TypedMember typedMemberForCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyAxis"));
-            typedMemberForCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createCounterPartyDomain(counterPartyAxisValue.getValue()));
-            typedMembers.add(typedMemberForCounterPartyAxis);
-        }
         
 
         if(permanentAccountNumberOrGroupIDOfCounterpartyAxis != null && !permanentAccountNumberOrGroupIDOfCounterpartyAxis.isEmpty()){
             StringItemType permanentAccountNumberOrGroupIDOfCounterpartyAxisValue = new StringItemType();
             permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.setValue(permanentAccountNumberOrGroupIDOfCounterpartyAxis);
             TypedMember typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
-            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "PermanentAccountNumberOrGroupIDOfCounterpartyAxis"));
+            typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createPermanentAccountNumberOrGroupIDOfCounterpartyDomain(permanentAccountNumberOrGroupIDOfCounterpartyAxisValue.getValue()));
             typedMembers.add(typedMemberForPermanentAccountNumberOrGroupIDOfCounterpartyAxis);
         }
         
@@ -745,9 +642,8 @@ public class DBS13ReportContextUtil {
             StringItemType nameOfCounterPartyAxisValue = new StringItemType();
             nameOfCounterPartyAxisValue.setValue(nameOfCounterPartyAxis);
             TypedMember typedMemberForNameOfCounterPartyAxis = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfCounterPartyAxis"));
-            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
-                                            .createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
+            typedMemberForNameOfCounterPartyAxis.setDimension(new QName("http://www.rbi.org/in/xbrl/rbi-core", "NameOfCounterPartyAxis"));
+            typedMemberForNameOfCounterPartyAxis.setAny(new org.rbi.in.xbrl.rbi_par.ObjectFactory().createNameOfCounterPartyDomain(nameOfCounterPartyAxisValue.getValue()));
             typedMembers.add(typedMemberForNameOfCounterPartyAxis);
         }
         
@@ -793,11 +689,41 @@ public class DBS13ReportContextUtil {
         List<ExplicitMember> explicitMembers = new ArrayList<ExplicitMember>();
         emMap.forEach((type, value)->{
             ExplicitMember explicitMemberForExposureType = new org.xbrl._2006.xbrldi.ObjectFactory().createExplicitMember();
-            explicitMemberForExposureType.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", type));
-            explicitMemberForExposureType.setValue(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", value));
+            String[] types = type.split(":");
+            String[] values = value.split(":");
+            explicitMemberForExposureType.setDimension(new QName(getFullNamespace(types[0]), types[1]));
+            explicitMemberForExposureType.setValue(new QName(getFullNamespace(values[0]), values[1]));
             explicitMembers.add(explicitMemberForExposureType);
         });        
         return explicitMembers;
     }
+
+    public static String getFullNamespace(String namespace) {        
+        if(namespace.equalsIgnoreCase("in-rbi-rep-types")){
+            return "http://www.rbi.org/in/xbrl/2012-05-07/in-rbi-rep-types";
+        } else if(namespace.equalsIgnoreCase("nonnum")){
+            return "http://www.xbrl.org/dtr/type/non-numeric";
+        } else if(namespace.equalsIgnoreCase("num")){
+            return "http://www.xbrl.org/dtr/type/numeric";
+        } else if(namespace.equalsIgnoreCase("rbi-type")){
+            return "http://www.rbi.org/in/xbrl/rbi-type";
+        } else if(namespace.equalsIgnoreCase("rbi-core")){
+            return "http://www.rbi.org/in/xbrl/rbi-core";
+        } else if(namespace.equalsIgnoreCase("rbi-rep")){
+            return "http://www.rbi.org/in/xbrl/rbi-par";
+        } else if(namespace.equalsIgnoreCase("in-rbi-rep")){
+            return "http://www.rbi.org/in/xbrl/2012-04-25/rbi";
+        } else if(namespace.equalsIgnoreCase("in-rbi-rep-par")){
+            return "http://www.rbi.org/in-rbi-rep-par";                        
+        } else if(namespace.equalsIgnoreCase("xbrli")){
+            return "http://www.xbrl.org/2003/instance";
+        } else if (namespace.equalsIgnoreCase("xbrldt")){
+            return "http://xbrl.org/2005/xbrldt";
+        } else {
+            return "";
+        }        
+    }
     
 }
+
+

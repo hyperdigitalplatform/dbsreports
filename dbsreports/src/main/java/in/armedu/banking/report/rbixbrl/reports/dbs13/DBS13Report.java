@@ -13,6 +13,8 @@ import javax.xml.bind.Marshaller;
 import org.xbrl._2003.instance.Context;
 import org.xbrl._2003.instance.ContextEntityType;
 import org.xbrl._2003.instance.ContextEntityType.Identifier;
+import org.xbrl._2006.xbrldi.ExplicitMember;
+import org.xbrl._2006.xbrldi.TypedMember;
 import org.xbrl._2003.instance.ContextPeriodType;
 import org.xbrl._2003.instance.ObjectFactory;
 import org.xbrl._2003.instance.Unit;
@@ -81,6 +83,7 @@ public class DBS13Report implements XBRLReportIntf {
             org.rbi.in_rbi_rep_par.ObjectFactory.class,
             org.xbrl._2003.xlink.ObjectFactory.class,
             org.xbrl._2003.instance.ObjectFactory.class,
+            org.xbrl._2006.xbrldi.ObjectFactory.class,
             org.xbrl._2003.linkbase.ObjectFactory.class,
             org.xbrl._2005.xbrldt.ObjectFactory.class,
             org.xbrl.dtr.type.non_numeric.ObjectFactory.class,
@@ -895,7 +898,7 @@ public class DBS13Report implements XBRLReportIntf {
                                 
                                         
                                         
-                                        zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalMap89.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                        zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalMap89.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
                                     
                                     String zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalValue88 = DBS13ReportUtil.retrieveValueForElement(field.getTier1Capital(), zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalMap89);
@@ -951,9 +954,6 @@ public class DBS13Report implements XBRLReportIntf {
                     dBS_LEF_A_20LE_Standalone_Layout2.forEach((field)->{
                         // crate variable loop  for type member
                         
-                            // create variable for type member CounterPartyAxis
-                            String counterPartyAxis = field.getCounterPartyAxis();
-                        
                             // create variable for type member PermanentAccountNumberOrGroupIDOfCounterpartyAxis
                             String permanentAccountNumberOrGroupIDOfCounterpartyAxis = field.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis();
                         
@@ -981,17 +981,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap95.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                            zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap95.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap95.put("ExposureToCounterpartiesAxis", "LargestTwentyExposuresMember");
+                                            zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap95.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountValue94 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap95);
 
                                         
-                                                Context DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountContext93 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap95 );
+                                                Context DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountContext93 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap95 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountValue94 != null && !"".equals(zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountValue94)) {
@@ -1029,17 +1029,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap101.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                            zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap101.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap101.put("ExposureToCounterpartiesAxis", "LargestTwentyExposuresMember");
+                                            zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap101.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalValue100 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap101);
 
                                         
-                                                Context DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalContext99 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap101 );
+                                                Context DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalContext99 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap101 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalValue100 != null && !"".equals(zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalValue100)) {
@@ -1087,9 +1087,6 @@ public class DBS13Report implements XBRLReportIntf {
                     dBS_LEF_B_SpecExp_Standalone_Layout1.forEach((field)->{
                         // crate variable loop  for type member
                         
-                            // create variable for type member CounterPartyAxis
-                            String counterPartyAxis = field.getCounterPartyAxis();
-                        
                             // create variable for type member PermanentAccountNumberOrGroupIDOfCounterpartyAxis
                             String permanentAccountNumberOrGroupIDOfCounterpartyAxis = field.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis();
                         
@@ -1117,17 +1114,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap107.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap107.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap107.put("ExposureToCounterpartiesAxis", "ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap107.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
                                         
                                         
                                         String zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountValue106 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap107);
 
                                         
-                                                Context DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountContext105 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap107 );
+                                                Context DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountContext105 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap107 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountValue106 != null && !"".equals(zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountValue106)) {
@@ -1165,17 +1162,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap113.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap113.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap113.put("ExposureToCounterpartiesAxis", "ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap113.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
                                         
                                         
                                         String zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue112 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap113);
 
                                         
-                                                Context DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext111 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap113 );
+                                                Context DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext111 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap113 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue112 != null && !"".equals(zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue112)) {
@@ -1223,9 +1220,6 @@ public class DBS13Report implements XBRLReportIntf {
                     dBS_LEF_C_OthExp_Standalone_Layout1.forEach((field)->{
                         // crate variable loop  for type member
                         
-                            // create variable for type member CounterPartyAxis
-                            String counterPartyAxis = field.getCounterPartyAxis();
-                        
                             // create variable for type member PermanentAccountNumberOrGroupIDOfCounterpartyAxis
                             String permanentAccountNumberOrGroupIDOfCounterpartyAxis = field.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis();
                         
@@ -1253,17 +1247,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap119.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap119.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap119.put("ExposureToCounterpartiesAxis", "OtherExposuresMember");
+                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap119.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountValue118 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap119);
 
                                         
-                                                Context DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountContext117 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap119 );
+                                                Context DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountContext117 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap119 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountValue118 != null && !"".equals(zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountValue118)) {
@@ -1301,17 +1295,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap125.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap125.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap125.put("ExposureToCounterpartiesAxis", "OtherExposuresMember");
+                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap125.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue124 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap125);
 
                                         
-                                                Context DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext123 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap125 );
+                                                Context DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext123 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap125 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue124 != null && !"".equals(zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue124)) {
@@ -1359,9 +1353,6 @@ public class DBS13Report implements XBRLReportIntf {
                     dBS_LEF_D_ExempExp_Standalone_Layout1.forEach((field)->{
                         // crate variable loop  for type member
                         
-                            // create variable for type member CounterPartyAxis
-                            String counterPartyAxis = field.getCounterPartyAxis();
-                        
                             // create variable for type member PermanentAccountNumberOrGroupIDOfCounterpartyAxis
                             String permanentAccountNumberOrGroupIDOfCounterpartyAxis = field.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis();
                         
@@ -1389,17 +1380,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap131.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap131.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap131.put("ExposureToCounterpartiesAxis", "ExemptedExposuresMember");
+                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap131.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountValue130 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap131);
 
                                         
-                                                Context DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountContext129 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap131 );
+                                                Context DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountContext129 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap131 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountValue130 != null && !"".equals(zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountValue130)) {
@@ -1437,17 +1428,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap137.put("ConsolidatedAndSeparateFinancialStatementsAxis", "StandaloneMember");
+                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap137.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap137.put("ExposureToCounterpartiesAxis", "ExemptedExposuresMember");
+                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap137.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue136 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap137);
 
                                         
-                                                Context DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext135 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap137 );
+                                                Context DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext135 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap137 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue136 != null && !"".equals(zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue136)) {
@@ -1508,7 +1499,7 @@ public class DBS13Report implements XBRLReportIntf {
                                 
                                         
                                         
-                                        zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap143.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                        zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap143.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
                                     
                                     String zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue142 = DBS13ReportUtil.retrieveValueForElement(field.getTier1Capital(), zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap143);
@@ -1564,9 +1555,6 @@ public class DBS13Report implements XBRLReportIntf {
                     dBS_LEF_A_20LE_Consolidated_Layout2.forEach((field)->{
                         // crate variable loop  for type member
                         
-                            // create variable for type member CounterPartyAxis
-                            String counterPartyAxis = field.getCounterPartyAxis();
-                        
                             // create variable for type member PermanentAccountNumberOrGroupIDOfCounterpartyAxis
                             String permanentAccountNumberOrGroupIDOfCounterpartyAxis = field.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis();
                         
@@ -1594,17 +1582,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap149.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap149.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap149.put("ExposureToCounterpartiesAxis", "LargestTwentyExposuresMember");
+                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap149.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountValue148 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap149);
 
                                         
-                                                Context DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountContext147 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap149 );
+                                                Context DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountContext147 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap149 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountValue148 != null && !"".equals(zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountValue148)) {
@@ -1642,17 +1630,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap155.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap155.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap155.put("ExposureToCounterpartiesAxis", "LargestTwentyExposuresMember");
+                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap155.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalValue154 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap155);
 
                                         
-                                                Context DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalContext153 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap155 );
+                                                Context DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalContext153 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap155 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalValue154 != null && !"".equals(zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalValue154)) {
@@ -1700,9 +1688,6 @@ public class DBS13Report implements XBRLReportIntf {
                     dBS_LEF_B_SpecExp_Consolidated_Layout1.forEach((field)->{
                         // crate variable loop  for type member
                         
-                            // create variable for type member CounterPartyAxis
-                            String counterPartyAxis = field.getCounterPartyAxis();
-                        
                             // create variable for type member PermanentAccountNumberOrGroupIDOfCounterpartyAxis
                             String permanentAccountNumberOrGroupIDOfCounterpartyAxis = field.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis();
                         
@@ -1730,17 +1715,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap161.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap161.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap161.put("ExposureToCounterpartiesAxis", "ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap161.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
                                         
                                         
                                         String zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountValue160 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap161);
 
                                         
-                                                Context DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountContext159 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap161 );
+                                                Context DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountContext159 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap161 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountValue160 != null && !"".equals(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountValue160)) {
@@ -1778,17 +1763,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap167.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap167.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap167.put("ExposureToCounterpartiesAxis", "ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap167.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
                                         
                                         
                                         String zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue166 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap167);
 
                                         
-                                                Context DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext165 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap167 );
+                                                Context DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext165 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap167 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue166 != null && !"".equals(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue166)) {
@@ -1836,9 +1821,6 @@ public class DBS13Report implements XBRLReportIntf {
                     dBS_LEF_C_OthExp_Consolidated_Layout1.forEach((field)->{
                         // crate variable loop  for type member
                         
-                            // create variable for type member CounterPartyAxis
-                            String counterPartyAxis = field.getCounterPartyAxis();
-                        
                             // create variable for type member PermanentAccountNumberOrGroupIDOfCounterpartyAxis
                             String permanentAccountNumberOrGroupIDOfCounterpartyAxis = field.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis();
                         
@@ -1866,17 +1848,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap173.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap173.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap173.put("ExposureToCounterpartiesAxis", "OtherExposuresMember");
+                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap173.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountValue172 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap173);
 
                                         
-                                                Context DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountContext171 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap173 );
+                                                Context DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountContext171 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap173 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountValue172 != null && !"".equals(zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountValue172)) {
@@ -1914,17 +1896,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap179.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap179.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap179.put("ExposureToCounterpartiesAxis", "OtherExposuresMember");
+                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap179.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue178 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap179);
 
                                         
-                                                Context DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext177 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap179 );
+                                                Context DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext177 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap179 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue178 != null && !"".equals(zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue178)) {
@@ -1972,9 +1954,6 @@ public class DBS13Report implements XBRLReportIntf {
                     dBS_LEF_D_ExempExp_Consolidated_Layout1.forEach((field)->{
                         // crate variable loop  for type member
                         
-                            // create variable for type member CounterPartyAxis
-                            String counterPartyAxis = field.getCounterPartyAxis();
-                        
                             // create variable for type member PermanentAccountNumberOrGroupIDOfCounterpartyAxis
                             String permanentAccountNumberOrGroupIDOfCounterpartyAxis = field.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis();
                         
@@ -2002,17 +1981,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap185.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap185.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap185.put("ExposureToCounterpartiesAxis", "ExemptedExposuresMember");
+                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap185.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountValue184 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap185);
 
                                         
-                                                Context DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountContext183 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap185 );
+                                                Context DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountContext183 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap185 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountValue184 != null && !"".equals(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountValue184)) {
@@ -2050,17 +2029,17 @@ public class DBS13Report implements XBRLReportIntf {
                                     
                                             
                                             
-                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap191.put("ConsolidatedAndSeparateFinancialStatementsAxis", "ConsolidatedMember");
+                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap191.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                         
                                             
                                             
-                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap191.put("ExposureToCounterpartiesAxis", "ExemptedExposuresMember");
+                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap191.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
                                         
                                         
                                         String zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue190 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap191);
 
                                         
-                                                Context DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext189 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, counterPartyAxis, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap191 );
+                                                Context DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext189 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap191 );
                                             
                                     // check if value is null or empty
                                     if(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue190 != null && !"".equals(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue190)) {

@@ -50,7 +50,7 @@ class ReportMetaDataNode {
     private List<ReportMetaDataNode> childNodes = new ArrayList<ReportMetaDataNode>();
 }
 
-public class Sample {
+public class SampleDBS13 {
     
     private static final String CONTEXT_ID = "Msg";
     private static Document xmlScaleDocument;

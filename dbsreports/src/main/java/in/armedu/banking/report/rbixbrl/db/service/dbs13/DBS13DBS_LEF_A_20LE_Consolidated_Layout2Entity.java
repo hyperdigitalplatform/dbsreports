@@ -26,8 +26,6 @@ public class DBS13DBS_LEF_A_20LE_Consolidated_Layout2Entity {
     private Long id;
 
     
-        private String counterPartyAxis;
-    
         private String permanentAccountNumberOrGroupIDOfCounterpartyAxis;
     
         private String nameOfCounterPartyAxis;

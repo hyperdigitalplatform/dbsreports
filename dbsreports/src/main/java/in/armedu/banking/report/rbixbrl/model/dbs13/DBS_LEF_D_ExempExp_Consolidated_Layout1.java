@@ -17,8 +17,6 @@ import lombok.Setter;
 public class DBS_LEF_D_ExempExp_Consolidated_Layout1 {
     
     
-            private String counterPartyAxis = new String();
-        
             private String permanentAccountNumberOrGroupIDOfCounterpartyAxis = new String();
         
             private String nameOfCounterPartyAxis = new String();

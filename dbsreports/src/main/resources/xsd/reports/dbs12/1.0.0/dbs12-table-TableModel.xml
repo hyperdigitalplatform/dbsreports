@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<table label="FilingInfo_Layout2" header="Scoping Question"/>
+</tableSet>
+<tableSet label="DBS12_Section-A">
+<table label="DBS12_SectionA_Layout1" header="Section A: List of all Group Entities (Group companies / Associates / Business Partners / Subsidiaries)"/>
+</tableSet>
+<tableSet label="DBS12_Section-B">
+<table label="DBS12_SectionB_Layout1" header="Section B- Exposure to group companies / associates / business partners /  Subsidiaries "/>
+</tableSet>
+
+<tableSet label="DBS12_Section-C">
+<table label="DBS12_SectionC_Layout1" header="Section C- Credits/ Exposure to significant shareholders and/or their Interests/Related Firms"/>
+</tableSet>
+
+<tableSet label="DBS12_Section-D">
+<table label="DBS12_SectionD_Layout1" header="Part A Directors and Managers"/>
+<table label="DBS12_SectionD_Layout2" header="Part B Their Interested enterprises"/>
+</tableSet>
+
+<tableSet label="DBS_AuthorisedSignatory">
+<table label="DBSAuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+
+</tableModel>

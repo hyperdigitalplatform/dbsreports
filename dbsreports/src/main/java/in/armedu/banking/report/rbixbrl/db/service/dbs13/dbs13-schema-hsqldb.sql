@@ -28,8 +28,6 @@ CREATE TABLE DBS13DBS_LEF_A_20LE_Standalone_Layout1Entity (
 CREATE TABLE DBS13DBS_LEF_A_20LE_Standalone_Layout2Entity (
     id BIGINT IDENTITY PRIMARY KEY,
     
-        CounterPartyAxis VARCHAR(255),
-    
         PermanentAccountNumberOrGroupIDOfCounterpartyAxis VARCHAR(255),
     
         NameOfCounterPartyAxis VARCHAR(255),
@@ -45,8 +43,6 @@ CREATE TABLE DBS13DBS_LEF_A_20LE_Standalone_Layout2Entity (
 
 CREATE TABLE DBS13DBS_LEF_B_SpecExp_Standalone_Layout1Entity (
     id BIGINT IDENTITY PRIMARY KEY,
-    
-        CounterPartyAxis VARCHAR(255),
     
         PermanentAccountNumberOrGroupIDOfCounterpartyAxis VARCHAR(255),
     
@@ -64,8 +60,6 @@ CREATE TABLE DBS13DBS_LEF_B_SpecExp_Standalone_Layout1Entity (
 CREATE TABLE DBS13DBS_LEF_C_OthExp_Standalone_Layout1Entity (
     id BIGINT IDENTITY PRIMARY KEY,
     
-        CounterPartyAxis VARCHAR(255),
-    
         PermanentAccountNumberOrGroupIDOfCounterpartyAxis VARCHAR(255),
     
         NameOfCounterPartyAxis VARCHAR(255),
@@ -81,8 +75,6 @@ CREATE TABLE DBS13DBS_LEF_C_OthExp_Standalone_Layout1Entity (
 
 CREATE TABLE DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity (
     id BIGINT IDENTITY PRIMARY KEY,
-    
-        CounterPartyAxis VARCHAR(255),
     
         PermanentAccountNumberOrGroupIDOfCounterpartyAxis VARCHAR(255),
     
@@ -110,8 +102,6 @@ CREATE TABLE DBS13DBS_LEF_A_20LE_Consolidated_Layout1Entity (
 CREATE TABLE DBS13DBS_LEF_A_20LE_Consolidated_Layout2Entity (
     id BIGINT IDENTITY PRIMARY KEY,
     
-        CounterPartyAxis VARCHAR(255),
-    
         PermanentAccountNumberOrGroupIDOfCounterpartyAxis VARCHAR(255),
     
         NameOfCounterPartyAxis VARCHAR(255),
@@ -127,8 +117,6 @@ CREATE TABLE DBS13DBS_LEF_A_20LE_Consolidated_Layout2Entity (
 
 CREATE TABLE DBS13DBS_LEF_B_SpecExp_Consolidated_Layout1Entity (
     id BIGINT IDENTITY PRIMARY KEY,
-    
-        CounterPartyAxis VARCHAR(255),
     
         PermanentAccountNumberOrGroupIDOfCounterpartyAxis VARCHAR(255),
     
@@ -146,8 +134,6 @@ CREATE TABLE DBS13DBS_LEF_B_SpecExp_Consolidated_Layout1Entity (
 CREATE TABLE DBS13DBS_LEF_C_OthExp_Consolidated_Layout1Entity (
     id BIGINT IDENTITY PRIMARY KEY,
     
-        CounterPartyAxis VARCHAR(255),
-    
         PermanentAccountNumberOrGroupIDOfCounterpartyAxis VARCHAR(255),
     
         NameOfCounterPartyAxis VARCHAR(255),
@@ -163,8 +149,6 @@ CREATE TABLE DBS13DBS_LEF_C_OthExp_Consolidated_Layout1Entity (
 
 CREATE TABLE DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity (
     id BIGINT IDENTITY PRIMARY KEY,
-    
-        CounterPartyAxis VARCHAR(255),
     
         PermanentAccountNumberOrGroupIDOfCounterpartyAxis VARCHAR(255),
     

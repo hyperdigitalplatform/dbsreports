@@ -495,7 +495,7 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
                 'Tier1Capital',
                 'dummy-value'
@@ -507,8 +507,6 @@
     
             INSERT INTO DBS13DBS_LEF_A_20LE_Standalone_Layout2Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -521,9 +519,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -534,9 +529,9 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
-                    'LargestTwentyExposuresMember',
+                    'rbi-core:LargestTwentyExposuresMember',
                 
                 'ExposureAmount',
                 'dummy-value'
@@ -545,8 +540,6 @@
     
             INSERT INTO DBS13DBS_LEF_A_20LE_Standalone_Layout2Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -559,9 +552,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -572,9 +562,9 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
-                    'LargestTwentyExposuresMember',
+                    'rbi-core:LargestTwentyExposuresMember',
                 
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
@@ -586,8 +576,6 @@
     
             INSERT INTO DBS13DBS_LEF_B_SpecExp_Standalone_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -600,9 +588,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -613,9 +598,9 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
-                    'ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
+                    'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 
                 'ExposureAmount',
                 'dummy-value'
@@ -624,8 +609,6 @@
     
             INSERT INTO DBS13DBS_LEF_B_SpecExp_Standalone_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -638,9 +621,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -651,9 +631,9 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
-                    'ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
+                    'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
@@ -665,8 +645,6 @@
     
             INSERT INTO DBS13DBS_LEF_C_OthExp_Standalone_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -679,9 +657,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -692,9 +667,9 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
-                    'OtherExposuresMember',
+                    'rbi-core:OtherExposuresMember',
                 
                 'ExposureAmount',
                 'dummy-value'
@@ -703,8 +678,6 @@
     
             INSERT INTO DBS13DBS_LEF_C_OthExp_Standalone_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -717,9 +690,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -730,9 +700,9 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
-                    'OtherExposuresMember',
+                    'rbi-core:OtherExposuresMember',
                 
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
@@ -744,8 +714,6 @@
     
             INSERT INTO DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -758,9 +726,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -771,9 +736,9 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
-                    'ExemptedExposuresMember',
+                    'rbi-core:ExemptedExposuresMember',
                 
                 'ExposureAmount',
                 'dummy-value'
@@ -782,8 +747,6 @@
     
             INSERT INTO DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -796,9 +759,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -809,9 +769,9 @@
                 
                 
                 
-                    'StandaloneMember',
+                    'in-rbi-rep:StandaloneMember',
                 
-                    'ExemptedExposuresMember',
+                    'rbi-core:ExemptedExposuresMember',
                 
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
@@ -832,7 +792,7 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
                 'Tier1Capital',
                 'dummy-value'
@@ -844,8 +804,6 @@
     
             INSERT INTO DBS13DBS_LEF_A_20LE_Consolidated_Layout2Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -858,9 +816,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -871,9 +826,9 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
-                    'LargestTwentyExposuresMember',
+                    'rbi-core:LargestTwentyExposuresMember',
                 
                 'ExposureAmount',
                 'dummy-value'
@@ -882,8 +837,6 @@
     
             INSERT INTO DBS13DBS_LEF_A_20LE_Consolidated_Layout2Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -896,9 +849,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -909,9 +859,9 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
-                    'LargestTwentyExposuresMember',
+                    'rbi-core:LargestTwentyExposuresMember',
                 
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
@@ -923,8 +873,6 @@
     
             INSERT INTO DBS13DBS_LEF_B_SpecExp_Consolidated_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -937,9 +885,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -950,9 +895,9 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
-                    'ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
+                    'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 
                 'ExposureAmount',
                 'dummy-value'
@@ -961,8 +906,6 @@
     
             INSERT INTO DBS13DBS_LEF_B_SpecExp_Consolidated_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -975,9 +918,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -988,9 +928,9 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
-                    'ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
+                    'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
@@ -1002,8 +942,6 @@
     
             INSERT INTO DBS13DBS_LEF_C_OthExp_Consolidated_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -1016,9 +954,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -1029,9 +964,9 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
-                    'OtherExposuresMember',
+                    'rbi-core:OtherExposuresMember',
                 
                 'ExposureAmount',
                 'dummy-value'
@@ -1040,8 +975,6 @@
     
             INSERT INTO DBS13DBS_LEF_C_OthExp_Consolidated_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -1054,9 +987,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -1067,9 +997,9 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
-                    'OtherExposuresMember',
+                    'rbi-core:OtherExposuresMember',
                 
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
@@ -1081,8 +1011,6 @@
     
             INSERT INTO DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -1095,9 +1023,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -1108,9 +1033,9 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
-                    'ExemptedExposuresMember',
+                    'rbi-core:ExemptedExposuresMember',
                 
                 'ExposureAmount',
                 'dummy-value'
@@ -1119,8 +1044,6 @@
     
             INSERT INTO DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity (
             
-                CounterPartyAxis,
-            
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
             
                 NameOfCounterPartyAxis,
@@ -1133,9 +1056,6 @@
             FieldName,
             FieldValue ) VALUES (
                 
-                        'CounterPartyAxis-dummy',
-                    
-                
                         'PermanentAccountNumberOrGroupIDOfCounterpartyAxis-dummy',
                     
                 
@@ -1146,9 +1066,9 @@
                 
                 
                 
-                    'ConsolidatedMember',
+                    'in-rbi-rep:ConsolidatedMember',
                 
-                    'ExemptedExposuresMember',
+                    'rbi-core:ExemptedExposuresMember',
                 
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'

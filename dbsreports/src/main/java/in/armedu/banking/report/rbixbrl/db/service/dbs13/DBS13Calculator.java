@@ -751,10 +751,6 @@ public class DBS13Calculator {
                         dbs_lef_a_20le_standalone_layout2EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_A_20LE_Standalone_Layout2.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_A_20LE_Standalone_Layout2.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -786,10 +782,6 @@ public class DBS13Calculator {
                     
                         dbs_lef_a_20le_standalone_layout2EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
-                            
-                                dBS_LEF_A_20LE_Standalone_Layout2.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
                             
                                 dBS_LEF_A_20LE_Standalone_Layout2.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
@@ -823,10 +815,6 @@ public class DBS13Calculator {
                         dbs_lef_a_20le_standalone_layout2EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_A_20LE_Standalone_Layout2.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_A_20LE_Standalone_Layout2.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -851,7 +839,6 @@ public class DBS13Calculator {
                         
                         
                         
-                        
                     
                     
                         reportData.getDBS_LEF_A_20LE_Standalone_Layout2().add(dBS_LEF_A_20LE_Standalone_Layout2);
@@ -871,10 +858,6 @@ public class DBS13Calculator {
                     
                         dbs_lef_b_specexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
-                            
-                                dBS_LEF_B_SpecExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
                             
                                 dBS_LEF_B_SpecExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
@@ -908,10 +891,6 @@ public class DBS13Calculator {
                         dbs_lef_b_specexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_B_SpecExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_B_SpecExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -944,10 +923,6 @@ public class DBS13Calculator {
                         dbs_lef_b_specexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_B_SpecExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_B_SpecExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -972,7 +947,6 @@ public class DBS13Calculator {
                         
                         
                         
-                        
                     
                     
                         reportData.getDBS_LEF_B_SpecExp_Standalone_Layout1().add(dBS_LEF_B_SpecExp_Standalone_Layout1);
@@ -992,10 +966,6 @@ public class DBS13Calculator {
                     
                         dbs_lef_c_othexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
-                            
-                                dBS_LEF_C_OthExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
                             
                                 dBS_LEF_C_OthExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
@@ -1029,10 +999,6 @@ public class DBS13Calculator {
                         dbs_lef_c_othexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_C_OthExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_C_OthExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1065,10 +1031,6 @@ public class DBS13Calculator {
                         dbs_lef_c_othexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_C_OthExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_C_OthExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1093,7 +1055,6 @@ public class DBS13Calculator {
                         
                         
                         
-                        
                     
                     
                         reportData.getDBS_LEF_C_OthExp_Standalone_Layout1().add(dBS_LEF_C_OthExp_Standalone_Layout1);
@@ -1113,10 +1074,6 @@ public class DBS13Calculator {
                     
                         dbs_lef_d_exempexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
-                            
-                                dBS_LEF_D_ExempExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
                             
                                 dBS_LEF_D_ExempExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
@@ -1150,10 +1107,6 @@ public class DBS13Calculator {
                         dbs_lef_d_exempexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_D_ExempExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_D_ExempExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1186,10 +1139,6 @@ public class DBS13Calculator {
                         dbs_lef_d_exempexp_standalone_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_D_ExempExp_Standalone_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_D_ExempExp_Standalone_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1209,7 +1158,6 @@ public class DBS13Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
-                        
                         
                         
                         
@@ -1288,10 +1236,6 @@ public class DBS13Calculator {
                         dbs_lef_a_20le_consolidated_layout2EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_A_20LE_Consolidated_Layout2.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_A_20LE_Consolidated_Layout2.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1323,10 +1267,6 @@ public class DBS13Calculator {
                     
                         dbs_lef_a_20le_consolidated_layout2EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
-                            
-                                dBS_LEF_A_20LE_Consolidated_Layout2.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
                             
                                 dBS_LEF_A_20LE_Consolidated_Layout2.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
@@ -1360,10 +1300,6 @@ public class DBS13Calculator {
                         dbs_lef_a_20le_consolidated_layout2EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_A_20LE_Consolidated_Layout2.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_A_20LE_Consolidated_Layout2.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1388,7 +1324,6 @@ public class DBS13Calculator {
                         
                         
                         
-                        
                     
                     
                         reportData.getDBS_LEF_A_20LE_Consolidated_Layout2().add(dBS_LEF_A_20LE_Consolidated_Layout2);
@@ -1408,10 +1343,6 @@ public class DBS13Calculator {
                     
                         dbs_lef_b_specexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
-                            
-                                dBS_LEF_B_SpecExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
                             
                                 dBS_LEF_B_SpecExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
@@ -1445,10 +1376,6 @@ public class DBS13Calculator {
                         dbs_lef_b_specexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_B_SpecExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_B_SpecExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1481,10 +1408,6 @@ public class DBS13Calculator {
                         dbs_lef_b_specexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_B_SpecExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_B_SpecExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1509,7 +1432,6 @@ public class DBS13Calculator {
                         
                         
                         
-                        
                     
                     
                         reportData.getDBS_LEF_B_SpecExp_Consolidated_Layout1().add(dBS_LEF_B_SpecExp_Consolidated_Layout1);
@@ -1529,10 +1451,6 @@ public class DBS13Calculator {
                     
                         dbs_lef_c_othexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
-                            
-                                dBS_LEF_C_OthExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
                             
                                 dBS_LEF_C_OthExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
@@ -1566,10 +1484,6 @@ public class DBS13Calculator {
                         dbs_lef_c_othexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_C_OthExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_C_OthExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1602,10 +1516,6 @@ public class DBS13Calculator {
                         dbs_lef_c_othexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_C_OthExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_C_OthExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1630,7 +1540,6 @@ public class DBS13Calculator {
                         
                         
                         
-                        
                     
                     
                         reportData.getDBS_LEF_C_OthExp_Consolidated_Layout1().add(dBS_LEF_C_OthExp_Consolidated_Layout1);
@@ -1650,10 +1559,6 @@ public class DBS13Calculator {
                     
                         dbs_lef_d_exempexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
-                            
-                                dBS_LEF_D_ExempExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
                             
                                 dBS_LEF_D_ExempExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
@@ -1687,10 +1592,6 @@ public class DBS13Calculator {
                         dbs_lef_d_exempexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_D_ExempExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_D_ExempExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1723,10 +1624,6 @@ public class DBS13Calculator {
                         dbs_lef_d_exempexp_consolidated_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             
-                                dBS_LEF_D_ExempExp_Consolidated_Layout1.setCounterPartyAxis(dbEntity.getCounterPartyAxis());
-                                    //fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
-                                
-                            
                                 dBS_LEF_D_ExempExp_Consolidated_Layout1.setPermanentAccountNumberOrGroupIDOfCounterpartyAxis(dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                     //fieldDataValue.getMembers().put("PermanentAccountNumberOrGroupIDOfCounterpartyAxis", dbEntity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis());
                                 
@@ -1746,7 +1643,6 @@ public class DBS13Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
-                        
                         
                         
                         
@@ -1969,22 +1865,22 @@ public class DBS13Calculator {
         
         
         private String getGroupingClauseForDBS_LEF_A_20LE_Standalone_Layout2(DBS13DBS_LEF_A_20LE_Standalone_Layout2Entity dBS_LEF_A_20LE_Standalone_Layout2Entity){
-            return "-"+dBS_LEF_A_20LE_Standalone_Layout2Entity.getCounterPartyAxis()+dBS_LEF_A_20LE_Standalone_Layout2Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_A_20LE_Standalone_Layout2Entity.getNameOfCounterPartyAxis();
+            return "-"+dBS_LEF_A_20LE_Standalone_Layout2Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_A_20LE_Standalone_Layout2Entity.getNameOfCounterPartyAxis();
         }
         
         
         private String getGroupingClauseForDBS_LEF_B_SpecExp_Standalone_Layout1(DBS13DBS_LEF_B_SpecExp_Standalone_Layout1Entity dBS_LEF_B_SpecExp_Standalone_Layout1Entity){
-            return "-"+dBS_LEF_B_SpecExp_Standalone_Layout1Entity.getCounterPartyAxis()+dBS_LEF_B_SpecExp_Standalone_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_B_SpecExp_Standalone_Layout1Entity.getNameOfCounterPartyAxis();
+            return "-"+dBS_LEF_B_SpecExp_Standalone_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_B_SpecExp_Standalone_Layout1Entity.getNameOfCounterPartyAxis();
         }
         
         
         private String getGroupingClauseForDBS_LEF_C_OthExp_Standalone_Layout1(DBS13DBS_LEF_C_OthExp_Standalone_Layout1Entity dBS_LEF_C_OthExp_Standalone_Layout1Entity){
-            return "-"+dBS_LEF_C_OthExp_Standalone_Layout1Entity.getCounterPartyAxis()+dBS_LEF_C_OthExp_Standalone_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_C_OthExp_Standalone_Layout1Entity.getNameOfCounterPartyAxis();
+            return "-"+dBS_LEF_C_OthExp_Standalone_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_C_OthExp_Standalone_Layout1Entity.getNameOfCounterPartyAxis();
         }
         
         
         private String getGroupingClauseForDBS_LEF_D_ExempExp_Standalone_Layout1(DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity dBS_LEF_D_ExempExp_Standalone_Layout1Entity){
-            return "-"+dBS_LEF_D_ExempExp_Standalone_Layout1Entity.getCounterPartyAxis()+dBS_LEF_D_ExempExp_Standalone_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_D_ExempExp_Standalone_Layout1Entity.getNameOfCounterPartyAxis();
+            return "-"+dBS_LEF_D_ExempExp_Standalone_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_D_ExempExp_Standalone_Layout1Entity.getNameOfCounterPartyAxis();
         }
         
         
@@ -1994,22 +1890,22 @@ public class DBS13Calculator {
         
         
         private String getGroupingClauseForDBS_LEF_A_20LE_Consolidated_Layout2(DBS13DBS_LEF_A_20LE_Consolidated_Layout2Entity dBS_LEF_A_20LE_Consolidated_Layout2Entity){
-            return "-"+dBS_LEF_A_20LE_Consolidated_Layout2Entity.getCounterPartyAxis()+dBS_LEF_A_20LE_Consolidated_Layout2Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_A_20LE_Consolidated_Layout2Entity.getNameOfCounterPartyAxis();
+            return "-"+dBS_LEF_A_20LE_Consolidated_Layout2Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_A_20LE_Consolidated_Layout2Entity.getNameOfCounterPartyAxis();
         }
         
         
         private String getGroupingClauseForDBS_LEF_B_SpecExp_Consolidated_Layout1(DBS13DBS_LEF_B_SpecExp_Consolidated_Layout1Entity dBS_LEF_B_SpecExp_Consolidated_Layout1Entity){
-            return "-"+dBS_LEF_B_SpecExp_Consolidated_Layout1Entity.getCounterPartyAxis()+dBS_LEF_B_SpecExp_Consolidated_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_B_SpecExp_Consolidated_Layout1Entity.getNameOfCounterPartyAxis();
+            return "-"+dBS_LEF_B_SpecExp_Consolidated_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_B_SpecExp_Consolidated_Layout1Entity.getNameOfCounterPartyAxis();
         }
         
         
         private String getGroupingClauseForDBS_LEF_C_OthExp_Consolidated_Layout1(DBS13DBS_LEF_C_OthExp_Consolidated_Layout1Entity dBS_LEF_C_OthExp_Consolidated_Layout1Entity){
-            return "-"+dBS_LEF_C_OthExp_Consolidated_Layout1Entity.getCounterPartyAxis()+dBS_LEF_C_OthExp_Consolidated_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_C_OthExp_Consolidated_Layout1Entity.getNameOfCounterPartyAxis();
+            return "-"+dBS_LEF_C_OthExp_Consolidated_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_C_OthExp_Consolidated_Layout1Entity.getNameOfCounterPartyAxis();
         }
         
         
         private String getGroupingClauseForDBS_LEF_D_ExempExp_Consolidated_Layout1(DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity dBS_LEF_D_ExempExp_Consolidated_Layout1Entity){
-            return "-"+dBS_LEF_D_ExempExp_Consolidated_Layout1Entity.getCounterPartyAxis()+dBS_LEF_D_ExempExp_Consolidated_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_D_ExempExp_Consolidated_Layout1Entity.getNameOfCounterPartyAxis();
+            return "-"+dBS_LEF_D_ExempExp_Consolidated_Layout1Entity.getPermanentAccountNumberOrGroupIDOfCounterpartyAxis()+dBS_LEF_D_ExempExp_Consolidated_Layout1Entity.getNameOfCounterPartyAxis();
         }
         
         

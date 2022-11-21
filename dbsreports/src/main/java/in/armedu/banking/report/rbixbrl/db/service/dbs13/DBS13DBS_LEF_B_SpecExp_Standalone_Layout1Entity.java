@@ -26,8 +26,6 @@ public class DBS13DBS_LEF_B_SpecExp_Standalone_Layout1Entity {
     private Long id;
 
     
-        private String counterPartyAxis;
-    
         private String permanentAccountNumberOrGroupIDOfCounterpartyAxis;
     
         private String nameOfCounterPartyAxis;
