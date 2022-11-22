@@ -357,7 +357,7 @@
   <xsd:complexType name="EmailAddress">
     <xsd:simpleContent>
       <xsd:restriction base="xbrli:stringItemType">
-        <xsd:pattern value="^.+\@.+\..+$" />
+        <xsd:pattern value="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" />
       </xsd:restriction>
     </xsd:simpleContent>
   </xsd:complexType>
@@ -941,8 +941,8 @@
   <xsd:complexType name="CorporateIdentityNumberItemType">
     <xsd:simpleContent>
       <xsd:restriction base="xbrli:stringItemType">
-        <xsd:length value="21" fixed="true" />
-        <xsd:pattern value="[LU][0-9][0-9][0-9][0-9][0-9][A-Z][A-Z][0-9][0-9][0-9][0-9][A-Z][A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9]" />
+        <xsd:maxLength value="21" />
+        <xsd:pattern value="[LU][0-9][0-9][0-9][0-9][0-9][A-Z][A-Z][0-9][0-9][0-9][0-9][A-Z][A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9]|[A-Z][A-Z][A-Z][-][0-9][0-9][0-9][0-9]" />
       </xsd:restriction>
     </xsd:simpleContent>
   </xsd:complexType>
@@ -1049,6 +1049,27 @@
       <xsd:restriction base="xbrli:tokenItemType">
         <xsd:enumeration value="Performing Asset" />
         <xsd:enumeration value="Non-Performing Asset" />
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="MobileNumber10DigitType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:integerItemType">
+        <xsd:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" />
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="Landline8DigitType">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:maxLength value="8" />
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="EmailAddress1">
+    <xsd:simpleContent>
+      <xsd:restriction base="xbrli:stringItemType">
+        <xsd:pattern value="[^@]+@[^\.]+\..+" />
       </xsd:restriction>
     </xsd:simpleContent>
   </xsd:complexType>

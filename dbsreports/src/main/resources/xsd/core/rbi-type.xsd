@@ -688,6 +688,49 @@
      </xsd:restriction>
  </xsd:simpleContent>
 </xsd:complexType>
+<xsd:complexType name="NBFCAssetsSize">
+ <xsd:simpleContent>
+     <xsd:restriction base="xbrli:stringItemType">
+         <xsd:enumeration value="Asset size greater than Rs.500 crores" />
+         <xsd:enumeration value="Asset size less than Rs.500 crores" />
+     </xsd:restriction>
+ </xsd:simpleContent>
+</xsd:complexType>
+<xsd:complexType name="NBFCCategory">
+ <xsd:simpleContent>
+     <xsd:restriction base="xbrli:stringItemType">
+         <xsd:enumeration value="Deposit Taking" />
+         <xsd:enumeration value="Non Deposit Taking" />
+     </xsd:restriction>
+ </xsd:simpleContent>
+</xsd:complexType>
+<xsd:complexType name="NBFCClassification">
+ <xsd:simpleContent>
+     <xsd:restriction base="xbrli:stringItemType">
+         <xsd:enumeration value="Investment and Credit Companies (NBFC-ICC (LC/IC/AFC))" />
+         <xsd:enumeration value="Infrastructure Finance Company (NBFC-IFC)" />
+         <xsd:enumeration value="Micro Finance Institutions (NBFC-MFIs)" />
+         <xsd:enumeration value="Infrastructure Debt Funds(NBFC-IDFs)" />
+         <xsd:enumeration value="Factors (NBFC-Factors)" />
+         <xsd:enumeration value="Core Investment Companies (NBFC-CICs)" />
+         <xsd:enumeration value="Mortgage Gurantee Company (NBFC-MGC)" />
+         <xsd:enumeration value="Peer 2 Peer (P2P) Lending (NBFCs- P2Ps)" />
+         <xsd:enumeration value="Account Aggregators (NBFC-AAs)" />
+         <xsd:enumeration value="Others" />
+     </xsd:restriction>
+ </xsd:simpleContent>
+</xsd:complexType>
+<xsd:complexType name="Periodicity">
+ <xsd:simpleContent>
+     <xsd:restriction base="xbrli:stringItemType">
+         <xsd:enumeration value="Quarterly" />
+         <xsd:enumeration value="Half yearly" />
+         <xsd:enumeration value="Annually" />
+         <xsd:enumeration value="Bi-Annually" />
+         <xsd:enumeration value="Beyond two years" />
+     </xsd:restriction>
+ </xsd:simpleContent>
+</xsd:complexType>
 <xsd:complexType name="TelephoneNumber10DigitString">
  <xsd:simpleContent>
      <xsd:restriction base="xbrli:stringItemType">

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<table label="FilingInfo_Layout2" header="Table 1: Scoping Question"/>
+</tableSet>
+<tableSet label="DBS_StressedMSME">
+<table label="DBS_StressedMSME_Layout1" header="Table 1: Monthly Return on information related to Stressed MSME Sub-ordinate Debt Scheme (Personal Loans sanctioned to Promoters of distressed MSMEs under CREDIT GUARANTEE SCHEME FOR SUBORDINATE DEBT- CGSSD)"/>
+</tableSet>
+<tableSet label="DBS_AuthorisedSignatory">
+<table label="DBS_AuthorisedSignatory_Layout1" header="Authorised Signatory"/>
+</tableSet>
+</tableModel>

@@ -541,7 +541,9 @@
   </xsd:element>
   <xsd:element abstract="false" id="in-rbi-rep-par_InternalRatingsDomain" name="InternalRatingsDomain" nillable="false">
     <xsd:simpleType>
-      <xsd:restriction base="xsd:string" />
+      <xsd:restriction base="xsd:string">
+        <xsd:maxLength value="15" fixed="true" />
+      </xsd:restriction>
     </xsd:simpleType>
   </xsd:element>
   <xsd:element abstract="false" id="in-rbi-rep-par_ExternalRatingsDomain" name="ExternalRatingsDomain" nillable="false">
@@ -1022,6 +1024,16 @@
   <xsd:element id="in-rbi-rep-par_ReferenceNumberOfCollateralSecurityDomain" name="ReferenceNumberOfCollateralSecurityDomain" nillable="false" abstract="false">
     <xsd:simpleType>
       <xsd:restriction base="xsd:integer" />
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element abstract="false" id="in-rbi-rep-par_ReferenceNumberOfAccountDomain" name="ReferenceNumberOfAccountDomain" nillable="false">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:integer" />
+    </xsd:simpleType>
+  </xsd:element>
+  <xsd:element abstract="false" id="in-rbi-rep-par_NameOfAccountDomain" name="NameOfAccountDomain" nillable="false">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string" />
     </xsd:simpleType>
   </xsd:element>
   <xsd:simpleType name="IssuedCapitalDomain">
