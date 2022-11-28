@@ -25,8 +25,35 @@ public class DBS12ReportUtil {
             } else if(fieldList.size() >= 1){
                 for(FieldDataValue field : fieldList){
                     if(field.getMembers().isEmpty()) continue;
-                    boolean b = members.entrySet().stream().filter(value -> field.getMembers().entrySet().stream().anyMatch(value1 -> (value1.getKey().equalsIgnoreCase(value.getKey())  && value1.getValue().equalsIgnoreCase(value.getValue())))).findAny().isPresent();
+                    boolean b = members.entrySet().stream().filter(value -> field.getMembers().entrySet().stream().anyMatch(value1 -> (value1.getKey().equalsIgnoreCase(value.getKey().split(":")[1])  && value1.getValue().equalsIgnoreCase(value.getValue())))).findAny().isPresent();
                     if(b) return field.getValue();
+                }                
+                return null;
+            }
+        }
+        return null;
+    }
+
+    public static FieldDataValue retrieveFieldDataForElement(List<FieldDataValue> fieldList, Map<String, String> members ) {
+        if(members.isEmpty()){
+            if(fieldList.isEmpty()) {
+                return null;
+            } else if(fieldList.size()==1){
+                FieldDataValue fieldDataValue = fieldList.get(0);
+                if(fieldDataValue.getMembers().isEmpty()) {
+                    return fieldDataValue;
+                } else {
+                    return null;
+                }
+            }
+        } else if(members.size() >= 1) {
+            if(fieldList.isEmpty()) {
+                return null;
+            } else if(fieldList.size() >= 1){
+                for(FieldDataValue field : fieldList){
+                    if(field.getMembers().isEmpty()) continue;
+                    boolean b = members.entrySet().stream().filter(value -> field.getMembers().entrySet().stream().anyMatch(value1 -> (value1.getKey().equalsIgnoreCase(value.getKey().split(":")[1])  && value1.getValue().equalsIgnoreCase(value.getValue())))).findAny().isPresent();
+                    if(b) return field;
                 }                
                 return null;
             }

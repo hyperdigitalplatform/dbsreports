@@ -33,6 +33,9 @@ public class DBS12DBS12_SectionD_Layout2Entity {
         private String nameOfInterestedDirectorManagerAxis;
     
     
+    private String startDate;
+    private String endDate;
+    private String instantDate;
     private String fieldName;
     private String fieldValue;
 }

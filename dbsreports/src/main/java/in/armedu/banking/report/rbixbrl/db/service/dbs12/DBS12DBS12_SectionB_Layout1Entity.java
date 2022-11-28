@@ -29,6 +29,9 @@ public class DBS12DBS12_SectionB_Layout1Entity {
         private String nameOfEntityAxis;
     
     
+    private String startDate;
+    private String endDate;
+    private String instantDate;
     private String fieldName;
     private String fieldValue;
 }

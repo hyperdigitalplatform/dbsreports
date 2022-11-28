@@ -27,6 +27,9 @@ public class DBS12FilingInfo_Layout2Entity {
 
     
     
+    private String startDate;
+    private String endDate;
+    private String instantDate;
     private String fieldName;
     private String fieldValue;
 }

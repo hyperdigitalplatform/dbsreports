@@ -35,6 +35,9 @@ public class DBS13DBS_LEF_B_SpecExp_Consolidated_Layout1Entity {
     
         private String exposureToCounterpartiesAxis;
     
+    private String startDate;
+    private String endDate;
+    private String instantDate;
     private String fieldName;
     private String fieldValue;
 }

@@ -29,6 +29,9 @@ public class DBS13DBS_LEF_A_20LE_Consolidated_Layout1Entity {
     
         private String consolidatedAndSeparateFinancialStatementsAxis;
     
+    private String startDate;
+    private String endDate;
+    private String instantDate;
     private String fieldName;
     private String fieldValue;
 }

@@ -3,6 +3,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -24,6 +27,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ReturnName',
                 'dummy-value'
             );
@@ -32,6 +38,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -53,6 +62,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ReturnCode',
                 'dummy-value'
             );
@@ -61,6 +73,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -82,6 +97,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'NameOfReportingInstitution',
                 'dummy-value'
             );
@@ -90,6 +108,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -111,6 +132,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'BankCode',
                 'dummy-value'
             );
@@ -119,6 +143,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -140,6 +167,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'InstitutionType',
                 'dummy-value'
             );
@@ -148,6 +178,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -169,6 +202,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ReportingFrequency',
                 'dummy-value'
             );
@@ -177,6 +213,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -198,6 +237,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ReportingPeriodStartDate',
                 'dummy-value'
             );
@@ -206,6 +248,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -227,6 +272,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ReportingPeriodEndDate',
                 'dummy-value'
             );
@@ -235,6 +283,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -256,6 +307,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ReportingCurrency',
                 'dummy-value'
             );
@@ -264,6 +318,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -285,6 +342,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ReportingScale',
                 'dummy-value'
             );
@@ -293,6 +353,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -314,6 +377,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'TaxonomyVersion',
                 'dummy-value'
             );
@@ -322,6 +388,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -343,6 +412,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ToolName',
                 'dummy-value'
             );
@@ -351,6 +423,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -372,6 +447,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ToolVersion',
                 'dummy-value'
             );
@@ -380,6 +458,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -401,6 +482,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ReportStatus',
                 'dummy-value'
             );
@@ -409,6 +493,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -430,6 +517,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'DateOfAudit',
                 'dummy-value'
             );
@@ -438,6 +528,9 @@
             INSERT INTO DBS13FilingInfo_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -459,6 +552,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'GeneralRemarks',
                 'dummy-value'
             );
@@ -470,12 +566,18 @@
             INSERT INTO DBS13FilingInfo_Layout2Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'WhetherBankHasSubsidiaries',
                 'dummy-value'
             );
@@ -489,6 +591,9 @@
             
                 ConsolidatedAndSeparateFinancialStatementsAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -497,6 +602,9 @@
                 
                     'in-rbi-rep:StandaloneMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'Tier1Capital',
                 'dummy-value'
             );
@@ -516,6 +624,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -533,6 +644,9 @@
                 
                     'rbi-core:LargestTwentyExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ExposureAmount',
                 'dummy-value'
             );
@@ -549,6 +663,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -566,6 +683,9 @@
                 
                     'rbi-core:LargestTwentyExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
             );
@@ -585,6 +705,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -602,6 +725,9 @@
                 
                     'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ExposureAmount',
                 'dummy-value'
             );
@@ -618,6 +744,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -635,6 +764,9 @@
                 
                     'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
             );
@@ -654,6 +786,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -671,6 +806,9 @@
                 
                     'rbi-core:OtherExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ExposureAmount',
                 'dummy-value'
             );
@@ -687,6 +825,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -704,6 +845,9 @@
                 
                     'rbi-core:OtherExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
             );
@@ -723,6 +867,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -740,6 +887,9 @@
                 
                     'rbi-core:ExemptedExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ExposureAmount',
                 'dummy-value'
             );
@@ -756,6 +906,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -773,6 +926,9 @@
                 
                     'rbi-core:ExemptedExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
             );
@@ -786,6 +942,9 @@
             
                 ConsolidatedAndSeparateFinancialStatementsAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -794,6 +953,9 @@
                 
                     'in-rbi-rep:ConsolidatedMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'Tier1Capital',
                 'dummy-value'
             );
@@ -813,6 +975,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -830,6 +995,9 @@
                 
                     'rbi-core:LargestTwentyExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ExposureAmount',
                 'dummy-value'
             );
@@ -846,6 +1014,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -863,6 +1034,9 @@
                 
                     'rbi-core:LargestTwentyExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
             );
@@ -882,6 +1056,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -899,6 +1076,9 @@
                 
                     'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ExposureAmount',
                 'dummy-value'
             );
@@ -915,6 +1095,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -932,6 +1115,9 @@
                 
                     'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
             );
@@ -951,6 +1137,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -968,6 +1157,9 @@
                 
                     'rbi-core:OtherExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ExposureAmount',
                 'dummy-value'
             );
@@ -984,6 +1176,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1001,6 +1196,9 @@
                 
                     'rbi-core:OtherExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
             );
@@ -1020,6 +1218,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1037,6 +1238,9 @@
                 
                     'rbi-core:ExemptedExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'ExposureAmount',
                 'dummy-value'
             );
@@ -1053,6 +1257,9 @@
             
                 ExposureToCounterpartiesAxis,
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1070,6 +1277,9 @@
                 
                     'rbi-core:ExemptedExposuresMember',
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'PercentageOfExposureToTier1Capital',
                 'dummy-value'
             );
@@ -1081,6 +1291,9 @@
             INSERT INTO DBS13DBS_AuthorisedSignatory_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1092,6 +1305,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'NameOfSignatory',
                 'dummy-value'
             );
@@ -1100,6 +1316,9 @@
             INSERT INTO DBS13DBS_AuthorisedSignatory_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1111,6 +1330,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'DesignationOfSignatory',
                 'dummy-value'
             );
@@ -1119,6 +1341,9 @@
             INSERT INTO DBS13DBS_AuthorisedSignatory_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1130,6 +1355,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'AuthorisedSignatoryOfficialLandlineNumber',
                 'dummy-value'
             );
@@ -1138,6 +1366,9 @@
             INSERT INTO DBS13DBS_AuthorisedSignatory_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1149,6 +1380,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'MobileNumberOfAuthorisedSignatory',
                 'dummy-value'
             );
@@ -1157,6 +1391,9 @@
             INSERT INTO DBS13DBS_AuthorisedSignatory_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1168,6 +1405,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'EMailIDOfAuthorisedReportingOfficial',
                 'dummy-value'
             );
@@ -1176,6 +1416,9 @@
             INSERT INTO DBS13DBS_AuthorisedSignatory_Layout1Entity (
             
             
+            StartDate,
+            EndDate,
+            InstantDate,
             FieldName,
             FieldValue ) VALUES (
                 
@@ -1187,6 +1430,9 @@
                 
                 
                 
+                'StartDate-Empty',
+                'EndDate-Empty',
+                'InstantDate-Empty',
                 'Remarks',
                 'dummy-value'
             );

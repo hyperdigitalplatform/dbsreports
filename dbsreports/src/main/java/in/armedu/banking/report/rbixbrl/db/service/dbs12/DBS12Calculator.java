@@ -63,6 +63,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReturnName")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReturnName().add(fieldDataValue);
                                 }
@@ -97,6 +101,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReturnCode")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReturnCode().add(fieldDataValue);
                                 }
@@ -131,6 +139,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NameOfReportingInstitution")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getNameOfReportingInstitution().add(fieldDataValue);
                                 }
@@ -165,6 +177,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("BankCode")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getBankCode().add(fieldDataValue);
                                 }
@@ -199,6 +215,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InstitutionType")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getInstitutionType().add(fieldDataValue);
                                 }
@@ -233,6 +253,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingFrequency")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingFrequency().add(fieldDataValue);
                                 }
@@ -267,6 +291,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingPeriodStartDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingPeriodStartDate().add(fieldDataValue);
                                 }
@@ -301,6 +329,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingPeriodEndDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingPeriodEndDate().add(fieldDataValue);
                                 }
@@ -335,6 +367,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingCurrency")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingCurrency().add(fieldDataValue);
                                 }
@@ -369,6 +405,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingScale")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingScale().add(fieldDataValue);
                                 }
@@ -403,6 +443,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TaxonomyVersion")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getTaxonomyVersion().add(fieldDataValue);
                                 }
@@ -437,6 +481,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ToolName")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getToolName().add(fieldDataValue);
                                 }
@@ -471,6 +519,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ToolVersion")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getToolVersion().add(fieldDataValue);
                                 }
@@ -505,6 +557,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportStatus")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportStatus().add(fieldDataValue);
                                 }
@@ -539,6 +595,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DateOfAudit")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getDateOfAudit().add(fieldDataValue);
                                 }
@@ -573,6 +633,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("GeneralRemarks")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getGeneralRemarks().add(fieldDataValue);
                                 }
@@ -654,6 +718,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("WhetherBankSubmittingTheReturnIsForeignBank")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     filingInfo_Layout2.getWhetherBankSubmittingTheReturnIsForeignBank().add(fieldDataValue);
                                 }
@@ -710,6 +778,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionA_Layout1.getTypeOfEntity().add(fieldDataValue);
                                 }
@@ -734,6 +806,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialClassification")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionA_Layout1.getFinancialClassification().add(fieldDataValue);
                                 }
@@ -812,6 +888,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getTypeOfEntity().add(fieldDataValue);
                                 }
@@ -851,6 +931,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialClassification")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getFinancialClassification().add(fieldDataValue);
                                 }
@@ -890,6 +974,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("BanksEquityInvestmentInTheCompany")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getBanksEquityInvestmentInTheCompany().add(fieldDataValue);
                                 }
@@ -929,6 +1017,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("BanksPercentageInvestmentInCompanyEquity")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getBanksPercentageInvestmentInCompanyEquity().add(fieldDataValue);
                                 }
@@ -968,6 +1060,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstandingForFundedExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getAggregateAmountOutstandingForFundedExposure().add(fieldDataValue);
                                 }
@@ -1007,6 +1103,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FundedCreditExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getFundedCreditExposure().add(fieldDataValue);
                                 }
@@ -1046,6 +1146,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstandingForNonFundedExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getAggregateAmountOutstandingForNonFundedExposure().add(fieldDataValue);
                                 }
@@ -1085,6 +1189,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NonFundedCreditExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getNonFundedCreditExposure().add(fieldDataValue);
                                 }
@@ -1124,6 +1232,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateInvestmentExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getAggregateInvestmentExposure().add(fieldDataValue);
                                 }
@@ -1163,6 +1275,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExemptedExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getExemptedExposure().add(fieldDataValue);
                                 }
@@ -1202,6 +1318,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstanding")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getAggregateAmountOutstanding().add(fieldDataValue);
                                 }
@@ -1241,6 +1361,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getAggregateExposure().add(fieldDataValue);
                                 }
@@ -1280,6 +1404,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetClassifications")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getAssetClassifications().add(fieldDataValue);
                                 }
@@ -1319,6 +1447,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AmountOfAggregateProvisionsHeldForNPAs")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getAmountOfAggregateProvisionsHeldForNPAs().add(fieldDataValue);
                                 }
@@ -1358,6 +1490,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getAmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding().add(fieldDataValue);
                                 }
@@ -1397,6 +1533,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReasonsForBreachOfStipulatedPrudentialLimits")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getReasonsForBreachOfStipulatedPrudentialLimits().add(fieldDataValue);
                                 }
@@ -1436,6 +1576,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DescriptionOfIntraGroupSupportArrangementsOrAgreements")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionB_Layout1.getDescriptionOfIntraGroupSupportArrangementsOrAgreements().add(fieldDataValue);
                                 }
@@ -1538,6 +1682,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionC_Layout1.getTypeOfEntity().add(fieldDataValue);
                                 }
@@ -1571,6 +1719,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfExposures")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionC_Layout1.getTypeOfExposures().add(fieldDataValue);
                                 }
@@ -1604,6 +1756,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionC_Layout1.getExposureAmount().add(fieldDataValue);
                                 }
@@ -1637,6 +1793,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TermOfCreditExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionC_Layout1.getTermOfCreditExposure().add(fieldDataValue);
                                 }
@@ -1670,6 +1830,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ValueOfSecuritiesCollateral")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionC_Layout1.getValueOfSecuritiesCollateral().add(fieldDataValue);
                                 }
@@ -1703,6 +1867,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetClassifications")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionC_Layout1.getAssetClassifications().add(fieldDataValue);
                                 }
@@ -1736,6 +1904,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ProvisionForInvestment")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionC_Layout1.getProvisionForInvestment().add(fieldDataValue);
                                 }
@@ -1822,6 +1994,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfExposures")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout1.getTypeOfExposures().add(fieldDataValue);
                                 }
@@ -1854,6 +2030,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout1.getExposureAmount().add(fieldDataValue);
                                 }
@@ -1886,6 +2066,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TermOfCreditExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout1.getTermOfCreditExposure().add(fieldDataValue);
                                 }
@@ -1918,6 +2102,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ValueOfSecuritiesCollateral")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout1.getValueOfSecuritiesCollateral().add(fieldDataValue);
                                 }
@@ -1950,6 +2138,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetClassifications")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout1.getAssetClassifications().add(fieldDataValue);
                                 }
@@ -1982,6 +2174,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ProvisionForInvestment")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout1.getProvisionForInvestment().add(fieldDataValue);
                                 }
@@ -2071,6 +2267,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout2.getTypeOfEntity().add(fieldDataValue);
                                 }
@@ -2108,6 +2308,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfExposures")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout2.getTypeOfExposures().add(fieldDataValue);
                                 }
@@ -2145,6 +2349,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout2.getExposureAmount().add(fieldDataValue);
                                 }
@@ -2182,6 +2390,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TermOfCreditExposure")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout2.getTermOfCreditExposure().add(fieldDataValue);
                                 }
@@ -2219,6 +2431,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ValueOfSecuritiesCollateral")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout2.getValueOfSecuritiesCollateral().add(fieldDataValue);
                                 }
@@ -2256,6 +2472,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetClassifications")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout2.getAssetClassifications().add(fieldDataValue);
                                 }
@@ -2293,6 +2513,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ProvisionForInvestment")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBS12_SectionD_Layout2.getProvisionForInvestment().add(fieldDataValue);
                                 }
@@ -2376,6 +2600,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NameOfSignatory")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBSAuthorisedSignatory_Layout1.getNameOfSignatory().add(fieldDataValue);
                                 }
@@ -2400,6 +2628,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DesignationOfSignatory")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBSAuthorisedSignatory_Layout1.getDesignationOfSignatory().add(fieldDataValue);
                                 }
@@ -2424,6 +2656,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AuthorisedSignatoryOfficialLandlineNumber")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBSAuthorisedSignatory_Layout1.getAuthorisedSignatoryOfficialLandlineNumber().add(fieldDataValue);
                                 }
@@ -2448,6 +2684,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("MobileNumberOfAuthorisedSignatory")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBSAuthorisedSignatory_Layout1.getMobileNumberOfAuthorisedSignatory().add(fieldDataValue);
                                 }
@@ -2472,6 +2712,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("EMailIDOfAuthorisedReportingOfficial")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBSAuthorisedSignatory_Layout1.getEMailIDOfAuthorisedReportingOfficial().add(fieldDataValue);
                                 }
@@ -2496,6 +2740,10 @@ public class DBS12Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("Remarks")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDate(dbEntity.getStartDate());
+                                    fieldDataValue.setEndDate(dbEntity.getEndDate());
+                                    fieldDataValue.setInstantDate(dbEntity.getInstantDate());
                                     // add fieldDataValue to field
                                     dBSAuthorisedSignatory_Layout1.getRemarks().add(fieldDataValue);
                                 }

@@ -268,10 +268,12 @@ public class DBS12Report implements XBRLReportIntf {
                 // create variable for subclass FilingInfo_Layout1 if any typeMembers then List or Single
                 //FilingInfo_Layout1 filingInfo_Layout1 = mainReportData.getFilingInfo_Layout1();
                 
-                    private String filingInfo_Layout1Method(FilingInfo_Layout1 filingInfo_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDate, String endDate, String periodDate)
+                    private String filingInfo_Layout1Method(FilingInfo_Layout1 filingInfo_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDateDefault, String endDateDefault, String periodDateDefault)
                 
                     {
-            
+                        String startDate = startDateDefault;
+                        String endDate = endDateDefault;
+                        String periodDate = periodDateDefault;
                     FilingInfo_Layout1 field = filingInfo_Layout1;
                     
                     
@@ -280,10 +282,23 @@ public class DBS12Report implements XBRLReportIntf {
                             
                             // - ReturnName
                             
-                                Map zeroFilingInfo_Layout1ReturnNameMap3 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ReturnNameMap4 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ReturnNameValue2 = DBS12ReportUtil.retrieveValueForElement(field.getReturnName(), zeroFilingInfo_Layout1ReturnNameMap3);
+                                    String zeroFilingInfo_Layout1ReturnNameValue2 = DBS12ReportUtil.retrieveValueForElement(field.getReturnName(), zeroFilingInfo_Layout1ReturnNameMap4);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ReturnNameFieldDataValue3 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReturnName(), zeroFilingInfo_Layout1ReturnNameMap4);
+    
+                                    if(zeroFilingInfo_Layout1ReturnNameFieldDataValue3 != null ) {
+                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getInstantDate();
+                                    }
 
                                     
                                         Context FilingInfo_Layout1ReturnNameContext1 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
@@ -295,453 +310,648 @@ public class DBS12Report implements XBRLReportIntf {
                                     
                                     
                                     
-                                    StringItemType returnNameValue4 = new StringItemType();
-                                    returnNameValue4.setContextRef(FilingInfo_Layout1ReturnNameContext1);
+                                    StringItemType returnNameValue5 = new StringItemType();
+                                    returnNameValue5.setContextRef(FilingInfo_Layout1ReturnNameContext1);
                                     
-                                    returnNameValue4.setValue(zeroFilingInfo_Layout1ReturnNameValue2);        
+                                    returnNameValue5.setValue(zeroFilingInfo_Layout1ReturnNameValue2);        
                                     
                                     
-                                    JAXBElement<StringItemType> returnNameElement5 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReturnName(returnNameValue4);
-                                    bodyElements.add(returnNameElement5);
+                                    JAXBElement<StringItemType> returnNameElement6 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReturnName(returnNameValue5);
+                                    bodyElements.add(returnNameElement6);
                                 
                             }
                         
                             
                             // - ReturnCode
                             
-                                Map zeroFilingInfo_Layout1ReturnCodeMap8 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ReturnCodeMap10 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ReturnCodeValue7 = DBS12ReportUtil.retrieveValueForElement(field.getReturnCode(), zeroFilingInfo_Layout1ReturnCodeMap8);
+                                    String zeroFilingInfo_Layout1ReturnCodeValue8 = DBS12ReportUtil.retrieveValueForElement(field.getReturnCode(), zeroFilingInfo_Layout1ReturnCodeMap10);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ReturnCodeFieldDataValue9 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReturnCode(), zeroFilingInfo_Layout1ReturnCodeMap10);
+    
+                                    if(zeroFilingInfo_Layout1ReturnCodeFieldDataValue9 != null ) {
+                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1ReturnCodeContext6 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1ReturnCodeContext7 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1ReturnCodeValue7 != null && !"".equals(zeroFilingInfo_Layout1ReturnCodeValue7)) {
+                                if(zeroFilingInfo_Layout1ReturnCodeValue8 != null && !"".equals(zeroFilingInfo_Layout1ReturnCodeValue8)) {
                                     
-                                    addContext(FilingInfo_Layout1ReturnCodeContext6, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType returnCodeValue9 = new StringItemType();
-                                    returnCodeValue9.setContextRef(FilingInfo_Layout1ReturnCodeContext6);
-                                    
-                                    returnCodeValue9.setValue(zeroFilingInfo_Layout1ReturnCodeValue7);        
+                                    addContext(FilingInfo_Layout1ReturnCodeContext7, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> returnCodeElement10 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReturnCode(returnCodeValue9);
-                                    bodyElements.add(returnCodeElement10);
+                                    
+                                    StringItemType returnCodeValue11 = new StringItemType();
+                                    returnCodeValue11.setContextRef(FilingInfo_Layout1ReturnCodeContext7);
+                                    
+                                    returnCodeValue11.setValue(zeroFilingInfo_Layout1ReturnCodeValue8);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> returnCodeElement12 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReturnCode(returnCodeValue11);
+                                    bodyElements.add(returnCodeElement12);
                                 
                             }
                         
                             
                             // - NameOfReportingInstitution
                             
-                                Map zeroFilingInfo_Layout1NameOfReportingInstitutionMap13 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1NameOfReportingInstitutionMap16 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1NameOfReportingInstitutionValue12 = DBS12ReportUtil.retrieveValueForElement(field.getNameOfReportingInstitution(), zeroFilingInfo_Layout1NameOfReportingInstitutionMap13);
+                                    String zeroFilingInfo_Layout1NameOfReportingInstitutionValue14 = DBS12ReportUtil.retrieveValueForElement(field.getNameOfReportingInstitution(), zeroFilingInfo_Layout1NameOfReportingInstitutionMap16);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15 = DBS12ReportUtil.retrieveFieldDataForElement(field.getNameOfReportingInstitution(), zeroFilingInfo_Layout1NameOfReportingInstitutionMap16);
+    
+                                    if(zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15 != null ) {
+                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getStartDate();
+                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getEndDate();
+                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1NameOfReportingInstitutionContext11 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1NameOfReportingInstitutionContext13 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1NameOfReportingInstitutionValue12 != null && !"".equals(zeroFilingInfo_Layout1NameOfReportingInstitutionValue12)) {
+                                if(zeroFilingInfo_Layout1NameOfReportingInstitutionValue14 != null && !"".equals(zeroFilingInfo_Layout1NameOfReportingInstitutionValue14)) {
                                     
-                                    addContext(FilingInfo_Layout1NameOfReportingInstitutionContext11, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType nameOfReportingInstitutionValue14 = new StringItemType();
-                                    nameOfReportingInstitutionValue14.setContextRef(FilingInfo_Layout1NameOfReportingInstitutionContext11);
-                                    
-                                    nameOfReportingInstitutionValue14.setValue(zeroFilingInfo_Layout1NameOfReportingInstitutionValue12);        
+                                    addContext(FilingInfo_Layout1NameOfReportingInstitutionContext13, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> nameOfReportingInstitutionElement15 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createNameOfReportingInstitution(nameOfReportingInstitutionValue14);
-                                    bodyElements.add(nameOfReportingInstitutionElement15);
+                                    
+                                    StringItemType nameOfReportingInstitutionValue17 = new StringItemType();
+                                    nameOfReportingInstitutionValue17.setContextRef(FilingInfo_Layout1NameOfReportingInstitutionContext13);
+                                    
+                                    nameOfReportingInstitutionValue17.setValue(zeroFilingInfo_Layout1NameOfReportingInstitutionValue14);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> nameOfReportingInstitutionElement18 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createNameOfReportingInstitution(nameOfReportingInstitutionValue17);
+                                    bodyElements.add(nameOfReportingInstitutionElement18);
                                 
                             }
                         
                             
                             // - BankCode
                             
-                                Map zeroFilingInfo_Layout1BankCodeMap18 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1BankCodeMap22 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1BankCodeValue17 = DBS12ReportUtil.retrieveValueForElement(field.getBankCode(), zeroFilingInfo_Layout1BankCodeMap18);
+                                    String zeroFilingInfo_Layout1BankCodeValue20 = DBS12ReportUtil.retrieveValueForElement(field.getBankCode(), zeroFilingInfo_Layout1BankCodeMap22);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1BankCodeFieldDataValue21 = DBS12ReportUtil.retrieveFieldDataForElement(field.getBankCode(), zeroFilingInfo_Layout1BankCodeMap22);
+    
+                                    if(zeroFilingInfo_Layout1BankCodeFieldDataValue21 != null ) {
+                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getStartDate();
+                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getEndDate();
+                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getInstantDate();
+                                    }
 
                                     
-                                    Context FilingInfo_Layout1BankCodeContext16 = DBS12ReportContextUtil.createAsOfContext( bankCode, periodDate  );
+                                    Context FilingInfo_Layout1BankCodeContext19 = DBS12ReportContextUtil.createAsOfContext( bankCode, periodDate  );
                                         
                                     
                                 
-                                if(zeroFilingInfo_Layout1BankCodeValue17 != null && !"".equals(zeroFilingInfo_Layout1BankCodeValue17)) {
+                                if(zeroFilingInfo_Layout1BankCodeValue20 != null && !"".equals(zeroFilingInfo_Layout1BankCodeValue20)) {
                                     
-                                    addContext(FilingInfo_Layout1BankCodeContext16, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType bankCodeValue19 = new StringItemType();
-                                    bankCodeValue19.setContextRef(FilingInfo_Layout1BankCodeContext16);
-                                    
-                                    bankCodeValue19.setValue(zeroFilingInfo_Layout1BankCodeValue17);        
+                                    addContext(FilingInfo_Layout1BankCodeContext19, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> bankCodeElement20 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createBankCode(bankCodeValue19);
-                                    bodyElements.add(bankCodeElement20);
+                                    
+                                    StringItemType bankCodeValue23 = new StringItemType();
+                                    bankCodeValue23.setContextRef(FilingInfo_Layout1BankCodeContext19);
+                                    
+                                    bankCodeValue23.setValue(zeroFilingInfo_Layout1BankCodeValue20);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> bankCodeElement24 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createBankCode(bankCodeValue23);
+                                    bodyElements.add(bankCodeElement24);
                                 
                             }
                         
                             
                             // - InstitutionType
                             
-                                Map zeroFilingInfo_Layout1InstitutionTypeMap23 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1InstitutionTypeMap28 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1InstitutionTypeValue22 = DBS12ReportUtil.retrieveValueForElement(field.getInstitutionType(), zeroFilingInfo_Layout1InstitutionTypeMap23);
+                                    String zeroFilingInfo_Layout1InstitutionTypeValue26 = DBS12ReportUtil.retrieveValueForElement(field.getInstitutionType(), zeroFilingInfo_Layout1InstitutionTypeMap28);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27 = DBS12ReportUtil.retrieveFieldDataForElement(field.getInstitutionType(), zeroFilingInfo_Layout1InstitutionTypeMap28);
+    
+                                    if(zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27 != null ) {
+                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getStartDate();
+                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getEndDate();
+                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1InstitutionTypeContext21 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1InstitutionTypeContext25 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1InstitutionTypeValue22 != null && !"".equals(zeroFilingInfo_Layout1InstitutionTypeValue22)) {
+                                if(zeroFilingInfo_Layout1InstitutionTypeValue26 != null && !"".equals(zeroFilingInfo_Layout1InstitutionTypeValue26)) {
                                     
-                                    addContext(FilingInfo_Layout1InstitutionTypeContext21, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType institutionTypeValue24 = new StringItemType();
-                                    institutionTypeValue24.setContextRef(FilingInfo_Layout1InstitutionTypeContext21);
-                                    
-                                    institutionTypeValue24.setValue(zeroFilingInfo_Layout1InstitutionTypeValue22);        
+                                    addContext(FilingInfo_Layout1InstitutionTypeContext25, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> institutionTypeElement25 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createInstitutionType(institutionTypeValue24);
-                                    bodyElements.add(institutionTypeElement25);
+                                    
+                                    StringItemType institutionTypeValue29 = new StringItemType();
+                                    institutionTypeValue29.setContextRef(FilingInfo_Layout1InstitutionTypeContext25);
+                                    
+                                    institutionTypeValue29.setValue(zeroFilingInfo_Layout1InstitutionTypeValue26);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> institutionTypeElement30 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createInstitutionType(institutionTypeValue29);
+                                    bodyElements.add(institutionTypeElement30);
                                 
                             }
                         
                             
                             // - ReportingFrequency
                             
-                                Map zeroFilingInfo_Layout1ReportingFrequencyMap28 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ReportingFrequencyMap34 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ReportingFrequencyValue27 = DBS12ReportUtil.retrieveValueForElement(field.getReportingFrequency(), zeroFilingInfo_Layout1ReportingFrequencyMap28);
+                                    String zeroFilingInfo_Layout1ReportingFrequencyValue32 = DBS12ReportUtil.retrieveValueForElement(field.getReportingFrequency(), zeroFilingInfo_Layout1ReportingFrequencyMap34);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReportingFrequency(), zeroFilingInfo_Layout1ReportingFrequencyMap34);
+    
+                                    if(zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33 != null ) {
+                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1ReportingFrequencyContext26 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1ReportingFrequencyContext31 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1ReportingFrequencyValue27 != null && !"".equals(zeroFilingInfo_Layout1ReportingFrequencyValue27)) {
+                                if(zeroFilingInfo_Layout1ReportingFrequencyValue32 != null && !"".equals(zeroFilingInfo_Layout1ReportingFrequencyValue32)) {
                                     
-                                    addContext(FilingInfo_Layout1ReportingFrequencyContext26, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType reportingFrequencyValue29 = new StringItemType();
-                                    reportingFrequencyValue29.setContextRef(FilingInfo_Layout1ReportingFrequencyContext26);
-                                    
-                                    reportingFrequencyValue29.setValue(zeroFilingInfo_Layout1ReportingFrequencyValue27);        
+                                    addContext(FilingInfo_Layout1ReportingFrequencyContext31, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> reportingFrequencyElement30 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReportingFrequency(reportingFrequencyValue29);
-                                    bodyElements.add(reportingFrequencyElement30);
+                                    
+                                    StringItemType reportingFrequencyValue35 = new StringItemType();
+                                    reportingFrequencyValue35.setContextRef(FilingInfo_Layout1ReportingFrequencyContext31);
+                                    
+                                    reportingFrequencyValue35.setValue(zeroFilingInfo_Layout1ReportingFrequencyValue32);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> reportingFrequencyElement36 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReportingFrequency(reportingFrequencyValue35);
+                                    bodyElements.add(reportingFrequencyElement36);
                                 
                             }
                         
                             
                             // - ReportingPeriodStartDate
                             
-                                Map zeroFilingInfo_Layout1ReportingPeriodStartDateMap33 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ReportingPeriodStartDateMap40 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ReportingPeriodStartDateValue32 = DBS12ReportUtil.retrieveValueForElement(field.getReportingPeriodStartDate(), zeroFilingInfo_Layout1ReportingPeriodStartDateMap33);
+                                    String zeroFilingInfo_Layout1ReportingPeriodStartDateValue38 = DBS12ReportUtil.retrieveValueForElement(field.getReportingPeriodStartDate(), zeroFilingInfo_Layout1ReportingPeriodStartDateMap40);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReportingPeriodStartDate(), zeroFilingInfo_Layout1ReportingPeriodStartDateMap40);
+    
+                                    if(zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39 != null ) {
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getInstantDate();
+                                    }
 
                                     
-                                    Context FilingInfo_Layout1ReportingPeriodStartDateContext31 = DBS12ReportContextUtil.createAsOfContext( bankCode, periodDate  );
+                                    Context FilingInfo_Layout1ReportingPeriodStartDateContext37 = DBS12ReportContextUtil.createAsOfContext( bankCode, periodDate  );
                                         
                                     
                                 
-                                if(zeroFilingInfo_Layout1ReportingPeriodStartDateValue32 != null && !"".equals(zeroFilingInfo_Layout1ReportingPeriodStartDateValue32)) {
+                                if(zeroFilingInfo_Layout1ReportingPeriodStartDateValue38 != null && !"".equals(zeroFilingInfo_Layout1ReportingPeriodStartDateValue38)) {
                                     
-                                    addContext(FilingInfo_Layout1ReportingPeriodStartDateContext31, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    DateItemType reportingPeriodStartDateValue34 = new DateItemType();
-                                    reportingPeriodStartDateValue34.setContextRef(FilingInfo_Layout1ReportingPeriodStartDateContext31);
-                                    
-                                    reportingPeriodStartDateValue34.setValue(DBS12ReportContextUtil.toXMLGeo(zeroFilingInfo_Layout1ReportingPeriodStartDateValue32));
+                                    addContext(FilingInfo_Layout1ReportingPeriodStartDateContext37, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<DateItemType> reportingPeriodStartDateElement35 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReportingPeriodStartDate(reportingPeriodStartDateValue34);
-                                    bodyElements.add(reportingPeriodStartDateElement35);
+                                    
+                                    DateItemType reportingPeriodStartDateValue41 = new DateItemType();
+                                    reportingPeriodStartDateValue41.setContextRef(FilingInfo_Layout1ReportingPeriodStartDateContext37);
+                                    
+                                    reportingPeriodStartDateValue41.setValue(DBS12ReportContextUtil.toXMLGeo(zeroFilingInfo_Layout1ReportingPeriodStartDateValue38));
+                                    
+                                    
+                                    JAXBElement<DateItemType> reportingPeriodStartDateElement42 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReportingPeriodStartDate(reportingPeriodStartDateValue41);
+                                    bodyElements.add(reportingPeriodStartDateElement42);
                                 
                             }
                         
                             
                             // - ReportingPeriodEndDate
                             
-                                Map zeroFilingInfo_Layout1ReportingPeriodEndDateMap38 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ReportingPeriodEndDateMap46 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ReportingPeriodEndDateValue37 = DBS12ReportUtil.retrieveValueForElement(field.getReportingPeriodEndDate(), zeroFilingInfo_Layout1ReportingPeriodEndDateMap38);
+                                    String zeroFilingInfo_Layout1ReportingPeriodEndDateValue44 = DBS12ReportUtil.retrieveValueForElement(field.getReportingPeriodEndDate(), zeroFilingInfo_Layout1ReportingPeriodEndDateMap46);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReportingPeriodEndDate(), zeroFilingInfo_Layout1ReportingPeriodEndDateMap46);
+    
+                                    if(zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45 != null ) {
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getInstantDate();
+                                    }
 
                                     
-                                    Context FilingInfo_Layout1ReportingPeriodEndDateContext36 = DBS12ReportContextUtil.createAsOfContext( bankCode, periodDate  );
+                                    Context FilingInfo_Layout1ReportingPeriodEndDateContext43 = DBS12ReportContextUtil.createAsOfContext( bankCode, periodDate  );
                                         
                                     
                                 
-                                if(zeroFilingInfo_Layout1ReportingPeriodEndDateValue37 != null && !"".equals(zeroFilingInfo_Layout1ReportingPeriodEndDateValue37)) {
+                                if(zeroFilingInfo_Layout1ReportingPeriodEndDateValue44 != null && !"".equals(zeroFilingInfo_Layout1ReportingPeriodEndDateValue44)) {
                                     
-                                    addContext(FilingInfo_Layout1ReportingPeriodEndDateContext36, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    DateItemType reportingPeriodEndDateValue39 = new DateItemType();
-                                    reportingPeriodEndDateValue39.setContextRef(FilingInfo_Layout1ReportingPeriodEndDateContext36);
-                                    
-                                    reportingPeriodEndDateValue39.setValue(DBS12ReportContextUtil.toXMLGeo(zeroFilingInfo_Layout1ReportingPeriodEndDateValue37));
+                                    addContext(FilingInfo_Layout1ReportingPeriodEndDateContext43, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<DateItemType> reportingPeriodEndDateElement40 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReportingPeriodEndDate(reportingPeriodEndDateValue39);
-                                    bodyElements.add(reportingPeriodEndDateElement40);
+                                    
+                                    DateItemType reportingPeriodEndDateValue47 = new DateItemType();
+                                    reportingPeriodEndDateValue47.setContextRef(FilingInfo_Layout1ReportingPeriodEndDateContext43);
+                                    
+                                    reportingPeriodEndDateValue47.setValue(DBS12ReportContextUtil.toXMLGeo(zeroFilingInfo_Layout1ReportingPeriodEndDateValue44));
+                                    
+                                    
+                                    JAXBElement<DateItemType> reportingPeriodEndDateElement48 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReportingPeriodEndDate(reportingPeriodEndDateValue47);
+                                    bodyElements.add(reportingPeriodEndDateElement48);
                                 
                             }
                         
                             
                             // - ReportingCurrency
                             
-                                Map zeroFilingInfo_Layout1ReportingCurrencyMap43 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ReportingCurrencyMap52 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ReportingCurrencyValue42 = DBS12ReportUtil.retrieveValueForElement(field.getReportingCurrency(), zeroFilingInfo_Layout1ReportingCurrencyMap43);
+                                    String zeroFilingInfo_Layout1ReportingCurrencyValue50 = DBS12ReportUtil.retrieveValueForElement(field.getReportingCurrency(), zeroFilingInfo_Layout1ReportingCurrencyMap52);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReportingCurrency(), zeroFilingInfo_Layout1ReportingCurrencyMap52);
+    
+                                    if(zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51 != null ) {
+                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1ReportingCurrencyContext41 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1ReportingCurrencyContext49 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1ReportingCurrencyValue42 != null && !"".equals(zeroFilingInfo_Layout1ReportingCurrencyValue42)) {
+                                if(zeroFilingInfo_Layout1ReportingCurrencyValue50 != null && !"".equals(zeroFilingInfo_Layout1ReportingCurrencyValue50)) {
                                     
-                                    addContext(FilingInfo_Layout1ReportingCurrencyContext41, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType reportingCurrencyValue44 = new StringItemType();
-                                    reportingCurrencyValue44.setContextRef(FilingInfo_Layout1ReportingCurrencyContext41);
-                                    
-                                    reportingCurrencyValue44.setValue(zeroFilingInfo_Layout1ReportingCurrencyValue42);        
+                                    addContext(FilingInfo_Layout1ReportingCurrencyContext49, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> reportingCurrencyElement45 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createReportingCurrency(reportingCurrencyValue44);
-                                    bodyElements.add(reportingCurrencyElement45);
+                                    
+                                    StringItemType reportingCurrencyValue53 = new StringItemType();
+                                    reportingCurrencyValue53.setContextRef(FilingInfo_Layout1ReportingCurrencyContext49);
+                                    
+                                    reportingCurrencyValue53.setValue(zeroFilingInfo_Layout1ReportingCurrencyValue50);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> reportingCurrencyElement54 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createReportingCurrency(reportingCurrencyValue53);
+                                    bodyElements.add(reportingCurrencyElement54);
                                 
                             }
                         
                             
                             // - ReportingScale
                             
-                                Map zeroFilingInfo_Layout1ReportingScaleMap48 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ReportingScaleMap58 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ReportingScaleValue47 = DBS12ReportUtil.retrieveValueForElement(field.getReportingScale(), zeroFilingInfo_Layout1ReportingScaleMap48);
+                                    String zeroFilingInfo_Layout1ReportingScaleValue56 = DBS12ReportUtil.retrieveValueForElement(field.getReportingScale(), zeroFilingInfo_Layout1ReportingScaleMap58);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingScaleFieldDataValue57 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReportingScale(), zeroFilingInfo_Layout1ReportingScaleMap58);
+    
+                                    if(zeroFilingInfo_Layout1ReportingScaleFieldDataValue57 != null ) {
+                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1ReportingScaleContext46 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1ReportingScaleContext55 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1ReportingScaleValue47 != null && !"".equals(zeroFilingInfo_Layout1ReportingScaleValue47)) {
+                                if(zeroFilingInfo_Layout1ReportingScaleValue56 != null && !"".equals(zeroFilingInfo_Layout1ReportingScaleValue56)) {
                                     
-                                    addContext(FilingInfo_Layout1ReportingScaleContext46, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    ReportingScale reportingScaleValue49 = new ReportingScale();
-                                    reportingScaleValue49.setContextRef(FilingInfo_Layout1ReportingScaleContext46);
-                                    
-                                    reportingScaleValue49.setValue(zeroFilingInfo_Layout1ReportingScaleValue47);        
+                                    addContext(FilingInfo_Layout1ReportingScaleContext55, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<ReportingScale> reportingScaleElement50 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createReportingScale(reportingScaleValue49);
-                                    bodyElements.add(reportingScaleElement50);
+                                    
+                                    ReportingScale reportingScaleValue59 = new ReportingScale();
+                                    reportingScaleValue59.setContextRef(FilingInfo_Layout1ReportingScaleContext55);
+                                    
+                                    reportingScaleValue59.setValue(zeroFilingInfo_Layout1ReportingScaleValue56);        
+                                    
+                                    
+                                    JAXBElement<ReportingScale> reportingScaleElement60 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createReportingScale(reportingScaleValue59);
+                                    bodyElements.add(reportingScaleElement60);
                                 
                             }
                         
                             
                             // - TaxonomyVersion
                             
-                                Map zeroFilingInfo_Layout1TaxonomyVersionMap53 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1TaxonomyVersionMap64 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1TaxonomyVersionValue52 = DBS12ReportUtil.retrieveValueForElement(field.getTaxonomyVersion(), zeroFilingInfo_Layout1TaxonomyVersionMap53);
+                                    String zeroFilingInfo_Layout1TaxonomyVersionValue62 = DBS12ReportUtil.retrieveValueForElement(field.getTaxonomyVersion(), zeroFilingInfo_Layout1TaxonomyVersionMap64);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTaxonomyVersion(), zeroFilingInfo_Layout1TaxonomyVersionMap64);
+    
+                                    if(zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63 != null ) {
+                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getStartDate();
+                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getEndDate();
+                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1TaxonomyVersionContext51 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1TaxonomyVersionContext61 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1TaxonomyVersionValue52 != null && !"".equals(zeroFilingInfo_Layout1TaxonomyVersionValue52)) {
+                                if(zeroFilingInfo_Layout1TaxonomyVersionValue62 != null && !"".equals(zeroFilingInfo_Layout1TaxonomyVersionValue62)) {
                                     
-                                    addContext(FilingInfo_Layout1TaxonomyVersionContext51, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType taxonomyVersionValue54 = new StringItemType();
-                                    taxonomyVersionValue54.setContextRef(FilingInfo_Layout1TaxonomyVersionContext51);
-                                    
-                                    taxonomyVersionValue54.setValue(zeroFilingInfo_Layout1TaxonomyVersionValue52);        
+                                    addContext(FilingInfo_Layout1TaxonomyVersionContext61, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> taxonomyVersionElement55 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTaxonomyVersion(taxonomyVersionValue54);
-                                    bodyElements.add(taxonomyVersionElement55);
+                                    
+                                    StringItemType taxonomyVersionValue65 = new StringItemType();
+                                    taxonomyVersionValue65.setContextRef(FilingInfo_Layout1TaxonomyVersionContext61);
+                                    
+                                    taxonomyVersionValue65.setValue(zeroFilingInfo_Layout1TaxonomyVersionValue62);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> taxonomyVersionElement66 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTaxonomyVersion(taxonomyVersionValue65);
+                                    bodyElements.add(taxonomyVersionElement66);
                                 
                             }
                         
                             
                             // - ToolName
                             
-                                Map zeroFilingInfo_Layout1ToolNameMap58 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ToolNameMap70 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ToolNameValue57 = DBS12ReportUtil.retrieveValueForElement(field.getToolName(), zeroFilingInfo_Layout1ToolNameMap58);
+                                    String zeroFilingInfo_Layout1ToolNameValue68 = DBS12ReportUtil.retrieveValueForElement(field.getToolName(), zeroFilingInfo_Layout1ToolNameMap70);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ToolNameFieldDataValue69 = DBS12ReportUtil.retrieveFieldDataForElement(field.getToolName(), zeroFilingInfo_Layout1ToolNameMap70);
+    
+                                    if(zeroFilingInfo_Layout1ToolNameFieldDataValue69 != null ) {
+                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1ToolNameContext56 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1ToolNameContext67 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1ToolNameValue57 != null && !"".equals(zeroFilingInfo_Layout1ToolNameValue57)) {
+                                if(zeroFilingInfo_Layout1ToolNameValue68 != null && !"".equals(zeroFilingInfo_Layout1ToolNameValue68)) {
                                     
-                                    addContext(FilingInfo_Layout1ToolNameContext56, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType toolNameValue59 = new StringItemType();
-                                    toolNameValue59.setContextRef(FilingInfo_Layout1ToolNameContext56);
-                                    
-                                    toolNameValue59.setValue(zeroFilingInfo_Layout1ToolNameValue57);        
+                                    addContext(FilingInfo_Layout1ToolNameContext67, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> toolNameElement60 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createToolName(toolNameValue59);
-                                    bodyElements.add(toolNameElement60);
+                                    
+                                    StringItemType toolNameValue71 = new StringItemType();
+                                    toolNameValue71.setContextRef(FilingInfo_Layout1ToolNameContext67);
+                                    
+                                    toolNameValue71.setValue(zeroFilingInfo_Layout1ToolNameValue68);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> toolNameElement72 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createToolName(toolNameValue71);
+                                    bodyElements.add(toolNameElement72);
                                 
                             }
                         
                             
                             // - ToolVersion
                             
-                                Map zeroFilingInfo_Layout1ToolVersionMap63 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ToolVersionMap76 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ToolVersionValue62 = DBS12ReportUtil.retrieveValueForElement(field.getToolVersion(), zeroFilingInfo_Layout1ToolVersionMap63);
+                                    String zeroFilingInfo_Layout1ToolVersionValue74 = DBS12ReportUtil.retrieveValueForElement(field.getToolVersion(), zeroFilingInfo_Layout1ToolVersionMap76);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ToolVersionFieldDataValue75 = DBS12ReportUtil.retrieveFieldDataForElement(field.getToolVersion(), zeroFilingInfo_Layout1ToolVersionMap76);
+    
+                                    if(zeroFilingInfo_Layout1ToolVersionFieldDataValue75 != null ) {
+                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1ToolVersionContext61 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1ToolVersionContext73 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1ToolVersionValue62 != null && !"".equals(zeroFilingInfo_Layout1ToolVersionValue62)) {
+                                if(zeroFilingInfo_Layout1ToolVersionValue74 != null && !"".equals(zeroFilingInfo_Layout1ToolVersionValue74)) {
                                     
-                                    addContext(FilingInfo_Layout1ToolVersionContext61, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType toolVersionValue64 = new StringItemType();
-                                    toolVersionValue64.setContextRef(FilingInfo_Layout1ToolVersionContext61);
-                                    
-                                    toolVersionValue64.setValue(zeroFilingInfo_Layout1ToolVersionValue62);        
+                                    addContext(FilingInfo_Layout1ToolVersionContext73, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> toolVersionElement65 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createToolVersion(toolVersionValue64);
-                                    bodyElements.add(toolVersionElement65);
+                                    
+                                    StringItemType toolVersionValue77 = new StringItemType();
+                                    toolVersionValue77.setContextRef(FilingInfo_Layout1ToolVersionContext73);
+                                    
+                                    toolVersionValue77.setValue(zeroFilingInfo_Layout1ToolVersionValue74);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> toolVersionElement78 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createToolVersion(toolVersionValue77);
+                                    bodyElements.add(toolVersionElement78);
                                 
                             }
                         
                             
                             // - ReportStatus
                             
-                                Map zeroFilingInfo_Layout1ReportStatusMap68 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1ReportStatusMap82 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1ReportStatusValue67 = DBS12ReportUtil.retrieveValueForElement(field.getReportStatus(), zeroFilingInfo_Layout1ReportStatusMap68);
+                                    String zeroFilingInfo_Layout1ReportStatusValue80 = DBS12ReportUtil.retrieveValueForElement(field.getReportStatus(), zeroFilingInfo_Layout1ReportStatusMap82);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1ReportStatusFieldDataValue81 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReportStatus(), zeroFilingInfo_Layout1ReportStatusMap82);
+    
+                                    if(zeroFilingInfo_Layout1ReportStatusFieldDataValue81 != null ) {
+                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getStartDate();
+                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getEndDate();
+                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1ReportStatusContext66 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1ReportStatusContext79 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1ReportStatusValue67 != null && !"".equals(zeroFilingInfo_Layout1ReportStatusValue67)) {
+                                if(zeroFilingInfo_Layout1ReportStatusValue80 != null && !"".equals(zeroFilingInfo_Layout1ReportStatusValue80)) {
                                     
-                                    addContext(FilingInfo_Layout1ReportStatusContext66, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    ReportStatusItemType reportStatusValue69 = new ReportStatusItemType();
-                                    reportStatusValue69.setContextRef(FilingInfo_Layout1ReportStatusContext66);
-                                    
-                                    reportStatusValue69.setValue(zeroFilingInfo_Layout1ReportStatusValue67);        
+                                    addContext(FilingInfo_Layout1ReportStatusContext79, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<ReportStatusItemType> reportStatusElement70 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReportStatus(reportStatusValue69);
-                                    bodyElements.add(reportStatusElement70);
+                                    
+                                    ReportStatusItemType reportStatusValue83 = new ReportStatusItemType();
+                                    reportStatusValue83.setContextRef(FilingInfo_Layout1ReportStatusContext79);
+                                    
+                                    reportStatusValue83.setValue(zeroFilingInfo_Layout1ReportStatusValue80);        
+                                    
+                                    
+                                    JAXBElement<ReportStatusItemType> reportStatusElement84 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createReportStatus(reportStatusValue83);
+                                    bodyElements.add(reportStatusElement84);
                                 
                             }
                         
                             
                             // - DateOfAudit
                             
-                                Map zeroFilingInfo_Layout1DateOfAuditMap73 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1DateOfAuditMap88 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1DateOfAuditValue72 = DBS12ReportUtil.retrieveValueForElement(field.getDateOfAudit(), zeroFilingInfo_Layout1DateOfAuditMap73);
+                                    String zeroFilingInfo_Layout1DateOfAuditValue86 = DBS12ReportUtil.retrieveValueForElement(field.getDateOfAudit(), zeroFilingInfo_Layout1DateOfAuditMap88);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1DateOfAuditFieldDataValue87 = DBS12ReportUtil.retrieveFieldDataForElement(field.getDateOfAudit(), zeroFilingInfo_Layout1DateOfAuditMap88);
+    
+                                    if(zeroFilingInfo_Layout1DateOfAuditFieldDataValue87 != null ) {
+                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getStartDate();
+                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getEndDate();
+                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getInstantDate();
+                                    }
 
                                     
-                                    Context FilingInfo_Layout1DateOfAuditContext71 = DBS12ReportContextUtil.createAsOfContext( bankCode, periodDate  );
+                                    Context FilingInfo_Layout1DateOfAuditContext85 = DBS12ReportContextUtil.createAsOfContext( bankCode, periodDate  );
                                         
                                     
                                 
-                                if(zeroFilingInfo_Layout1DateOfAuditValue72 != null && !"".equals(zeroFilingInfo_Layout1DateOfAuditValue72)) {
+                                if(zeroFilingInfo_Layout1DateOfAuditValue86 != null && !"".equals(zeroFilingInfo_Layout1DateOfAuditValue86)) {
                                     
-                                    addContext(FilingInfo_Layout1DateOfAuditContext71, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    DateItemType dateOfAuditValue74 = new DateItemType();
-                                    dateOfAuditValue74.setContextRef(FilingInfo_Layout1DateOfAuditContext71);
-                                    
-                                    dateOfAuditValue74.setValue(DBS12ReportContextUtil.toXMLGeo(zeroFilingInfo_Layout1DateOfAuditValue72));
+                                    addContext(FilingInfo_Layout1DateOfAuditContext85, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<DateItemType> dateOfAuditElement75 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createDateOfAudit(dateOfAuditValue74);
-                                    bodyElements.add(dateOfAuditElement75);
+                                    
+                                    DateItemType dateOfAuditValue89 = new DateItemType();
+                                    dateOfAuditValue89.setContextRef(FilingInfo_Layout1DateOfAuditContext85);
+                                    
+                                    dateOfAuditValue89.setValue(DBS12ReportContextUtil.toXMLGeo(zeroFilingInfo_Layout1DateOfAuditValue86));
+                                    
+                                    
+                                    JAXBElement<DateItemType> dateOfAuditElement90 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createDateOfAudit(dateOfAuditValue89);
+                                    bodyElements.add(dateOfAuditElement90);
                                 
                             }
                         
                             
                             // - GeneralRemarks
                             
-                                Map zeroFilingInfo_Layout1GeneralRemarksMap78 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout1GeneralRemarksMap94 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout1GeneralRemarksValue77 = DBS12ReportUtil.retrieveValueForElement(field.getGeneralRemarks(), zeroFilingInfo_Layout1GeneralRemarksMap78);
+                                    String zeroFilingInfo_Layout1GeneralRemarksValue92 = DBS12ReportUtil.retrieveValueForElement(field.getGeneralRemarks(), zeroFilingInfo_Layout1GeneralRemarksMap94);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93 = DBS12ReportUtil.retrieveFieldDataForElement(field.getGeneralRemarks(), zeroFilingInfo_Layout1GeneralRemarksMap94);
+    
+                                    if(zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93 != null ) {
+                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getStartDate();
+                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getEndDate();
+                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout1GeneralRemarksContext76 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout1GeneralRemarksContext91 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout1GeneralRemarksValue77 != null && !"".equals(zeroFilingInfo_Layout1GeneralRemarksValue77)) {
+                                if(zeroFilingInfo_Layout1GeneralRemarksValue92 != null && !"".equals(zeroFilingInfo_Layout1GeneralRemarksValue92)) {
                                     
-                                    addContext(FilingInfo_Layout1GeneralRemarksContext76, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    TextBlockItemType generalRemarksValue79 = new TextBlockItemType();
-                                    generalRemarksValue79.setContextRef(FilingInfo_Layout1GeneralRemarksContext76);
-                                    
-                                    generalRemarksValue79.setValue(zeroFilingInfo_Layout1GeneralRemarksValue77);        
+                                    addContext(FilingInfo_Layout1GeneralRemarksContext91, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<TextBlockItemType> generalRemarksElement80 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createGeneralRemarks(generalRemarksValue79);
-                                    bodyElements.add(generalRemarksElement80);
+                                    
+                                    TextBlockItemType generalRemarksValue95 = new TextBlockItemType();
+                                    generalRemarksValue95.setContextRef(FilingInfo_Layout1GeneralRemarksContext91);
+                                    
+                                    generalRemarksValue95.setValue(zeroFilingInfo_Layout1GeneralRemarksValue92);        
+                                    
+                                    
+                                    JAXBElement<TextBlockItemType> generalRemarksElement96 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createGeneralRemarks(generalRemarksValue95);
+                                    bodyElements.add(generalRemarksElement96);
                                 
                             }
                         
@@ -765,10 +975,12 @@ public class DBS12Report implements XBRLReportIntf {
                 // create variable for subclass FilingInfo_Layout2 if any typeMembers then List or Single
                 //FilingInfo_Layout2 filingInfo_Layout2 = mainReportData.getFilingInfo_Layout2();
                 
-                    private String filingInfo_Layout2Method(FilingInfo_Layout2 filingInfo_Layout2, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDate, String endDate, String periodDate)
+                    private String filingInfo_Layout2Method(FilingInfo_Layout2 filingInfo_Layout2, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDateDefault, String endDateDefault, String periodDateDefault)
                 
                     {
-            
+                        String startDate = startDateDefault;
+                        String endDate = endDateDefault;
+                        String periodDate = periodDateDefault;
                     FilingInfo_Layout2 field = filingInfo_Layout2;
                     
                     
@@ -777,29 +989,42 @@ public class DBS12Report implements XBRLReportIntf {
                             
                             // - WhetherBankSubmittingTheReturnIsForeignBank
                             
-                                Map zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankMap83 = new HashMap<String, String>();
+                                Map zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankMap100 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankValue82 = DBS12ReportUtil.retrieveValueForElement(field.getWhetherBankSubmittingTheReturnIsForeignBank(), zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankMap83);
+                                    String zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankValue98 = DBS12ReportUtil.retrieveValueForElement(field.getWhetherBankSubmittingTheReturnIsForeignBank(), zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankMap100);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankFieldDataValue99 = DBS12ReportUtil.retrieveFieldDataForElement(field.getWhetherBankSubmittingTheReturnIsForeignBank(), zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankMap100);
+    
+                                    if(zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankFieldDataValue99 != null ) {
+                                        if(!zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankFieldDataValue99.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankFieldDataValue99.getStartDate();
+                                        if(!zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankFieldDataValue99.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankFieldDataValue99.getEndDate();
+                                        if(!zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankFieldDataValue99.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankFieldDataValue99.getInstantDate();
+                                    }
 
                                     
-                                        Context FilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankContext81 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context FilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankContext97 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankValue82 != null && !"".equals(zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankValue82)) {
+                                if(zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankValue98 != null && !"".equals(zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankValue98)) {
                                     
-                                    addContext(FilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankContext81, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    BooleanItemType whetherBankSubmittingTheReturnIsForeignBankValue84 = new BooleanItemType();
-                                    whetherBankSubmittingTheReturnIsForeignBankValue84.setContextRef(FilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankContext81);
-                                    
-                                        whetherBankSubmittingTheReturnIsForeignBankValue84.setValue(Boolean.getBoolean(zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankValue82));
+                                    addContext(FilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankContext97, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<BooleanItemType> whetherBankSubmittingTheReturnIsForeignBankElement85 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createWhetherBankSubmittingTheReturnIsForeignBank(whetherBankSubmittingTheReturnIsForeignBankValue84);
-                                    bodyElements.add(whetherBankSubmittingTheReturnIsForeignBankElement85);
+                                    
+                                    BooleanItemType whetherBankSubmittingTheReturnIsForeignBankValue101 = new BooleanItemType();
+                                    whetherBankSubmittingTheReturnIsForeignBankValue101.setContextRef(FilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankContext97);
+                                    
+                                        whetherBankSubmittingTheReturnIsForeignBankValue101.setValue(Boolean.getBoolean(zeroFilingInfo_Layout2WhetherBankSubmittingTheReturnIsForeignBankValue98));
+                                    
+                                    
+                                    JAXBElement<BooleanItemType> whetherBankSubmittingTheReturnIsForeignBankElement102 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createWhetherBankSubmittingTheReturnIsForeignBank(whetherBankSubmittingTheReturnIsForeignBankValue101);
+                                    bodyElements.add(whetherBankSubmittingTheReturnIsForeignBankElement102);
                                 
                             }
                         
@@ -826,9 +1051,14 @@ public class DBS12Report implements XBRLReportIntf {
                 
                 // if typemembers exist
                 
-                    private String dBS12_SectionA_Layout1Method(List<DBS12_SectionA_Layout1> dBS12_SectionA_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDate, String endDate, String periodDate)
+                    private String dBS12_SectionA_Layout1Method(List<DBS12_SectionA_Layout1> dBS12_SectionA_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDateDefault, String endDateDefault, String periodDateDefault)
                     {
+                        
                     dBS12_SectionA_Layout1.forEach((field)->{
+                        // create startdate, enddate, and perioddate
+                        String startDate = startDateDefault;
+                        String endDate = endDateDefault;
+                        String periodDate = periodDateDefault;
                         // crate variable loop  for type member
                         
                             // create variable for type member NameOfEntityAxis
@@ -846,29 +1076,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TypeOfEntity
                                 
-                                    Map zeroDBS12_SectionA_Layout1TypeOfEntityMap88 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionA_Layout1TypeOfEntityMap106 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionA_Layout1TypeOfEntityValue87 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfEntity(), zeroDBS12_SectionA_Layout1TypeOfEntityMap88);
+                                        String zeroDBS12_SectionA_Layout1TypeOfEntityValue104 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfEntity(), zeroDBS12_SectionA_Layout1TypeOfEntityMap106);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionA_Layout1TypeOfEntityFieldDataValue105 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTypeOfEntity(), zeroDBS12_SectionA_Layout1TypeOfEntityMap106);
+
+                                        if(zeroDBS12_SectionA_Layout1TypeOfEntityFieldDataValue105 != null ) {
+                                            if(!zeroDBS12_SectionA_Layout1TypeOfEntityFieldDataValue105.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionA_Layout1TypeOfEntityFieldDataValue105.getStartDate();
+                                            if(!zeroDBS12_SectionA_Layout1TypeOfEntityFieldDataValue105.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionA_Layout1TypeOfEntityFieldDataValue105.getEndDate();
+                                            if(!zeroDBS12_SectionA_Layout1TypeOfEntityFieldDataValue105.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionA_Layout1TypeOfEntityFieldDataValue105.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionA_Layout1TypeOfEntityContext86 = DBS12ReportContextUtil.createFromToContextDBS12_SectionA_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
+                                            Context DBS12_SectionA_Layout1TypeOfEntityContext103 = DBS12ReportContextUtil.createFromToContextDBS12_SectionA_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionA_Layout1TypeOfEntityValue87 != null && !"".equals(zeroDBS12_SectionA_Layout1TypeOfEntityValue87)) {
+                                    if(zeroDBS12_SectionA_Layout1TypeOfEntityValue104 != null && !"".equals(zeroDBS12_SectionA_Layout1TypeOfEntityValue104)) {
                                         
-                                        addContext(DBS12_SectionA_Layout1TypeOfEntityContext86, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionA_Layout1TypeOfEntityContext103, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        TypeOfEntity typeOfEntityValue89 = new TypeOfEntity();
-                                        typeOfEntityValue89.setContextRef(DBS12_SectionA_Layout1TypeOfEntityContext86);
+                                        TypeOfEntity typeOfEntityValue107 = new TypeOfEntity();
+                                        typeOfEntityValue107.setContextRef(DBS12_SectionA_Layout1TypeOfEntityContext103);
                                         
-                                            typeOfEntityValue89.setValue(zeroDBS12_SectionA_Layout1TypeOfEntityValue87);        
+                                            typeOfEntityValue107.setValue(zeroDBS12_SectionA_Layout1TypeOfEntityValue104);        
                                         
                                         
-                                        JAXBElement<TypeOfEntity> typeOfEntityElement90 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfEntity(typeOfEntityValue89);
-                                        bodyElements.add(typeOfEntityElement90);
+                                        JAXBElement<TypeOfEntity> typeOfEntityElement108 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfEntity(typeOfEntityValue107);
+                                        bodyElements.add(typeOfEntityElement108);
                                     }
                                 
                             
@@ -879,29 +1120,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - FinancialClassification
                                 
-                                    Map zeroDBS12_SectionA_Layout1FinancialClassificationMap93 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionA_Layout1FinancialClassificationMap112 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionA_Layout1FinancialClassificationValue92 = DBS12ReportUtil.retrieveValueForElement(field.getFinancialClassification(), zeroDBS12_SectionA_Layout1FinancialClassificationMap93);
+                                        String zeroDBS12_SectionA_Layout1FinancialClassificationValue110 = DBS12ReportUtil.retrieveValueForElement(field.getFinancialClassification(), zeroDBS12_SectionA_Layout1FinancialClassificationMap112);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionA_Layout1FinancialClassificationFieldDataValue111 = DBS12ReportUtil.retrieveFieldDataForElement(field.getFinancialClassification(), zeroDBS12_SectionA_Layout1FinancialClassificationMap112);
+
+                                        if(zeroDBS12_SectionA_Layout1FinancialClassificationFieldDataValue111 != null ) {
+                                            if(!zeroDBS12_SectionA_Layout1FinancialClassificationFieldDataValue111.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionA_Layout1FinancialClassificationFieldDataValue111.getStartDate();
+                                            if(!zeroDBS12_SectionA_Layout1FinancialClassificationFieldDataValue111.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionA_Layout1FinancialClassificationFieldDataValue111.getEndDate();
+                                            if(!zeroDBS12_SectionA_Layout1FinancialClassificationFieldDataValue111.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionA_Layout1FinancialClassificationFieldDataValue111.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionA_Layout1FinancialClassificationContext91 = DBS12ReportContextUtil.createFromToContextDBS12_SectionA_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
+                                            Context DBS12_SectionA_Layout1FinancialClassificationContext109 = DBS12ReportContextUtil.createFromToContextDBS12_SectionA_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionA_Layout1FinancialClassificationValue92 != null && !"".equals(zeroDBS12_SectionA_Layout1FinancialClassificationValue92)) {
+                                    if(zeroDBS12_SectionA_Layout1FinancialClassificationValue110 != null && !"".equals(zeroDBS12_SectionA_Layout1FinancialClassificationValue110)) {
                                         
-                                        addContext(DBS12_SectionA_Layout1FinancialClassificationContext91, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionA_Layout1FinancialClassificationContext109, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        FinancialClassification financialClassificationValue94 = new FinancialClassification();
-                                        financialClassificationValue94.setContextRef(DBS12_SectionA_Layout1FinancialClassificationContext91);
+                                        FinancialClassification financialClassificationValue113 = new FinancialClassification();
+                                        financialClassificationValue113.setContextRef(DBS12_SectionA_Layout1FinancialClassificationContext109);
                                         
-                                            financialClassificationValue94.setValue(zeroDBS12_SectionA_Layout1FinancialClassificationValue92);        
+                                            financialClassificationValue113.setValue(zeroDBS12_SectionA_Layout1FinancialClassificationValue110);        
                                         
                                         
-                                        JAXBElement<FinancialClassification> financialClassificationElement95 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createFinancialClassification(financialClassificationValue94);
-                                        bodyElements.add(financialClassificationElement95);
+                                        JAXBElement<FinancialClassification> financialClassificationElement114 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createFinancialClassification(financialClassificationValue113);
+                                        bodyElements.add(financialClassificationElement114);
                                     }
                                 
                             
@@ -926,9 +1178,14 @@ public class DBS12Report implements XBRLReportIntf {
                 
                 // if typemembers exist
                 
-                    private String dBS12_SectionB_Layout1Method(List<DBS12_SectionB_Layout1> dBS12_SectionB_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDate, String endDate, String periodDate)
+                    private String dBS12_SectionB_Layout1Method(List<DBS12_SectionB_Layout1> dBS12_SectionB_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDateDefault, String endDateDefault, String periodDateDefault)
                     {
+                        
                     dBS12_SectionB_Layout1.forEach((field)->{
+                        // create startdate, enddate, and perioddate
+                        String startDate = startDateDefault;
+                        String endDate = endDateDefault;
+                        String periodDate = periodDateDefault;
                         // crate variable loop  for type member
                         
                             // create variable for type member NameOfEntityAxis
@@ -946,29 +1203,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TypeOfEntity
                                 
-                                    Map zeroDBS12_SectionB_Layout1TypeOfEntityMap98 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1TypeOfEntityMap118 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1TypeOfEntityValue97 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfEntity(), zeroDBS12_SectionB_Layout1TypeOfEntityMap98);
+                                        String zeroDBS12_SectionB_Layout1TypeOfEntityValue116 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfEntity(), zeroDBS12_SectionB_Layout1TypeOfEntityMap118);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1TypeOfEntityFieldDataValue117 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTypeOfEntity(), zeroDBS12_SectionB_Layout1TypeOfEntityMap118);
+
+                                        if(zeroDBS12_SectionB_Layout1TypeOfEntityFieldDataValue117 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1TypeOfEntityFieldDataValue117.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1TypeOfEntityFieldDataValue117.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1TypeOfEntityFieldDataValue117.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1TypeOfEntityFieldDataValue117.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1TypeOfEntityFieldDataValue117.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1TypeOfEntityFieldDataValue117.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionB_Layout1TypeOfEntityContext96 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
+                                            Context DBS12_SectionB_Layout1TypeOfEntityContext115 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1TypeOfEntityValue97 != null && !"".equals(zeroDBS12_SectionB_Layout1TypeOfEntityValue97)) {
+                                    if(zeroDBS12_SectionB_Layout1TypeOfEntityValue116 != null && !"".equals(zeroDBS12_SectionB_Layout1TypeOfEntityValue116)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1TypeOfEntityContext96, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1TypeOfEntityContext115, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        TypeOfEntity typeOfEntityValue99 = new TypeOfEntity();
-                                        typeOfEntityValue99.setContextRef(DBS12_SectionB_Layout1TypeOfEntityContext96);
+                                        TypeOfEntity typeOfEntityValue119 = new TypeOfEntity();
+                                        typeOfEntityValue119.setContextRef(DBS12_SectionB_Layout1TypeOfEntityContext115);
                                         
-                                            typeOfEntityValue99.setValue(zeroDBS12_SectionB_Layout1TypeOfEntityValue97);        
+                                            typeOfEntityValue119.setValue(zeroDBS12_SectionB_Layout1TypeOfEntityValue116);        
                                         
                                         
-                                        JAXBElement<TypeOfEntity> typeOfEntityElement100 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfEntity(typeOfEntityValue99);
-                                        bodyElements.add(typeOfEntityElement100);
+                                        JAXBElement<TypeOfEntity> typeOfEntityElement120 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfEntity(typeOfEntityValue119);
+                                        bodyElements.add(typeOfEntityElement120);
                                     }
                                 
                             
@@ -979,29 +1247,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - FinancialClassification
                                 
-                                    Map zeroDBS12_SectionB_Layout1FinancialClassificationMap103 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1FinancialClassificationMap124 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1FinancialClassificationValue102 = DBS12ReportUtil.retrieveValueForElement(field.getFinancialClassification(), zeroDBS12_SectionB_Layout1FinancialClassificationMap103);
+                                        String zeroDBS12_SectionB_Layout1FinancialClassificationValue122 = DBS12ReportUtil.retrieveValueForElement(field.getFinancialClassification(), zeroDBS12_SectionB_Layout1FinancialClassificationMap124);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1FinancialClassificationFieldDataValue123 = DBS12ReportUtil.retrieveFieldDataForElement(field.getFinancialClassification(), zeroDBS12_SectionB_Layout1FinancialClassificationMap124);
+
+                                        if(zeroDBS12_SectionB_Layout1FinancialClassificationFieldDataValue123 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1FinancialClassificationFieldDataValue123.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1FinancialClassificationFieldDataValue123.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1FinancialClassificationFieldDataValue123.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1FinancialClassificationFieldDataValue123.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1FinancialClassificationFieldDataValue123.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1FinancialClassificationFieldDataValue123.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionB_Layout1FinancialClassificationContext101 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
+                                            Context DBS12_SectionB_Layout1FinancialClassificationContext121 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1FinancialClassificationValue102 != null && !"".equals(zeroDBS12_SectionB_Layout1FinancialClassificationValue102)) {
+                                    if(zeroDBS12_SectionB_Layout1FinancialClassificationValue122 != null && !"".equals(zeroDBS12_SectionB_Layout1FinancialClassificationValue122)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1FinancialClassificationContext101, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1FinancialClassificationContext121, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        FinancialClassification financialClassificationValue104 = new FinancialClassification();
-                                        financialClassificationValue104.setContextRef(DBS12_SectionB_Layout1FinancialClassificationContext101);
+                                        FinancialClassification financialClassificationValue125 = new FinancialClassification();
+                                        financialClassificationValue125.setContextRef(DBS12_SectionB_Layout1FinancialClassificationContext121);
                                         
-                                            financialClassificationValue104.setValue(zeroDBS12_SectionB_Layout1FinancialClassificationValue102);        
+                                            financialClassificationValue125.setValue(zeroDBS12_SectionB_Layout1FinancialClassificationValue122);        
                                         
                                         
-                                        JAXBElement<FinancialClassification> financialClassificationElement105 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createFinancialClassification(financialClassificationValue104);
-                                        bodyElements.add(financialClassificationElement105);
+                                        JAXBElement<FinancialClassification> financialClassificationElement126 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createFinancialClassification(financialClassificationValue125);
+                                        bodyElements.add(financialClassificationElement126);
                                     }
                                 
                             
@@ -1010,39 +1289,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR106 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR106 = createUnitIfNotExist(INR106, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR127 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR127 = createUnitIfNotExist(INR127, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - BanksEquityInvestmentInTheCompany
                                 
-                                    Map zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyMap109 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyMap131 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyValue108 = DBS12ReportUtil.retrieveValueForElement(field.getBanksEquityInvestmentInTheCompany(), zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyMap109);
+                                        String zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyValue129 = DBS12ReportUtil.retrieveValueForElement(field.getBanksEquityInvestmentInTheCompany(), zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyMap131);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyFieldDataValue130 = DBS12ReportUtil.retrieveFieldDataForElement(field.getBanksEquityInvestmentInTheCompany(), zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyMap131);
+
+                                        if(zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyFieldDataValue130 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyFieldDataValue130.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyFieldDataValue130.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyFieldDataValue130.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyFieldDataValue130.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyFieldDataValue130.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyFieldDataValue130.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyContext107 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                        Context DBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyContext128 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyValue108 != null && !"".equals(zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyValue108)) {
+                                    if(zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyValue129 != null && !"".equals(zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyValue129)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyContext107, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyContext128, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType banksEquityInvestmentInTheCompanyValue110 = new MonetaryItemType();
-                                        banksEquityInvestmentInTheCompanyValue110.setContextRef(DBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyContext107);
+                                        MonetaryItemType banksEquityInvestmentInTheCompanyValue132 = new MonetaryItemType();
+                                        banksEquityInvestmentInTheCompanyValue132.setContextRef(DBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyContext128);
                                         
-                                            banksEquityInvestmentInTheCompanyValue110.setUnitRef(INR106);
-                                            banksEquityInvestmentInTheCompanyValue110.setDecimals("INF");
-                                            banksEquityInvestmentInTheCompanyValue110.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyValue108));
+                                            banksEquityInvestmentInTheCompanyValue132.setUnitRef(INR127);
+                                            banksEquityInvestmentInTheCompanyValue132.setDecimals("INF");
+                                            banksEquityInvestmentInTheCompanyValue132.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1BanksEquityInvestmentInTheCompanyValue129));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> banksEquityInvestmentInTheCompanyElement111 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createBanksEquityInvestmentInTheCompany(banksEquityInvestmentInTheCompanyValue110);
-                                        bodyElements.add(banksEquityInvestmentInTheCompanyElement111);
+                                        JAXBElement<MonetaryItemType> banksEquityInvestmentInTheCompanyElement133 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createBanksEquityInvestmentInTheCompany(banksEquityInvestmentInTheCompanyValue132);
+                                        bodyElements.add(banksEquityInvestmentInTheCompanyElement133);
                                     }
                                 
                             
@@ -1051,39 +1341,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit pure112 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure112 = createUnitIfNotExist(pure112, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
+                                    Unit pure134 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure134 = createUnitIfNotExist(pure134, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
                                     
                                 
                                 
                                 // - BanksPercentageInvestmentInCompanyEquity
                                 
-                                    Map zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityMap115 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityMap138 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityValue114 = DBS12ReportUtil.retrieveValueForElement(field.getBanksPercentageInvestmentInCompanyEquity(), zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityMap115);
+                                        String zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityValue136 = DBS12ReportUtil.retrieveValueForElement(field.getBanksPercentageInvestmentInCompanyEquity(), zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityMap138);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityFieldDataValue137 = DBS12ReportUtil.retrieveFieldDataForElement(field.getBanksPercentageInvestmentInCompanyEquity(), zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityMap138);
+
+                                        if(zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityFieldDataValue137 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityFieldDataValue137.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityFieldDataValue137.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityFieldDataValue137.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityFieldDataValue137.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityFieldDataValue137.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityFieldDataValue137.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityContext113 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                        Context DBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityContext135 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityValue114 != null && !"".equals(zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityValue114)) {
+                                    if(zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityValue136 != null && !"".equals(zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityValue136)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityContext113, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityContext135, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        PureItemType banksPercentageInvestmentInCompanyEquityValue116 = new PureItemType();
-                                        banksPercentageInvestmentInCompanyEquityValue116.setContextRef(DBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityContext113);
+                                        PureItemType banksPercentageInvestmentInCompanyEquityValue139 = new PureItemType();
+                                        banksPercentageInvestmentInCompanyEquityValue139.setContextRef(DBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityContext135);
                                         
-                                            banksPercentageInvestmentInCompanyEquityValue116.setUnitRef(pure112);
-                                            banksPercentageInvestmentInCompanyEquityValue116.setDecimals("INF");
-                                            banksPercentageInvestmentInCompanyEquityValue116.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityValue114));
+                                            banksPercentageInvestmentInCompanyEquityValue139.setUnitRef(pure134);
+                                            banksPercentageInvestmentInCompanyEquityValue139.setDecimals("INF");
+                                            banksPercentageInvestmentInCompanyEquityValue139.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1BanksPercentageInvestmentInCompanyEquityValue136));
                                         
                                         
-                                        JAXBElement<PureItemType> banksPercentageInvestmentInCompanyEquityElement117 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createBanksPercentageInvestmentInCompanyEquity(banksPercentageInvestmentInCompanyEquityValue116);
-                                        bodyElements.add(banksPercentageInvestmentInCompanyEquityElement117);
+                                        JAXBElement<PureItemType> banksPercentageInvestmentInCompanyEquityElement140 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createBanksPercentageInvestmentInCompanyEquity(banksPercentageInvestmentInCompanyEquityValue139);
+                                        bodyElements.add(banksPercentageInvestmentInCompanyEquityElement140);
                                     }
                                 
                             
@@ -1092,203 +1393,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR118 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR118 = createUnitIfNotExist(INR118, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR141 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR141 = createUnitIfNotExist(INR141, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - AggregateAmountOutstandingForFundedExposure
                                 
-                                    Map zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureMap121 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureMap145 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureValue120 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateAmountOutstandingForFundedExposure(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureMap121);
+                                        String zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureValue143 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateAmountOutstandingForFundedExposure(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureMap145);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureFieldDataValue144 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAggregateAmountOutstandingForFundedExposure(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureMap145);
+
+                                        if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureFieldDataValue144 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureFieldDataValue144.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureFieldDataValue144.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureFieldDataValue144.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureFieldDataValue144.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureFieldDataValue144.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureFieldDataValue144.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureContext119 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                        Context DBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureContext142 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureValue120 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureValue120)) {
+                                    if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureValue143 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureValue143)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureContext119, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureContext142, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType aggregateAmountOutstandingForFundedExposureValue122 = new MonetaryItemType();
-                                        aggregateAmountOutstandingForFundedExposureValue122.setContextRef(DBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureContext119);
+                                        MonetaryItemType aggregateAmountOutstandingForFundedExposureValue146 = new MonetaryItemType();
+                                        aggregateAmountOutstandingForFundedExposureValue146.setContextRef(DBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureContext142);
                                         
-                                            aggregateAmountOutstandingForFundedExposureValue122.setUnitRef(INR118);
-                                            aggregateAmountOutstandingForFundedExposureValue122.setDecimals("INF");
-                                            aggregateAmountOutstandingForFundedExposureValue122.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureValue120));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> aggregateAmountOutstandingForFundedExposureElement123 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateAmountOutstandingForFundedExposure(aggregateAmountOutstandingForFundedExposureValue122);
-                                        bodyElements.add(aggregateAmountOutstandingForFundedExposureElement123);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS12_SectionB_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR124 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR124 = createUnitIfNotExist(INR124, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - FundedCreditExposure
-                                
-                                    Map zeroDBS12_SectionB_Layout1FundedCreditExposureMap127 = new HashMap<String, String>();
-                                    
-                                        // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1FundedCreditExposureValue126 = DBS12ReportUtil.retrieveValueForElement(field.getFundedCreditExposure(), zeroDBS12_SectionB_Layout1FundedCreditExposureMap127);
-
-                                        
-                                        Context DBS12_SectionB_Layout1FundedCreditExposureContext125 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
-                                            
-                                        
-                                    // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1FundedCreditExposureValue126 != null && !"".equals(zeroDBS12_SectionB_Layout1FundedCreditExposureValue126)) {
-                                        
-                                        addContext(DBS12_SectionB_Layout1FundedCreditExposureContext125, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType fundedCreditExposureValue128 = new MonetaryItemType();
-                                        fundedCreditExposureValue128.setContextRef(DBS12_SectionB_Layout1FundedCreditExposureContext125);
-                                        
-                                            fundedCreditExposureValue128.setUnitRef(INR124);
-                                            fundedCreditExposureValue128.setDecimals("INF");
-                                            fundedCreditExposureValue128.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1FundedCreditExposureValue126));
+                                            aggregateAmountOutstandingForFundedExposureValue146.setUnitRef(INR141);
+                                            aggregateAmountOutstandingForFundedExposureValue146.setDecimals("INF");
+                                            aggregateAmountOutstandingForFundedExposureValue146.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForFundedExposureValue143));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> fundedCreditExposureElement129 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createFundedCreditExposure(fundedCreditExposureValue128);
-                                        bodyElements.add(fundedCreditExposureElement129);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS12_SectionB_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR130 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR130 = createUnitIfNotExist(INR130, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - AggregateAmountOutstandingForNonFundedExposure
-                                
-                                    Map zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureMap133 = new HashMap<String, String>();
-                                    
-                                        // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureValue132 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateAmountOutstandingForNonFundedExposure(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureMap133);
-
-                                        
-                                        Context DBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureContext131 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
-                                            
-                                        
-                                    // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureValue132 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureValue132)) {
-                                        
-                                        addContext(DBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureContext131, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType aggregateAmountOutstandingForNonFundedExposureValue134 = new MonetaryItemType();
-                                        aggregateAmountOutstandingForNonFundedExposureValue134.setContextRef(DBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureContext131);
-                                        
-                                            aggregateAmountOutstandingForNonFundedExposureValue134.setUnitRef(INR130);
-                                            aggregateAmountOutstandingForNonFundedExposureValue134.setDecimals("INF");
-                                            aggregateAmountOutstandingForNonFundedExposureValue134.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureValue132));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> aggregateAmountOutstandingForNonFundedExposureElement135 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateAmountOutstandingForNonFundedExposure(aggregateAmountOutstandingForNonFundedExposureValue134);
-                                        bodyElements.add(aggregateAmountOutstandingForNonFundedExposureElement135);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS12_SectionB_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR136 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR136 = createUnitIfNotExist(INR136, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - NonFundedCreditExposure
-                                
-                                    Map zeroDBS12_SectionB_Layout1NonFundedCreditExposureMap139 = new HashMap<String, String>();
-                                    
-                                        // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1NonFundedCreditExposureValue138 = DBS12ReportUtil.retrieveValueForElement(field.getNonFundedCreditExposure(), zeroDBS12_SectionB_Layout1NonFundedCreditExposureMap139);
-
-                                        
-                                        Context DBS12_SectionB_Layout1NonFundedCreditExposureContext137 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
-                                            
-                                        
-                                    // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1NonFundedCreditExposureValue138 != null && !"".equals(zeroDBS12_SectionB_Layout1NonFundedCreditExposureValue138)) {
-                                        
-                                        addContext(DBS12_SectionB_Layout1NonFundedCreditExposureContext137, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType nonFundedCreditExposureValue140 = new MonetaryItemType();
-                                        nonFundedCreditExposureValue140.setContextRef(DBS12_SectionB_Layout1NonFundedCreditExposureContext137);
-                                        
-                                            nonFundedCreditExposureValue140.setUnitRef(INR136);
-                                            nonFundedCreditExposureValue140.setDecimals("INF");
-                                            nonFundedCreditExposureValue140.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1NonFundedCreditExposureValue138));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> nonFundedCreditExposureElement141 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createNonFundedCreditExposure(nonFundedCreditExposureValue140);
-                                        bodyElements.add(nonFundedCreditExposureElement141);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS12_SectionB_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR142 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR142 = createUnitIfNotExist(INR142, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - AggregateInvestmentExposure
-                                
-                                    Map zeroDBS12_SectionB_Layout1AggregateInvestmentExposureMap145 = new HashMap<String, String>();
-                                    
-                                        // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1AggregateInvestmentExposureValue144 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateInvestmentExposure(), zeroDBS12_SectionB_Layout1AggregateInvestmentExposureMap145);
-
-                                        
-                                        Context DBS12_SectionB_Layout1AggregateInvestmentExposureContext143 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
-                                            
-                                        
-                                    // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1AggregateInvestmentExposureValue144 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateInvestmentExposureValue144)) {
-                                        
-                                        addContext(DBS12_SectionB_Layout1AggregateInvestmentExposureContext143, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType aggregateInvestmentExposureValue146 = new MonetaryItemType();
-                                        aggregateInvestmentExposureValue146.setContextRef(DBS12_SectionB_Layout1AggregateInvestmentExposureContext143);
-                                        
-                                            aggregateInvestmentExposureValue146.setUnitRef(INR142);
-                                            aggregateInvestmentExposureValue146.setDecimals("INF");
-                                            aggregateInvestmentExposureValue146.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateInvestmentExposureValue144));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> aggregateInvestmentExposureElement147 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateInvestmentExposure(aggregateInvestmentExposureValue146);
-                                        bodyElements.add(aggregateInvestmentExposureElement147);
+                                        JAXBElement<MonetaryItemType> aggregateAmountOutstandingForFundedExposureElement147 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateAmountOutstandingForFundedExposure(aggregateAmountOutstandingForFundedExposureValue146);
+                                        bodyElements.add(aggregateAmountOutstandingForFundedExposureElement147);
                                     }
                                 
                             
@@ -1302,34 +1450,45 @@ public class DBS12Report implements XBRLReportIntf {
                                     
                                 
                                 
-                                // - ExemptedExposure
+                                // - FundedCreditExposure
                                 
-                                    Map zeroDBS12_SectionB_Layout1ExemptedExposureMap151 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1FundedCreditExposureMap152 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1ExemptedExposureValue150 = DBS12ReportUtil.retrieveValueForElement(field.getExemptedExposure(), zeroDBS12_SectionB_Layout1ExemptedExposureMap151);
+                                        String zeroDBS12_SectionB_Layout1FundedCreditExposureValue150 = DBS12ReportUtil.retrieveValueForElement(field.getFundedCreditExposure(), zeroDBS12_SectionB_Layout1FundedCreditExposureMap152);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1FundedCreditExposureFieldDataValue151 = DBS12ReportUtil.retrieveFieldDataForElement(field.getFundedCreditExposure(), zeroDBS12_SectionB_Layout1FundedCreditExposureMap152);
+
+                                        if(zeroDBS12_SectionB_Layout1FundedCreditExposureFieldDataValue151 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1FundedCreditExposureFieldDataValue151.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1FundedCreditExposureFieldDataValue151.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1FundedCreditExposureFieldDataValue151.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1FundedCreditExposureFieldDataValue151.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1FundedCreditExposureFieldDataValue151.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1FundedCreditExposureFieldDataValue151.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionB_Layout1ExemptedExposureContext149 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                        Context DBS12_SectionB_Layout1FundedCreditExposureContext149 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1ExemptedExposureValue150 != null && !"".equals(zeroDBS12_SectionB_Layout1ExemptedExposureValue150)) {
+                                    if(zeroDBS12_SectionB_Layout1FundedCreditExposureValue150 != null && !"".equals(zeroDBS12_SectionB_Layout1FundedCreditExposureValue150)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1ExemptedExposureContext149, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1FundedCreditExposureContext149, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType exemptedExposureValue152 = new MonetaryItemType();
-                                        exemptedExposureValue152.setContextRef(DBS12_SectionB_Layout1ExemptedExposureContext149);
+                                        MonetaryItemType fundedCreditExposureValue153 = new MonetaryItemType();
+                                        fundedCreditExposureValue153.setContextRef(DBS12_SectionB_Layout1FundedCreditExposureContext149);
                                         
-                                            exemptedExposureValue152.setUnitRef(INR148);
-                                            exemptedExposureValue152.setDecimals("INF");
-                                            exemptedExposureValue152.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1ExemptedExposureValue150));
+                                            fundedCreditExposureValue153.setUnitRef(INR148);
+                                            fundedCreditExposureValue153.setDecimals("INF");
+                                            fundedCreditExposureValue153.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1FundedCreditExposureValue150));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> exemptedExposureElement153 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createExemptedExposure(exemptedExposureValue152);
-                                        bodyElements.add(exemptedExposureElement153);
+                                        JAXBElement<MonetaryItemType> fundedCreditExposureElement154 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createFundedCreditExposure(fundedCreditExposureValue153);
+                                        bodyElements.add(fundedCreditExposureElement154);
                                     }
                                 
                             
@@ -1338,39 +1497,258 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR154 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR154 = createUnitIfNotExist(INR154, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR155 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR155 = createUnitIfNotExist(INR155, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    
+                                
+                                
+                                // - AggregateAmountOutstandingForNonFundedExposure
+                                
+                                    Map zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureMap159 = new HashMap<String, String>();
+                                    
+                                    
+                                        // retrieve value for element
+                                        String zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureValue157 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateAmountOutstandingForNonFundedExposure(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureMap159);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureFieldDataValue158 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAggregateAmountOutstandingForNonFundedExposure(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureMap159);
+
+                                        if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureFieldDataValue158 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureFieldDataValue158.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureFieldDataValue158.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureFieldDataValue158.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureFieldDataValue158.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureFieldDataValue158.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureFieldDataValue158.getInstantDate();
+                                        }
+
+                                        
+                                        Context DBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureContext156 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                            
+                                        
+                                    // check if value is null or empty
+                                    if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureValue157 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureValue157)) {
+                                        
+                                        addContext(DBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureContext156, contextElements, contextIdentifiers);
+                                    
+                                        // create element JAXB Element
+                                        
+                                        MonetaryItemType aggregateAmountOutstandingForNonFundedExposureValue160 = new MonetaryItemType();
+                                        aggregateAmountOutstandingForNonFundedExposureValue160.setContextRef(DBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureContext156);
+                                        
+                                            aggregateAmountOutstandingForNonFundedExposureValue160.setUnitRef(INR155);
+                                            aggregateAmountOutstandingForNonFundedExposureValue160.setDecimals("INF");
+                                            aggregateAmountOutstandingForNonFundedExposureValue160.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingForNonFundedExposureValue157));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> aggregateAmountOutstandingForNonFundedExposureElement161 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateAmountOutstandingForNonFundedExposure(aggregateAmountOutstandingForNonFundedExposureValue160);
+                                        bodyElements.add(aggregateAmountOutstandingForNonFundedExposureElement161);
+                                    }
+                                
+                            
+                            
+                                // start create element for report of DBS12_SectionB_Layout1
+                                // create unit if not empty
+                                
+                                    
+                                    Unit INR162 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR162 = createUnitIfNotExist(INR162, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    
+                                
+                                
+                                // - NonFundedCreditExposure
+                                
+                                    Map zeroDBS12_SectionB_Layout1NonFundedCreditExposureMap166 = new HashMap<String, String>();
+                                    
+                                    
+                                        // retrieve value for element
+                                        String zeroDBS12_SectionB_Layout1NonFundedCreditExposureValue164 = DBS12ReportUtil.retrieveValueForElement(field.getNonFundedCreditExposure(), zeroDBS12_SectionB_Layout1NonFundedCreditExposureMap166);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1NonFundedCreditExposureFieldDataValue165 = DBS12ReportUtil.retrieveFieldDataForElement(field.getNonFundedCreditExposure(), zeroDBS12_SectionB_Layout1NonFundedCreditExposureMap166);
+
+                                        if(zeroDBS12_SectionB_Layout1NonFundedCreditExposureFieldDataValue165 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1NonFundedCreditExposureFieldDataValue165.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1NonFundedCreditExposureFieldDataValue165.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1NonFundedCreditExposureFieldDataValue165.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1NonFundedCreditExposureFieldDataValue165.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1NonFundedCreditExposureFieldDataValue165.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1NonFundedCreditExposureFieldDataValue165.getInstantDate();
+                                        }
+
+                                        
+                                        Context DBS12_SectionB_Layout1NonFundedCreditExposureContext163 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                            
+                                        
+                                    // check if value is null or empty
+                                    if(zeroDBS12_SectionB_Layout1NonFundedCreditExposureValue164 != null && !"".equals(zeroDBS12_SectionB_Layout1NonFundedCreditExposureValue164)) {
+                                        
+                                        addContext(DBS12_SectionB_Layout1NonFundedCreditExposureContext163, contextElements, contextIdentifiers);
+                                    
+                                        // create element JAXB Element
+                                        
+                                        MonetaryItemType nonFundedCreditExposureValue167 = new MonetaryItemType();
+                                        nonFundedCreditExposureValue167.setContextRef(DBS12_SectionB_Layout1NonFundedCreditExposureContext163);
+                                        
+                                            nonFundedCreditExposureValue167.setUnitRef(INR162);
+                                            nonFundedCreditExposureValue167.setDecimals("INF");
+                                            nonFundedCreditExposureValue167.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1NonFundedCreditExposureValue164));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> nonFundedCreditExposureElement168 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createNonFundedCreditExposure(nonFundedCreditExposureValue167);
+                                        bodyElements.add(nonFundedCreditExposureElement168);
+                                    }
+                                
+                            
+                            
+                                // start create element for report of DBS12_SectionB_Layout1
+                                // create unit if not empty
+                                
+                                    
+                                    Unit INR169 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR169 = createUnitIfNotExist(INR169, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    
+                                
+                                
+                                // - AggregateInvestmentExposure
+                                
+                                    Map zeroDBS12_SectionB_Layout1AggregateInvestmentExposureMap173 = new HashMap<String, String>();
+                                    
+                                    
+                                        // retrieve value for element
+                                        String zeroDBS12_SectionB_Layout1AggregateInvestmentExposureValue171 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateInvestmentExposure(), zeroDBS12_SectionB_Layout1AggregateInvestmentExposureMap173);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1AggregateInvestmentExposureFieldDataValue172 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAggregateInvestmentExposure(), zeroDBS12_SectionB_Layout1AggregateInvestmentExposureMap173);
+
+                                        if(zeroDBS12_SectionB_Layout1AggregateInvestmentExposureFieldDataValue172 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1AggregateInvestmentExposureFieldDataValue172.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1AggregateInvestmentExposureFieldDataValue172.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateInvestmentExposureFieldDataValue172.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1AggregateInvestmentExposureFieldDataValue172.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateInvestmentExposureFieldDataValue172.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1AggregateInvestmentExposureFieldDataValue172.getInstantDate();
+                                        }
+
+                                        
+                                        Context DBS12_SectionB_Layout1AggregateInvestmentExposureContext170 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                            
+                                        
+                                    // check if value is null or empty
+                                    if(zeroDBS12_SectionB_Layout1AggregateInvestmentExposureValue171 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateInvestmentExposureValue171)) {
+                                        
+                                        addContext(DBS12_SectionB_Layout1AggregateInvestmentExposureContext170, contextElements, contextIdentifiers);
+                                    
+                                        // create element JAXB Element
+                                        
+                                        MonetaryItemType aggregateInvestmentExposureValue174 = new MonetaryItemType();
+                                        aggregateInvestmentExposureValue174.setContextRef(DBS12_SectionB_Layout1AggregateInvestmentExposureContext170);
+                                        
+                                            aggregateInvestmentExposureValue174.setUnitRef(INR169);
+                                            aggregateInvestmentExposureValue174.setDecimals("INF");
+                                            aggregateInvestmentExposureValue174.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateInvestmentExposureValue171));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> aggregateInvestmentExposureElement175 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateInvestmentExposure(aggregateInvestmentExposureValue174);
+                                        bodyElements.add(aggregateInvestmentExposureElement175);
+                                    }
+                                
+                            
+                            
+                                // start create element for report of DBS12_SectionB_Layout1
+                                // create unit if not empty
+                                
+                                    
+                                    Unit INR176 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR176 = createUnitIfNotExist(INR176, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    
+                                
+                                
+                                // - ExemptedExposure
+                                
+                                    Map zeroDBS12_SectionB_Layout1ExemptedExposureMap180 = new HashMap<String, String>();
+                                    
+                                    
+                                        // retrieve value for element
+                                        String zeroDBS12_SectionB_Layout1ExemptedExposureValue178 = DBS12ReportUtil.retrieveValueForElement(field.getExemptedExposure(), zeroDBS12_SectionB_Layout1ExemptedExposureMap180);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1ExemptedExposureFieldDataValue179 = DBS12ReportUtil.retrieveFieldDataForElement(field.getExemptedExposure(), zeroDBS12_SectionB_Layout1ExemptedExposureMap180);
+
+                                        if(zeroDBS12_SectionB_Layout1ExemptedExposureFieldDataValue179 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1ExemptedExposureFieldDataValue179.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1ExemptedExposureFieldDataValue179.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1ExemptedExposureFieldDataValue179.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1ExemptedExposureFieldDataValue179.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1ExemptedExposureFieldDataValue179.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1ExemptedExposureFieldDataValue179.getInstantDate();
+                                        }
+
+                                        
+                                        Context DBS12_SectionB_Layout1ExemptedExposureContext177 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                            
+                                        
+                                    // check if value is null or empty
+                                    if(zeroDBS12_SectionB_Layout1ExemptedExposureValue178 != null && !"".equals(zeroDBS12_SectionB_Layout1ExemptedExposureValue178)) {
+                                        
+                                        addContext(DBS12_SectionB_Layout1ExemptedExposureContext177, contextElements, contextIdentifiers);
+                                    
+                                        // create element JAXB Element
+                                        
+                                        MonetaryItemType exemptedExposureValue181 = new MonetaryItemType();
+                                        exemptedExposureValue181.setContextRef(DBS12_SectionB_Layout1ExemptedExposureContext177);
+                                        
+                                            exemptedExposureValue181.setUnitRef(INR176);
+                                            exemptedExposureValue181.setDecimals("INF");
+                                            exemptedExposureValue181.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1ExemptedExposureValue178));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> exemptedExposureElement182 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createExemptedExposure(exemptedExposureValue181);
+                                        bodyElements.add(exemptedExposureElement182);
+                                    }
+                                
+                            
+                            
+                                // start create element for report of DBS12_SectionB_Layout1
+                                // create unit if not empty
+                                
+                                    
+                                    Unit INR183 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR183 = createUnitIfNotExist(INR183, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - AggregateAmountOutstanding
                                 
-                                    Map zeroDBS12_SectionB_Layout1AggregateAmountOutstandingMap157 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1AggregateAmountOutstandingMap187 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1AggregateAmountOutstandingValue156 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateAmountOutstanding(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingMap157);
+                                        String zeroDBS12_SectionB_Layout1AggregateAmountOutstandingValue185 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateAmountOutstanding(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingMap187);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1AggregateAmountOutstandingFieldDataValue186 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAggregateAmountOutstanding(), zeroDBS12_SectionB_Layout1AggregateAmountOutstandingMap187);
+
+                                        if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingFieldDataValue186 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingFieldDataValue186.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingFieldDataValue186.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingFieldDataValue186.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingFieldDataValue186.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateAmountOutstandingFieldDataValue186.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1AggregateAmountOutstandingFieldDataValue186.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionB_Layout1AggregateAmountOutstandingContext155 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                        Context DBS12_SectionB_Layout1AggregateAmountOutstandingContext184 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingValue156 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingValue156)) {
+                                    if(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingValue185 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingValue185)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1AggregateAmountOutstandingContext155, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1AggregateAmountOutstandingContext184, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType aggregateAmountOutstandingValue158 = new MonetaryItemType();
-                                        aggregateAmountOutstandingValue158.setContextRef(DBS12_SectionB_Layout1AggregateAmountOutstandingContext155);
+                                        MonetaryItemType aggregateAmountOutstandingValue188 = new MonetaryItemType();
+                                        aggregateAmountOutstandingValue188.setContextRef(DBS12_SectionB_Layout1AggregateAmountOutstandingContext184);
                                         
-                                            aggregateAmountOutstandingValue158.setUnitRef(INR154);
-                                            aggregateAmountOutstandingValue158.setDecimals("INF");
-                                            aggregateAmountOutstandingValue158.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingValue156));
+                                            aggregateAmountOutstandingValue188.setUnitRef(INR183);
+                                            aggregateAmountOutstandingValue188.setDecimals("INF");
+                                            aggregateAmountOutstandingValue188.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateAmountOutstandingValue185));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> aggregateAmountOutstandingElement159 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateAmountOutstanding(aggregateAmountOutstandingValue158);
-                                        bodyElements.add(aggregateAmountOutstandingElement159);
+                                        JAXBElement<MonetaryItemType> aggregateAmountOutstandingElement189 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateAmountOutstanding(aggregateAmountOutstandingValue188);
+                                        bodyElements.add(aggregateAmountOutstandingElement189);
                                     }
                                 
                             
@@ -1379,39 +1757,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR160 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR160 = createUnitIfNotExist(INR160, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR190 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR190 = createUnitIfNotExist(INR190, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - AggregateExposure
                                 
-                                    Map zeroDBS12_SectionB_Layout1AggregateExposureMap163 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1AggregateExposureMap194 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1AggregateExposureValue162 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateExposure(), zeroDBS12_SectionB_Layout1AggregateExposureMap163);
+                                        String zeroDBS12_SectionB_Layout1AggregateExposureValue192 = DBS12ReportUtil.retrieveValueForElement(field.getAggregateExposure(), zeroDBS12_SectionB_Layout1AggregateExposureMap194);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1AggregateExposureFieldDataValue193 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAggregateExposure(), zeroDBS12_SectionB_Layout1AggregateExposureMap194);
+
+                                        if(zeroDBS12_SectionB_Layout1AggregateExposureFieldDataValue193 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1AggregateExposureFieldDataValue193.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1AggregateExposureFieldDataValue193.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateExposureFieldDataValue193.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1AggregateExposureFieldDataValue193.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1AggregateExposureFieldDataValue193.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1AggregateExposureFieldDataValue193.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionB_Layout1AggregateExposureContext161 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                        Context DBS12_SectionB_Layout1AggregateExposureContext191 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1AggregateExposureValue162 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateExposureValue162)) {
+                                    if(zeroDBS12_SectionB_Layout1AggregateExposureValue192 != null && !"".equals(zeroDBS12_SectionB_Layout1AggregateExposureValue192)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1AggregateExposureContext161, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1AggregateExposureContext191, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType aggregateExposureValue164 = new MonetaryItemType();
-                                        aggregateExposureValue164.setContextRef(DBS12_SectionB_Layout1AggregateExposureContext161);
+                                        MonetaryItemType aggregateExposureValue195 = new MonetaryItemType();
+                                        aggregateExposureValue195.setContextRef(DBS12_SectionB_Layout1AggregateExposureContext191);
                                         
-                                            aggregateExposureValue164.setUnitRef(INR160);
-                                            aggregateExposureValue164.setDecimals("INF");
-                                            aggregateExposureValue164.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateExposureValue162));
+                                            aggregateExposureValue195.setUnitRef(INR190);
+                                            aggregateExposureValue195.setDecimals("INF");
+                                            aggregateExposureValue195.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AggregateExposureValue192));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> aggregateExposureElement165 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateExposure(aggregateExposureValue164);
-                                        bodyElements.add(aggregateExposureElement165);
+                                        JAXBElement<MonetaryItemType> aggregateExposureElement196 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAggregateExposure(aggregateExposureValue195);
+                                        bodyElements.add(aggregateExposureElement196);
                                     }
                                 
                             
@@ -1422,29 +1811,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - AssetClassifications
                                 
-                                    Map zeroDBS12_SectionB_Layout1AssetClassificationsMap168 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1AssetClassificationsMap200 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1AssetClassificationsValue167 = DBS12ReportUtil.retrieveValueForElement(field.getAssetClassifications(), zeroDBS12_SectionB_Layout1AssetClassificationsMap168);
+                                        String zeroDBS12_SectionB_Layout1AssetClassificationsValue198 = DBS12ReportUtil.retrieveValueForElement(field.getAssetClassifications(), zeroDBS12_SectionB_Layout1AssetClassificationsMap200);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1AssetClassificationsFieldDataValue199 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAssetClassifications(), zeroDBS12_SectionB_Layout1AssetClassificationsMap200);
+
+                                        if(zeroDBS12_SectionB_Layout1AssetClassificationsFieldDataValue199 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1AssetClassificationsFieldDataValue199.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1AssetClassificationsFieldDataValue199.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1AssetClassificationsFieldDataValue199.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1AssetClassificationsFieldDataValue199.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1AssetClassificationsFieldDataValue199.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1AssetClassificationsFieldDataValue199.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionB_Layout1AssetClassificationsContext166 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
+                                            Context DBS12_SectionB_Layout1AssetClassificationsContext197 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1AssetClassificationsValue167 != null && !"".equals(zeroDBS12_SectionB_Layout1AssetClassificationsValue167)) {
+                                    if(zeroDBS12_SectionB_Layout1AssetClassificationsValue198 != null && !"".equals(zeroDBS12_SectionB_Layout1AssetClassificationsValue198)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1AssetClassificationsContext166, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1AssetClassificationsContext197, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        AssetClassifications assetClassificationsValue169 = new AssetClassifications();
-                                        assetClassificationsValue169.setContextRef(DBS12_SectionB_Layout1AssetClassificationsContext166);
+                                        AssetClassifications assetClassificationsValue201 = new AssetClassifications();
+                                        assetClassificationsValue201.setContextRef(DBS12_SectionB_Layout1AssetClassificationsContext197);
                                         
-                                            assetClassificationsValue169.setValue(zeroDBS12_SectionB_Layout1AssetClassificationsValue167);        
+                                            assetClassificationsValue201.setValue(zeroDBS12_SectionB_Layout1AssetClassificationsValue198);        
                                         
                                         
-                                        JAXBElement<AssetClassifications> assetClassificationsElement170 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAssetClassifications(assetClassificationsValue169);
-                                        bodyElements.add(assetClassificationsElement170);
+                                        JAXBElement<AssetClassifications> assetClassificationsElement202 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAssetClassifications(assetClassificationsValue201);
+                                        bodyElements.add(assetClassificationsElement202);
                                     }
                                 
                             
@@ -1453,39 +1853,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR171 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR171 = createUnitIfNotExist(INR171, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR203 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR203 = createUnitIfNotExist(INR203, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - AmountOfAggregateProvisionsHeldForNPAs
                                 
-                                    Map zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsMap174 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsMap207 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsValue173 = DBS12ReportUtil.retrieveValueForElement(field.getAmountOfAggregateProvisionsHeldForNPAs(), zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsMap174);
+                                        String zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsValue205 = DBS12ReportUtil.retrieveValueForElement(field.getAmountOfAggregateProvisionsHeldForNPAs(), zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsMap207);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsFieldDataValue206 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAmountOfAggregateProvisionsHeldForNPAs(), zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsMap207);
+
+                                        if(zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsFieldDataValue206 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsFieldDataValue206.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsFieldDataValue206.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsFieldDataValue206.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsFieldDataValue206.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsFieldDataValue206.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsFieldDataValue206.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsContext172 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                        Context DBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsContext204 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsValue173 != null && !"".equals(zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsValue173)) {
+                                    if(zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsValue205 != null && !"".equals(zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsValue205)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsContext172, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsContext204, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType amountOfAggregateProvisionsHeldForNPAsValue175 = new MonetaryItemType();
-                                        amountOfAggregateProvisionsHeldForNPAsValue175.setContextRef(DBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsContext172);
+                                        MonetaryItemType amountOfAggregateProvisionsHeldForNPAsValue208 = new MonetaryItemType();
+                                        amountOfAggregateProvisionsHeldForNPAsValue208.setContextRef(DBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsContext204);
                                         
-                                            amountOfAggregateProvisionsHeldForNPAsValue175.setUnitRef(INR171);
-                                            amountOfAggregateProvisionsHeldForNPAsValue175.setDecimals("INF");
-                                            amountOfAggregateProvisionsHeldForNPAsValue175.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsValue173));
+                                            amountOfAggregateProvisionsHeldForNPAsValue208.setUnitRef(INR203);
+                                            amountOfAggregateProvisionsHeldForNPAsValue208.setDecimals("INF");
+                                            amountOfAggregateProvisionsHeldForNPAsValue208.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AmountOfAggregateProvisionsHeldForNPAsValue205));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> amountOfAggregateProvisionsHeldForNPAsElement176 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAmountOfAggregateProvisionsHeldForNPAs(amountOfAggregateProvisionsHeldForNPAsValue175);
-                                        bodyElements.add(amountOfAggregateProvisionsHeldForNPAsElement176);
+                                        JAXBElement<MonetaryItemType> amountOfAggregateProvisionsHeldForNPAsElement209 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAmountOfAggregateProvisionsHeldForNPAs(amountOfAggregateProvisionsHeldForNPAsValue208);
+                                        bodyElements.add(amountOfAggregateProvisionsHeldForNPAsElement209);
                                     }
                                 
                             
@@ -1494,39 +1905,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR177 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR177 = createUnitIfNotExist(INR177, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR210 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR210 = createUnitIfNotExist(INR210, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding
                                 
-                                    Map zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingMap180 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingMap214 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue179 = DBS12ReportUtil.retrieveValueForElement(field.getAmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding(), zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingMap180);
+                                        String zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue212 = DBS12ReportUtil.retrieveValueForElement(field.getAmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding(), zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingMap214);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingFieldDataValue213 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding(), zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingMap214);
+
+                                        if(zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingFieldDataValue213 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingFieldDataValue213.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingFieldDataValue213.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingFieldDataValue213.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingFieldDataValue213.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingFieldDataValue213.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingFieldDataValue213.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingContext178 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
+                                        Context DBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingContext211 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionB_Layout1( bankCode, periodDate ,nameOfEntityAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue179 != null && !"".equals(zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue179)) {
+                                    if(zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue212 != null && !"".equals(zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue212)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingContext178, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingContext211, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue181 = new MonetaryItemType();
-                                        amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue181.setContextRef(DBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingContext178);
+                                        MonetaryItemType amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue215 = new MonetaryItemType();
+                                        amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue215.setContextRef(DBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingContext211);
                                         
-                                            amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue181.setUnitRef(INR177);
-                                            amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue181.setDecimals("INF");
-                                            amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue181.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue179));
+                                            amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue215.setUnitRef(INR210);
+                                            amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue215.setDecimals("INF");
+                                            amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue215.setValue(new BigDecimal(zeroDBS12_SectionB_Layout1AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue212));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingElement182 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding(amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue181);
-                                        bodyElements.add(amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingElement182);
+                                        JAXBElement<MonetaryItemType> amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingElement216 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createAmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding(amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingValue215);
+                                        bodyElements.add(amountOfUnsecuredAmountOutstandingOfTotalAmountOutstandingElement216);
                                     }
                                 
                             
@@ -1537,29 +1959,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - ReasonsForBreachOfStipulatedPrudentialLimits
                                 
-                                    Map zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsMap185 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsMap220 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsValue184 = DBS12ReportUtil.retrieveValueForElement(field.getReasonsForBreachOfStipulatedPrudentialLimits(), zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsMap185);
+                                        String zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsValue218 = DBS12ReportUtil.retrieveValueForElement(field.getReasonsForBreachOfStipulatedPrudentialLimits(), zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsMap220);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsFieldDataValue219 = DBS12ReportUtil.retrieveFieldDataForElement(field.getReasonsForBreachOfStipulatedPrudentialLimits(), zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsMap220);
+
+                                        if(zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsFieldDataValue219 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsFieldDataValue219.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsFieldDataValue219.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsFieldDataValue219.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsFieldDataValue219.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsFieldDataValue219.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsFieldDataValue219.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsContext183 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
+                                            Context DBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsContext217 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsValue184 != null && !"".equals(zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsValue184)) {
+                                    if(zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsValue218 != null && !"".equals(zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsValue218)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsContext183, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsContext217, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        StringItemType reasonsForBreachOfStipulatedPrudentialLimitsValue186 = new StringItemType();
-                                        reasonsForBreachOfStipulatedPrudentialLimitsValue186.setContextRef(DBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsContext183);
+                                        StringItemType reasonsForBreachOfStipulatedPrudentialLimitsValue221 = new StringItemType();
+                                        reasonsForBreachOfStipulatedPrudentialLimitsValue221.setContextRef(DBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsContext217);
                                         
-                                            reasonsForBreachOfStipulatedPrudentialLimitsValue186.setValue(zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsValue184);        
+                                            reasonsForBreachOfStipulatedPrudentialLimitsValue221.setValue(zeroDBS12_SectionB_Layout1ReasonsForBreachOfStipulatedPrudentialLimitsValue218);        
                                         
                                         
-                                        JAXBElement<StringItemType> reasonsForBreachOfStipulatedPrudentialLimitsElement187 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createReasonsForBreachOfStipulatedPrudentialLimits(reasonsForBreachOfStipulatedPrudentialLimitsValue186);
-                                        bodyElements.add(reasonsForBreachOfStipulatedPrudentialLimitsElement187);
+                                        JAXBElement<StringItemType> reasonsForBreachOfStipulatedPrudentialLimitsElement222 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createReasonsForBreachOfStipulatedPrudentialLimits(reasonsForBreachOfStipulatedPrudentialLimitsValue221);
+                                        bodyElements.add(reasonsForBreachOfStipulatedPrudentialLimitsElement222);
                                     }
                                 
                             
@@ -1570,29 +2003,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - DescriptionOfIntraGroupSupportArrangementsOrAgreements
                                 
-                                    Map zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsMap190 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsMap226 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsValue189 = DBS12ReportUtil.retrieveValueForElement(field.getDescriptionOfIntraGroupSupportArrangementsOrAgreements(), zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsMap190);
+                                        String zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsValue224 = DBS12ReportUtil.retrieveValueForElement(field.getDescriptionOfIntraGroupSupportArrangementsOrAgreements(), zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsMap226);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsFieldDataValue225 = DBS12ReportUtil.retrieveFieldDataForElement(field.getDescriptionOfIntraGroupSupportArrangementsOrAgreements(), zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsMap226);
+
+                                        if(zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsFieldDataValue225 != null ) {
+                                            if(!zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsFieldDataValue225.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsFieldDataValue225.getStartDate();
+                                            if(!zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsFieldDataValue225.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsFieldDataValue225.getEndDate();
+                                            if(!zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsFieldDataValue225.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsFieldDataValue225.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsContext188 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
+                                            Context DBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsContext223 = DBS12ReportContextUtil.createFromToContextDBS12_SectionB_Layout1( bankCode, startDate, endDate ,nameOfEntityAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsValue189 != null && !"".equals(zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsValue189)) {
+                                    if(zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsValue224 != null && !"".equals(zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsValue224)) {
                                         
-                                        addContext(DBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsContext188, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsContext223, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        StringItemType descriptionOfIntraGroupSupportArrangementsOrAgreementsValue191 = new StringItemType();
-                                        descriptionOfIntraGroupSupportArrangementsOrAgreementsValue191.setContextRef(DBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsContext188);
+                                        StringItemType descriptionOfIntraGroupSupportArrangementsOrAgreementsValue227 = new StringItemType();
+                                        descriptionOfIntraGroupSupportArrangementsOrAgreementsValue227.setContextRef(DBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsContext223);
                                         
-                                            descriptionOfIntraGroupSupportArrangementsOrAgreementsValue191.setValue(zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsValue189);        
+                                            descriptionOfIntraGroupSupportArrangementsOrAgreementsValue227.setValue(zeroDBS12_SectionB_Layout1DescriptionOfIntraGroupSupportArrangementsOrAgreementsValue224);        
                                         
                                         
-                                        JAXBElement<StringItemType> descriptionOfIntraGroupSupportArrangementsOrAgreementsElement192 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createDescriptionOfIntraGroupSupportArrangementsOrAgreements(descriptionOfIntraGroupSupportArrangementsOrAgreementsValue191);
-                                        bodyElements.add(descriptionOfIntraGroupSupportArrangementsOrAgreementsElement192);
+                                        JAXBElement<StringItemType> descriptionOfIntraGroupSupportArrangementsOrAgreementsElement228 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createDescriptionOfIntraGroupSupportArrangementsOrAgreements(descriptionOfIntraGroupSupportArrangementsOrAgreementsValue227);
+                                        bodyElements.add(descriptionOfIntraGroupSupportArrangementsOrAgreementsElement228);
                                     }
                                 
                             
@@ -1617,9 +2061,14 @@ public class DBS12Report implements XBRLReportIntf {
                 
                 // if typemembers exist
                 
-                    private String dBS12_SectionC_Layout1Method(List<DBS12_SectionC_Layout1> dBS12_SectionC_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDate, String endDate, String periodDate)
+                    private String dBS12_SectionC_Layout1Method(List<DBS12_SectionC_Layout1> dBS12_SectionC_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDateDefault, String endDateDefault, String periodDateDefault)
                     {
+                        
                     dBS12_SectionC_Layout1.forEach((field)->{
+                        // create startdate, enddate, and perioddate
+                        String startDate = startDateDefault;
+                        String endDate = endDateDefault;
+                        String periodDate = periodDateDefault;
                         // crate variable loop  for type member
                         
                             // create variable for type member UniqueTransactionCodeAxis
@@ -1640,29 +2089,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TypeOfEntity
                                 
-                                    Map zeroDBS12_SectionC_Layout1TypeOfEntityMap195 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionC_Layout1TypeOfEntityMap232 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionC_Layout1TypeOfEntityValue194 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfEntity(), zeroDBS12_SectionC_Layout1TypeOfEntityMap195);
+                                        String zeroDBS12_SectionC_Layout1TypeOfEntityValue230 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfEntity(), zeroDBS12_SectionC_Layout1TypeOfEntityMap232);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionC_Layout1TypeOfEntityFieldDataValue231 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTypeOfEntity(), zeroDBS12_SectionC_Layout1TypeOfEntityMap232);
+
+                                        if(zeroDBS12_SectionC_Layout1TypeOfEntityFieldDataValue231 != null ) {
+                                            if(!zeroDBS12_SectionC_Layout1TypeOfEntityFieldDataValue231.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionC_Layout1TypeOfEntityFieldDataValue231.getStartDate();
+                                            if(!zeroDBS12_SectionC_Layout1TypeOfEntityFieldDataValue231.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionC_Layout1TypeOfEntityFieldDataValue231.getEndDate();
+                                            if(!zeroDBS12_SectionC_Layout1TypeOfEntityFieldDataValue231.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionC_Layout1TypeOfEntityFieldDataValue231.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionC_Layout1TypeOfEntityContext193 = DBS12ReportContextUtil.createFromToContextDBS12_SectionC_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
+                                            Context DBS12_SectionC_Layout1TypeOfEntityContext229 = DBS12ReportContextUtil.createFromToContextDBS12_SectionC_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionC_Layout1TypeOfEntityValue194 != null && !"".equals(zeroDBS12_SectionC_Layout1TypeOfEntityValue194)) {
+                                    if(zeroDBS12_SectionC_Layout1TypeOfEntityValue230 != null && !"".equals(zeroDBS12_SectionC_Layout1TypeOfEntityValue230)) {
                                         
-                                        addContext(DBS12_SectionC_Layout1TypeOfEntityContext193, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionC_Layout1TypeOfEntityContext229, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        TypeOfEntity typeOfEntityValue196 = new TypeOfEntity();
-                                        typeOfEntityValue196.setContextRef(DBS12_SectionC_Layout1TypeOfEntityContext193);
+                                        TypeOfEntity typeOfEntityValue233 = new TypeOfEntity();
+                                        typeOfEntityValue233.setContextRef(DBS12_SectionC_Layout1TypeOfEntityContext229);
                                         
-                                            typeOfEntityValue196.setValue(zeroDBS12_SectionC_Layout1TypeOfEntityValue194);        
+                                            typeOfEntityValue233.setValue(zeroDBS12_SectionC_Layout1TypeOfEntityValue230);        
                                         
                                         
-                                        JAXBElement<TypeOfEntity> typeOfEntityElement197 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfEntity(typeOfEntityValue196);
-                                        bodyElements.add(typeOfEntityElement197);
+                                        JAXBElement<TypeOfEntity> typeOfEntityElement234 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfEntity(typeOfEntityValue233);
+                                        bodyElements.add(typeOfEntityElement234);
                                     }
                                 
                             
@@ -1673,29 +2133,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TypeOfExposures
                                 
-                                    Map zeroDBS12_SectionC_Layout1TypeOfExposuresMap200 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionC_Layout1TypeOfExposuresMap238 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionC_Layout1TypeOfExposuresValue199 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfExposures(), zeroDBS12_SectionC_Layout1TypeOfExposuresMap200);
+                                        String zeroDBS12_SectionC_Layout1TypeOfExposuresValue236 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfExposures(), zeroDBS12_SectionC_Layout1TypeOfExposuresMap238);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionC_Layout1TypeOfExposuresFieldDataValue237 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTypeOfExposures(), zeroDBS12_SectionC_Layout1TypeOfExposuresMap238);
+
+                                        if(zeroDBS12_SectionC_Layout1TypeOfExposuresFieldDataValue237 != null ) {
+                                            if(!zeroDBS12_SectionC_Layout1TypeOfExposuresFieldDataValue237.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionC_Layout1TypeOfExposuresFieldDataValue237.getStartDate();
+                                            if(!zeroDBS12_SectionC_Layout1TypeOfExposuresFieldDataValue237.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionC_Layout1TypeOfExposuresFieldDataValue237.getEndDate();
+                                            if(!zeroDBS12_SectionC_Layout1TypeOfExposuresFieldDataValue237.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionC_Layout1TypeOfExposuresFieldDataValue237.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionC_Layout1TypeOfExposuresContext198 = DBS12ReportContextUtil.createFromToContextDBS12_SectionC_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
+                                            Context DBS12_SectionC_Layout1TypeOfExposuresContext235 = DBS12ReportContextUtil.createFromToContextDBS12_SectionC_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionC_Layout1TypeOfExposuresValue199 != null && !"".equals(zeroDBS12_SectionC_Layout1TypeOfExposuresValue199)) {
+                                    if(zeroDBS12_SectionC_Layout1TypeOfExposuresValue236 != null && !"".equals(zeroDBS12_SectionC_Layout1TypeOfExposuresValue236)) {
                                         
-                                        addContext(DBS12_SectionC_Layout1TypeOfExposuresContext198, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionC_Layout1TypeOfExposuresContext235, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        TypeOfExposures typeOfExposuresValue201 = new TypeOfExposures();
-                                        typeOfExposuresValue201.setContextRef(DBS12_SectionC_Layout1TypeOfExposuresContext198);
+                                        TypeOfExposures typeOfExposuresValue239 = new TypeOfExposures();
+                                        typeOfExposuresValue239.setContextRef(DBS12_SectionC_Layout1TypeOfExposuresContext235);
                                         
-                                            typeOfExposuresValue201.setValue(zeroDBS12_SectionC_Layout1TypeOfExposuresValue199);        
+                                            typeOfExposuresValue239.setValue(zeroDBS12_SectionC_Layout1TypeOfExposuresValue236);        
                                         
                                         
-                                        JAXBElement<TypeOfExposures> typeOfExposuresElement202 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfExposures(typeOfExposuresValue201);
-                                        bodyElements.add(typeOfExposuresElement202);
+                                        JAXBElement<TypeOfExposures> typeOfExposuresElement240 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfExposures(typeOfExposuresValue239);
+                                        bodyElements.add(typeOfExposuresElement240);
                                     }
                                 
                             
@@ -1704,39 +2175,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR203 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR203 = createUnitIfNotExist(INR203, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR241 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR241 = createUnitIfNotExist(INR241, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ExposureAmount
                                 
-                                    Map zeroDBS12_SectionC_Layout1ExposureAmountMap206 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionC_Layout1ExposureAmountMap245 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionC_Layout1ExposureAmountValue205 = DBS12ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS12_SectionC_Layout1ExposureAmountMap206);
+                                        String zeroDBS12_SectionC_Layout1ExposureAmountValue243 = DBS12ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS12_SectionC_Layout1ExposureAmountMap245);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionC_Layout1ExposureAmountFieldDataValue244 = DBS12ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS12_SectionC_Layout1ExposureAmountMap245);
+
+                                        if(zeroDBS12_SectionC_Layout1ExposureAmountFieldDataValue244 != null ) {
+                                            if(!zeroDBS12_SectionC_Layout1ExposureAmountFieldDataValue244.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionC_Layout1ExposureAmountFieldDataValue244.getStartDate();
+                                            if(!zeroDBS12_SectionC_Layout1ExposureAmountFieldDataValue244.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionC_Layout1ExposureAmountFieldDataValue244.getEndDate();
+                                            if(!zeroDBS12_SectionC_Layout1ExposureAmountFieldDataValue244.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionC_Layout1ExposureAmountFieldDataValue244.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionC_Layout1ExposureAmountContext204 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionC_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
+                                        Context DBS12_SectionC_Layout1ExposureAmountContext242 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionC_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionC_Layout1ExposureAmountValue205 != null && !"".equals(zeroDBS12_SectionC_Layout1ExposureAmountValue205)) {
+                                    if(zeroDBS12_SectionC_Layout1ExposureAmountValue243 != null && !"".equals(zeroDBS12_SectionC_Layout1ExposureAmountValue243)) {
                                         
-                                        addContext(DBS12_SectionC_Layout1ExposureAmountContext204, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionC_Layout1ExposureAmountContext242, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType exposureAmountValue207 = new MonetaryItemType();
-                                        exposureAmountValue207.setContextRef(DBS12_SectionC_Layout1ExposureAmountContext204);
+                                        MonetaryItemType exposureAmountValue246 = new MonetaryItemType();
+                                        exposureAmountValue246.setContextRef(DBS12_SectionC_Layout1ExposureAmountContext242);
                                         
-                                            exposureAmountValue207.setUnitRef(INR203);
-                                            exposureAmountValue207.setDecimals("INF");
-                                            exposureAmountValue207.setValue(new BigDecimal(zeroDBS12_SectionC_Layout1ExposureAmountValue205));
+                                            exposureAmountValue246.setUnitRef(INR241);
+                                            exposureAmountValue246.setDecimals("INF");
+                                            exposureAmountValue246.setValue(new BigDecimal(zeroDBS12_SectionC_Layout1ExposureAmountValue243));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> exposureAmountElement208 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue207);
-                                        bodyElements.add(exposureAmountElement208);
+                                        JAXBElement<MonetaryItemType> exposureAmountElement247 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue246);
+                                        bodyElements.add(exposureAmountElement247);
                                     }
                                 
                             
@@ -1747,29 +2229,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TermOfCreditExposure
                                 
-                                    Map zeroDBS12_SectionC_Layout1TermOfCreditExposureMap211 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionC_Layout1TermOfCreditExposureMap251 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionC_Layout1TermOfCreditExposureValue210 = DBS12ReportUtil.retrieveValueForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionC_Layout1TermOfCreditExposureMap211);
+                                        String zeroDBS12_SectionC_Layout1TermOfCreditExposureValue249 = DBS12ReportUtil.retrieveValueForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionC_Layout1TermOfCreditExposureMap251);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionC_Layout1TermOfCreditExposureFieldDataValue250 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionC_Layout1TermOfCreditExposureMap251);
+
+                                        if(zeroDBS12_SectionC_Layout1TermOfCreditExposureFieldDataValue250 != null ) {
+                                            if(!zeroDBS12_SectionC_Layout1TermOfCreditExposureFieldDataValue250.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionC_Layout1TermOfCreditExposureFieldDataValue250.getStartDate();
+                                            if(!zeroDBS12_SectionC_Layout1TermOfCreditExposureFieldDataValue250.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionC_Layout1TermOfCreditExposureFieldDataValue250.getEndDate();
+                                            if(!zeroDBS12_SectionC_Layout1TermOfCreditExposureFieldDataValue250.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionC_Layout1TermOfCreditExposureFieldDataValue250.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionC_Layout1TermOfCreditExposureContext209 = DBS12ReportContextUtil.createFromToContextDBS12_SectionC_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
+                                            Context DBS12_SectionC_Layout1TermOfCreditExposureContext248 = DBS12ReportContextUtil.createFromToContextDBS12_SectionC_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionC_Layout1TermOfCreditExposureValue210 != null && !"".equals(zeroDBS12_SectionC_Layout1TermOfCreditExposureValue210)) {
+                                    if(zeroDBS12_SectionC_Layout1TermOfCreditExposureValue249 != null && !"".equals(zeroDBS12_SectionC_Layout1TermOfCreditExposureValue249)) {
                                         
-                                        addContext(DBS12_SectionC_Layout1TermOfCreditExposureContext209, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionC_Layout1TermOfCreditExposureContext248, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        StringItemType termOfCreditExposureValue212 = new StringItemType();
-                                        termOfCreditExposureValue212.setContextRef(DBS12_SectionC_Layout1TermOfCreditExposureContext209);
+                                        StringItemType termOfCreditExposureValue252 = new StringItemType();
+                                        termOfCreditExposureValue252.setContextRef(DBS12_SectionC_Layout1TermOfCreditExposureContext248);
                                         
-                                            termOfCreditExposureValue212.setValue(zeroDBS12_SectionC_Layout1TermOfCreditExposureValue210);        
+                                            termOfCreditExposureValue252.setValue(zeroDBS12_SectionC_Layout1TermOfCreditExposureValue249);        
                                         
                                         
-                                        JAXBElement<StringItemType> termOfCreditExposureElement213 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createTermOfCreditExposure(termOfCreditExposureValue212);
-                                        bodyElements.add(termOfCreditExposureElement213);
+                                        JAXBElement<StringItemType> termOfCreditExposureElement253 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createTermOfCreditExposure(termOfCreditExposureValue252);
+                                        bodyElements.add(termOfCreditExposureElement253);
                                     }
                                 
                             
@@ -1778,39 +2271,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR214 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR214 = createUnitIfNotExist(INR214, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR254 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR254 = createUnitIfNotExist(INR254, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ValueOfSecuritiesCollateral
                                 
-                                    Map zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralMap217 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralMap258 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralValue216 = DBS12ReportUtil.retrieveValueForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralMap217);
+                                        String zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralValue256 = DBS12ReportUtil.retrieveValueForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralMap258);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralFieldDataValue257 = DBS12ReportUtil.retrieveFieldDataForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralMap258);
+
+                                        if(zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralFieldDataValue257 != null ) {
+                                            if(!zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralFieldDataValue257.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralFieldDataValue257.getStartDate();
+                                            if(!zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralFieldDataValue257.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralFieldDataValue257.getEndDate();
+                                            if(!zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralFieldDataValue257.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralFieldDataValue257.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionC_Layout1ValueOfSecuritiesCollateralContext215 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionC_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
+                                        Context DBS12_SectionC_Layout1ValueOfSecuritiesCollateralContext255 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionC_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralValue216 != null && !"".equals(zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralValue216)) {
+                                    if(zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralValue256 != null && !"".equals(zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralValue256)) {
                                         
-                                        addContext(DBS12_SectionC_Layout1ValueOfSecuritiesCollateralContext215, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionC_Layout1ValueOfSecuritiesCollateralContext255, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType valueOfSecuritiesCollateralValue218 = new MonetaryItemType();
-                                        valueOfSecuritiesCollateralValue218.setContextRef(DBS12_SectionC_Layout1ValueOfSecuritiesCollateralContext215);
+                                        MonetaryItemType valueOfSecuritiesCollateralValue259 = new MonetaryItemType();
+                                        valueOfSecuritiesCollateralValue259.setContextRef(DBS12_SectionC_Layout1ValueOfSecuritiesCollateralContext255);
                                         
-                                            valueOfSecuritiesCollateralValue218.setUnitRef(INR214);
-                                            valueOfSecuritiesCollateralValue218.setDecimals("INF");
-                                            valueOfSecuritiesCollateralValue218.setValue(new BigDecimal(zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralValue216));
+                                            valueOfSecuritiesCollateralValue259.setUnitRef(INR254);
+                                            valueOfSecuritiesCollateralValue259.setDecimals("INF");
+                                            valueOfSecuritiesCollateralValue259.setValue(new BigDecimal(zeroDBS12_SectionC_Layout1ValueOfSecuritiesCollateralValue256));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> valueOfSecuritiesCollateralElement219 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createValueOfSecuritiesCollateral(valueOfSecuritiesCollateralValue218);
-                                        bodyElements.add(valueOfSecuritiesCollateralElement219);
+                                        JAXBElement<MonetaryItemType> valueOfSecuritiesCollateralElement260 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createValueOfSecuritiesCollateral(valueOfSecuritiesCollateralValue259);
+                                        bodyElements.add(valueOfSecuritiesCollateralElement260);
                                     }
                                 
                             
@@ -1821,29 +2325,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - AssetClassifications
                                 
-                                    Map zeroDBS12_SectionC_Layout1AssetClassificationsMap222 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionC_Layout1AssetClassificationsMap264 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionC_Layout1AssetClassificationsValue221 = DBS12ReportUtil.retrieveValueForElement(field.getAssetClassifications(), zeroDBS12_SectionC_Layout1AssetClassificationsMap222);
+                                        String zeroDBS12_SectionC_Layout1AssetClassificationsValue262 = DBS12ReportUtil.retrieveValueForElement(field.getAssetClassifications(), zeroDBS12_SectionC_Layout1AssetClassificationsMap264);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionC_Layout1AssetClassificationsFieldDataValue263 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAssetClassifications(), zeroDBS12_SectionC_Layout1AssetClassificationsMap264);
+
+                                        if(zeroDBS12_SectionC_Layout1AssetClassificationsFieldDataValue263 != null ) {
+                                            if(!zeroDBS12_SectionC_Layout1AssetClassificationsFieldDataValue263.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionC_Layout1AssetClassificationsFieldDataValue263.getStartDate();
+                                            if(!zeroDBS12_SectionC_Layout1AssetClassificationsFieldDataValue263.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionC_Layout1AssetClassificationsFieldDataValue263.getEndDate();
+                                            if(!zeroDBS12_SectionC_Layout1AssetClassificationsFieldDataValue263.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionC_Layout1AssetClassificationsFieldDataValue263.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionC_Layout1AssetClassificationsContext220 = DBS12ReportContextUtil.createFromToContextDBS12_SectionC_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
+                                            Context DBS12_SectionC_Layout1AssetClassificationsContext261 = DBS12ReportContextUtil.createFromToContextDBS12_SectionC_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionC_Layout1AssetClassificationsValue221 != null && !"".equals(zeroDBS12_SectionC_Layout1AssetClassificationsValue221)) {
+                                    if(zeroDBS12_SectionC_Layout1AssetClassificationsValue262 != null && !"".equals(zeroDBS12_SectionC_Layout1AssetClassificationsValue262)) {
                                         
-                                        addContext(DBS12_SectionC_Layout1AssetClassificationsContext220, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionC_Layout1AssetClassificationsContext261, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        AssetClassifications assetClassificationsValue223 = new AssetClassifications();
-                                        assetClassificationsValue223.setContextRef(DBS12_SectionC_Layout1AssetClassificationsContext220);
+                                        AssetClassifications assetClassificationsValue265 = new AssetClassifications();
+                                        assetClassificationsValue265.setContextRef(DBS12_SectionC_Layout1AssetClassificationsContext261);
                                         
-                                            assetClassificationsValue223.setValue(zeroDBS12_SectionC_Layout1AssetClassificationsValue221);        
+                                            assetClassificationsValue265.setValue(zeroDBS12_SectionC_Layout1AssetClassificationsValue262);        
                                         
                                         
-                                        JAXBElement<AssetClassifications> assetClassificationsElement224 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAssetClassifications(assetClassificationsValue223);
-                                        bodyElements.add(assetClassificationsElement224);
+                                        JAXBElement<AssetClassifications> assetClassificationsElement266 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAssetClassifications(assetClassificationsValue265);
+                                        bodyElements.add(assetClassificationsElement266);
                                     }
                                 
                             
@@ -1852,39 +2367,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR225 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR225 = createUnitIfNotExist(INR225, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR267 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR267 = createUnitIfNotExist(INR267, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ProvisionForInvestment
                                 
-                                    Map zeroDBS12_SectionC_Layout1ProvisionForInvestmentMap228 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionC_Layout1ProvisionForInvestmentMap271 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionC_Layout1ProvisionForInvestmentValue227 = DBS12ReportUtil.retrieveValueForElement(field.getProvisionForInvestment(), zeroDBS12_SectionC_Layout1ProvisionForInvestmentMap228);
+                                        String zeroDBS12_SectionC_Layout1ProvisionForInvestmentValue269 = DBS12ReportUtil.retrieveValueForElement(field.getProvisionForInvestment(), zeroDBS12_SectionC_Layout1ProvisionForInvestmentMap271);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionC_Layout1ProvisionForInvestmentFieldDataValue270 = DBS12ReportUtil.retrieveFieldDataForElement(field.getProvisionForInvestment(), zeroDBS12_SectionC_Layout1ProvisionForInvestmentMap271);
+
+                                        if(zeroDBS12_SectionC_Layout1ProvisionForInvestmentFieldDataValue270 != null ) {
+                                            if(!zeroDBS12_SectionC_Layout1ProvisionForInvestmentFieldDataValue270.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionC_Layout1ProvisionForInvestmentFieldDataValue270.getStartDate();
+                                            if(!zeroDBS12_SectionC_Layout1ProvisionForInvestmentFieldDataValue270.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionC_Layout1ProvisionForInvestmentFieldDataValue270.getEndDate();
+                                            if(!zeroDBS12_SectionC_Layout1ProvisionForInvestmentFieldDataValue270.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionC_Layout1ProvisionForInvestmentFieldDataValue270.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionC_Layout1ProvisionForInvestmentContext226 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionC_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
+                                        Context DBS12_SectionC_Layout1ProvisionForInvestmentContext268 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionC_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionC_Layout1ProvisionForInvestmentValue227 != null && !"".equals(zeroDBS12_SectionC_Layout1ProvisionForInvestmentValue227)) {
+                                    if(zeroDBS12_SectionC_Layout1ProvisionForInvestmentValue269 != null && !"".equals(zeroDBS12_SectionC_Layout1ProvisionForInvestmentValue269)) {
                                         
-                                        addContext(DBS12_SectionC_Layout1ProvisionForInvestmentContext226, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionC_Layout1ProvisionForInvestmentContext268, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType provisionForInvestmentValue229 = new MonetaryItemType();
-                                        provisionForInvestmentValue229.setContextRef(DBS12_SectionC_Layout1ProvisionForInvestmentContext226);
+                                        MonetaryItemType provisionForInvestmentValue272 = new MonetaryItemType();
+                                        provisionForInvestmentValue272.setContextRef(DBS12_SectionC_Layout1ProvisionForInvestmentContext268);
                                         
-                                            provisionForInvestmentValue229.setUnitRef(INR225);
-                                            provisionForInvestmentValue229.setDecimals("INF");
-                                            provisionForInvestmentValue229.setValue(new BigDecimal(zeroDBS12_SectionC_Layout1ProvisionForInvestmentValue227));
+                                            provisionForInvestmentValue272.setUnitRef(INR267);
+                                            provisionForInvestmentValue272.setDecimals("INF");
+                                            provisionForInvestmentValue272.setValue(new BigDecimal(zeroDBS12_SectionC_Layout1ProvisionForInvestmentValue269));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> provisionForInvestmentElement230 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createProvisionForInvestment(provisionForInvestmentValue229);
-                                        bodyElements.add(provisionForInvestmentElement230);
+                                        JAXBElement<MonetaryItemType> provisionForInvestmentElement273 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createProvisionForInvestment(provisionForInvestmentValue272);
+                                        bodyElements.add(provisionForInvestmentElement273);
                                     }
                                 
                             
@@ -1909,9 +2435,14 @@ public class DBS12Report implements XBRLReportIntf {
                 
                 // if typemembers exist
                 
-                    private String dBS12_SectionD_Layout1Method(List<DBS12_SectionD_Layout1> dBS12_SectionD_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDate, String endDate, String periodDate)
+                    private String dBS12_SectionD_Layout1Method(List<DBS12_SectionD_Layout1> dBS12_SectionD_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDateDefault, String endDateDefault, String periodDateDefault)
                     {
+                        
                     dBS12_SectionD_Layout1.forEach((field)->{
+                        // create startdate, enddate, and perioddate
+                        String startDate = startDateDefault;
+                        String endDate = endDateDefault;
+                        String periodDate = periodDateDefault;
                         // crate variable loop  for type member
                         
                             // create variable for type member UniqueTransactionCodeAxis
@@ -1932,29 +2463,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TypeOfExposures
                                 
-                                    Map zeroDBS12_SectionD_Layout1TypeOfExposuresMap233 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout1TypeOfExposuresMap277 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout1TypeOfExposuresValue232 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfExposures(), zeroDBS12_SectionD_Layout1TypeOfExposuresMap233);
+                                        String zeroDBS12_SectionD_Layout1TypeOfExposuresValue275 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfExposures(), zeroDBS12_SectionD_Layout1TypeOfExposuresMap277);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout1TypeOfExposuresFieldDataValue276 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTypeOfExposures(), zeroDBS12_SectionD_Layout1TypeOfExposuresMap277);
+
+                                        if(zeroDBS12_SectionD_Layout1TypeOfExposuresFieldDataValue276 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout1TypeOfExposuresFieldDataValue276.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout1TypeOfExposuresFieldDataValue276.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout1TypeOfExposuresFieldDataValue276.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout1TypeOfExposuresFieldDataValue276.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout1TypeOfExposuresFieldDataValue276.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout1TypeOfExposuresFieldDataValue276.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionD_Layout1TypeOfExposuresContext231 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
+                                            Context DBS12_SectionD_Layout1TypeOfExposuresContext274 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout1TypeOfExposuresValue232 != null && !"".equals(zeroDBS12_SectionD_Layout1TypeOfExposuresValue232)) {
+                                    if(zeroDBS12_SectionD_Layout1TypeOfExposuresValue275 != null && !"".equals(zeroDBS12_SectionD_Layout1TypeOfExposuresValue275)) {
                                         
-                                        addContext(DBS12_SectionD_Layout1TypeOfExposuresContext231, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout1TypeOfExposuresContext274, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        TypeOfExposures typeOfExposuresValue234 = new TypeOfExposures();
-                                        typeOfExposuresValue234.setContextRef(DBS12_SectionD_Layout1TypeOfExposuresContext231);
+                                        TypeOfExposures typeOfExposuresValue278 = new TypeOfExposures();
+                                        typeOfExposuresValue278.setContextRef(DBS12_SectionD_Layout1TypeOfExposuresContext274);
                                         
-                                            typeOfExposuresValue234.setValue(zeroDBS12_SectionD_Layout1TypeOfExposuresValue232);        
+                                            typeOfExposuresValue278.setValue(zeroDBS12_SectionD_Layout1TypeOfExposuresValue275);        
                                         
                                         
-                                        JAXBElement<TypeOfExposures> typeOfExposuresElement235 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfExposures(typeOfExposuresValue234);
-                                        bodyElements.add(typeOfExposuresElement235);
+                                        JAXBElement<TypeOfExposures> typeOfExposuresElement279 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfExposures(typeOfExposuresValue278);
+                                        bodyElements.add(typeOfExposuresElement279);
                                     }
                                 
                             
@@ -1963,39 +2505,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR236 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR236 = createUnitIfNotExist(INR236, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR280 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR280 = createUnitIfNotExist(INR280, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ExposureAmount
                                 
-                                    Map zeroDBS12_SectionD_Layout1ExposureAmountMap239 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout1ExposureAmountMap284 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout1ExposureAmountValue238 = DBS12ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS12_SectionD_Layout1ExposureAmountMap239);
+                                        String zeroDBS12_SectionD_Layout1ExposureAmountValue282 = DBS12ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS12_SectionD_Layout1ExposureAmountMap284);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout1ExposureAmountFieldDataValue283 = DBS12ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS12_SectionD_Layout1ExposureAmountMap284);
+
+                                        if(zeroDBS12_SectionD_Layout1ExposureAmountFieldDataValue283 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout1ExposureAmountFieldDataValue283.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout1ExposureAmountFieldDataValue283.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout1ExposureAmountFieldDataValue283.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout1ExposureAmountFieldDataValue283.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout1ExposureAmountFieldDataValue283.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout1ExposureAmountFieldDataValue283.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionD_Layout1ExposureAmountContext237 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
+                                        Context DBS12_SectionD_Layout1ExposureAmountContext281 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout1ExposureAmountValue238 != null && !"".equals(zeroDBS12_SectionD_Layout1ExposureAmountValue238)) {
+                                    if(zeroDBS12_SectionD_Layout1ExposureAmountValue282 != null && !"".equals(zeroDBS12_SectionD_Layout1ExposureAmountValue282)) {
                                         
-                                        addContext(DBS12_SectionD_Layout1ExposureAmountContext237, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout1ExposureAmountContext281, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType exposureAmountValue240 = new MonetaryItemType();
-                                        exposureAmountValue240.setContextRef(DBS12_SectionD_Layout1ExposureAmountContext237);
+                                        MonetaryItemType exposureAmountValue285 = new MonetaryItemType();
+                                        exposureAmountValue285.setContextRef(DBS12_SectionD_Layout1ExposureAmountContext281);
                                         
-                                            exposureAmountValue240.setUnitRef(INR236);
-                                            exposureAmountValue240.setDecimals("INF");
-                                            exposureAmountValue240.setValue(new BigDecimal(zeroDBS12_SectionD_Layout1ExposureAmountValue238));
+                                            exposureAmountValue285.setUnitRef(INR280);
+                                            exposureAmountValue285.setDecimals("INF");
+                                            exposureAmountValue285.setValue(new BigDecimal(zeroDBS12_SectionD_Layout1ExposureAmountValue282));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> exposureAmountElement241 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue240);
-                                        bodyElements.add(exposureAmountElement241);
+                                        JAXBElement<MonetaryItemType> exposureAmountElement286 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue285);
+                                        bodyElements.add(exposureAmountElement286);
                                     }
                                 
                             
@@ -2006,29 +2559,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TermOfCreditExposure
                                 
-                                    Map zeroDBS12_SectionD_Layout1TermOfCreditExposureMap244 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout1TermOfCreditExposureMap290 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout1TermOfCreditExposureValue243 = DBS12ReportUtil.retrieveValueForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionD_Layout1TermOfCreditExposureMap244);
+                                        String zeroDBS12_SectionD_Layout1TermOfCreditExposureValue288 = DBS12ReportUtil.retrieveValueForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionD_Layout1TermOfCreditExposureMap290);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout1TermOfCreditExposureFieldDataValue289 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionD_Layout1TermOfCreditExposureMap290);
+
+                                        if(zeroDBS12_SectionD_Layout1TermOfCreditExposureFieldDataValue289 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout1TermOfCreditExposureFieldDataValue289.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout1TermOfCreditExposureFieldDataValue289.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout1TermOfCreditExposureFieldDataValue289.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout1TermOfCreditExposureFieldDataValue289.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout1TermOfCreditExposureFieldDataValue289.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout1TermOfCreditExposureFieldDataValue289.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionD_Layout1TermOfCreditExposureContext242 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
+                                            Context DBS12_SectionD_Layout1TermOfCreditExposureContext287 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout1TermOfCreditExposureValue243 != null && !"".equals(zeroDBS12_SectionD_Layout1TermOfCreditExposureValue243)) {
+                                    if(zeroDBS12_SectionD_Layout1TermOfCreditExposureValue288 != null && !"".equals(zeroDBS12_SectionD_Layout1TermOfCreditExposureValue288)) {
                                         
-                                        addContext(DBS12_SectionD_Layout1TermOfCreditExposureContext242, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout1TermOfCreditExposureContext287, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        StringItemType termOfCreditExposureValue245 = new StringItemType();
-                                        termOfCreditExposureValue245.setContextRef(DBS12_SectionD_Layout1TermOfCreditExposureContext242);
+                                        StringItemType termOfCreditExposureValue291 = new StringItemType();
+                                        termOfCreditExposureValue291.setContextRef(DBS12_SectionD_Layout1TermOfCreditExposureContext287);
                                         
-                                            termOfCreditExposureValue245.setValue(zeroDBS12_SectionD_Layout1TermOfCreditExposureValue243);        
+                                            termOfCreditExposureValue291.setValue(zeroDBS12_SectionD_Layout1TermOfCreditExposureValue288);        
                                         
                                         
-                                        JAXBElement<StringItemType> termOfCreditExposureElement246 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createTermOfCreditExposure(termOfCreditExposureValue245);
-                                        bodyElements.add(termOfCreditExposureElement246);
+                                        JAXBElement<StringItemType> termOfCreditExposureElement292 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createTermOfCreditExposure(termOfCreditExposureValue291);
+                                        bodyElements.add(termOfCreditExposureElement292);
                                     }
                                 
                             
@@ -2037,39 +2601,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR247 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR247 = createUnitIfNotExist(INR247, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR293 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR293 = createUnitIfNotExist(INR293, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ValueOfSecuritiesCollateral
                                 
-                                    Map zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralMap250 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralMap297 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralValue249 = DBS12ReportUtil.retrieveValueForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralMap250);
+                                        String zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralValue295 = DBS12ReportUtil.retrieveValueForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralMap297);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralFieldDataValue296 = DBS12ReportUtil.retrieveFieldDataForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralMap297);
+
+                                        if(zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralFieldDataValue296 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralFieldDataValue296.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralFieldDataValue296.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralFieldDataValue296.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralFieldDataValue296.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralFieldDataValue296.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralFieldDataValue296.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionD_Layout1ValueOfSecuritiesCollateralContext248 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
+                                        Context DBS12_SectionD_Layout1ValueOfSecuritiesCollateralContext294 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralValue249 != null && !"".equals(zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralValue249)) {
+                                    if(zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralValue295 != null && !"".equals(zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralValue295)) {
                                         
-                                        addContext(DBS12_SectionD_Layout1ValueOfSecuritiesCollateralContext248, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout1ValueOfSecuritiesCollateralContext294, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType valueOfSecuritiesCollateralValue251 = new MonetaryItemType();
-                                        valueOfSecuritiesCollateralValue251.setContextRef(DBS12_SectionD_Layout1ValueOfSecuritiesCollateralContext248);
+                                        MonetaryItemType valueOfSecuritiesCollateralValue298 = new MonetaryItemType();
+                                        valueOfSecuritiesCollateralValue298.setContextRef(DBS12_SectionD_Layout1ValueOfSecuritiesCollateralContext294);
                                         
-                                            valueOfSecuritiesCollateralValue251.setUnitRef(INR247);
-                                            valueOfSecuritiesCollateralValue251.setDecimals("INF");
-                                            valueOfSecuritiesCollateralValue251.setValue(new BigDecimal(zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralValue249));
+                                            valueOfSecuritiesCollateralValue298.setUnitRef(INR293);
+                                            valueOfSecuritiesCollateralValue298.setDecimals("INF");
+                                            valueOfSecuritiesCollateralValue298.setValue(new BigDecimal(zeroDBS12_SectionD_Layout1ValueOfSecuritiesCollateralValue295));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> valueOfSecuritiesCollateralElement252 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createValueOfSecuritiesCollateral(valueOfSecuritiesCollateralValue251);
-                                        bodyElements.add(valueOfSecuritiesCollateralElement252);
+                                        JAXBElement<MonetaryItemType> valueOfSecuritiesCollateralElement299 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createValueOfSecuritiesCollateral(valueOfSecuritiesCollateralValue298);
+                                        bodyElements.add(valueOfSecuritiesCollateralElement299);
                                     }
                                 
                             
@@ -2080,29 +2655,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - AssetClassifications
                                 
-                                    Map zeroDBS12_SectionD_Layout1AssetClassificationsMap255 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout1AssetClassificationsMap303 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout1AssetClassificationsValue254 = DBS12ReportUtil.retrieveValueForElement(field.getAssetClassifications(), zeroDBS12_SectionD_Layout1AssetClassificationsMap255);
+                                        String zeroDBS12_SectionD_Layout1AssetClassificationsValue301 = DBS12ReportUtil.retrieveValueForElement(field.getAssetClassifications(), zeroDBS12_SectionD_Layout1AssetClassificationsMap303);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout1AssetClassificationsFieldDataValue302 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAssetClassifications(), zeroDBS12_SectionD_Layout1AssetClassificationsMap303);
+
+                                        if(zeroDBS12_SectionD_Layout1AssetClassificationsFieldDataValue302 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout1AssetClassificationsFieldDataValue302.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout1AssetClassificationsFieldDataValue302.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout1AssetClassificationsFieldDataValue302.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout1AssetClassificationsFieldDataValue302.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout1AssetClassificationsFieldDataValue302.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout1AssetClassificationsFieldDataValue302.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionD_Layout1AssetClassificationsContext253 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
+                                            Context DBS12_SectionD_Layout1AssetClassificationsContext300 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout1( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout1AssetClassificationsValue254 != null && !"".equals(zeroDBS12_SectionD_Layout1AssetClassificationsValue254)) {
+                                    if(zeroDBS12_SectionD_Layout1AssetClassificationsValue301 != null && !"".equals(zeroDBS12_SectionD_Layout1AssetClassificationsValue301)) {
                                         
-                                        addContext(DBS12_SectionD_Layout1AssetClassificationsContext253, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout1AssetClassificationsContext300, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        AssetClassifications assetClassificationsValue256 = new AssetClassifications();
-                                        assetClassificationsValue256.setContextRef(DBS12_SectionD_Layout1AssetClassificationsContext253);
+                                        AssetClassifications assetClassificationsValue304 = new AssetClassifications();
+                                        assetClassificationsValue304.setContextRef(DBS12_SectionD_Layout1AssetClassificationsContext300);
                                         
-                                            assetClassificationsValue256.setValue(zeroDBS12_SectionD_Layout1AssetClassificationsValue254);        
+                                            assetClassificationsValue304.setValue(zeroDBS12_SectionD_Layout1AssetClassificationsValue301);        
                                         
                                         
-                                        JAXBElement<AssetClassifications> assetClassificationsElement257 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAssetClassifications(assetClassificationsValue256);
-                                        bodyElements.add(assetClassificationsElement257);
+                                        JAXBElement<AssetClassifications> assetClassificationsElement305 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAssetClassifications(assetClassificationsValue304);
+                                        bodyElements.add(assetClassificationsElement305);
                                     }
                                 
                             
@@ -2111,39 +2697,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR258 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR258 = createUnitIfNotExist(INR258, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR306 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR306 = createUnitIfNotExist(INR306, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ProvisionForInvestment
                                 
-                                    Map zeroDBS12_SectionD_Layout1ProvisionForInvestmentMap261 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout1ProvisionForInvestmentMap310 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout1ProvisionForInvestmentValue260 = DBS12ReportUtil.retrieveValueForElement(field.getProvisionForInvestment(), zeroDBS12_SectionD_Layout1ProvisionForInvestmentMap261);
+                                        String zeroDBS12_SectionD_Layout1ProvisionForInvestmentValue308 = DBS12ReportUtil.retrieveValueForElement(field.getProvisionForInvestment(), zeroDBS12_SectionD_Layout1ProvisionForInvestmentMap310);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout1ProvisionForInvestmentFieldDataValue309 = DBS12ReportUtil.retrieveFieldDataForElement(field.getProvisionForInvestment(), zeroDBS12_SectionD_Layout1ProvisionForInvestmentMap310);
+
+                                        if(zeroDBS12_SectionD_Layout1ProvisionForInvestmentFieldDataValue309 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout1ProvisionForInvestmentFieldDataValue309.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout1ProvisionForInvestmentFieldDataValue309.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout1ProvisionForInvestmentFieldDataValue309.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout1ProvisionForInvestmentFieldDataValue309.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout1ProvisionForInvestmentFieldDataValue309.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout1ProvisionForInvestmentFieldDataValue309.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionD_Layout1ProvisionForInvestmentContext259 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
+                                        Context DBS12_SectionD_Layout1ProvisionForInvestmentContext307 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout1( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout1ProvisionForInvestmentValue260 != null && !"".equals(zeroDBS12_SectionD_Layout1ProvisionForInvestmentValue260)) {
+                                    if(zeroDBS12_SectionD_Layout1ProvisionForInvestmentValue308 != null && !"".equals(zeroDBS12_SectionD_Layout1ProvisionForInvestmentValue308)) {
                                         
-                                        addContext(DBS12_SectionD_Layout1ProvisionForInvestmentContext259, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout1ProvisionForInvestmentContext307, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType provisionForInvestmentValue262 = new MonetaryItemType();
-                                        provisionForInvestmentValue262.setContextRef(DBS12_SectionD_Layout1ProvisionForInvestmentContext259);
+                                        MonetaryItemType provisionForInvestmentValue311 = new MonetaryItemType();
+                                        provisionForInvestmentValue311.setContextRef(DBS12_SectionD_Layout1ProvisionForInvestmentContext307);
                                         
-                                            provisionForInvestmentValue262.setUnitRef(INR258);
-                                            provisionForInvestmentValue262.setDecimals("INF");
-                                            provisionForInvestmentValue262.setValue(new BigDecimal(zeroDBS12_SectionD_Layout1ProvisionForInvestmentValue260));
+                                            provisionForInvestmentValue311.setUnitRef(INR306);
+                                            provisionForInvestmentValue311.setDecimals("INF");
+                                            provisionForInvestmentValue311.setValue(new BigDecimal(zeroDBS12_SectionD_Layout1ProvisionForInvestmentValue308));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> provisionForInvestmentElement263 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createProvisionForInvestment(provisionForInvestmentValue262);
-                                        bodyElements.add(provisionForInvestmentElement263);
+                                        JAXBElement<MonetaryItemType> provisionForInvestmentElement312 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createProvisionForInvestment(provisionForInvestmentValue311);
+                                        bodyElements.add(provisionForInvestmentElement312);
                                     }
                                 
                             
@@ -2168,9 +2765,14 @@ public class DBS12Report implements XBRLReportIntf {
                 
                 // if typemembers exist
                 
-                    private String dBS12_SectionD_Layout2Method(List<DBS12_SectionD_Layout2> dBS12_SectionD_Layout2, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDate, String endDate, String periodDate)
+                    private String dBS12_SectionD_Layout2Method(List<DBS12_SectionD_Layout2> dBS12_SectionD_Layout2, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDateDefault, String endDateDefault, String periodDateDefault)
                     {
+                        
                     dBS12_SectionD_Layout2.forEach((field)->{
+                        // create startdate, enddate, and perioddate
+                        String startDate = startDateDefault;
+                        String endDate = endDateDefault;
+                        String periodDate = periodDateDefault;
                         // crate variable loop  for type member
                         
                             // create variable for type member UniqueTransactionCodeAxis
@@ -2194,29 +2796,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TypeOfEntity
                                 
-                                    Map zeroDBS12_SectionD_Layout2TypeOfEntityMap266 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout2TypeOfEntityMap316 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout2TypeOfEntityValue265 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfEntity(), zeroDBS12_SectionD_Layout2TypeOfEntityMap266);
+                                        String zeroDBS12_SectionD_Layout2TypeOfEntityValue314 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfEntity(), zeroDBS12_SectionD_Layout2TypeOfEntityMap316);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout2TypeOfEntityFieldDataValue315 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTypeOfEntity(), zeroDBS12_SectionD_Layout2TypeOfEntityMap316);
+
+                                        if(zeroDBS12_SectionD_Layout2TypeOfEntityFieldDataValue315 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout2TypeOfEntityFieldDataValue315.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout2TypeOfEntityFieldDataValue315.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout2TypeOfEntityFieldDataValue315.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout2TypeOfEntityFieldDataValue315.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout2TypeOfEntityFieldDataValue315.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout2TypeOfEntityFieldDataValue315.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionD_Layout2TypeOfEntityContext264 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout2( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
+                                            Context DBS12_SectionD_Layout2TypeOfEntityContext313 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout2( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout2TypeOfEntityValue265 != null && !"".equals(zeroDBS12_SectionD_Layout2TypeOfEntityValue265)) {
+                                    if(zeroDBS12_SectionD_Layout2TypeOfEntityValue314 != null && !"".equals(zeroDBS12_SectionD_Layout2TypeOfEntityValue314)) {
                                         
-                                        addContext(DBS12_SectionD_Layout2TypeOfEntityContext264, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout2TypeOfEntityContext313, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        TypeOfEntity typeOfEntityValue267 = new TypeOfEntity();
-                                        typeOfEntityValue267.setContextRef(DBS12_SectionD_Layout2TypeOfEntityContext264);
+                                        TypeOfEntity typeOfEntityValue317 = new TypeOfEntity();
+                                        typeOfEntityValue317.setContextRef(DBS12_SectionD_Layout2TypeOfEntityContext313);
                                         
-                                            typeOfEntityValue267.setValue(zeroDBS12_SectionD_Layout2TypeOfEntityValue265);        
+                                            typeOfEntityValue317.setValue(zeroDBS12_SectionD_Layout2TypeOfEntityValue314);        
                                         
                                         
-                                        JAXBElement<TypeOfEntity> typeOfEntityElement268 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfEntity(typeOfEntityValue267);
-                                        bodyElements.add(typeOfEntityElement268);
+                                        JAXBElement<TypeOfEntity> typeOfEntityElement318 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfEntity(typeOfEntityValue317);
+                                        bodyElements.add(typeOfEntityElement318);
                                     }
                                 
                             
@@ -2227,29 +2840,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TypeOfExposures
                                 
-                                    Map zeroDBS12_SectionD_Layout2TypeOfExposuresMap271 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout2TypeOfExposuresMap322 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout2TypeOfExposuresValue270 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfExposures(), zeroDBS12_SectionD_Layout2TypeOfExposuresMap271);
+                                        String zeroDBS12_SectionD_Layout2TypeOfExposuresValue320 = DBS12ReportUtil.retrieveValueForElement(field.getTypeOfExposures(), zeroDBS12_SectionD_Layout2TypeOfExposuresMap322);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout2TypeOfExposuresFieldDataValue321 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTypeOfExposures(), zeroDBS12_SectionD_Layout2TypeOfExposuresMap322);
+
+                                        if(zeroDBS12_SectionD_Layout2TypeOfExposuresFieldDataValue321 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout2TypeOfExposuresFieldDataValue321.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout2TypeOfExposuresFieldDataValue321.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout2TypeOfExposuresFieldDataValue321.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout2TypeOfExposuresFieldDataValue321.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout2TypeOfExposuresFieldDataValue321.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout2TypeOfExposuresFieldDataValue321.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionD_Layout2TypeOfExposuresContext269 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout2( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
+                                            Context DBS12_SectionD_Layout2TypeOfExposuresContext319 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout2( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout2TypeOfExposuresValue270 != null && !"".equals(zeroDBS12_SectionD_Layout2TypeOfExposuresValue270)) {
+                                    if(zeroDBS12_SectionD_Layout2TypeOfExposuresValue320 != null && !"".equals(zeroDBS12_SectionD_Layout2TypeOfExposuresValue320)) {
                                         
-                                        addContext(DBS12_SectionD_Layout2TypeOfExposuresContext269, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout2TypeOfExposuresContext319, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        TypeOfExposures typeOfExposuresValue272 = new TypeOfExposures();
-                                        typeOfExposuresValue272.setContextRef(DBS12_SectionD_Layout2TypeOfExposuresContext269);
+                                        TypeOfExposures typeOfExposuresValue323 = new TypeOfExposures();
+                                        typeOfExposuresValue323.setContextRef(DBS12_SectionD_Layout2TypeOfExposuresContext319);
                                         
-                                            typeOfExposuresValue272.setValue(zeroDBS12_SectionD_Layout2TypeOfExposuresValue270);        
+                                            typeOfExposuresValue323.setValue(zeroDBS12_SectionD_Layout2TypeOfExposuresValue320);        
                                         
                                         
-                                        JAXBElement<TypeOfExposures> typeOfExposuresElement273 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfExposures(typeOfExposuresValue272);
-                                        bodyElements.add(typeOfExposuresElement273);
+                                        JAXBElement<TypeOfExposures> typeOfExposuresElement324 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createTypeOfExposures(typeOfExposuresValue323);
+                                        bodyElements.add(typeOfExposuresElement324);
                                     }
                                 
                             
@@ -2258,39 +2882,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR274 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR274 = createUnitIfNotExist(INR274, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR325 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR325 = createUnitIfNotExist(INR325, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ExposureAmount
                                 
-                                    Map zeroDBS12_SectionD_Layout2ExposureAmountMap277 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout2ExposureAmountMap329 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout2ExposureAmountValue276 = DBS12ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS12_SectionD_Layout2ExposureAmountMap277);
+                                        String zeroDBS12_SectionD_Layout2ExposureAmountValue327 = DBS12ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS12_SectionD_Layout2ExposureAmountMap329);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout2ExposureAmountFieldDataValue328 = DBS12ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS12_SectionD_Layout2ExposureAmountMap329);
+
+                                        if(zeroDBS12_SectionD_Layout2ExposureAmountFieldDataValue328 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout2ExposureAmountFieldDataValue328.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout2ExposureAmountFieldDataValue328.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout2ExposureAmountFieldDataValue328.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout2ExposureAmountFieldDataValue328.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout2ExposureAmountFieldDataValue328.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout2ExposureAmountFieldDataValue328.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionD_Layout2ExposureAmountContext275 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout2( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
+                                        Context DBS12_SectionD_Layout2ExposureAmountContext326 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout2( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout2ExposureAmountValue276 != null && !"".equals(zeroDBS12_SectionD_Layout2ExposureAmountValue276)) {
+                                    if(zeroDBS12_SectionD_Layout2ExposureAmountValue327 != null && !"".equals(zeroDBS12_SectionD_Layout2ExposureAmountValue327)) {
                                         
-                                        addContext(DBS12_SectionD_Layout2ExposureAmountContext275, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout2ExposureAmountContext326, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType exposureAmountValue278 = new MonetaryItemType();
-                                        exposureAmountValue278.setContextRef(DBS12_SectionD_Layout2ExposureAmountContext275);
+                                        MonetaryItemType exposureAmountValue330 = new MonetaryItemType();
+                                        exposureAmountValue330.setContextRef(DBS12_SectionD_Layout2ExposureAmountContext326);
                                         
-                                            exposureAmountValue278.setUnitRef(INR274);
-                                            exposureAmountValue278.setDecimals("INF");
-                                            exposureAmountValue278.setValue(new BigDecimal(zeroDBS12_SectionD_Layout2ExposureAmountValue276));
+                                            exposureAmountValue330.setUnitRef(INR325);
+                                            exposureAmountValue330.setDecimals("INF");
+                                            exposureAmountValue330.setValue(new BigDecimal(zeroDBS12_SectionD_Layout2ExposureAmountValue327));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> exposureAmountElement279 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue278);
-                                        bodyElements.add(exposureAmountElement279);
+                                        JAXBElement<MonetaryItemType> exposureAmountElement331 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue330);
+                                        bodyElements.add(exposureAmountElement331);
                                     }
                                 
                             
@@ -2301,29 +2936,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - TermOfCreditExposure
                                 
-                                    Map zeroDBS12_SectionD_Layout2TermOfCreditExposureMap282 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout2TermOfCreditExposureMap335 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout2TermOfCreditExposureValue281 = DBS12ReportUtil.retrieveValueForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionD_Layout2TermOfCreditExposureMap282);
+                                        String zeroDBS12_SectionD_Layout2TermOfCreditExposureValue333 = DBS12ReportUtil.retrieveValueForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionD_Layout2TermOfCreditExposureMap335);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout2TermOfCreditExposureFieldDataValue334 = DBS12ReportUtil.retrieveFieldDataForElement(field.getTermOfCreditExposure(), zeroDBS12_SectionD_Layout2TermOfCreditExposureMap335);
+
+                                        if(zeroDBS12_SectionD_Layout2TermOfCreditExposureFieldDataValue334 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout2TermOfCreditExposureFieldDataValue334.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout2TermOfCreditExposureFieldDataValue334.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout2TermOfCreditExposureFieldDataValue334.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout2TermOfCreditExposureFieldDataValue334.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout2TermOfCreditExposureFieldDataValue334.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout2TermOfCreditExposureFieldDataValue334.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionD_Layout2TermOfCreditExposureContext280 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout2( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
+                                            Context DBS12_SectionD_Layout2TermOfCreditExposureContext332 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout2( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout2TermOfCreditExposureValue281 != null && !"".equals(zeroDBS12_SectionD_Layout2TermOfCreditExposureValue281)) {
+                                    if(zeroDBS12_SectionD_Layout2TermOfCreditExposureValue333 != null && !"".equals(zeroDBS12_SectionD_Layout2TermOfCreditExposureValue333)) {
                                         
-                                        addContext(DBS12_SectionD_Layout2TermOfCreditExposureContext280, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout2TermOfCreditExposureContext332, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        StringItemType termOfCreditExposureValue283 = new StringItemType();
-                                        termOfCreditExposureValue283.setContextRef(DBS12_SectionD_Layout2TermOfCreditExposureContext280);
+                                        StringItemType termOfCreditExposureValue336 = new StringItemType();
+                                        termOfCreditExposureValue336.setContextRef(DBS12_SectionD_Layout2TermOfCreditExposureContext332);
                                         
-                                            termOfCreditExposureValue283.setValue(zeroDBS12_SectionD_Layout2TermOfCreditExposureValue281);        
+                                            termOfCreditExposureValue336.setValue(zeroDBS12_SectionD_Layout2TermOfCreditExposureValue333);        
                                         
                                         
-                                        JAXBElement<StringItemType> termOfCreditExposureElement284 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createTermOfCreditExposure(termOfCreditExposureValue283);
-                                        bodyElements.add(termOfCreditExposureElement284);
+                                        JAXBElement<StringItemType> termOfCreditExposureElement337 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createTermOfCreditExposure(termOfCreditExposureValue336);
+                                        bodyElements.add(termOfCreditExposureElement337);
                                     }
                                 
                             
@@ -2332,39 +2978,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR285 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR285 = createUnitIfNotExist(INR285, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR338 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR338 = createUnitIfNotExist(INR338, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ValueOfSecuritiesCollateral
                                 
-                                    Map zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralMap288 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralMap342 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralValue287 = DBS12ReportUtil.retrieveValueForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralMap288);
+                                        String zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralValue340 = DBS12ReportUtil.retrieveValueForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralMap342);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralFieldDataValue341 = DBS12ReportUtil.retrieveFieldDataForElement(field.getValueOfSecuritiesCollateral(), zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralMap342);
+
+                                        if(zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralFieldDataValue341 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralFieldDataValue341.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralFieldDataValue341.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralFieldDataValue341.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralFieldDataValue341.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralFieldDataValue341.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralFieldDataValue341.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionD_Layout2ValueOfSecuritiesCollateralContext286 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout2( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
+                                        Context DBS12_SectionD_Layout2ValueOfSecuritiesCollateralContext339 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout2( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralValue287 != null && !"".equals(zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralValue287)) {
+                                    if(zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralValue340 != null && !"".equals(zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralValue340)) {
                                         
-                                        addContext(DBS12_SectionD_Layout2ValueOfSecuritiesCollateralContext286, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout2ValueOfSecuritiesCollateralContext339, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType valueOfSecuritiesCollateralValue289 = new MonetaryItemType();
-                                        valueOfSecuritiesCollateralValue289.setContextRef(DBS12_SectionD_Layout2ValueOfSecuritiesCollateralContext286);
+                                        MonetaryItemType valueOfSecuritiesCollateralValue343 = new MonetaryItemType();
+                                        valueOfSecuritiesCollateralValue343.setContextRef(DBS12_SectionD_Layout2ValueOfSecuritiesCollateralContext339);
                                         
-                                            valueOfSecuritiesCollateralValue289.setUnitRef(INR285);
-                                            valueOfSecuritiesCollateralValue289.setDecimals("INF");
-                                            valueOfSecuritiesCollateralValue289.setValue(new BigDecimal(zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralValue287));
+                                            valueOfSecuritiesCollateralValue343.setUnitRef(INR338);
+                                            valueOfSecuritiesCollateralValue343.setDecimals("INF");
+                                            valueOfSecuritiesCollateralValue343.setValue(new BigDecimal(zeroDBS12_SectionD_Layout2ValueOfSecuritiesCollateralValue340));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> valueOfSecuritiesCollateralElement290 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createValueOfSecuritiesCollateral(valueOfSecuritiesCollateralValue289);
-                                        bodyElements.add(valueOfSecuritiesCollateralElement290);
+                                        JAXBElement<MonetaryItemType> valueOfSecuritiesCollateralElement344 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createValueOfSecuritiesCollateral(valueOfSecuritiesCollateralValue343);
+                                        bodyElements.add(valueOfSecuritiesCollateralElement344);
                                     }
                                 
                             
@@ -2375,29 +3032,40 @@ public class DBS12Report implements XBRLReportIntf {
                                 
                                 // - AssetClassifications
                                 
-                                    Map zeroDBS12_SectionD_Layout2AssetClassificationsMap293 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout2AssetClassificationsMap348 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout2AssetClassificationsValue292 = DBS12ReportUtil.retrieveValueForElement(field.getAssetClassifications(), zeroDBS12_SectionD_Layout2AssetClassificationsMap293);
+                                        String zeroDBS12_SectionD_Layout2AssetClassificationsValue346 = DBS12ReportUtil.retrieveValueForElement(field.getAssetClassifications(), zeroDBS12_SectionD_Layout2AssetClassificationsMap348);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout2AssetClassificationsFieldDataValue347 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAssetClassifications(), zeroDBS12_SectionD_Layout2AssetClassificationsMap348);
+
+                                        if(zeroDBS12_SectionD_Layout2AssetClassificationsFieldDataValue347 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout2AssetClassificationsFieldDataValue347.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout2AssetClassificationsFieldDataValue347.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout2AssetClassificationsFieldDataValue347.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout2AssetClassificationsFieldDataValue347.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout2AssetClassificationsFieldDataValue347.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout2AssetClassificationsFieldDataValue347.getInstantDate();
+                                        }
 
                                         
-                                            Context DBS12_SectionD_Layout2AssetClassificationsContext291 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout2( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
+                                            Context DBS12_SectionD_Layout2AssetClassificationsContext345 = DBS12ReportContextUtil.createFromToContextDBS12_SectionD_Layout2( bankCode, startDate, endDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
                                             
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout2AssetClassificationsValue292 != null && !"".equals(zeroDBS12_SectionD_Layout2AssetClassificationsValue292)) {
+                                    if(zeroDBS12_SectionD_Layout2AssetClassificationsValue346 != null && !"".equals(zeroDBS12_SectionD_Layout2AssetClassificationsValue346)) {
                                         
-                                        addContext(DBS12_SectionD_Layout2AssetClassificationsContext291, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout2AssetClassificationsContext345, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        AssetClassifications assetClassificationsValue294 = new AssetClassifications();
-                                        assetClassificationsValue294.setContextRef(DBS12_SectionD_Layout2AssetClassificationsContext291);
+                                        AssetClassifications assetClassificationsValue349 = new AssetClassifications();
+                                        assetClassificationsValue349.setContextRef(DBS12_SectionD_Layout2AssetClassificationsContext345);
                                         
-                                            assetClassificationsValue294.setValue(zeroDBS12_SectionD_Layout2AssetClassificationsValue292);        
+                                            assetClassificationsValue349.setValue(zeroDBS12_SectionD_Layout2AssetClassificationsValue346);        
                                         
                                         
-                                        JAXBElement<AssetClassifications> assetClassificationsElement295 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAssetClassifications(assetClassificationsValue294);
-                                        bodyElements.add(assetClassificationsElement295);
+                                        JAXBElement<AssetClassifications> assetClassificationsElement350 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAssetClassifications(assetClassificationsValue349);
+                                        bodyElements.add(assetClassificationsElement350);
                                     }
                                 
                             
@@ -2406,39 +3074,50 @@ public class DBS12Report implements XBRLReportIntf {
                                 // create unit if not empty
                                 
                                     
-                                    Unit INR296 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR296 = createUnitIfNotExist(INR296, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
+                                    Unit INR351 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR351 = createUnitIfNotExist(INR351, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
                                     
                                 
                                 
                                 // - ProvisionForInvestment
                                 
-                                    Map zeroDBS12_SectionD_Layout2ProvisionForInvestmentMap299 = new HashMap<String, String>();
+                                    Map zeroDBS12_SectionD_Layout2ProvisionForInvestmentMap355 = new HashMap<String, String>();
+                                    
                                     
                                         // retrieve value for element
-                                        String zeroDBS12_SectionD_Layout2ProvisionForInvestmentValue298 = DBS12ReportUtil.retrieveValueForElement(field.getProvisionForInvestment(), zeroDBS12_SectionD_Layout2ProvisionForInvestmentMap299);
+                                        String zeroDBS12_SectionD_Layout2ProvisionForInvestmentValue353 = DBS12ReportUtil.retrieveValueForElement(field.getProvisionForInvestment(), zeroDBS12_SectionD_Layout2ProvisionForInvestmentMap355);
+                                        startDate = startDateDefault;
+                                        endDate = endDateDefault;
+                                        periodDate = periodDateDefault;
+                                        FieldDataValue zeroDBS12_SectionD_Layout2ProvisionForInvestmentFieldDataValue354 = DBS12ReportUtil.retrieveFieldDataForElement(field.getProvisionForInvestment(), zeroDBS12_SectionD_Layout2ProvisionForInvestmentMap355);
+
+                                        if(zeroDBS12_SectionD_Layout2ProvisionForInvestmentFieldDataValue354 != null ) {
+                                            if(!zeroDBS12_SectionD_Layout2ProvisionForInvestmentFieldDataValue354.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS12_SectionD_Layout2ProvisionForInvestmentFieldDataValue354.getStartDate();
+                                            if(!zeroDBS12_SectionD_Layout2ProvisionForInvestmentFieldDataValue354.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS12_SectionD_Layout2ProvisionForInvestmentFieldDataValue354.getEndDate();
+                                            if(!zeroDBS12_SectionD_Layout2ProvisionForInvestmentFieldDataValue354.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS12_SectionD_Layout2ProvisionForInvestmentFieldDataValue354.getInstantDate();
+                                        }
 
                                         
-                                        Context DBS12_SectionD_Layout2ProvisionForInvestmentContext297 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout2( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
+                                        Context DBS12_SectionD_Layout2ProvisionForInvestmentContext352 = DBS12ReportContextUtil.createAsOfContextDBS12_SectionD_Layout2( bankCode, periodDate ,uniqueTransactionCodeAxis,nameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,nameOfInterestedDirectorManagerAxis );
                                             
                                         
                                     // check if value is null or empty
-                                    if(zeroDBS12_SectionD_Layout2ProvisionForInvestmentValue298 != null && !"".equals(zeroDBS12_SectionD_Layout2ProvisionForInvestmentValue298)) {
+                                    if(zeroDBS12_SectionD_Layout2ProvisionForInvestmentValue353 != null && !"".equals(zeroDBS12_SectionD_Layout2ProvisionForInvestmentValue353)) {
                                         
-                                        addContext(DBS12_SectionD_Layout2ProvisionForInvestmentContext297, contextElements, contextIdentifiers);
+                                        addContext(DBS12_SectionD_Layout2ProvisionForInvestmentContext352, contextElements, contextIdentifiers);
                                     
                                         // create element JAXB Element
                                         
-                                        MonetaryItemType provisionForInvestmentValue300 = new MonetaryItemType();
-                                        provisionForInvestmentValue300.setContextRef(DBS12_SectionD_Layout2ProvisionForInvestmentContext297);
+                                        MonetaryItemType provisionForInvestmentValue356 = new MonetaryItemType();
+                                        provisionForInvestmentValue356.setContextRef(DBS12_SectionD_Layout2ProvisionForInvestmentContext352);
                                         
-                                            provisionForInvestmentValue300.setUnitRef(INR296);
-                                            provisionForInvestmentValue300.setDecimals("INF");
-                                            provisionForInvestmentValue300.setValue(new BigDecimal(zeroDBS12_SectionD_Layout2ProvisionForInvestmentValue298));
+                                            provisionForInvestmentValue356.setUnitRef(INR351);
+                                            provisionForInvestmentValue356.setDecimals("INF");
+                                            provisionForInvestmentValue356.setValue(new BigDecimal(zeroDBS12_SectionD_Layout2ProvisionForInvestmentValue353));
                                         
                                         
-                                        JAXBElement<MonetaryItemType> provisionForInvestmentElement301 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createProvisionForInvestment(provisionForInvestmentValue300);
-                                        bodyElements.add(provisionForInvestmentElement301);
+                                        JAXBElement<MonetaryItemType> provisionForInvestmentElement357 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createProvisionForInvestment(provisionForInvestmentValue356);
+                                        bodyElements.add(provisionForInvestmentElement357);
                                     }
                                 
                             
@@ -2460,10 +3139,12 @@ public class DBS12Report implements XBRLReportIntf {
                 // create variable for subclass DBSAuthorisedSignatory_Layout1 if any typeMembers then List or Single
                 //DBSAuthorisedSignatory_Layout1 dBSAuthorisedSignatory_Layout1 = mainReportData.getDBSAuthorisedSignatory_Layout1();
                 
-                    private String dBSAuthorisedSignatory_Layout1Method(DBSAuthorisedSignatory_Layout1 dBSAuthorisedSignatory_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDate, String endDate, String periodDate)
+                    private String dBSAuthorisedSignatory_Layout1Method(DBSAuthorisedSignatory_Layout1 dBSAuthorisedSignatory_Layout1, List<String> contextIdentifiers,  List<Context> contextElements, List<Object> bodyElements, List<String> unitIdentifiers, List<Unit> unitElements, String bankCode, String startDateDefault, String endDateDefault, String periodDateDefault)
                 
                     {
-            
+                        String startDate = startDateDefault;
+                        String endDate = endDateDefault;
+                        String periodDate = periodDateDefault;
                     DBSAuthorisedSignatory_Layout1 field = dBSAuthorisedSignatory_Layout1;
                     
                     
@@ -2472,174 +3153,252 @@ public class DBS12Report implements XBRLReportIntf {
                             
                             // - NameOfSignatory
                             
-                                Map zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryMap304 = new HashMap<String, String>();
+                                Map zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryMap361 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryValue303 = DBS12ReportUtil.retrieveValueForElement(field.getNameOfSignatory(), zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryMap304);
+                                    String zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryValue359 = DBS12ReportUtil.retrieveValueForElement(field.getNameOfSignatory(), zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryMap361);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue360 = DBS12ReportUtil.retrieveFieldDataForElement(field.getNameOfSignatory(), zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryMap361);
+    
+                                    if(zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue360 != null ) {
+                                        if(!zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue360.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue360.getStartDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue360.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue360.getEndDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue360.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue360.getInstantDate();
+                                    }
 
                                     
-                                        Context DBSAuthorisedSignatory_Layout1NameOfSignatoryContext302 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBSAuthorisedSignatory_Layout1NameOfSignatoryContext358 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryValue303 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryValue303)) {
+                                if(zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryValue359 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryValue359)) {
                                     
-                                    addContext(DBSAuthorisedSignatory_Layout1NameOfSignatoryContext302, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType nameOfSignatoryValue305 = new StringItemType();
-                                    nameOfSignatoryValue305.setContextRef(DBSAuthorisedSignatory_Layout1NameOfSignatoryContext302);
-                                    
-                                    nameOfSignatoryValue305.setValue(zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryValue303);        
+                                    addContext(DBSAuthorisedSignatory_Layout1NameOfSignatoryContext358, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> nameOfSignatoryElement306 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createNameOfSignatory(nameOfSignatoryValue305);
-                                    bodyElements.add(nameOfSignatoryElement306);
+                                    
+                                    StringItemType nameOfSignatoryValue362 = new StringItemType();
+                                    nameOfSignatoryValue362.setContextRef(DBSAuthorisedSignatory_Layout1NameOfSignatoryContext358);
+                                    
+                                    nameOfSignatoryValue362.setValue(zeroDBSAuthorisedSignatory_Layout1NameOfSignatoryValue359);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> nameOfSignatoryElement363 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createNameOfSignatory(nameOfSignatoryValue362);
+                                    bodyElements.add(nameOfSignatoryElement363);
                                 
                             }
                         
                             
                             // - DesignationOfSignatory
                             
-                                Map zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryMap309 = new HashMap<String, String>();
+                                Map zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryMap367 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryValue308 = DBS12ReportUtil.retrieveValueForElement(field.getDesignationOfSignatory(), zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryMap309);
+                                    String zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryValue365 = DBS12ReportUtil.retrieveValueForElement(field.getDesignationOfSignatory(), zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryMap367);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue366 = DBS12ReportUtil.retrieveFieldDataForElement(field.getDesignationOfSignatory(), zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryMap367);
+    
+                                    if(zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue366 != null ) {
+                                        if(!zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue366.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue366.getStartDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue366.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue366.getEndDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue366.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue366.getInstantDate();
+                                    }
 
                                     
-                                        Context DBSAuthorisedSignatory_Layout1DesignationOfSignatoryContext307 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBSAuthorisedSignatory_Layout1DesignationOfSignatoryContext364 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryValue308 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryValue308)) {
+                                if(zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryValue365 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryValue365)) {
                                     
-                                    addContext(DBSAuthorisedSignatory_Layout1DesignationOfSignatoryContext307, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType designationOfSignatoryValue310 = new StringItemType();
-                                    designationOfSignatoryValue310.setContextRef(DBSAuthorisedSignatory_Layout1DesignationOfSignatoryContext307);
-                                    
-                                    designationOfSignatoryValue310.setValue(zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryValue308);        
+                                    addContext(DBSAuthorisedSignatory_Layout1DesignationOfSignatoryContext364, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> designationOfSignatoryElement311 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createDesignationOfSignatory(designationOfSignatoryValue310);
-                                    bodyElements.add(designationOfSignatoryElement311);
+                                    
+                                    StringItemType designationOfSignatoryValue368 = new StringItemType();
+                                    designationOfSignatoryValue368.setContextRef(DBSAuthorisedSignatory_Layout1DesignationOfSignatoryContext364);
+                                    
+                                    designationOfSignatoryValue368.setValue(zeroDBSAuthorisedSignatory_Layout1DesignationOfSignatoryValue365);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> designationOfSignatoryElement369 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createDesignationOfSignatory(designationOfSignatoryValue368);
+                                    bodyElements.add(designationOfSignatoryElement369);
                                 
                             }
                         
                             
                             // - AuthorisedSignatoryOfficialLandlineNumber
                             
-                                Map zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap314 = new HashMap<String, String>();
+                                Map zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap373 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue313 = DBS12ReportUtil.retrieveValueForElement(field.getAuthorisedSignatoryOfficialLandlineNumber(), zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap314);
+                                    String zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue371 = DBS12ReportUtil.retrieveValueForElement(field.getAuthorisedSignatoryOfficialLandlineNumber(), zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap373);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue372 = DBS12ReportUtil.retrieveFieldDataForElement(field.getAuthorisedSignatoryOfficialLandlineNumber(), zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap373);
+    
+                                    if(zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue372 != null ) {
+                                        if(!zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue372.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue372.getStartDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue372.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue372.getEndDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue372.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue372.getInstantDate();
+                                    }
 
                                     
-                                        Context DBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext312 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext370 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue313 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue313)) {
+                                if(zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue371 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue371)) {
                                     
-                                    addContext(DBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext312, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType authorisedSignatoryOfficialLandlineNumberValue315 = new StringItemType();
-                                    authorisedSignatoryOfficialLandlineNumberValue315.setContextRef(DBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext312);
-                                    
-                                    authorisedSignatoryOfficialLandlineNumberValue315.setValue(zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue313);        
+                                    addContext(DBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext370, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> authorisedSignatoryOfficialLandlineNumberElement316 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAuthorisedSignatoryOfficialLandlineNumber(authorisedSignatoryOfficialLandlineNumberValue315);
-                                    bodyElements.add(authorisedSignatoryOfficialLandlineNumberElement316);
+                                    
+                                    StringItemType authorisedSignatoryOfficialLandlineNumberValue374 = new StringItemType();
+                                    authorisedSignatoryOfficialLandlineNumberValue374.setContextRef(DBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext370);
+                                    
+                                    authorisedSignatoryOfficialLandlineNumberValue374.setValue(zeroDBSAuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue371);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> authorisedSignatoryOfficialLandlineNumberElement375 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAuthorisedSignatoryOfficialLandlineNumber(authorisedSignatoryOfficialLandlineNumberValue374);
+                                    bodyElements.add(authorisedSignatoryOfficialLandlineNumberElement375);
                                 
                             }
                         
                             
                             // - MobileNumberOfAuthorisedSignatory
                             
-                                Map zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap319 = new HashMap<String, String>();
+                                Map zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap379 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue318 = DBS12ReportUtil.retrieveValueForElement(field.getMobileNumberOfAuthorisedSignatory(), zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap319);
+                                    String zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue377 = DBS12ReportUtil.retrieveValueForElement(field.getMobileNumberOfAuthorisedSignatory(), zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap379);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue378 = DBS12ReportUtil.retrieveFieldDataForElement(field.getMobileNumberOfAuthorisedSignatory(), zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap379);
+    
+                                    if(zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue378 != null ) {
+                                        if(!zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue378.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue378.getStartDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue378.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue378.getEndDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue378.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue378.getInstantDate();
+                                    }
 
                                     
-                                        Context DBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext317 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext376 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue318 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue318)) {
+                                if(zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue377 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue377)) {
                                     
-                                    addContext(DBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext317, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType mobileNumberOfAuthorisedSignatoryValue320 = new StringItemType();
-                                    mobileNumberOfAuthorisedSignatoryValue320.setContextRef(DBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext317);
-                                    
-                                    mobileNumberOfAuthorisedSignatoryValue320.setValue(zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue318);        
+                                    addContext(DBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext376, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> mobileNumberOfAuthorisedSignatoryElement321 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createMobileNumberOfAuthorisedSignatory(mobileNumberOfAuthorisedSignatoryValue320);
-                                    bodyElements.add(mobileNumberOfAuthorisedSignatoryElement321);
+                                    
+                                    StringItemType mobileNumberOfAuthorisedSignatoryValue380 = new StringItemType();
+                                    mobileNumberOfAuthorisedSignatoryValue380.setContextRef(DBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext376);
+                                    
+                                    mobileNumberOfAuthorisedSignatoryValue380.setValue(zeroDBSAuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue377);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> mobileNumberOfAuthorisedSignatoryElement381 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createMobileNumberOfAuthorisedSignatory(mobileNumberOfAuthorisedSignatoryValue380);
+                                    bodyElements.add(mobileNumberOfAuthorisedSignatoryElement381);
                                 
                             }
                         
                             
                             // - EMailIDOfAuthorisedReportingOfficial
                             
-                                Map zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap324 = new HashMap<String, String>();
+                                Map zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap385 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue323 = DBS12ReportUtil.retrieveValueForElement(field.getEMailIDOfAuthorisedReportingOfficial(), zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap324);
+                                    String zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue383 = DBS12ReportUtil.retrieveValueForElement(field.getEMailIDOfAuthorisedReportingOfficial(), zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap385);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue384 = DBS12ReportUtil.retrieveFieldDataForElement(field.getEMailIDOfAuthorisedReportingOfficial(), zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap385);
+    
+                                    if(zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue384 != null ) {
+                                        if(!zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue384.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue384.getStartDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue384.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue384.getEndDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue384.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue384.getInstantDate();
+                                    }
 
                                     
-                                        Context DBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext322 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext382 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue323 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue323)) {
+                                if(zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue383 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue383)) {
                                     
-                                    addContext(DBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext322, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType eMailIDOfAuthorisedReportingOfficialValue325 = new StringItemType();
-                                    eMailIDOfAuthorisedReportingOfficialValue325.setContextRef(DBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext322);
-                                    
-                                    eMailIDOfAuthorisedReportingOfficialValue325.setValue(zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue323);        
+                                    addContext(DBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext382, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> eMailIDOfAuthorisedReportingOfficialElement326 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createEMailIDOfAuthorisedReportingOfficial(eMailIDOfAuthorisedReportingOfficialValue325);
-                                    bodyElements.add(eMailIDOfAuthorisedReportingOfficialElement326);
+                                    
+                                    StringItemType eMailIDOfAuthorisedReportingOfficialValue386 = new StringItemType();
+                                    eMailIDOfAuthorisedReportingOfficialValue386.setContextRef(DBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext382);
+                                    
+                                    eMailIDOfAuthorisedReportingOfficialValue386.setValue(zeroDBSAuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue383);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> eMailIDOfAuthorisedReportingOfficialElement387 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createEMailIDOfAuthorisedReportingOfficial(eMailIDOfAuthorisedReportingOfficialValue386);
+                                    bodyElements.add(eMailIDOfAuthorisedReportingOfficialElement387);
                                 
                             }
                         
                             
                             // - Remarks
                             
-                                Map zeroDBSAuthorisedSignatory_Layout1RemarksMap329 = new HashMap<String, String>();
+                                Map zeroDBSAuthorisedSignatory_Layout1RemarksMap391 = new HashMap<String, String>();
+                                
+                                
                                 
                                     
-                                    String zeroDBSAuthorisedSignatory_Layout1RemarksValue328 = DBS12ReportUtil.retrieveValueForElement(field.getRemarks(), zeroDBSAuthorisedSignatory_Layout1RemarksMap329);
+                                    String zeroDBSAuthorisedSignatory_Layout1RemarksValue389 = DBS12ReportUtil.retrieveValueForElement(field.getRemarks(), zeroDBSAuthorisedSignatory_Layout1RemarksMap391);
+
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue zeroDBSAuthorisedSignatory_Layout1RemarksFieldDataValue390 = DBS12ReportUtil.retrieveFieldDataForElement(field.getRemarks(), zeroDBSAuthorisedSignatory_Layout1RemarksMap391);
+    
+                                    if(zeroDBSAuthorisedSignatory_Layout1RemarksFieldDataValue390 != null ) {
+                                        if(!zeroDBSAuthorisedSignatory_Layout1RemarksFieldDataValue390.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBSAuthorisedSignatory_Layout1RemarksFieldDataValue390.getStartDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1RemarksFieldDataValue390.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBSAuthorisedSignatory_Layout1RemarksFieldDataValue390.getEndDate();
+                                        if(!zeroDBSAuthorisedSignatory_Layout1RemarksFieldDataValue390.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBSAuthorisedSignatory_Layout1RemarksFieldDataValue390.getInstantDate();
+                                    }
 
                                     
-                                        Context DBSAuthorisedSignatory_Layout1RemarksContext327 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBSAuthorisedSignatory_Layout1RemarksContext388 = DBS12ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBSAuthorisedSignatory_Layout1RemarksValue328 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1RemarksValue328)) {
+                                if(zeroDBSAuthorisedSignatory_Layout1RemarksValue389 != null && !"".equals(zeroDBSAuthorisedSignatory_Layout1RemarksValue389)) {
                                     
-                                    addContext(DBSAuthorisedSignatory_Layout1RemarksContext327, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType remarksValue330 = new StringItemType();
-                                    remarksValue330.setContextRef(DBSAuthorisedSignatory_Layout1RemarksContext327);
-                                    
-                                    remarksValue330.setValue(zeroDBSAuthorisedSignatory_Layout1RemarksValue328);        
+                                    addContext(DBSAuthorisedSignatory_Layout1RemarksContext388, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> remarksElement331 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createRemarks(remarksValue330);
-                                    bodyElements.add(remarksElement331);
+                                    
+                                    StringItemType remarksValue392 = new StringItemType();
+                                    remarksValue392.setContextRef(DBSAuthorisedSignatory_Layout1RemarksContext388);
+                                    
+                                    remarksValue392.setValue(zeroDBSAuthorisedSignatory_Layout1RemarksValue389);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> remarksElement393 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createRemarks(remarksValue392);
+                                    bodyElements.add(remarksElement393);
                                 
                             }
                         
