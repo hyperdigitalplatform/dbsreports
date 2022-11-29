@@ -34,7 +34,7 @@ public class SampleLEFDBTesting implements CommandLineRunner {
         reportData.setPeriodDate("2022-03-31");
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
         StringWriter sw = engine.execute(ReportGenerationFactory.RBI_DBS13_XBRL_REPORT, reportData);
-        FileWriter fw = new FileWriter("reports/lef-instance.xml");
+        FileWriter fw = new FileWriter("lef-instance.xml");
         fw.write(sw.toString());
         fw.close();
 

@@ -40,16 +40,6 @@ import lombok.Setter;
 import com.fasterxml.jackson.databind.ObjectMapper;   
 
 
-@Getter
-@Setter
-class ReportMetaDataNode {
-    private String name;
-    private String value;
-    private List<Object> attributes = new ArrayList<Object>();
-    private List<Object> extras = new ArrayList<Object>();
-    private List<ReportMetaDataNode> childNodes = new ArrayList<ReportMetaDataNode>();
-}
-
 public class SampleDBS12 {
     
     private static final String CONTEXT_ID = "Msg";

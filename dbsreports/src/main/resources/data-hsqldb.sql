@@ -226,15 +226,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'AAACT4020G',
+                        'THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT',
                     'in-rbi-rep:StandaloneMember',
                     'rbi-core:LargestTwentyExposuresMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'ExposureAmount',
-                '2191516907000'
+                '140526545000'
             );
             INSERT INTO DBS13DBS_LEF_A_20LE_Standalone_Layout2Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -246,15 +246,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'AAACT4020G',
+                        'THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT',
                     'in-rbi-rep:StandaloneMember',
                     'rbi-core:LargestTwentyExposuresMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'PercentageOfExposureToTier1Capital',
-                '3.6777'
+                '0.2358'
             );
                         INSERT INTO DBS13DBS_LEF_A_20LE_Standalone_Layout2Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -346,15 +346,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'AAACT4020G',
+                        'THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT',
                     'in-rbi-rep:StandaloneMember',
                     'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'ExposureAmount',
-                '2191516907000'
+                '140526545000'
             );
             INSERT INTO DBS13DBS_LEF_B_SpecExp_Standalone_Layout1Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -366,15 +366,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'AAACT4020G',
+                        'THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT',
                     'in-rbi-rep:StandaloneMember',
                     'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'PercentageOfExposureToTier1Capital',
-                '3.6777'
+                '0.2358'
             );
                         INSERT INTO DBS13DBS_LEF_B_SpecExp_Standalone_Layout1Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -506,15 +506,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'G0730',
+                        'GOVT-PSU-PNB',
                     'in-rbi-rep:StandaloneMember',
                     'rbi-core:ExemptedExposuresMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'ExposureAmount',
-                '2191516907000'
+                '95844668000'
             );
             INSERT INTO DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -526,95 +526,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'G0730',
+                        'GOVT-PSU-PNB',
                     'in-rbi-rep:StandaloneMember',
                     'rbi-core:ExemptedExposuresMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'PercentageOfExposureToTier1Capital',
-                '3.6777'
-            );
-                        INSERT INTO DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity (
-                PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
-                NameOfCounterPartyAxis,
-                ConsolidatedAndSeparateFinancialStatementsAxis,
-                ExposureToCounterpartiesAxis,
-            StartDate,
-            EndDate,
-            InstantDate,
-            FieldName,
-            FieldValue ) VALUES (
-                        'RBIGG0341S',
-                        'GOVERNMENT OF UTTAR PRADESH',
-                    'in-rbi-rep:StandaloneMember',
-                    'rbi-core:ExemptedExposuresMember',
-                '2022-01-01',
-                '2022-03-31',
-                '2022-03-31',
-                'ExposureAmount',
-                '100884052000'
-            );
-            INSERT INTO DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity (
-                PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
-                NameOfCounterPartyAxis,
-                ConsolidatedAndSeparateFinancialStatementsAxis,
-                ExposureToCounterpartiesAxis,
-            StartDate,
-            EndDate,
-            InstantDate,
-            FieldName,
-            FieldValue ) VALUES (
-                        'RBIGG0341S',
-                        'GOVERNMENT OF UTTAR PRADESH',
-                    'in-rbi-rep:StandaloneMember',
-                    'rbi-core:ExemptedExposuresMember',
-                '2022-01-01',
-                '2022-03-31',
-                '2022-03-31',
-                'PercentageOfExposureToTier1Capital',
-                '0.1693'
-            );
-            INSERT INTO DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity (
-                PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
-                NameOfCounterPartyAxis,
-                ConsolidatedAndSeparateFinancialStatementsAxis,
-                ExposureToCounterpartiesAxis,
-            StartDate,
-            EndDate,
-            InstantDate,
-            FieldName,
-            FieldValue ) VALUES (
-                        'RBIGG0327S',
-                        'GOVERNMENT OF KARNATAKA',
-                    'in-rbi-rep:StandaloneMember',
-                    'rbi-core:ExemptedExposuresMember',
-                '2022-01-01',
-                '2022-03-31',
-                '2022-03-31',
-                'ExposureAmount',
-                '98317689000'
-            );
-            INSERT INTO DBS13DBS_LEF_D_ExempExp_Standalone_Layout1Entity (
-                PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
-                NameOfCounterPartyAxis,
-                ConsolidatedAndSeparateFinancialStatementsAxis,
-                ExposureToCounterpartiesAxis,
-            StartDate,
-            EndDate,
-            InstantDate,
-            FieldName,
-            FieldValue ) VALUES (
-                        'RBIGG0327S',
-                        'GOVERNMENT OF KARNATAKA',
-                    'in-rbi-rep:StandaloneMember',
-                    'rbi-core:ExemptedExposuresMember',
-                '2022-01-01',
-                '2022-03-31',
-                '2022-03-31',
-                'PercentageOfExposureToTier1Capital',
-                '0.165'
+                '0.1608'
             );
             INSERT INTO DBS13DBS_LEF_A_20LE_Consolidated_Layout1Entity (
                 ConsolidatedAndSeparateFinancialStatementsAxis,
@@ -640,15 +560,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'AAACT4020G',
+                        'THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT',
                     'in-rbi-rep:ConsolidatedMember',
                     'rbi-core:LargestTwentyExposuresMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'ExposureAmount',
-                '2191516907000'
+                '141876545000'
             );
             INSERT INTO DBS13DBS_LEF_A_20LE_Consolidated_Layout2Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -660,15 +580,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'AAACT4020G',
+                        'THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT',
                     'in-rbi-rep:ConsolidatedMember',
                     'rbi-core:LargestTwentyExposuresMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'PercentageOfExposureToTier1Capital',
-                '3.5167'
+                '0.2277'
             );
                         INSERT INTO DBS13DBS_LEF_A_20LE_Consolidated_Layout2Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -760,15 +680,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'AAACT4020G',
+                        'THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT',
                     'in-rbi-rep:ConsolidatedMember',
                     'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'ExposureAmount',
-                '2191516907000'
+                '141876545000'
             );
             INSERT INTO DBS13DBS_LEF_B_SpecExp_Consolidated_Layout1Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -780,15 +700,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'AAACT4020G',
+                        'THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT',
                     'in-rbi-rep:ConsolidatedMember',
                     'rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'PercentageOfExposureToTier1Capital',
-                '3.5167'
+                '0.2277'
             );
                         INSERT INTO DBS13DBS_LEF_B_SpecExp_Consolidated_Layout1Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -920,15 +840,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'G0730',
+                        'GOVT-PSU-PNB',
                     'in-rbi-rep:ConsolidatedMember',
                     'rbi-core:ExemptedExposuresMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'ExposureAmount',
-                '2191516907000'
+                '95844668000'
             );
             INSERT INTO DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity (
                 PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
@@ -940,95 +860,15 @@
             InstantDate,
             FieldName,
             FieldValue ) VALUES (
-                        'RBIGG0930C',
-                        'GOVERNMENT OF INDIA',
+                        'G0730',
+                        'GOVT-PSU-PNB',
                     'in-rbi-rep:ConsolidatedMember',
                     'rbi-core:ExemptedExposuresMember',
                 '2022-01-01',
                 '2022-03-31',
                 '2022-03-31',
                 'PercentageOfExposureToTier1Capital',
-                '3.5167'
-            );
-            INSERT INTO DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity (
-                PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
-                NameOfCounterPartyAxis,
-                ConsolidatedAndSeparateFinancialStatementsAxis,
-                ExposureToCounterpartiesAxis,
-            StartDate,
-            EndDate,
-            InstantDate,
-            FieldName,
-            FieldValue ) VALUES (
-                        'RBIGG0341S',
-                        'GOVERNMENT OF UTTAR PRADESH',
-                    'in-rbi-rep:ConsolidatedMember',
-                    'rbi-core:ExemptedExposuresMember',
-                '2022-01-01',
-                '2022-03-31',
-                '2022-03-31',
-                'ExposureAmount',
-                '100884052000'
-            );
-            INSERT INTO DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity (
-                PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
-                NameOfCounterPartyAxis,
-                ConsolidatedAndSeparateFinancialStatementsAxis,
-                ExposureToCounterpartiesAxis,
-            StartDate,
-            EndDate,
-            InstantDate,
-            FieldName,
-            FieldValue ) VALUES (
-                        'RBIGG0341S',
-                        'GOVERNMENT OF UTTAR PRADESH',
-                    'in-rbi-rep:ConsolidatedMember',
-                    'rbi-core:ExemptedExposuresMember',
-                '2022-01-01',
-                '2022-03-31',
-                '2022-03-31',
-                'PercentageOfExposureToTier1Capital',
-                '0.1619'
-            );
-            INSERT INTO DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity (
-                PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
-                NameOfCounterPartyAxis,
-                ConsolidatedAndSeparateFinancialStatementsAxis,
-                ExposureToCounterpartiesAxis,
-            StartDate,
-            EndDate,
-            InstantDate,
-            FieldName,
-            FieldValue ) VALUES (
-                        'RBIGG0327S',
-                        'GOVERNMENT OF KARNATAKA',
-                    'in-rbi-rep:ConsolidatedMember',
-                    'rbi-core:ExemptedExposuresMember',
-                '2022-01-01',
-                '2022-03-31',
-                '2022-03-31',
-                'ExposureAmount',
-                '98317689000'
-            );
-            INSERT INTO DBS13DBS_LEF_D_ExempExp_Consolidated_Layout1Entity (
-                PermanentAccountNumberOrGroupIDOfCounterpartyAxis,
-                NameOfCounterPartyAxis,
-                ConsolidatedAndSeparateFinancialStatementsAxis,
-                ExposureToCounterpartiesAxis,
-            StartDate,
-            EndDate,
-            InstantDate,
-            FieldName,
-            FieldValue ) VALUES (
-                        'RBIGG0327S',
-                        'GOVERNMENT OF KARNATAKA',
-                    'in-rbi-rep:ConsolidatedMember',
-                    'rbi-core:ExemptedExposuresMember',
-                '2022-01-01',
-                '2022-03-31',
-                '2022-03-31',
-                'PercentageOfExposureToTier1Capital',
-                '0.1578'
+                '0.1538'
             );
             INSERT INTO DBS13DBS_AuthorisedSignatory_Layout1Entity (
             StartDate,
@@ -1064,7 +904,7 @@
                 '2022-03-31',
                 '2022-03-31',
                 'AuthorisedSignatoryOfficialLandlineNumber',
-                '1111111111'
+                '11111111111'
             );
             INSERT INTO DBS13DBS_AuthorisedSignatory_Layout1Entity (
             StartDate,
