@@ -36,6 +36,10 @@ public class DefaultNamespacePrefixMapper extends NamespacePrefixMapper {
         namespaceMap.put("http://xbrl.org/2006/xbrldi", "xbrldi");
         namespaceMap.put("http://xbrl.org/2005/xbrldt", "xbrldt");
         namespaceMap.put("http://www.rbi.org/in-rbi-rep-par", "in-rbi-rep-par");
+        namespaceMap.put("http://www.rbi.org/in/xbrl/2012-05-07/in-rbi-rep-types", "in-rbi-rep-types");
+        namespaceMap.put("http://www.rbi.org/in/xbrl/rbi-core", "rbi-core");
+        namespaceMap.put("http://www.rbi.org/in/xbrl/rbi-par", "rbi-par");
+        
         
     }
 

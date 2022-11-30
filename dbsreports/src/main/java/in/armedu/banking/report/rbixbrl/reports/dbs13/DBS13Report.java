@@ -80,6 +80,8 @@ public class DBS13Report implements XBRLReportIntf {
             jc = JAXBContext.newInstance(ObjectFactory.class,
             org.rbi.in.xbrl._2012_05_07.in_rbi_rep_types.ObjectFactory.class,
             org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory.class,
+            org.rbi.in.xbrl.rbi_core.ObjectFactory.class,
+            org.rbi.in.xbrl.rbi_par.ObjectFactory.class,
             org.rbi.in_rbi_rep_par.ObjectFactory.class,
             org.xbrl._2003.xlink.ObjectFactory.class,
             org.xbrl._2003.instance.ObjectFactory.class,
@@ -100,7 +102,7 @@ public class DBS13Report implements XBRLReportIntf {
             SimpleType simpleType = xlinkObjectFactory.createSimpleType();
             simpleType.setType("simple");
             // TODO should be changed to specific xsd related to report dbs13
-            simpleType.setHref("in-rbi-dbs13.xsd");
+            simpleType.setHref("dbs13-entry.xsd");
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
            

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xbrli:xbrl xml:lang="en" xmlns:rbi-par="http://www.rbi.org/in/xbrl/rbi-par" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par">
+    <link:schemaRef xlink:type="simple" xlink:href="dbs13-entry.xsd"/>
+    <xbrli:context id="fromto_20220101_20220331">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-01-01</xbrli:startDate>
+            <xbrli:endDate>2022-03-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_AAACF0365N_FOODCORPORATIONOFINDIA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:LargestTwentyExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>AAACF0365N</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>FOOD CORPORATION OF INDIA</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:LargestTwentyExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>AAACT4020G</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_G0731_GOVTPSUPFC">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:LargestTwentyExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>G0731</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>GOVT-PSU-PFC</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_AAACF0365N_FOODCORPORATIONOFINDIA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>AAACF0365N</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>FOOD CORPORATION OF INDIA</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>AAACT4020G</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_G0731_GOVTPSUPFC">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>G0731</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>GOVT-PSU-PFC</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ExemptedExposuresMember_StandaloneMember_G0730_GOVTPSUPNB">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:ExemptedExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>G0730</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>GOVT-PSU-PNB</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_AAACF0365N_FOODCORPORATIONOFINDIA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:LargestTwentyExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>AAACF0365N</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>FOOD CORPORATION OF INDIA</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:LargestTwentyExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>AAACT4020G</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_G0731_GOVTPSUPFC">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:LargestTwentyExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>G0731</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>GOVT-PSU-PFC</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_AAACF0365N_FOODCORPORATIONOFINDIA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>AAACF0365N</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>FOOD CORPORATION OF INDIA</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>AAACT4020G</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>THE NATIONAL BANK FOR AGRICULTURE AND RURAL DEVELOPMENT</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_G0731_GOVTPSUPFC">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>G0731</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>GOVT-PSU-PFC</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220331_ExemptedExposuresMember_ConsolidatedMember_G0730_GOVTPSUPNB">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ExposureToCounterpartiesAxis">rbi-core:ExemptedExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="rbi-core:PermanentAccountNumberOrGroupIDOfCounterpartyAxis">
+                    <rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>G0730</rbi-par:PermanentAccountNumberOrGroupIDOfCounterpartyDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="rbi-core:NameOfCounterPartyAxis">
+                    <rbi-par:NameOfCounterPartyDomain>GOVT-PSU-PNB</rbi-par:NameOfCounterPartyDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="INR">
+        <xbrli:measure xmlns="http://www.xbrl.org/2003/iso4217">INR</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="PURE">
+        <xbrli:measure>xbrli:pure</xbrli:measure>
+    </xbrli:unit>
+    <in-rbi-rep:ReturnName contextRef="fromto_20220101_20220331">Large Exposures Framework</in-rbi-rep:ReturnName>
+    <in-rbi-rep:ReturnCode contextRef="fromto_20220101_20220331">R248</in-rbi-rep:ReturnCode>
+    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20220101_20220331">Punjab National Bank</in-rbi-rep:NameOfReportingInstitution>
+    <in-rbi-rep:BankCode contextRef="asof_20220331">600</in-rbi-rep:BankCode>
+    <rbi-core:InstitutionType contextRef="fromto_20220101_20220331">Nationalised Banks</rbi-core:InstitutionType>
+    <in-rbi-rep:ReportingFrequency contextRef="fromto_20220101_20220331">Quarterly</in-rbi-rep:ReportingFrequency>
+    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20220331">2022-01-01</in-rbi-rep:ReportingPeriodStartDate>
+    <in-rbi-rep:ReportingPeriodEndDate contextRef="asof_20220331">2022-03-31</in-rbi-rep:ReportingPeriodEndDate>
+    <rbi-core:ReportingCurrency contextRef="fromto_20220101_20220331">INR</rbi-core:ReportingCurrency>
+    <rbi-core:ReportingScale contextRef="fromto_20220101_20220331">Actuals</rbi-core:ReportingScale>
+    <rbi-core:TaxonomyVersion contextRef="fromto_20220101_20220331">1.1.0</rbi-core:TaxonomyVersion>
+    <in-rbi-rep:ToolName contextRef="fromto_20220101_20220331">RBI iFile</in-rbi-rep:ToolName>
+    <rbi-core:ToolVersion contextRef="fromto_20220101_20220331">1.0.1</rbi-core:ToolVersion>
+    <in-rbi-rep:ReportStatus contextRef="fromto_20220101_20220331">Audited</in-rbi-rep:ReportStatus>
+    <in-rbi-rep:DateOfAudit contextRef="asof_20220331">2022-05-11</in-rbi-rep:DateOfAudit>
+    <rbi-core:WhetherBankHasSubsidiaries contextRef="asof_20220331">false</rbi-core:WhetherBankHasSubsidiaries>
+    <in-rbi-rep:Tier1Capital decimals="INF" unitRef="INR" contextRef="asof_20220331_StandaloneMember">595898100000</in-rbi-rep:Tier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_AAACF0365N_FOODCORPORATIONOFINDIA">144695704000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_AAACF0365N_FOODCORPORATIONOFINDIA">0.2428</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">140526545000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">0.2358</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_G0731_GOVTPSUPFC">143294392000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_LargestTwentyExposuresMember_StandaloneMember_G0731_GOVTPSUPFC">0.2405</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_AAACF0365N_FOODCORPORATIONOFINDIA">144695704000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_AAACF0365N_FOODCORPORATIONOFINDIA">0.2428</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">140526545000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">0.2358</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_G0731_GOVTPSUPFC">143294392000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_StandaloneMember_G0731_GOVTPSUPFC">0.2405</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_ExemptedExposuresMember_StandaloneMember_G0730_GOVTPSUPNB">95844668000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_ExemptedExposuresMember_StandaloneMember_G0730_GOVTPSUPNB">0.1608</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:Tier1Capital decimals="INF" unitRef="INR" contextRef="asof_20220331_ConsolidatedMember">623175800000</in-rbi-rep:Tier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_AAACF0365N_FOODCORPORATIONOFINDIA">144695704000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_AAACF0365N_FOODCORPORATIONOFINDIA">0.2322</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">141876545000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">0.2277</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_G0731_GOVTPSUPFC">145464492000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_LargestTwentyExposuresMember_ConsolidatedMember_G0731_GOVTPSUPFC">0.2334</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_AAACF0365N_FOODCORPORATIONOFINDIA">144695704000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_AAACF0365N_FOODCORPORATIONOFINDIA">0.2322</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">141876545000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_AAACT4020G_THENATIONALBANKFORAGRICULTUREANDRURALDEVELOPMENT">0.2277</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_G0731_GOVTPSUPFC">145464492000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember_ConsolidatedMember_G0731_GOVTPSUPFC">0.2334</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220331_ExemptedExposuresMember_ConsolidatedMember_G0730_GOVTPSUPNB">95844668000</in-rbi-rep:ExposureAmount>
+    <rbi-core:PercentageOfExposureToTier1Capital decimals="INF" unitRef="PURE" contextRef="asof_20220331_ExemptedExposuresMember_ConsolidatedMember_G0730_GOVTPSUPNB">0.1538</rbi-core:PercentageOfExposureToTier1Capital>
+    <in-rbi-rep:NameOfSignatory contextRef="fromto_20220101_20220331">abc</in-rbi-rep:NameOfSignatory>
+    <in-rbi-rep:DesignationOfSignatory contextRef="fromto_20220101_20220331">Manager</in-rbi-rep:DesignationOfSignatory>
+    <rbi-core:AuthorisedSignatoryOfficialLandlineNumber contextRef="fromto_20220101_20220331">11111111111</rbi-core:AuthorisedSignatoryOfficialLandlineNumber>
+    <in-rbi-rep:MobileNumberOfAuthorisedSignatory contextRef="fromto_20220101_20220331">9999999999</in-rbi-rep:MobileNumberOfAuthorisedSignatory>
+    <in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20220101_20220331">abc@gmail.com</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+</xbrli:xbrl>
