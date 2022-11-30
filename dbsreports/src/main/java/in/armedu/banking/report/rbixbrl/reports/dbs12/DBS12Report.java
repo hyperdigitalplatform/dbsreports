@@ -88,6 +88,8 @@ public class DBS12Report implements XBRLReportIntf {
             jc = JAXBContext.newInstance(ObjectFactory.class,
             org.rbi.in.xbrl._2012_05_07.in_rbi_rep_types.ObjectFactory.class,
             org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory.class,
+            org.rbi.in.xbrl.rbi_core.ObjectFactory.class,
+            org.rbi.in.xbrl.rbi_par.ObjectFactory.class,
             org.rbi.in_rbi_rep_par.ObjectFactory.class,
             org.xbrl._2003.xlink.ObjectFactory.class,
             org.xbrl._2003.instance.ObjectFactory.class,
