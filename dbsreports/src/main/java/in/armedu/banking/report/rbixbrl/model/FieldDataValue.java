@@ -15,7 +15,10 @@ import lombok.Setter;
 public class FieldDataValue {
     private Map<String, String> members = new HashMap<String, String>();
     private String value;
-    private String startDate;
-    private String endDate;
-    private String instantDate;
+    private String startDateField;
+    private String startDateValue;
+    private String endDateField;
+    private String endDateValue;
+    private String instantDateField;
+    private String instantDateValue;
 }

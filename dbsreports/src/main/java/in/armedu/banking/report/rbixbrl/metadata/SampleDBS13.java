@@ -54,6 +54,7 @@ public class SampleDBS13 {
     
     private static final String CONTEXT_ID = "Msg";
     private static Document xmlScaleDocument;
+    private static Document xmlDef;
     private static HashMap<String, Document> xsdDocuments = new HashMap<String, Document>();
     // private static final String ISO_EURO = "iso4217:EUR";
     // private static final String UNIT_ID = "u0";
@@ -166,6 +167,8 @@ public class SampleDBS13 {
         // FileInputStream filescale = new FileInputStream("src/main/resources/xsd/reports/dbs01/1.0.0/dbs01-table-Scale.xml");
         FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/reports/dbs13/1.1.0/dbs13-table.xml");
         FileInputStream filescale = new FileInputStream("src/main/resources/xsd/reports/dbs13/1.1.0/dbs13-table-Scale.xml");
+        FileInputStream fileDef = new FileInputStream("src/main/resources/xsd/reports/dbs13/1.1.0/dbs13-definition.xml");
+        
         FileInputStream fileXSD1 = new FileInputStream("src/main/resources/xsd/core/rbi-core.xsd");
         FileInputStream fileXSD2 = new FileInputStream("src/main/resources/xsd/core/in-rbi-rep.xsd");
         FileInputStream fileXSD3 = new FileInputStream("src/main/resources/xsd/core/in-rbi-rep-par.xsd");
@@ -174,7 +177,7 @@ public class SampleDBS13 {
         DocumentBuilder builder = builderFactory.newDocumentBuilder();
         Document xmlDocument = builder.parse(fileIS);
         xmlScaleDocument = builder.parse(filescale);
-
+        xmlDef = builder.parse(fileDef);
         // read xsd files
         Document xsdDoc0 = builder.parse(fileXSD1);
         Document xsdDoc1 = builder.parse(fileXSD2);
@@ -209,6 +212,8 @@ public class SampleDBS13 {
                     //if(tableBreakdownList.item(k).getAttributes().getNamedItem("axis").getNodeValue().equalsIgnoreCase("y") ){
                     getDefinitionNodesTree(xmlDocument, node, treeNode.getAttributes().getNamedItem("xlink:to").getNodeValue(), breakDownTreeMetaDataNode);
                     getAspectNodesTree(xmlDocument, node, treeNode.getAttributes().getNamedItem("xlink:to").getNodeValue(), breakDownTreeMetaDataNode);  
+                    getAspectNodeFilterTree(xmlDocument, node, treeNode.getAttributes().getNamedItem("xlink:to").getNodeValue(), breakDownTreeMetaDataNode);
+            
                 }
             }
             System.out.println("");            
@@ -269,6 +274,24 @@ public class SampleDBS13 {
         return null;
     }
 
+    public static NodeList getAspectNodeFilterTree(Document xmlDoc, Node linkNode, String fromNodeName, ReportMetaDataNode breakDownTreeMetaDataNode) throws XPathExpressionException {
+        NodeList definitionNodeSubtree = getNodes(xmlDoc, 
+            String.format("/linkbase/link[@role='%s']/aspectNodeFilterArc[@from='%s']", linkNode.getNodeValue(), fromNodeName));
+            for(int l = 0; l < definitionNodeSubtree.getLength(); l++){
+                ReportMetaDataNode defNodeSubtreeMetaDataNode = createReportMetaDataNode(definitionNodeSubtree.item(l));
+                breakDownTreeMetaDataNode.getChildNodes().add(defNodeSubtreeMetaDataNode);
+                System.out.printf("AspectNodeFilterSubtree %s , %s  \n", definitionNodeSubtree.item(l).getAttributes().getNamedItem("xlink:from"), definitionNodeSubtree.item(l).getAttributes().getNamedItem("xlink:to"));
+                //NodeList ruleNodeList = getNodes(xmlDoc, String.format("/linkbase/link[@role='%s']/ruleNode[@label='%s']//*", linkNode.getNodeValue(), definitionNodeSubtree.item(l).getAttributes().getNamedItem("xlink:to").getNodeValue()));
+                Node ruleNodeForExplicitMember = getNodes(xmlDoc, String.format("/linkbase/link[@role='%s']/explicitDimension[@label='%s']", linkNode.getNodeValue(), definitionNodeSubtree.item(l).getAttributes().getNamedItem("xlink:to").getNodeValue())).item(0);
+                ReportMetaDataNode ruleNodeMetaDataNode = createRuleNodeAndChildMetaData(ruleNodeForExplicitMember);
+                enrichNodeWithExplicitDimensions(ruleNodeMetaDataNode);
+                defNodeSubtreeMetaDataNode.getChildNodes().add(ruleNodeMetaDataNode);
+                //getDefinitionNodesTree(xmlDoc, linkNode,  definitionNodeSubtree.item(l).getAttributes().getNamedItem("xlink:to").getNodeValue(), ruleNodeMetaDataNode);
+                
+            }
+        return null;
+    }
+
     public static NodeList getNodes(Document xmlDoc, String expression) throws XPathExpressionException{
         XPath xPath = XPathFactory.newInstance().newXPath();
         XPathExpression expr = xPath.compile(expression);
@@ -304,6 +327,7 @@ public class SampleDBS13 {
                 metaDataNode.setValue(node.getTextContent().trim());
             }
             enrichRuleNodeWithElements(metaDataNode);
+            
         }
         return metaDataNode; 
         
@@ -373,6 +397,42 @@ public class SampleDBS13 {
             }
         }
         
+        return metaDataNode;
+    }
+
+    public static ReportMetaDataNode enrichNodeWithExplicitDimensions(ReportMetaDataNode metaDataNode) throws XPathExpressionException {
+        try {
+            System.out.println(metaDataNode.getChildNodes().get(1).getChildNodes().get(0).getChildNodes().get(0).getValue());
+            System.out.println(metaDataNode.getChildNodes().get(1).getChildNodes().get(1).getChildNodes().get(0).getValue());
+            System.out.println(metaDataNode.getChildNodes().get(1).getChildNodes().get(2).getChildNodes().get(0).getValue());
+            String domainValue = metaDataNode.getChildNodes().get(1).getChildNodes().get(0).getChildNodes().get(0).getValue();
+            String tableValue = metaDataNode.getChildNodes().get(1).getChildNodes().get(1).getChildNodes().get(0).getValue();
+            String arcValue = metaDataNode.getChildNodes().get(1).getChildNodes().get(2).getChildNodes().get(0).getValue();
+            // ReportMetaDataNode attributesItem = (ReportMetaDataNode) metaDataNode.getAttributes().stream()
+            //     .filter(att -> "value".equals(((ReportMetaDataNode)att).getName()))
+            //     .findAny()
+            //     .orElse(null);
+            domainValue = "loc_".concat(domainValue.replace(":", "_")) ;
+            System.out.println("domain Value : "+ domainValue);
+            if(domainValue != null && tableValue != null && arcValue != null) {
+                NodeList scaleNodeList = getNodes(xmlDef, 
+                String.format("/linkbase/definitionLink[@role='%s']/definitionArc[@arcrole='%s' and @from='%s']", tableValue, arcValue, domainValue ));
+                System.out.println(scaleNodeList.getLength());
+                for( int i= 0; i < scaleNodeList.getLength(); i++){
+                    Node node = scaleNodeList.item(i);
+                    System.out.println(node.getAttributes().item(4).getNodeValue());
+                    String member = node.getAttributes().item(4).getNodeValue();
+                    String memberValue = member.split("_", 2)[1].replace("_", ":");
+                    System.out.println(memberValue);
+                    metaDataNode.getExtras().add(memberValue);
+                } 
+                  
+            }  
+      
+        } catch (IndexOutOfBoundsException ioobe){
+
+        }
+              
         return metaDataNode;
     }
     

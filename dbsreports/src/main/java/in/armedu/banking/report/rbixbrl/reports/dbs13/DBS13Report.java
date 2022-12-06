@@ -102,7 +102,7 @@ public class DBS13Report implements XBRLReportIntf {
             SimpleType simpleType = xlinkObjectFactory.createSimpleType();
             simpleType.setType("simple");
             // TODO should be changed to specific xsd related to report dbs13
-            simpleType.setHref("dbs13-entry.xsd");
+            simpleType.setHref("in-rbi-dbs13.xsd");
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
            
@@ -347,12 +347,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ReturnNameFieldDataValue3 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReturnName(), zeroFilingInfo_Layout1ReturnNameMap4);
+                                    FieldDataValue zeroFilingInfo_Layout1ReturnNameFieldDataValue3 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReturnName(), zeroFilingInfo_Layout1ReturnNameMap4, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1ReturnNameFieldDataValue3 != null ) {
-                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReturnNameFieldDataValue3.getInstantDateValue();
                                     }
 
                                     
@@ -389,12 +389,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ReturnCodeFieldDataValue9 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReturnCode(), zeroFilingInfo_Layout1ReturnCodeMap10);
+                                    FieldDataValue zeroFilingInfo_Layout1ReturnCodeFieldDataValue9 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReturnCode(), zeroFilingInfo_Layout1ReturnCodeMap10, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1ReturnCodeFieldDataValue9 != null ) {
-                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReturnCodeFieldDataValue9.getInstantDateValue();
                                     }
 
                                     
@@ -431,12 +431,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15 = DBS13ReportUtil.retrieveFieldDataForElement(field.getNameOfReportingInstitution(), zeroFilingInfo_Layout1NameOfReportingInstitutionMap16);
+                                    FieldDataValue zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15 = DBS13ReportUtil.retrieveFieldDataForElement(field.getNameOfReportingInstitution(), zeroFilingInfo_Layout1NameOfReportingInstitutionMap16, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15 != null ) {
-                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getStartDate();
-                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getEndDate();
-                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1NameOfReportingInstitutionFieldDataValue15.getInstantDateValue();
                                     }
 
                                     
@@ -473,12 +473,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1BankCodeFieldDataValue21 = DBS13ReportUtil.retrieveFieldDataForElement(field.getBankCode(), zeroFilingInfo_Layout1BankCodeMap22);
+                                    FieldDataValue zeroFilingInfo_Layout1BankCodeFieldDataValue21 = DBS13ReportUtil.retrieveFieldDataForElement(field.getBankCode(), zeroFilingInfo_Layout1BankCodeMap22, "", "", "xs:date($refPeriodEndDate)");
     
                                     if(zeroFilingInfo_Layout1BankCodeFieldDataValue21 != null ) {
-                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getStartDate();
-                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getEndDate();
-                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1BankCodeFieldDataValue21.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1BankCodeFieldDataValue21.getInstantDateValue();
                                     }
 
                                     
@@ -516,12 +516,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27 = DBS13ReportUtil.retrieveFieldDataForElement(field.getInstitutionType(), zeroFilingInfo_Layout1InstitutionTypeMap28);
+                                    FieldDataValue zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27 = DBS13ReportUtil.retrieveFieldDataForElement(field.getInstitutionType(), zeroFilingInfo_Layout1InstitutionTypeMap28, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27 != null ) {
-                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getStartDate();
-                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getEndDate();
-                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1InstitutionTypeFieldDataValue27.getInstantDateValue();
                                     }
 
                                     
@@ -558,12 +558,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingFrequency(), zeroFilingInfo_Layout1ReportingFrequencyMap34);
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingFrequency(), zeroFilingInfo_Layout1ReportingFrequencyMap34, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33 != null ) {
-                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingFrequencyFieldDataValue33.getInstantDateValue();
                                     }
 
                                     
@@ -600,12 +600,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingPeriodStartDate(), zeroFilingInfo_Layout1ReportingPeriodStartDateMap40);
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingPeriodStartDate(), zeroFilingInfo_Layout1ReportingPeriodStartDateMap40, "", "", "xs:date($refPeriodEndDate)");
     
                                     if(zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39 != null ) {
-                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingPeriodStartDateFieldDataValue39.getInstantDateValue();
                                     }
 
                                     
@@ -643,12 +643,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingPeriodEndDate(), zeroFilingInfo_Layout1ReportingPeriodEndDateMap46);
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingPeriodEndDate(), zeroFilingInfo_Layout1ReportingPeriodEndDateMap46, "", "", "xs:date($refPeriodEndDate)");
     
                                     if(zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45 != null ) {
-                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingPeriodEndDateFieldDataValue45.getInstantDateValue();
                                     }
 
                                     
@@ -686,12 +686,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingCurrency(), zeroFilingInfo_Layout1ReportingCurrencyMap52);
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingCurrency(), zeroFilingInfo_Layout1ReportingCurrencyMap52, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51 != null ) {
-                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingCurrencyFieldDataValue51.getInstantDateValue();
                                     }
 
                                     
@@ -728,12 +728,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ReportingScaleFieldDataValue57 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingScale(), zeroFilingInfo_Layout1ReportingScaleMap58);
+                                    FieldDataValue zeroFilingInfo_Layout1ReportingScaleFieldDataValue57 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportingScale(), zeroFilingInfo_Layout1ReportingScaleMap58, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1ReportingScaleFieldDataValue57 != null ) {
-                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportingScaleFieldDataValue57.getInstantDateValue();
                                     }
 
                                     
@@ -770,12 +770,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63 = DBS13ReportUtil.retrieveFieldDataForElement(field.getTaxonomyVersion(), zeroFilingInfo_Layout1TaxonomyVersionMap64);
+                                    FieldDataValue zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63 = DBS13ReportUtil.retrieveFieldDataForElement(field.getTaxonomyVersion(), zeroFilingInfo_Layout1TaxonomyVersionMap64, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63 != null ) {
-                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getStartDate();
-                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getEndDate();
-                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1TaxonomyVersionFieldDataValue63.getInstantDateValue();
                                     }
 
                                     
@@ -812,12 +812,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ToolNameFieldDataValue69 = DBS13ReportUtil.retrieveFieldDataForElement(field.getToolName(), zeroFilingInfo_Layout1ToolNameMap70);
+                                    FieldDataValue zeroFilingInfo_Layout1ToolNameFieldDataValue69 = DBS13ReportUtil.retrieveFieldDataForElement(field.getToolName(), zeroFilingInfo_Layout1ToolNameMap70, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1ToolNameFieldDataValue69 != null ) {
-                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ToolNameFieldDataValue69.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ToolNameFieldDataValue69.getInstantDateValue();
                                     }
 
                                     
@@ -854,12 +854,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ToolVersionFieldDataValue75 = DBS13ReportUtil.retrieveFieldDataForElement(field.getToolVersion(), zeroFilingInfo_Layout1ToolVersionMap76);
+                                    FieldDataValue zeroFilingInfo_Layout1ToolVersionFieldDataValue75 = DBS13ReportUtil.retrieveFieldDataForElement(field.getToolVersion(), zeroFilingInfo_Layout1ToolVersionMap76, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1ToolVersionFieldDataValue75 != null ) {
-                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ToolVersionFieldDataValue75.getInstantDateValue();
                                     }
 
                                     
@@ -896,12 +896,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1ReportStatusFieldDataValue81 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportStatus(), zeroFilingInfo_Layout1ReportStatusMap82);
+                                    FieldDataValue zeroFilingInfo_Layout1ReportStatusFieldDataValue81 = DBS13ReportUtil.retrieveFieldDataForElement(field.getReportStatus(), zeroFilingInfo_Layout1ReportStatusMap82, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1ReportStatusFieldDataValue81 != null ) {
-                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getStartDate();
-                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getEndDate();
-                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1ReportStatusFieldDataValue81.getInstantDateValue();
                                     }
 
                                     
@@ -938,12 +938,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1DateOfAuditFieldDataValue87 = DBS13ReportUtil.retrieveFieldDataForElement(field.getDateOfAudit(), zeroFilingInfo_Layout1DateOfAuditMap88);
+                                    FieldDataValue zeroFilingInfo_Layout1DateOfAuditFieldDataValue87 = DBS13ReportUtil.retrieveFieldDataForElement(field.getDateOfAudit(), zeroFilingInfo_Layout1DateOfAuditMap88, "", "", "xs:date($refPeriodEndDate)");
     
                                     if(zeroFilingInfo_Layout1DateOfAuditFieldDataValue87 != null ) {
-                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getStartDate();
-                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getEndDate();
-                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1DateOfAuditFieldDataValue87.getInstantDateValue();
                                     }
 
                                     
@@ -981,12 +981,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93 = DBS13ReportUtil.retrieveFieldDataForElement(field.getGeneralRemarks(), zeroFilingInfo_Layout1GeneralRemarksMap94);
+                                    FieldDataValue zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93 = DBS13ReportUtil.retrieveFieldDataForElement(field.getGeneralRemarks(), zeroFilingInfo_Layout1GeneralRemarksMap94, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
                                     if(zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93 != null ) {
-                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getStartDate();
-                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getEndDate();
-                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getInstantDate();
+                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout1GeneralRemarksFieldDataValue93.getInstantDateValue();
                                     }
 
                                     
@@ -1054,12 +1054,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99 = DBS13ReportUtil.retrieveFieldDataForElement(field.getWhetherBankHasSubsidiaries(), zeroFilingInfo_Layout2WhetherBankHasSubsidiariesMap100);
+                                    FieldDataValue zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99 = DBS13ReportUtil.retrieveFieldDataForElement(field.getWhetherBankHasSubsidiaries(), zeroFilingInfo_Layout2WhetherBankHasSubsidiariesMap100, "", "", "xs:date($refPeriodEndDate)");
     
                                     if(zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99 != null ) {
-                                        if(!zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getStartDate();
-                                        if(!zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getEndDate();
-                                        if(!zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getInstantDate();
+                                        if(!zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getStartDateValue();
+                                        if(!zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getEndDateValue();
+                                        if(!zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroFilingInfo_Layout2WhetherBankHasSubsidiariesFieldDataValue99.getInstantDateValue();
                                     }
 
                                     
@@ -1137,12 +1137,12 @@ public class DBS13Report implements XBRLReportIntf {
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106 = DBS13ReportUtil.retrieveFieldDataForElement(field.getTier1Capital(), zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalMap107);
+                                    FieldDataValue zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106 = DBS13ReportUtil.retrieveFieldDataForElement(field.getTier1Capital(), zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalMap107, "", "", "xs:date($refPeriodEndDate)");
     
                                     if(zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106 != null ) {
-                                        if(!zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getStartDate();
-                                        if(!zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getEndDate();
-                                        if(!zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getInstantDate();
+                                        if(!zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getStartDateValue();
+                                        if(!zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getEndDateValue();
+                                        if(!zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_A_20LE_Standalone_Layout1Tier1CapitalFieldDataValue106.getInstantDateValue();
                                     }
 
                                     
@@ -1211,131 +1211,291 @@ public class DBS13Report implements XBRLReportIntf {
                         
                         // if explict member is empty
                         
-                            // create xbrl report element
-                            
-                                // start create element for report of DBS_LEF_A_20LE_Standalone_Layout2
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR110 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR110 = createUnitIfNotExist(INR110, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - ExposureAmount
-                                
-                                    Map zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap114 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap114.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap114.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountValue112 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap114);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountFieldDataValue113 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap114);
-
-                                        if(zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountFieldDataValue113 != null ) {
-                                            if(!zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountFieldDataValue113.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountFieldDataValue113.getStartDate();
-                                            if(!zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountFieldDataValue113.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountFieldDataValue113.getEndDate();
-                                            if(!zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountFieldDataValue113.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountFieldDataValue113.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountContext111 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountMap114 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountValue112 != null && !"".equals(zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountValue112)) {
-                                        
-                                        addContext(DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountContext111, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType exposureAmountValue115 = new MonetaryItemType();
-                                        exposureAmountValue115.setContextRef(DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountContext111);
-                                        
-                                            exposureAmountValue115.setUnitRef(INR110);
-                                            exposureAmountValue115.setDecimals("INF");
-                                            exposureAmountValue115.setValue(new BigDecimal(zeroDBS_LEF_A_20LE_Standalone_Layout2ExposureAmountValue112));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> exposureAmountElement116 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue115);
-                                        bodyElements.add(exposureAmountElement116);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS_LEF_A_20LE_Standalone_Layout2
-                                // create unit if not empty
-                                
-                                    
-                                    Unit pure117 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure117 = createUnitIfNotExist(pure117, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
-                                    
-                                
-                                
-                                // - PercentageOfExposureToTier1Capital
-                                
-                                    Map zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap121 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap121.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap121.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalValue119 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap121);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalFieldDataValue120 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap121);
-
-                                        if(zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalFieldDataValue120 != null ) {
-                                            if(!zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalFieldDataValue120.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalFieldDataValue120.getStartDate();
-                                            if(!zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalFieldDataValue120.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalFieldDataValue120.getEndDate();
-                                            if(!zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalFieldDataValue120.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalFieldDataValue120.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalContext118 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalMap121 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalValue119 != null && !"".equals(zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalValue119)) {
-                                        
-                                        addContext(DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalContext118, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        PercentItemType percentageOfExposureToTier1CapitalValue122 = new PercentItemType();
-                                        percentageOfExposureToTier1CapitalValue122.setContextRef(DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalContext118);
-                                        
-                                            percentageOfExposureToTier1CapitalValue122.setUnitRef(pure117);
-                                            percentageOfExposureToTier1CapitalValue122.setDecimals("INF");
-                                            percentageOfExposureToTier1CapitalValue122.setValue(new BigDecimal(zeroDBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalValue119));
-                                        
-                                        
-                                        JAXBElement<PercentItemType> percentageOfExposureToTier1CapitalElement123 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(percentageOfExposureToTier1CapitalValue122);
-                                        bodyElements.add(percentageOfExposureToTier1CapitalElement123);
-                                    }
-                                
-                            
-                            
-                            
-                        
                         
                 
                         
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR110 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR110 = createUnitIfNotExist(INR110, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap112 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap112.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap112.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap112.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberValue113 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap112);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue114 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap112, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue114 != null ) {
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue114.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue114.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue114.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue114.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue114.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue114.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberValue113 != null && !"".equals(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberValue113)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisContext111 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap112 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisContext111, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType116 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType116.setContextRef(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisContext111);
+                                        
+                                        
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType116.setUnitRef(INR110);
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType116.setDecimals("INF");
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType116.setValue(new BigDecimal(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberValue113));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberElement115 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType116);
+                                        bodyElements.add(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisSingleMemberElement115);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure117 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure117 = createUnitIfNotExist(pure117, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap119 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap119.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap119.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap119.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue120 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap119);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue121 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap119, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue121 != null ) {
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue121.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue121.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue121.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue121.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue121.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue121.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue120 != null && !"".equals(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue120)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext118 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap119 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext118, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType123 = new PercentItemType();
+                                        explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType123.setContextRef(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext118);
+                                        
+                                        
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType123.setUnitRef(pure117);
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType123.setDecimals("INF");
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType123.setValue(new BigDecimal(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue120));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement122 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType123);
+                                        bodyElements.add(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement122);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR124 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR124 = createUnitIfNotExist(INR124, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap126 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap126.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap126.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap126.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberValue127 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap126);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue128 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap126, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue128 != null ) {
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue128.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue128.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue128.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue128.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue128.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue128.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberValue127 != null && !"".equals(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberValue127)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisContext125 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisMap126 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisContext125, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType130 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType130.setContextRef(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisContext125);
+                                        
+                                        
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType130.setUnitRef(INR124);
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType130.setDecimals("INF");
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType130.setValue(new BigDecimal(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberValue127));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberElement129 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType130);
+                                        bodyElements.add(explictMember1DBS_LEF_A_20LE_Standalone_Layout2ExposureAmountCounterPartyAxisGroupMemberElement129);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure131 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure131 = createUnitIfNotExist(pure131, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap133 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap133.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap133.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap133.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue134 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap133);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue135 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap133, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue135 != null ) {
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue135.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue135.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue135.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue135.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue135.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue135.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue134 != null && !"".equals(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue134)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext132 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Standalone_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap133 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext132, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType137 = new PercentItemType();
+                                        explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType137.setContextRef(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext132);
+                                        
+                                        
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType137.setUnitRef(pure131);
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType137.setDecimals("INF");
+                                            explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType137.setValue(new BigDecimal(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue134));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement136 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType137);
+                                        bodyElements.add(explictMember1DBS_LEF_A_20LE_Standalone_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement136);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
                         
                         
                     });
@@ -1371,131 +1531,291 @@ public class DBS13Report implements XBRLReportIntf {
                         
                         // if explict member is empty
                         
-                            // create xbrl report element
-                            
-                                // start create element for report of DBS_LEF_B_SpecExp_Standalone_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR124 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR124 = createUnitIfNotExist(INR124, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - ExposureAmount
-                                
-                                    Map zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap128 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap128.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap128.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountValue126 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap128);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountFieldDataValue127 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap128);
-
-                                        if(zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountFieldDataValue127 != null ) {
-                                            if(!zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountFieldDataValue127.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountFieldDataValue127.getStartDate();
-                                            if(!zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountFieldDataValue127.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountFieldDataValue127.getEndDate();
-                                            if(!zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountFieldDataValue127.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountFieldDataValue127.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountContext125 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountMap128 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountValue126 != null && !"".equals(zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountValue126)) {
-                                        
-                                        addContext(DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountContext125, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType exposureAmountValue129 = new MonetaryItemType();
-                                        exposureAmountValue129.setContextRef(DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountContext125);
-                                        
-                                            exposureAmountValue129.setUnitRef(INR124);
-                                            exposureAmountValue129.setDecimals("INF");
-                                            exposureAmountValue129.setValue(new BigDecimal(zeroDBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountValue126));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> exposureAmountElement130 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue129);
-                                        bodyElements.add(exposureAmountElement130);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS_LEF_B_SpecExp_Standalone_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit pure131 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure131 = createUnitIfNotExist(pure131, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
-                                    
-                                
-                                
-                                // - PercentageOfExposureToTier1Capital
-                                
-                                    Map zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap135 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap135.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap135.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue133 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap135);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue134 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap135);
-
-                                        if(zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue134 != null ) {
-                                            if(!zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue134.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue134.getStartDate();
-                                            if(!zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue134.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue134.getEndDate();
-                                            if(!zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue134.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue134.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext132 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap135 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue133 != null && !"".equals(zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue133)) {
-                                        
-                                        addContext(DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext132, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        PercentItemType percentageOfExposureToTier1CapitalValue136 = new PercentItemType();
-                                        percentageOfExposureToTier1CapitalValue136.setContextRef(DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext132);
-                                        
-                                            percentageOfExposureToTier1CapitalValue136.setUnitRef(pure131);
-                                            percentageOfExposureToTier1CapitalValue136.setDecimals("INF");
-                                            percentageOfExposureToTier1CapitalValue136.setValue(new BigDecimal(zeroDBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue133));
-                                        
-                                        
-                                        JAXBElement<PercentItemType> percentageOfExposureToTier1CapitalElement137 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(percentageOfExposureToTier1CapitalValue136);
-                                        bodyElements.add(percentageOfExposureToTier1CapitalElement137);
-                                    }
-                                
-                            
-                            
-                            
-                        
                         
                 
                         
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR138 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR138 = createUnitIfNotExist(INR138, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap140 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap140.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap140.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap140.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                        
+                                    String explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue141 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap140);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue142 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap140, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue142 != null ) {
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue142.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue142.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue142.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue142.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue142.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue142.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue141 != null && !"".equals(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue141)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext139 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap140 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext139, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType144 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType144.setContextRef(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext139);
+                                        
+                                        
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType144.setUnitRef(INR138);
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType144.setDecimals("INF");
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType144.setValue(new BigDecimal(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue141));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberElement143 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType144);
+                                        bodyElements.add(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberElement143);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure145 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure145 = createUnitIfNotExist(pure145, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap147 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap147.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap147.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap147.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                        
+                                    String explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue148 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap147);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue149 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap147, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue149 != null ) {
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue149.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue149.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue149.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue149.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue149.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue149.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue148 != null && !"".equals(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue148)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext146 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap147 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext146, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType151 = new PercentItemType();
+                                        explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType151.setContextRef(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext146);
+                                        
+                                        
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType151.setUnitRef(pure145);
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType151.setDecimals("INF");
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType151.setValue(new BigDecimal(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue148));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement150 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType151);
+                                        bodyElements.add(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement150);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR152 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR152 = createUnitIfNotExist(INR152, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap154 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap154.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap154.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap154.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                        
+                                    String explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue155 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap154);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue156 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap154, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue156 != null ) {
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue156.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue156.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue156.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue156.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue156.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue156.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue155 != null && !"".equals(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue155)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext153 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap154 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext153, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType158 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType158.setContextRef(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext153);
+                                        
+                                        
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType158.setUnitRef(INR152);
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType158.setDecimals("INF");
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType158.setValue(new BigDecimal(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue155));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberElement157 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType158);
+                                        bodyElements.add(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberElement157);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure159 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure159 = createUnitIfNotExist(pure159, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap161 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap161.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap161.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap161.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                        
+                                    String explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue162 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap161);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue163 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap161, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue163 != null ) {
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue163.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue163.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue163.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue163.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue163.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue163.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue162 != null && !"".equals(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue162)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext160 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap161 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext160, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType165 = new PercentItemType();
+                                        explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType165.setContextRef(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext160);
+                                        
+                                        
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType165.setUnitRef(pure159);
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType165.setDecimals("INF");
+                                            explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType165.setValue(new BigDecimal(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue162));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement164 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType165);
+                                        bodyElements.add(explictMember1DBS_LEF_B_SpecExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement164);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
                         
                         
                     });
@@ -1531,131 +1851,291 @@ public class DBS13Report implements XBRLReportIntf {
                         
                         // if explict member is empty
                         
-                            // create xbrl report element
-                            
-                                // start create element for report of DBS_LEF_C_OthExp_Standalone_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR138 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR138 = createUnitIfNotExist(INR138, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - ExposureAmount
-                                
-                                    Map zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap142 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap142.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap142.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountValue140 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap142);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountFieldDataValue141 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap142);
-
-                                        if(zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountFieldDataValue141 != null ) {
-                                            if(!zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountFieldDataValue141.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountFieldDataValue141.getStartDate();
-                                            if(!zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountFieldDataValue141.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountFieldDataValue141.getEndDate();
-                                            if(!zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountFieldDataValue141.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountFieldDataValue141.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountContext139 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountMap142 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountValue140 != null && !"".equals(zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountValue140)) {
-                                        
-                                        addContext(DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountContext139, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType exposureAmountValue143 = new MonetaryItemType();
-                                        exposureAmountValue143.setContextRef(DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountContext139);
-                                        
-                                            exposureAmountValue143.setUnitRef(INR138);
-                                            exposureAmountValue143.setDecimals("INF");
-                                            exposureAmountValue143.setValue(new BigDecimal(zeroDBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountValue140));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> exposureAmountElement144 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue143);
-                                        bodyElements.add(exposureAmountElement144);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS_LEF_C_OthExp_Standalone_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit pure145 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure145 = createUnitIfNotExist(pure145, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
-                                    
-                                
-                                
-                                // - PercentageOfExposureToTier1Capital
-                                
-                                    Map zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap149 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap149.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap149.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue147 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap149);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue148 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap149);
-
-                                        if(zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue148 != null ) {
-                                            if(!zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue148.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue148.getStartDate();
-                                            if(!zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue148.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue148.getEndDate();
-                                            if(!zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue148.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue148.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext146 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap149 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue147 != null && !"".equals(zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue147)) {
-                                        
-                                        addContext(DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext146, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        PercentItemType percentageOfExposureToTier1CapitalValue150 = new PercentItemType();
-                                        percentageOfExposureToTier1CapitalValue150.setContextRef(DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext146);
-                                        
-                                            percentageOfExposureToTier1CapitalValue150.setUnitRef(pure145);
-                                            percentageOfExposureToTier1CapitalValue150.setDecimals("INF");
-                                            percentageOfExposureToTier1CapitalValue150.setValue(new BigDecimal(zeroDBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue147));
-                                        
-                                        
-                                        JAXBElement<PercentItemType> percentageOfExposureToTier1CapitalElement151 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(percentageOfExposureToTier1CapitalValue150);
-                                        bodyElements.add(percentageOfExposureToTier1CapitalElement151);
-                                    }
-                                
-                            
-                            
-                            
-                        
                         
                 
                         
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR166 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR166 = createUnitIfNotExist(INR166, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap168 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap168.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap168.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap168.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue169 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap168);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue170 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap168, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue170 != null ) {
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue170.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue170.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue170.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue170.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue170.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue170.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue169 != null && !"".equals(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue169)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext167 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap168 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext167, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType172 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType172.setContextRef(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext167);
+                                        
+                                        
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType172.setUnitRef(INR166);
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType172.setDecimals("INF");
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType172.setValue(new BigDecimal(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue169));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberElement171 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType172);
+                                        bodyElements.add(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberElement171);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure173 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure173 = createUnitIfNotExist(pure173, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap175 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap175.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap175.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap175.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue176 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap175);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue177 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap175, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue177 != null ) {
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue177.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue177.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue177.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue177.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue177.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue177.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue176 != null && !"".equals(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue176)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext174 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap175 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext174, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType179 = new PercentItemType();
+                                        explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType179.setContextRef(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext174);
+                                        
+                                        
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType179.setUnitRef(pure173);
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType179.setDecimals("INF");
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType179.setValue(new BigDecimal(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue176));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement178 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType179);
+                                        bodyElements.add(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement178);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR180 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR180 = createUnitIfNotExist(INR180, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap182 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap182.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap182.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap182.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue183 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap182);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue184 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap182, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue184 != null ) {
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue184.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue184.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue184.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue184.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue184.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue184.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue183 != null && !"".equals(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue183)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext181 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap182 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext181, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType186 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType186.setContextRef(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext181);
+                                        
+                                        
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType186.setUnitRef(INR180);
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType186.setDecimals("INF");
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType186.setValue(new BigDecimal(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue183));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberElement185 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType186);
+                                        bodyElements.add(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberElement185);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure187 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure187 = createUnitIfNotExist(pure187, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap189 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap189.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap189.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap189.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue190 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap189);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue191 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap189, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue191 != null ) {
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue191.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue191.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue191.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue191.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue191.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue191.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue190 != null && !"".equals(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue190)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext188 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap189 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext188, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType193 = new PercentItemType();
+                                        explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType193.setContextRef(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext188);
+                                        
+                                        
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType193.setUnitRef(pure187);
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType193.setDecimals("INF");
+                                            explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType193.setValue(new BigDecimal(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue190));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement192 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType193);
+                                        bodyElements.add(explictMember1DBS_LEF_C_OthExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement192);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
                         
                         
                     });
@@ -1691,131 +2171,291 @@ public class DBS13Report implements XBRLReportIntf {
                         
                         // if explict member is empty
                         
-                            // create xbrl report element
-                            
-                                // start create element for report of DBS_LEF_D_ExempExp_Standalone_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR152 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR152 = createUnitIfNotExist(INR152, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - ExposureAmount
-                                
-                                    Map zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap156 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap156.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap156.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountValue154 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap156);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountFieldDataValue155 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap156);
-
-                                        if(zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountFieldDataValue155 != null ) {
-                                            if(!zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountFieldDataValue155.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountFieldDataValue155.getStartDate();
-                                            if(!zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountFieldDataValue155.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountFieldDataValue155.getEndDate();
-                                            if(!zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountFieldDataValue155.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountFieldDataValue155.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountContext153 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountMap156 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountValue154 != null && !"".equals(zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountValue154)) {
-                                        
-                                        addContext(DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountContext153, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType exposureAmountValue157 = new MonetaryItemType();
-                                        exposureAmountValue157.setContextRef(DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountContext153);
-                                        
-                                            exposureAmountValue157.setUnitRef(INR152);
-                                            exposureAmountValue157.setDecimals("INF");
-                                            exposureAmountValue157.setValue(new BigDecimal(zeroDBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountValue154));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> exposureAmountElement158 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue157);
-                                        bodyElements.add(exposureAmountElement158);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS_LEF_D_ExempExp_Standalone_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit pure159 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure159 = createUnitIfNotExist(pure159, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
-                                    
-                                
-                                
-                                // - PercentageOfExposureToTier1Capital
-                                
-                                    Map zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap163 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap163.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap163.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue161 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap163);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue162 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap163);
-
-                                        if(zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue162 != null ) {
-                                            if(!zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue162.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue162.getStartDate();
-                                            if(!zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue162.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue162.getEndDate();
-                                            if(!zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue162.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalFieldDataValue162.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext160 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalMap163 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue161 != null && !"".equals(zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue161)) {
-                                        
-                                        addContext(DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext160, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        PercentItemType percentageOfExposureToTier1CapitalValue164 = new PercentItemType();
-                                        percentageOfExposureToTier1CapitalValue164.setContextRef(DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalContext160);
-                                        
-                                            percentageOfExposureToTier1CapitalValue164.setUnitRef(pure159);
-                                            percentageOfExposureToTier1CapitalValue164.setDecimals("INF");
-                                            percentageOfExposureToTier1CapitalValue164.setValue(new BigDecimal(zeroDBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalValue161));
-                                        
-                                        
-                                        JAXBElement<PercentItemType> percentageOfExposureToTier1CapitalElement165 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(percentageOfExposureToTier1CapitalValue164);
-                                        bodyElements.add(percentageOfExposureToTier1CapitalElement165);
-                                    }
-                                
-                            
-                            
-                            
-                        
                         
                 
                         
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR194 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR194 = createUnitIfNotExist(INR194, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap196 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap196.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap196.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap196.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue197 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap196);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue198 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap196, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue198 != null ) {
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue198.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue198.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue198.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue198.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue198.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue198.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue197 != null && !"".equals(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue197)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext195 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap196 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext195, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType200 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType200.setContextRef(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext195);
+                                        
+                                        
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType200.setUnitRef(INR194);
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType200.setDecimals("INF");
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType200.setValue(new BigDecimal(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberValue197));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberElement199 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType200);
+                                        bodyElements.add(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisSingleMemberElement199);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure201 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure201 = createUnitIfNotExist(pure201, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap203 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap203.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap203.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap203.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue204 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap203);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue205 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap203, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue205 != null ) {
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue205.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue205.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue205.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue205.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue205.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue205.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue204 != null && !"".equals(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue204)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext202 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap203 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext202, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType207 = new PercentItemType();
+                                        explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType207.setContextRef(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext202);
+                                        
+                                        
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType207.setUnitRef(pure201);
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType207.setDecimals("INF");
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType207.setValue(new BigDecimal(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue204));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement206 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType207);
+                                        bodyElements.add(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement206);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR208 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR208 = createUnitIfNotExist(INR208, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap210 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap210.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap210.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap210.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue211 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap210);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue212 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap210, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue212 != null ) {
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue212.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue212.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue212.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue212.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue212.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue212.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue211 != null && !"".equals(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue211)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext209 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisMap210 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext209, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType214 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType214.setContextRef(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisContext209);
+                                        
+                                        
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType214.setUnitRef(INR208);
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType214.setDecimals("INF");
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType214.setValue(new BigDecimal(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberValue211));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberElement213 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType214);
+                                        bodyElements.add(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1ExposureAmountCounterPartyAxisGroupMemberElement213);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure215 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure215 = createUnitIfNotExist(pure215, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap217 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap217.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap217.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap217.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue218 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap217);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue219 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap217, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue219 != null ) {
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue219.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue219.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue219.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue219.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue219.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue219.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue218 != null && !"".equals(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue218)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext216 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Standalone_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap217 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext216, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType221 = new PercentItemType();
+                                        explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType221.setContextRef(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext216);
+                                        
+                                        
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType221.setUnitRef(pure215);
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType221.setDecimals("INF");
+                                            explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType221.setValue(new BigDecimal(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue218));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement220 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType221);
+                                        bodyElements.add(explictMember1DBS_LEF_D_ExempExp_Standalone_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement220);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
                         
                         
                     });
@@ -1841,54 +2481,54 @@ public class DBS13Report implements XBRLReportIntf {
                         
                             
                                 
-                                Unit INR166 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                INR166 = createUnitIfNotExist(INR166, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                Unit INR222 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                INR222 = createUnitIfNotExist(INR222, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
                                 
                             
                             // - Tier1Capital
                             
-                                Map zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap170 = new HashMap<String, String>();
+                                Map zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap226 = new HashMap<String, String>();
                                 
                                 
                                 
                                         
                                         
-                                        zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap170.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap226.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
                                     
-                                    String zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue168 = DBS13ReportUtil.retrieveValueForElement(field.getTier1Capital(), zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap170);
+                                    String zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue224 = DBS13ReportUtil.retrieveValueForElement(field.getTier1Capital(), zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap226);
 
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue169 = DBS13ReportUtil.retrieveFieldDataForElement(field.getTier1Capital(), zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap170);
+                                    FieldDataValue zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue225 = DBS13ReportUtil.retrieveFieldDataForElement(field.getTier1Capital(), zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap226, "", "", "xs:date($refPeriodEndDate)");
     
-                                    if(zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue169 != null ) {
-                                        if(!zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue169.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue169.getStartDate();
-                                        if(!zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue169.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue169.getEndDate();
-                                        if(!zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue169.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue169.getInstantDate();
+                                    if(zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue225 != null ) {
+                                        if(!zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue225.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue225.getStartDateValue();
+                                        if(!zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue225.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue225.getEndDateValue();
+                                        if(!zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue225.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalFieldDataValue225.getInstantDateValue();
                                     }
 
                                     
-                                            Context DBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalContext167 = DBS13ReportContextUtil.createAsOfContextWithMembers( bankCode, periodDate,  zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap170 );
+                                            Context DBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalContext223 = DBS13ReportContextUtil.createAsOfContextWithMembers( bankCode, periodDate,  zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalMap226 );
                                         
                                 
-                                if(zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue168 != null && !"".equals(zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue168)) {
+                                if(zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue224 != null && !"".equals(zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue224)) {
                                     
-                                    addContext(DBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalContext167, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    MonetaryItemType tier1CapitalValue171 = new MonetaryItemType();
-                                    tier1CapitalValue171.setContextRef(DBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalContext167);
-                                    
-                                    tier1CapitalValue171.setUnitRef(INR166);
-                                    tier1CapitalValue171.setDecimals("INF");
-                                    tier1CapitalValue171.setValue(new BigDecimal(zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue168));
+                                    addContext(DBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalContext223, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<MonetaryItemType> tier1CapitalElement172 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createTier1Capital(tier1CapitalValue171);
-                                    bodyElements.add(tier1CapitalElement172);
+                                    
+                                    MonetaryItemType tier1CapitalValue227 = new MonetaryItemType();
+                                    tier1CapitalValue227.setContextRef(DBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalContext223);
+                                    
+                                    tier1CapitalValue227.setUnitRef(INR222);
+                                    tier1CapitalValue227.setDecimals("INF");
+                                    tier1CapitalValue227.setValue(new BigDecimal(zeroDBS_LEF_A_20LE_Consolidated_Layout1Tier1CapitalValue224));
+                                    
+                                    
+                                    JAXBElement<MonetaryItemType> tier1CapitalElement228 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createTier1Capital(tier1CapitalValue227);
+                                    bodyElements.add(tier1CapitalElement228);
                                 
                             }
                         
@@ -1935,131 +2575,291 @@ public class DBS13Report implements XBRLReportIntf {
                         
                         // if explict member is empty
                         
-                            // create xbrl report element
-                            
-                                // start create element for report of DBS_LEF_A_20LE_Consolidated_Layout2
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR173 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR173 = createUnitIfNotExist(INR173, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - ExposureAmount
-                                
-                                    Map zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap177 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap177.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap177.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountValue175 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap177);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountFieldDataValue176 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap177);
-
-                                        if(zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountFieldDataValue176 != null ) {
-                                            if(!zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountFieldDataValue176.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountFieldDataValue176.getStartDate();
-                                            if(!zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountFieldDataValue176.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountFieldDataValue176.getEndDate();
-                                            if(!zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountFieldDataValue176.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountFieldDataValue176.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountContext174 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountMap177 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountValue175 != null && !"".equals(zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountValue175)) {
-                                        
-                                        addContext(DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountContext174, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType exposureAmountValue178 = new MonetaryItemType();
-                                        exposureAmountValue178.setContextRef(DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountContext174);
-                                        
-                                            exposureAmountValue178.setUnitRef(INR173);
-                                            exposureAmountValue178.setDecimals("INF");
-                                            exposureAmountValue178.setValue(new BigDecimal(zeroDBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountValue175));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> exposureAmountElement179 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue178);
-                                        bodyElements.add(exposureAmountElement179);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS_LEF_A_20LE_Consolidated_Layout2
-                                // create unit if not empty
-                                
-                                    
-                                    Unit pure180 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure180 = createUnitIfNotExist(pure180, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
-                                    
-                                
-                                
-                                // - PercentageOfExposureToTier1Capital
-                                
-                                    Map zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap184 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap184.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap184.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalValue182 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap184);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalFieldDataValue183 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap184);
-
-                                        if(zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalFieldDataValue183 != null ) {
-                                            if(!zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalFieldDataValue183.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalFieldDataValue183.getStartDate();
-                                            if(!zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalFieldDataValue183.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalFieldDataValue183.getEndDate();
-                                            if(!zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalFieldDataValue183.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalFieldDataValue183.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalContext181 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalMap184 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalValue182 != null && !"".equals(zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalValue182)) {
-                                        
-                                        addContext(DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalContext181, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        PercentItemType percentageOfExposureToTier1CapitalValue185 = new PercentItemType();
-                                        percentageOfExposureToTier1CapitalValue185.setContextRef(DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalContext181);
-                                        
-                                            percentageOfExposureToTier1CapitalValue185.setUnitRef(pure180);
-                                            percentageOfExposureToTier1CapitalValue185.setDecimals("INF");
-                                            percentageOfExposureToTier1CapitalValue185.setValue(new BigDecimal(zeroDBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalValue182));
-                                        
-                                        
-                                        JAXBElement<PercentItemType> percentageOfExposureToTier1CapitalElement186 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(percentageOfExposureToTier1CapitalValue185);
-                                        bodyElements.add(percentageOfExposureToTier1CapitalElement186);
-                                    }
-                                
-                            
-                            
-                            
-                        
                         
                 
                         
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR229 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR229 = createUnitIfNotExist(INR229, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap231 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap231.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap231.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap231.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberValue232 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap231);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue233 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap231, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue233 != null ) {
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue233.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue233.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue233.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue233.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue233.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberFieldDataValue233.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberValue232 != null && !"".equals(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberValue232)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisContext230 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap231 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisContext230, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType235 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType235.setContextRef(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisContext230);
+                                        
+                                        
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType235.setUnitRef(INR229);
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType235.setDecimals("INF");
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType235.setValue(new BigDecimal(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberValue232));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberElement234 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberDataType235);
+                                        bodyElements.add(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisSingleMemberElement234);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure236 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure236 = createUnitIfNotExist(pure236, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap238 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap238.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap238.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap238.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue239 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap238);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue240 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap238, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue240 != null ) {
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue240.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue240.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue240.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue240.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue240.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue240.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue239 != null && !"".equals(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue239)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext237 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap238 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext237, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType242 = new PercentItemType();
+                                        explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType242.setContextRef(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext237);
+                                        
+                                        
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType242.setUnitRef(pure236);
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType242.setDecimals("INF");
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType242.setValue(new BigDecimal(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue239));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement241 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType242);
+                                        bodyElements.add(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement241);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR243 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR243 = createUnitIfNotExist(INR243, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap245 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap245.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap245.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap245.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberValue246 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap245);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue247 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap245, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue247 != null ) {
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue247.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue247.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue247.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue247.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue247.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberFieldDataValue247.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberValue246 != null && !"".equals(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberValue246)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisContext244 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisMap245 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisContext244, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType249 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType249.setContextRef(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisContext244);
+                                        
+                                        
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType249.setUnitRef(INR243);
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType249.setDecimals("INF");
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType249.setValue(new BigDecimal(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberValue246));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberElement248 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberDataType249);
+                                        bodyElements.add(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2ExposureAmountCounterPartyAxisGroupMemberElement248);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure250 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure250 = createUnitIfNotExist(pure250, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap252 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap252.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap252.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap252.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:LargestTwentyExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue253 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap252);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue254 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap252, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue254 != null ) {
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue254.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue254.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue254.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue254.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue254.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue254.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue253 != null && !"".equals(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue253)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext251 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_A_20LE_Consolidated_Layout2( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisMap252 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext251, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType256 = new PercentItemType();
+                                        explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType256.setContextRef(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisContext251);
+                                        
+                                        
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType256.setUnitRef(pure250);
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType256.setDecimals("INF");
+                                            explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType256.setValue(new BigDecimal(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue253));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement255 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType256);
+                                        bodyElements.add(explictMember1DBS_LEF_A_20LE_Consolidated_Layout2PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement255);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
                         
                         
                     });
@@ -2095,131 +2895,291 @@ public class DBS13Report implements XBRLReportIntf {
                         
                         // if explict member is empty
                         
-                            // create xbrl report element
-                            
-                                // start create element for report of DBS_LEF_B_SpecExp_Consolidated_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR187 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR187 = createUnitIfNotExist(INR187, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - ExposureAmount
-                                
-                                    Map zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap191 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap191.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap191.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountValue189 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap191);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountFieldDataValue190 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap191);
-
-                                        if(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountFieldDataValue190 != null ) {
-                                            if(!zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountFieldDataValue190.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountFieldDataValue190.getStartDate();
-                                            if(!zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountFieldDataValue190.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountFieldDataValue190.getEndDate();
-                                            if(!zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountFieldDataValue190.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountFieldDataValue190.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountContext188 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountMap191 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountValue189 != null && !"".equals(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountValue189)) {
-                                        
-                                        addContext(DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountContext188, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType exposureAmountValue192 = new MonetaryItemType();
-                                        exposureAmountValue192.setContextRef(DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountContext188);
-                                        
-                                            exposureAmountValue192.setUnitRef(INR187);
-                                            exposureAmountValue192.setDecimals("INF");
-                                            exposureAmountValue192.setValue(new BigDecimal(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountValue189));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> exposureAmountElement193 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue192);
-                                        bodyElements.add(exposureAmountElement193);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS_LEF_B_SpecExp_Consolidated_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit pure194 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure194 = createUnitIfNotExist(pure194, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
-                                    
-                                
-                                
-                                // - PercentageOfExposureToTier1Capital
-                                
-                                    Map zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap198 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap198.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap198.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue196 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap198);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue197 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap198);
-
-                                        if(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue197 != null ) {
-                                            if(!zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue197.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue197.getStartDate();
-                                            if(!zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue197.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue197.getEndDate();
-                                            if(!zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue197.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue197.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext195 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap198 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue196 != null && !"".equals(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue196)) {
-                                        
-                                        addContext(DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext195, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        PercentItemType percentageOfExposureToTier1CapitalValue199 = new PercentItemType();
-                                        percentageOfExposureToTier1CapitalValue199.setContextRef(DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext195);
-                                        
-                                            percentageOfExposureToTier1CapitalValue199.setUnitRef(pure194);
-                                            percentageOfExposureToTier1CapitalValue199.setDecimals("INF");
-                                            percentageOfExposureToTier1CapitalValue199.setValue(new BigDecimal(zeroDBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue196));
-                                        
-                                        
-                                        JAXBElement<PercentItemType> percentageOfExposureToTier1CapitalElement200 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(percentageOfExposureToTier1CapitalValue199);
-                                        bodyElements.add(percentageOfExposureToTier1CapitalElement200);
-                                    }
-                                
-                            
-                            
-                            
-                        
                         
                 
                         
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR257 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR257 = createUnitIfNotExist(INR257, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap259 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap259.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap259.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap259.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                        
+                                    String explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue260 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap259);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue261 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap259, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue261 != null ) {
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue261.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue261.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue261.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue261.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue261.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue261.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue260 != null && !"".equals(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue260)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext258 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap259 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext258, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType263 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType263.setContextRef(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext258);
+                                        
+                                        
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType263.setUnitRef(INR257);
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType263.setDecimals("INF");
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType263.setValue(new BigDecimal(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue260));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberElement262 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType263);
+                                        bodyElements.add(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberElement262);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure264 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure264 = createUnitIfNotExist(pure264, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap266 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap266.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap266.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap266.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                        
+                                    String explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue267 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap266);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue268 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap266, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue268 != null ) {
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue268.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue268.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue268.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue268.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue268.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue268.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue267 != null && !"".equals(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue267)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext265 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap266 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext265, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType270 = new PercentItemType();
+                                        explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType270.setContextRef(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext265);
+                                        
+                                        
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType270.setUnitRef(pure264);
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType270.setDecimals("INF");
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType270.setValue(new BigDecimal(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue267));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement269 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType270);
+                                        bodyElements.add(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement269);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR271 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR271 = createUnitIfNotExist(INR271, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap273 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap273.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap273.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap273.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                        
+                                    String explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue274 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap273);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue275 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap273, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue275 != null ) {
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue275.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue275.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue275.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue275.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue275.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue275.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue274 != null && !"".equals(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue274)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext272 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap273 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext272, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType277 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType277.setContextRef(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext272);
+                                        
+                                        
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType277.setUnitRef(INR271);
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType277.setDecimals("INF");
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType277.setValue(new BigDecimal(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue274));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberElement276 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType277);
+                                        bodyElements.add(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberElement276);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure278 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure278 = createUnitIfNotExist(pure278, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap280 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap280.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap280.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap280.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExposuresEqualToOrAboveSpecifiedPercentageOfTier1CapitalMember");
+                                        
+                                    String explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue281 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap280);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue282 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap280, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue282 != null ) {
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue282.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue282.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue282.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue282.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue282.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue282.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue281 != null && !"".equals(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue281)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext279 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_B_SpecExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap280 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext279, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType284 = new PercentItemType();
+                                        explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType284.setContextRef(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext279);
+                                        
+                                        
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType284.setUnitRef(pure278);
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType284.setDecimals("INF");
+                                            explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType284.setValue(new BigDecimal(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue281));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement283 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType284);
+                                        bodyElements.add(explictMember1DBS_LEF_B_SpecExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement283);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
                         
                         
                     });
@@ -2255,131 +3215,291 @@ public class DBS13Report implements XBRLReportIntf {
                         
                         // if explict member is empty
                         
-                            // create xbrl report element
-                            
-                                // start create element for report of DBS_LEF_C_OthExp_Consolidated_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR201 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR201 = createUnitIfNotExist(INR201, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - ExposureAmount
-                                
-                                    Map zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap205 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap205.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap205.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountValue203 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap205);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountFieldDataValue204 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap205);
-
-                                        if(zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountFieldDataValue204 != null ) {
-                                            if(!zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountFieldDataValue204.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountFieldDataValue204.getStartDate();
-                                            if(!zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountFieldDataValue204.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountFieldDataValue204.getEndDate();
-                                            if(!zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountFieldDataValue204.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountFieldDataValue204.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountContext202 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountMap205 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountValue203 != null && !"".equals(zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountValue203)) {
-                                        
-                                        addContext(DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountContext202, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType exposureAmountValue206 = new MonetaryItemType();
-                                        exposureAmountValue206.setContextRef(DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountContext202);
-                                        
-                                            exposureAmountValue206.setUnitRef(INR201);
-                                            exposureAmountValue206.setDecimals("INF");
-                                            exposureAmountValue206.setValue(new BigDecimal(zeroDBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountValue203));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> exposureAmountElement207 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue206);
-                                        bodyElements.add(exposureAmountElement207);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS_LEF_C_OthExp_Consolidated_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit pure208 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure208 = createUnitIfNotExist(pure208, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
-                                    
-                                
-                                
-                                // - PercentageOfExposureToTier1Capital
-                                
-                                    Map zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap212 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap212.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap212.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue210 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap212);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue211 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap212);
-
-                                        if(zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue211 != null ) {
-                                            if(!zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue211.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue211.getStartDate();
-                                            if(!zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue211.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue211.getEndDate();
-                                            if(!zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue211.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue211.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext209 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap212 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue210 != null && !"".equals(zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue210)) {
-                                        
-                                        addContext(DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext209, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        PercentItemType percentageOfExposureToTier1CapitalValue213 = new PercentItemType();
-                                        percentageOfExposureToTier1CapitalValue213.setContextRef(DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext209);
-                                        
-                                            percentageOfExposureToTier1CapitalValue213.setUnitRef(pure208);
-                                            percentageOfExposureToTier1CapitalValue213.setDecimals("INF");
-                                            percentageOfExposureToTier1CapitalValue213.setValue(new BigDecimal(zeroDBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue210));
-                                        
-                                        
-                                        JAXBElement<PercentItemType> percentageOfExposureToTier1CapitalElement214 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(percentageOfExposureToTier1CapitalValue213);
-                                        bodyElements.add(percentageOfExposureToTier1CapitalElement214);
-                                    }
-                                
-                            
-                            
-                            
-                        
                         
                 
                         
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR285 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR285 = createUnitIfNotExist(INR285, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap287 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap287.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap287.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap287.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue288 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap287);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue289 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap287, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue289 != null ) {
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue289.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue289.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue289.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue289.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue289.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue289.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue288 != null && !"".equals(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue288)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext286 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap287 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext286, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType291 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType291.setContextRef(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext286);
+                                        
+                                        
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType291.setUnitRef(INR285);
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType291.setDecimals("INF");
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType291.setValue(new BigDecimal(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue288));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberElement290 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType291);
+                                        bodyElements.add(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberElement290);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure292 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure292 = createUnitIfNotExist(pure292, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap294 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap294.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap294.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap294.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue295 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap294);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue296 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap294, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue296 != null ) {
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue296.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue296.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue296.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue296.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue296.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue296.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue295 != null && !"".equals(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue295)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext293 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap294 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext293, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType298 = new PercentItemType();
+                                        explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType298.setContextRef(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext293);
+                                        
+                                        
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType298.setUnitRef(pure292);
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType298.setDecimals("INF");
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType298.setValue(new BigDecimal(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue295));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement297 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType298);
+                                        bodyElements.add(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement297);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR299 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR299 = createUnitIfNotExist(INR299, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap301 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap301.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap301.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap301.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue302 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap301);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue303 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap301, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue303 != null ) {
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue303.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue303.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue303.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue303.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue303.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue303.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue302 != null && !"".equals(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue302)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext300 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap301 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext300, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType305 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType305.setContextRef(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext300);
+                                        
+                                        
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType305.setUnitRef(INR299);
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType305.setDecimals("INF");
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType305.setValue(new BigDecimal(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue302));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberElement304 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType305);
+                                        bodyElements.add(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberElement304);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure306 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure306 = createUnitIfNotExist(pure306, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap308 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap308.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap308.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap308.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:OtherExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue309 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap308);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue310 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap308, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue310 != null ) {
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue310.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue310.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue310.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue310.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue310.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue310.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue309 != null && !"".equals(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue309)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext307 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_C_OthExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap308 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext307, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType312 = new PercentItemType();
+                                        explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType312.setContextRef(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext307);
+                                        
+                                        
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType312.setUnitRef(pure306);
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType312.setDecimals("INF");
+                                            explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType312.setValue(new BigDecimal(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue309));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement311 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType312);
+                                        bodyElements.add(explictMember1DBS_LEF_C_OthExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement311);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
                         
                         
                     });
@@ -2415,131 +3535,291 @@ public class DBS13Report implements XBRLReportIntf {
                         
                         // if explict member is empty
                         
-                            // create xbrl report element
-                            
-                                // start create element for report of DBS_LEF_D_ExempExp_Consolidated_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit INR215 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
-                                    INR215 = createUnitIfNotExist(INR215, "INR", "http://www.xbrl.org/2003/iso4217","INR", unitElements);
-                                    
-                                
-                                
-                                // - ExposureAmount
-                                
-                                    Map zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap219 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap219.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap219.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountValue217 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap219);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountFieldDataValue218 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap219);
-
-                                        if(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountFieldDataValue218 != null ) {
-                                            if(!zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountFieldDataValue218.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountFieldDataValue218.getStartDate();
-                                            if(!zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountFieldDataValue218.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountFieldDataValue218.getEndDate();
-                                            if(!zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountFieldDataValue218.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountFieldDataValue218.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountContext216 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountMap219 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountValue217 != null && !"".equals(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountValue217)) {
-                                        
-                                        addContext(DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountContext216, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        MonetaryItemType exposureAmountValue220 = new MonetaryItemType();
-                                        exposureAmountValue220.setContextRef(DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountContext216);
-                                        
-                                            exposureAmountValue220.setUnitRef(INR215);
-                                            exposureAmountValue220.setDecimals("INF");
-                                            exposureAmountValue220.setValue(new BigDecimal(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountValue217));
-                                        
-                                        
-                                        JAXBElement<MonetaryItemType> exposureAmountElement221 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(exposureAmountValue220);
-                                        bodyElements.add(exposureAmountElement221);
-                                    }
-                                
-                            
-                            
-                                // start create element for report of DBS_LEF_D_ExempExp_Consolidated_Layout1
-                                // create unit if not empty
-                                
-                                    
-                                    Unit pure222 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
-                                    pure222 = createUnitIfNotExist(pure222, "PURE", "http://www.xbrl.org/2003/instance","pure", unitElements);
-                                    
-                                
-                                
-                                // - PercentageOfExposureToTier1Capital
-                                
-                                    Map zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap226 = new HashMap<String, String>();
-                                    
-                                    
-                                            
-                                            
-                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap226.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
-                                        
-                                            
-                                            
-                                            zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap226.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
-                                        
-                                        
-                                        String zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue224 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap226);
-                                        startDate = startDateDefault;
-                                        endDate = endDateDefault;
-                                        periodDate = periodDateDefault;
-                                        FieldDataValue zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue225 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap226);
-
-                                        if(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue225 != null ) {
-                                            if(!zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue225.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue225.getStartDate();
-                                            if(!zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue225.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue225.getEndDate();
-                                            if(!zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue225.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalFieldDataValue225.getInstantDate();
-                                        }
-                                        
-                                        
-                                                Context DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext223 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalMap226 );
-                                            
-                                    // check if value is null or empty
-                                    if(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue224 != null && !"".equals(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue224)) {
-                                        
-                                        addContext(DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext223, contextElements, contextIdentifiers);
-                                    
-                                        // create element JAXB Element
-                                        
-                                        PercentItemType percentageOfExposureToTier1CapitalValue227 = new PercentItemType();
-                                        percentageOfExposureToTier1CapitalValue227.setContextRef(DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalContext223);
-                                        
-                                            percentageOfExposureToTier1CapitalValue227.setUnitRef(pure222);
-                                            percentageOfExposureToTier1CapitalValue227.setDecimals("INF");
-                                            percentageOfExposureToTier1CapitalValue227.setValue(new BigDecimal(zeroDBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalValue224));
-                                        
-                                        
-                                        JAXBElement<PercentItemType> percentageOfExposureToTier1CapitalElement228 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(percentageOfExposureToTier1CapitalValue227);
-                                        bodyElements.add(percentageOfExposureToTier1CapitalElement228);
-                                    }
-                                
-                            
-                            
-                            
-                        
                         
                 
                         
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR313 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR313 = createUnitIfNotExist(INR313, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap315 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap315.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap315.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap315.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue316 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap315);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue317 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap315, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue317 != null ) {
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue317.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue317.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue317.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue317.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue317.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberFieldDataValue317.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue316 != null && !"".equals(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue316)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext314 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap315 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext314, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType319 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType319.setContextRef(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext314);
+                                        
+                                        
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType319.setUnitRef(INR313);
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType319.setDecimals("INF");
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType319.setValue(new BigDecimal(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberValue316));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberElement318 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberDataType319);
+                                        bodyElements.add(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisSingleMemberElement318);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure320 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure320 = createUnitIfNotExist(pure320, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap322 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap322.put("rbi-core:CounterPartyAxis", "rbi-core:SingleMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap322.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap322.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue323 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap322);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue324 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap322, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue324 != null ) {
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue324.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue324.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue324.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue324.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue324.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberFieldDataValue324.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue323 != null && !"".equals(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue323)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext321 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap322 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext321, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType326 = new PercentItemType();
+                                        explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType326.setContextRef(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext321);
+                                        
+                                        
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType326.setUnitRef(pure320);
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType326.setDecimals("INF");
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType326.setValue(new BigDecimal(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberValue323));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement325 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberDataType326);
+                                        bodyElements.add(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisSingleMemberElement325);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    Unit INR327 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("INR")).findAny().orElse(null);
+                                    INR327 = createUnitIfNotExist(INR327, "INR", "http://www.xbrl.org/2003/iso4217", "INR", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - ExposureAmount
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap329 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap329.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap329.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap329.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue330 = DBS13ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap329);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue331 = DBS13ReportUtil.retrieveFieldDataForElement(field.getExposureAmount(), explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap329, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue331 != null ) {
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue331.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue331.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue331.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue331.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue331.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberFieldDataValue331.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue330 != null && !"".equals(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue330)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext328 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisMap329 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext328, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        MonetaryItemType explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType333 = new MonetaryItemType();
+                                        explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType333.setContextRef(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisContext328);
+                                        
+                                        
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType333.setUnitRef(INR327);
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType333.setDecimals("INF");
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType333.setValue(new BigDecimal(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberValue330));
+                                        
+                                        
+                                        JAXBElement<MonetaryItemType> explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberElement332 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createExposureAmount(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberDataType333);
+                                        bodyElements.add(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1ExposureAmountCounterPartyAxisGroupMemberElement332);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                                
+                                
+                                    
+                                    Unit pure334 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
+                                    pure334 = createUnitIfNotExist(pure334, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
+                                    
+                                
+                                
+                                //rbi-core:CounterPartyAxis - PercentageOfExposureToTier1Capital
+                                
+                            
+                                
+                                    
+                                    Map explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap336 = new HashMap<String, String>();
+                                    
+                                    
+                                    explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap336.put("rbi-core:CounterPartyAxis", "rbi-core:GroupMember");                
+                                    
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap336.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                        
+                                            
+                                            
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap336.put("rbi-core:ExposureToCounterpartiesAxis", "rbi-core:ExemptedExposuresMember");
+                                        
+                                    String explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue337 = DBS13ReportUtil.retrieveValueForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap336);
+                                
+                                    startDate = startDateDefault;
+                                    endDate = endDateDefault;
+                                    periodDate = periodDateDefault;
+                                    FieldDataValue explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue338 = DBS13ReportUtil.retrieveFieldDataForElement(field.getPercentageOfExposureToTier1Capital(), explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap336, "", "", "xs:date($refPeriodEndDate)");
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue338 != null ) {
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue338.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue338.getStartDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue338.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue338.getEndDateValue();
+                                        if(!explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue338.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberFieldDataValue338.getInstantDateValue();
+                                    }
+
+                                    if(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue337 != null && !"".equals(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue337)) {
+                                    
+                                        
+                                            Context explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext335 = DBS13ReportContextUtil.createAsOfContextWithMembersDBS_LEF_D_ExempExp_Consolidated_Layout1( bankCode, periodDate, permanentAccountNumberOrGroupIDOfCounterpartyAxis, nameOfCounterPartyAxis,  explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisMap336 );
+                                            
+                                        
+                                        addContext(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext335, contextElements, contextIdentifiers);
+                                    
+                                    
+                                        // create element JAXB Element
+                    
+                                        PercentItemType explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType340 = new PercentItemType();
+                                        explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType340.setContextRef(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisContext335);
+                                        
+                                        
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType340.setUnitRef(pure334);
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType340.setDecimals("INF");
+                                            explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType340.setValue(new BigDecimal(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberValue337));
+                                        
+                                        
+                                        JAXBElement<PercentItemType> explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement339 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createPercentageOfExposureToTier1Capital(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberDataType340);
+                                        bodyElements.add(explictMember1DBS_LEF_D_ExempExp_Consolidated_Layout1PercentageOfExposureToTier1CapitalCounterPartyAxisGroupMemberElement339);
+                                    
+                                    }
+                                    
+                                
+
+                                
+                            
+                            
+                            
                         
                         
                     });
@@ -2566,252 +3846,252 @@ public class DBS13Report implements XBRLReportIntf {
                             
                             // - NameOfSignatory
                             
-                                Map zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryMap232 = new HashMap<String, String>();
+                                Map zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryMap344 = new HashMap<String, String>();
                                 
                                 
                                 
                                     
-                                    String zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryValue230 = DBS13ReportUtil.retrieveValueForElement(field.getNameOfSignatory(), zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryMap232);
+                                    String zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryValue342 = DBS13ReportUtil.retrieveValueForElement(field.getNameOfSignatory(), zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryMap344);
 
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue231 = DBS13ReportUtil.retrieveFieldDataForElement(field.getNameOfSignatory(), zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryMap232);
+                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue343 = DBS13ReportUtil.retrieveFieldDataForElement(field.getNameOfSignatory(), zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryMap344, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
-                                    if(zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue231 != null ) {
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue231.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue231.getStartDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue231.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue231.getEndDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue231.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue231.getInstantDate();
+                                    if(zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue343 != null ) {
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue343.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue343.getStartDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue343.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue343.getEndDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue343.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryFieldDataValue343.getInstantDateValue();
                                     }
 
                                     
-                                        Context DBS_AuthorisedSignatory_Layout1NameOfSignatoryContext229 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBS_AuthorisedSignatory_Layout1NameOfSignatoryContext341 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryValue230 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryValue230)) {
+                                if(zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryValue342 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryValue342)) {
                                     
-                                    addContext(DBS_AuthorisedSignatory_Layout1NameOfSignatoryContext229, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType nameOfSignatoryValue233 = new StringItemType();
-                                    nameOfSignatoryValue233.setContextRef(DBS_AuthorisedSignatory_Layout1NameOfSignatoryContext229);
-                                    
-                                    nameOfSignatoryValue233.setValue(zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryValue230);        
+                                    addContext(DBS_AuthorisedSignatory_Layout1NameOfSignatoryContext341, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> nameOfSignatoryElement234 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createNameOfSignatory(nameOfSignatoryValue233);
-                                    bodyElements.add(nameOfSignatoryElement234);
+                                    
+                                    StringItemType nameOfSignatoryValue345 = new StringItemType();
+                                    nameOfSignatoryValue345.setContextRef(DBS_AuthorisedSignatory_Layout1NameOfSignatoryContext341);
+                                    
+                                    nameOfSignatoryValue345.setValue(zeroDBS_AuthorisedSignatory_Layout1NameOfSignatoryValue342);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> nameOfSignatoryElement346 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createNameOfSignatory(nameOfSignatoryValue345);
+                                    bodyElements.add(nameOfSignatoryElement346);
                                 
                             }
                         
                             
                             // - DesignationOfSignatory
                             
-                                Map zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryMap238 = new HashMap<String, String>();
+                                Map zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryMap350 = new HashMap<String, String>();
                                 
                                 
                                 
                                     
-                                    String zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryValue236 = DBS13ReportUtil.retrieveValueForElement(field.getDesignationOfSignatory(), zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryMap238);
+                                    String zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryValue348 = DBS13ReportUtil.retrieveValueForElement(field.getDesignationOfSignatory(), zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryMap350);
 
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue237 = DBS13ReportUtil.retrieveFieldDataForElement(field.getDesignationOfSignatory(), zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryMap238);
+                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue349 = DBS13ReportUtil.retrieveFieldDataForElement(field.getDesignationOfSignatory(), zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryMap350, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
-                                    if(zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue237 != null ) {
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue237.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue237.getStartDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue237.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue237.getEndDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue237.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue237.getInstantDate();
+                                    if(zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue349 != null ) {
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue349.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue349.getStartDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue349.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue349.getEndDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue349.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryFieldDataValue349.getInstantDateValue();
                                     }
 
                                     
-                                        Context DBS_AuthorisedSignatory_Layout1DesignationOfSignatoryContext235 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBS_AuthorisedSignatory_Layout1DesignationOfSignatoryContext347 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryValue236 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryValue236)) {
+                                if(zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryValue348 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryValue348)) {
                                     
-                                    addContext(DBS_AuthorisedSignatory_Layout1DesignationOfSignatoryContext235, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType designationOfSignatoryValue239 = new StringItemType();
-                                    designationOfSignatoryValue239.setContextRef(DBS_AuthorisedSignatory_Layout1DesignationOfSignatoryContext235);
-                                    
-                                    designationOfSignatoryValue239.setValue(zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryValue236);        
+                                    addContext(DBS_AuthorisedSignatory_Layout1DesignationOfSignatoryContext347, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> designationOfSignatoryElement240 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createDesignationOfSignatory(designationOfSignatoryValue239);
-                                    bodyElements.add(designationOfSignatoryElement240);
+                                    
+                                    StringItemType designationOfSignatoryValue351 = new StringItemType();
+                                    designationOfSignatoryValue351.setContextRef(DBS_AuthorisedSignatory_Layout1DesignationOfSignatoryContext347);
+                                    
+                                    designationOfSignatoryValue351.setValue(zeroDBS_AuthorisedSignatory_Layout1DesignationOfSignatoryValue348);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> designationOfSignatoryElement352 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createDesignationOfSignatory(designationOfSignatoryValue351);
+                                    bodyElements.add(designationOfSignatoryElement352);
                                 
                             }
                         
                             
                             // - AuthorisedSignatoryOfficialLandlineNumber
                             
-                                Map zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap244 = new HashMap<String, String>();
+                                Map zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap356 = new HashMap<String, String>();
                                 
                                 
                                 
                                     
-                                    String zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue242 = DBS13ReportUtil.retrieveValueForElement(field.getAuthorisedSignatoryOfficialLandlineNumber(), zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap244);
+                                    String zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue354 = DBS13ReportUtil.retrieveValueForElement(field.getAuthorisedSignatoryOfficialLandlineNumber(), zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap356);
 
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue243 = DBS13ReportUtil.retrieveFieldDataForElement(field.getAuthorisedSignatoryOfficialLandlineNumber(), zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap244);
+                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue355 = DBS13ReportUtil.retrieveFieldDataForElement(field.getAuthorisedSignatoryOfficialLandlineNumber(), zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberMap356, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
-                                    if(zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue243 != null ) {
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue243.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue243.getStartDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue243.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue243.getEndDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue243.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue243.getInstantDate();
+                                    if(zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue355 != null ) {
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue355.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue355.getStartDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue355.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue355.getEndDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue355.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberFieldDataValue355.getInstantDateValue();
                                     }
 
                                     
-                                        Context DBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext241 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext353 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue242 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue242)) {
+                                if(zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue354 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue354)) {
                                     
-                                    addContext(DBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext241, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType authorisedSignatoryOfficialLandlineNumberValue245 = new StringItemType();
-                                    authorisedSignatoryOfficialLandlineNumberValue245.setContextRef(DBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext241);
-                                    
-                                    authorisedSignatoryOfficialLandlineNumberValue245.setValue(zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue242);        
+                                    addContext(DBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext353, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> authorisedSignatoryOfficialLandlineNumberElement246 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAuthorisedSignatoryOfficialLandlineNumber(authorisedSignatoryOfficialLandlineNumberValue245);
-                                    bodyElements.add(authorisedSignatoryOfficialLandlineNumberElement246);
+                                    
+                                    StringItemType authorisedSignatoryOfficialLandlineNumberValue357 = new StringItemType();
+                                    authorisedSignatoryOfficialLandlineNumberValue357.setContextRef(DBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberContext353);
+                                    
+                                    authorisedSignatoryOfficialLandlineNumberValue357.setValue(zeroDBS_AuthorisedSignatory_Layout1AuthorisedSignatoryOfficialLandlineNumberValue354);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> authorisedSignatoryOfficialLandlineNumberElement358 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createAuthorisedSignatoryOfficialLandlineNumber(authorisedSignatoryOfficialLandlineNumberValue357);
+                                    bodyElements.add(authorisedSignatoryOfficialLandlineNumberElement358);
                                 
                             }
                         
                             
                             // - MobileNumberOfAuthorisedSignatory
                             
-                                Map zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap250 = new HashMap<String, String>();
+                                Map zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap362 = new HashMap<String, String>();
                                 
                                 
                                 
                                     
-                                    String zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue248 = DBS13ReportUtil.retrieveValueForElement(field.getMobileNumberOfAuthorisedSignatory(), zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap250);
+                                    String zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue360 = DBS13ReportUtil.retrieveValueForElement(field.getMobileNumberOfAuthorisedSignatory(), zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap362);
 
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue249 = DBS13ReportUtil.retrieveFieldDataForElement(field.getMobileNumberOfAuthorisedSignatory(), zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap250);
+                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue361 = DBS13ReportUtil.retrieveFieldDataForElement(field.getMobileNumberOfAuthorisedSignatory(), zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryMap362, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
-                                    if(zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue249 != null ) {
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue249.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue249.getStartDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue249.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue249.getEndDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue249.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue249.getInstantDate();
+                                    if(zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue361 != null ) {
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue361.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue361.getStartDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue361.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue361.getEndDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue361.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryFieldDataValue361.getInstantDateValue();
                                     }
 
                                     
-                                        Context DBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext247 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext359 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue248 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue248)) {
+                                if(zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue360 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue360)) {
                                     
-                                    addContext(DBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext247, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType mobileNumberOfAuthorisedSignatoryValue251 = new StringItemType();
-                                    mobileNumberOfAuthorisedSignatoryValue251.setContextRef(DBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext247);
-                                    
-                                    mobileNumberOfAuthorisedSignatoryValue251.setValue(zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue248);        
+                                    addContext(DBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext359, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> mobileNumberOfAuthorisedSignatoryElement252 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createMobileNumberOfAuthorisedSignatory(mobileNumberOfAuthorisedSignatoryValue251);
-                                    bodyElements.add(mobileNumberOfAuthorisedSignatoryElement252);
+                                    
+                                    StringItemType mobileNumberOfAuthorisedSignatoryValue363 = new StringItemType();
+                                    mobileNumberOfAuthorisedSignatoryValue363.setContextRef(DBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryContext359);
+                                    
+                                    mobileNumberOfAuthorisedSignatoryValue363.setValue(zeroDBS_AuthorisedSignatory_Layout1MobileNumberOfAuthorisedSignatoryValue360);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> mobileNumberOfAuthorisedSignatoryElement364 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createMobileNumberOfAuthorisedSignatory(mobileNumberOfAuthorisedSignatoryValue363);
+                                    bodyElements.add(mobileNumberOfAuthorisedSignatoryElement364);
                                 
                             }
                         
                             
                             // - EMailIDOfAuthorisedReportingOfficial
                             
-                                Map zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap256 = new HashMap<String, String>();
+                                Map zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap368 = new HashMap<String, String>();
                                 
                                 
                                 
                                     
-                                    String zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue254 = DBS13ReportUtil.retrieveValueForElement(field.getEMailIDOfAuthorisedReportingOfficial(), zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap256);
+                                    String zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue366 = DBS13ReportUtil.retrieveValueForElement(field.getEMailIDOfAuthorisedReportingOfficial(), zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap368);
 
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue255 = DBS13ReportUtil.retrieveFieldDataForElement(field.getEMailIDOfAuthorisedReportingOfficial(), zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap256);
+                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue367 = DBS13ReportUtil.retrieveFieldDataForElement(field.getEMailIDOfAuthorisedReportingOfficial(), zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialMap368, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
-                                    if(zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue255 != null ) {
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue255.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue255.getStartDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue255.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue255.getEndDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue255.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue255.getInstantDate();
+                                    if(zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue367 != null ) {
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue367.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue367.getStartDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue367.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue367.getEndDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue367.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialFieldDataValue367.getInstantDateValue();
                                     }
 
                                     
-                                        Context DBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext253 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext365 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue254 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue254)) {
+                                if(zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue366 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue366)) {
                                     
-                                    addContext(DBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext253, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType eMailIDOfAuthorisedReportingOfficialValue257 = new StringItemType();
-                                    eMailIDOfAuthorisedReportingOfficialValue257.setContextRef(DBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext253);
-                                    
-                                    eMailIDOfAuthorisedReportingOfficialValue257.setValue(zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue254);        
+                                    addContext(DBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext365, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> eMailIDOfAuthorisedReportingOfficialElement258 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createEMailIDOfAuthorisedReportingOfficial(eMailIDOfAuthorisedReportingOfficialValue257);
-                                    bodyElements.add(eMailIDOfAuthorisedReportingOfficialElement258);
+                                    
+                                    StringItemType eMailIDOfAuthorisedReportingOfficialValue369 = new StringItemType();
+                                    eMailIDOfAuthorisedReportingOfficialValue369.setContextRef(DBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialContext365);
+                                    
+                                    eMailIDOfAuthorisedReportingOfficialValue369.setValue(zeroDBS_AuthorisedSignatory_Layout1EMailIDOfAuthorisedReportingOfficialValue366);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> eMailIDOfAuthorisedReportingOfficialElement370 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createEMailIDOfAuthorisedReportingOfficial(eMailIDOfAuthorisedReportingOfficialValue369);
+                                    bodyElements.add(eMailIDOfAuthorisedReportingOfficialElement370);
                                 
                             }
                         
                             
                             // - Remarks
                             
-                                Map zeroDBS_AuthorisedSignatory_Layout1RemarksMap262 = new HashMap<String, String>();
+                                Map zeroDBS_AuthorisedSignatory_Layout1RemarksMap374 = new HashMap<String, String>();
                                 
                                 
                                 
                                     
-                                    String zeroDBS_AuthorisedSignatory_Layout1RemarksValue260 = DBS13ReportUtil.retrieveValueForElement(field.getRemarks(), zeroDBS_AuthorisedSignatory_Layout1RemarksMap262);
+                                    String zeroDBS_AuthorisedSignatory_Layout1RemarksValue372 = DBS13ReportUtil.retrieveValueForElement(field.getRemarks(), zeroDBS_AuthorisedSignatory_Layout1RemarksMap374);
 
                                     startDate = startDateDefault;
                                     endDate = endDateDefault;
                                     periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue261 = DBS13ReportUtil.retrieveFieldDataForElement(field.getRemarks(), zeroDBS_AuthorisedSignatory_Layout1RemarksMap262);
+                                    FieldDataValue zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue373 = DBS13ReportUtil.retrieveFieldDataForElement(field.getRemarks(), zeroDBS_AuthorisedSignatory_Layout1RemarksMap374, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
     
-                                    if(zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue261 != null ) {
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue261.getStartDate().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue261.getStartDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue261.getEndDate().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue261.getEndDate();
-                                        if(!zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue261.getInstantDate().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue261.getInstantDate();
+                                    if(zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue373 != null ) {
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue373.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue373.getStartDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue373.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue373.getEndDateValue();
+                                        if(!zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue373.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS_AuthorisedSignatory_Layout1RemarksFieldDataValue373.getInstantDateValue();
                                     }
 
                                     
-                                        Context DBS_AuthorisedSignatory_Layout1RemarksContext259 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
+                                        Context DBS_AuthorisedSignatory_Layout1RemarksContext371 = DBS13ReportContextUtil.createFromToContext( bankCode, startDate, endDate  );
                                         
                                 
-                                if(zeroDBS_AuthorisedSignatory_Layout1RemarksValue260 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1RemarksValue260)) {
+                                if(zeroDBS_AuthorisedSignatory_Layout1RemarksValue372 != null && !"".equals(zeroDBS_AuthorisedSignatory_Layout1RemarksValue372)) {
                                     
-                                    addContext(DBS_AuthorisedSignatory_Layout1RemarksContext259, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    StringItemType remarksValue263 = new StringItemType();
-                                    remarksValue263.setContextRef(DBS_AuthorisedSignatory_Layout1RemarksContext259);
-                                    
-                                    remarksValue263.setValue(zeroDBS_AuthorisedSignatory_Layout1RemarksValue260);        
+                                    addContext(DBS_AuthorisedSignatory_Layout1RemarksContext371, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<StringItemType> remarksElement264 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createRemarks(remarksValue263);
-                                    bodyElements.add(remarksElement264);
+                                    
+                                    StringItemType remarksValue375 = new StringItemType();
+                                    remarksValue375.setContextRef(DBS_AuthorisedSignatory_Layout1RemarksContext371);
+                                    
+                                    remarksValue375.setValue(zeroDBS_AuthorisedSignatory_Layout1RemarksValue372);        
+                                    
+                                    
+                                    JAXBElement<StringItemType> remarksElement376 = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory().createRemarks(remarksValue375);
+                                    bodyElements.add(remarksElement376);
                                 
                             }
                         

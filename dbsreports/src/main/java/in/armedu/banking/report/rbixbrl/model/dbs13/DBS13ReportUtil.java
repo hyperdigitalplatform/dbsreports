@@ -34,7 +34,7 @@ public class DBS13ReportUtil {
         return null;
     }
 
-    public static FieldDataValue retrieveFieldDataForElement(List<FieldDataValue> fieldList, Map<String, String> members ) {
+    public static FieldDataValue retrieveFieldDataForElement(List<FieldDataValue> fieldList, Map<String, String> members, String startDateField, String endDateField, String instantDateField ) {
         if(members.isEmpty()){
             if(fieldList.isEmpty()) {
                 return null;
@@ -53,7 +53,14 @@ public class DBS13ReportUtil {
                 for(FieldDataValue field : fieldList){
                     if(field.getMembers().isEmpty()) continue;
                     boolean b = members.entrySet().stream().filter(value -> field.getMembers().entrySet().stream().anyMatch(value1 -> (value1.getKey().equalsIgnoreCase(value.getKey().split(":")[1])  && value1.getValue().equalsIgnoreCase(value.getValue())))).findAny().isPresent();
-                    if(b) return field;
+                    
+                    if(b) {
+                        if(field.getStartDateField().equalsIgnoreCase(startDateField) && field.getEndDateField().equalsIgnoreCase(endDateField) && field.getInstantDateField().equalsIgnoreCase(instantDateField)){
+                            return field;
+                        } else {
+                            continue;
+                        }
+                    } 
                 }                
                 return null;
             }

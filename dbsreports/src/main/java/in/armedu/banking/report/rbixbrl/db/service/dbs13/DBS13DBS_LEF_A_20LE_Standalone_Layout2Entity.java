@@ -31,13 +31,18 @@ public class DBS13DBS_LEF_A_20LE_Standalone_Layout2Entity {
         private String nameOfCounterPartyAxis;
     
     
+        private String counterPartyAxis;
+    
         private String consolidatedAndSeparateFinancialStatementsAxis;
     
         private String exposureToCounterpartiesAxis;
     
-    private String startDate;
-    private String endDate;
-    private String instantDate;
+    private String startDateField;
+    private String startDateValue;
+    private String endDateField;
+    private String endDateValue;
+    private String instantDateField;
+    private String instantDateValue;
     private String fieldName;
     private String fieldValue;
 }
