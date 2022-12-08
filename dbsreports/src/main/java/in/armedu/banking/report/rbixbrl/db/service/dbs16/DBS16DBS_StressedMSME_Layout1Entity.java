@@ -37,6 +37,16 @@ public class DBS16DBS_StressedMSME_Layout1Entity {
         private String stateAxis;
     
     
+        private String microSmallAndMediumEnterprisesCategoryAxis;
+    
+        private String sectorsAxis;
+    
+    private String startDateField;
+    private String startDateValue;
+    private String endDateField;
+    private String endDateValue;
+    private String instantDateField;
+    private String instantDateValue;
     private String fieldName;
     private String fieldValue;
 }

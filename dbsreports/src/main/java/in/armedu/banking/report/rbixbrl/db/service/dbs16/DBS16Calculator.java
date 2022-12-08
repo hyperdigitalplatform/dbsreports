@@ -63,6 +63,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReturnName")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReturnName().add(fieldDataValue);
                                 }
@@ -97,6 +105,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReturnCode")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReturnCode().add(fieldDataValue);
                                 }
@@ -131,6 +147,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NameOfReportingInstitution")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getNameOfReportingInstitution().add(fieldDataValue);
                                 }
@@ -165,6 +189,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("BankCode")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getBankCode().add(fieldDataValue);
                                 }
@@ -199,6 +231,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InstitutionType")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getInstitutionType().add(fieldDataValue);
                                 }
@@ -233,6 +273,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingFrequency")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingFrequency().add(fieldDataValue);
                                 }
@@ -267,6 +315,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingPeriodStartDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingPeriodStartDate().add(fieldDataValue);
                                 }
@@ -301,6 +357,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingPeriodEndDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingPeriodEndDate().add(fieldDataValue);
                                 }
@@ -335,6 +399,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingCurrency")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingCurrency().add(fieldDataValue);
                                 }
@@ -369,6 +441,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportingScale")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportingScale().add(fieldDataValue);
                                 }
@@ -403,6 +483,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TaxonomyVersion")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getTaxonomyVersion().add(fieldDataValue);
                                 }
@@ -437,6 +525,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ToolName")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getToolName().add(fieldDataValue);
                                 }
@@ -471,6 +567,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ToolVersion")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getToolVersion().add(fieldDataValue);
                                 }
@@ -505,6 +609,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReportStatus")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getReportStatus().add(fieldDataValue);
                                 }
@@ -539,6 +651,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DateOfAudit")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getDateOfAudit().add(fieldDataValue);
                                 }
@@ -573,6 +693,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("GeneralRemarks")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout1.getGeneralRemarks().add(fieldDataValue);
                                 }
@@ -654,6 +782,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("WhetherNilReporting")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     filingInfo_Layout2.getWhetherNilReporting().add(fieldDataValue);
                                 }
@@ -735,11 +871,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate().add(fieldDataValue);
                                 }
@@ -789,11 +999,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate().add(fieldDataValue);
                                 }
@@ -843,11 +1127,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NoFraudOrNoWilfulDefaulterFlag")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getNoFraudOrNoWilfulDefaulterFlag().add(fieldDataValue);
                                 }
@@ -897,11 +1255,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("PromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getPromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate().add(fieldDataValue);
                                 }
@@ -951,11 +1383,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
                                 }
@@ -1005,11 +1511,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
                                 }
@@ -1059,11 +1639,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("WhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getWhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders().add(fieldDataValue);
                                 }
@@ -1113,11 +1767,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionDateUnderCGSSD")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getLoanSanctionDateUnderCGSSD().add(fieldDataValue);
                                 }
@@ -1167,11 +1895,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionedUnderCGSSD")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getLoanSanctionedUnderCGSSD().add(fieldDataValue);
                                 }
@@ -1221,11 +2023,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("WhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getWhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage().add(fieldDataValue);
                                 }
@@ -1275,11 +2151,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfLoanSanctionedUnderTheCGSSD")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getTenureOfLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
                                 }
@@ -1329,11 +2279,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getTenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
                                 }
@@ -1383,11 +2407,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getCurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate().add(fieldDataValue);
                                 }
@@ -1437,11 +2535,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoanOutstandingClassificationUnderCGSSDAsOnReportingDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getLoanOutstandingClassificationUnderCGSSDAsOnReportingDate().add(fieldDataValue);
                                 }
@@ -1491,11 +2663,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getCurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate().add(fieldDataValue);
                                 }
@@ -1545,11 +2791,85 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("MSMEAccountClassificationAsOnReportingDate")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_StressedMSME_Layout1.getMSMEAccountClassificationAsOnReportingDate().add(fieldDataValue);
                                 }
@@ -1599,6 +2919,8262 @@ public class DBS16Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NoFraudOrNoWilfulDefaulterFlag")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getNoFraudOrNoWilfulDefaulterFlag().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("PromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getPromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionDateUnderCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanSanctionDateUnderCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionedUnderCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanSanctionedUnderCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfLoanSanctionedUnderTheCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getTenureOfLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getTenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getCurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanOutstandingClassificationUnderCGSSDAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanOutstandingClassificationUnderCGSSDAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getCurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("MSMEAccountClassificationAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getMSMEAccountClassificationAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NoFraudOrNoWilfulDefaulterFlag")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getNoFraudOrNoWilfulDefaulterFlag().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("PromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getPromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionDateUnderCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanSanctionDateUnderCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionedUnderCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanSanctionedUnderCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfLoanSanctionedUnderTheCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getTenureOfLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getTenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getCurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanOutstandingClassificationUnderCGSSDAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanOutstandingClassificationUnderCGSSDAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getCurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("MicroSmallAndMediumEnterprisesCategoryAxis", dbEntity.getMicroSmallAndMediumEnterprisesCategoryAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("MSMEAccountClassificationAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getMSMEAccountClassificationAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NoFraudOrNoWilfulDefaulterFlag")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getNoFraudOrNoWilfulDefaulterFlag().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("PromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getPromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionDateUnderCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanSanctionDateUnderCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionedUnderCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanSanctionedUnderCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfLoanSanctionedUnderTheCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getTenureOfLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getTenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getCurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanOutstandingClassificationUnderCGSSDAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanOutstandingClassificationUnderCGSSDAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getCurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("MSMEAccountClassificationAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getMSMEAccountClassificationAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsStandardAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherMicroSmallAndMediumEnterprisesAccountClassifiedAsSMA2OrSubstandardAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NoFraudOrNoWilfulDefaulterFlag")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getNoFraudOrNoWilfulDefaulterFlag().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("PromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getPromotersStakeInEquityAndDebtInTheEligibleMSMEEntityAsOnTheCGSSDLoanSanctionDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getExistingSanctionedLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getExistingOutstandingLoanToTheMSMEEntityAsOnSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherDeclarationTakenFromTheBorrowerThatHeOrSheHasNotAvailedFundingUnderTheSchemeFromTheOtherLenders().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionDateUnderCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanSanctionDateUnderCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanSanctionedUnderCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanSanctionedUnderCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("WhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getWhetherCGTMSEApprovalReceivedForTheGuaranteeCoverage().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfLoanSanctionedUnderTheCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getTenureOfLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getTenureOfMoratoriumGrantedOnTheLoanSanctionedUnderTheCGSSD().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getCurrentOutstandingLoanSanctionedUnderCGSSDAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("LoanOutstandingClassificationUnderCGSSDAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getLoanOutstandingClassificationUnderCGSSDAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("CurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getCurrentOutstandingLoanToTheMSMEEntityAsOnTheSpecifiedDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("SectorsAxis", dbEntity.getSectorsAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("MSMEAccountClassificationAsOnReportingDate")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS_StressedMSME_Layout1.getMSMEAccountClassificationAsOnReportingDate().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs_stressedmsme_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS_StressedMSME_Layout1.setNameOfBorrowerAxis(dbEntity.getNameOfBorrowerAxis());
+                                    //fieldDataValue.getMembers().put("NameOfBorrowerAxis", dbEntity.getNameOfBorrowerAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setBorrowerPermanentAccountNumberAxis(dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("BorrowerPermanentAccountNumberAxis", dbEntity.getBorrowerPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setEligibleMicroSmallAndMediumEnterprisesEntityNameAxis(dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                    //fieldDataValue.getMembers().put("EligibleMicroSmallAndMediumEnterprisesEntityNameAxis", dbEntity.getEligibleMicroSmallAndMediumEnterprisesEntityNameAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setMSMEEntityPermanentAccountNumberAxis(dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                    //fieldDataValue.getMembers().put("MSMEEntityPermanentAccountNumberAxis", dbEntity.getMSMEEntityPermanentAccountNumberAxis());
+                                
+                            
+                                dBS_StressedMSME_Layout1.setStateAxis(dbEntity.getStateAxis());
+                                    //fieldDataValue.getMembers().put("StateAxis", dbEntity.getStateAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                         });
@@ -1607,6 +11183,70 @@ public class DBS16Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                         
@@ -1661,6 +11301,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NameOfSignatory")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_AuthorisedSignatory_Layout1.getNameOfSignatory().add(fieldDataValue);
                                 }
@@ -1685,6 +11333,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DesignationOfSignatory")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_AuthorisedSignatory_Layout1.getDesignationOfSignatory().add(fieldDataValue);
                                 }
@@ -1709,6 +11365,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AuthorisedSignatoryOfficialLandlineNumber")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_AuthorisedSignatory_Layout1.getAuthorisedSignatoryOfficialLandlineNumber().add(fieldDataValue);
                                 }
@@ -1733,6 +11397,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("MobileNumberOfAuthorisedSignatory")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_AuthorisedSignatory_Layout1.getMobileNumberOfAuthorisedSignatory().add(fieldDataValue);
                                 }
@@ -1757,6 +11429,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("EMailIDOfAuthorisedReportingOfficial")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_AuthorisedSignatory_Layout1.getEMailIDOfAuthorisedReportingOfficial().add(fieldDataValue);
                                 }
@@ -1781,6 +11461,14 @@ public class DBS16Calculator {
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("Remarks")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
                                     // add fieldDataValue to field
                                     dBS_AuthorisedSignatory_Layout1.getRemarks().add(fieldDataValue);
                                 }
