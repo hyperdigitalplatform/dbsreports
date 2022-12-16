@@ -1,12 +1,12 @@
-package in.armedu.banking.report.rbixbrl.model.dbs16;
+package in.armedu.banking.report.rbixbrl.model.dbs12;
 
 import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
-import in.armedu.banking.report.rbixbrl.model.dbs16.*;
+import in.armedu.banking.report.rbixbrl.model.dbs12.*;
 import in.armedu.banking.report.rbixbrl.model.FieldDataValue;
 
-public class DBS16ReportUtil {
+public class DBS12ReportUtil {
     
     public static String retrieveValueForElement(List<FieldDataValue> fieldList, Map<String, String> members ) {
         if(members.isEmpty()){

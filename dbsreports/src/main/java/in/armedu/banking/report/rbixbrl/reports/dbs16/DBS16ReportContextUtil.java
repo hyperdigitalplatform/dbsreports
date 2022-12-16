@@ -235,6 +235,7 @@ public class DBS16ReportContextUtil {
     public static List<ExplicitMember> createExplicitMembers(Map<String, String> emMap) {
         List<ExplicitMember> explicitMembers = new ArrayList<ExplicitMember>();
         emMap.forEach((type, value)->{
+            if(type.equalsIgnoreCase("in-rbi-rep:TypedDefaultAxis")) return;
             ExplicitMember explicitMemberForExposureType = new org.xbrl._2006.xbrldi.ObjectFactory().createExplicitMember();
             String[] types = type.split(":");
             String[] values = value.split(":");

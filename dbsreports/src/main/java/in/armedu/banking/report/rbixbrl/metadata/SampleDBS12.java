@@ -181,11 +181,11 @@ public class SampleDBS12 {
         }
         System.out.println("Completed");
         ObjectMapper objectMapper = new ObjectMapper();
-        String reportMetaDataJson = objectMapper.writeValueAsString(metaDataNode);
+        //String reportMetaDataJson = objectMapper.writeValueAsString(metaDataNode);
         
         objectMapper.writeValue(new File("metadata/dbs12-reportMetaDataNode.json"), metaDataNode);
         
-        System.out.println(reportMetaDataJson);
+        //System.out.println(reportMetaDataJson);
     }
 
     public static NodeList getDefinitionNodesTree(Document xmlDoc, Node linkNode, String fromNodeName, ReportMetaDataNode breakDownTreeMetaDataNode) throws XPathExpressionException {
