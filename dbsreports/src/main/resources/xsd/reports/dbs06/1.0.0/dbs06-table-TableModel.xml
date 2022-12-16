@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="FilingInfo">
+<table label="FilingInfo_Layout1" header="Filing Information"/>
+<table label="FilingInfo_Layout2" header="Scoping Question"/>
+</tableSet>
+<tableSet label="DBS_LeverageRatio_Solo">
+<table label="DBSLeverageRatioSolo_Layout1" header="Table 1: (A) On-balance sheet items (excluding derivatives and SFTs but including collateral)"/>
+<table label="DBSLeverageRatioSolo_Layout2" header="Table 2: (B) Off-balance sheet items"/>
+<table label="DBSLeverageRatioSolo_Layout3" header="Table 3: (C) Derivatives"/>
+<table label="DBSLeverageRatioSolo_Layout4" header="Table 4: (D) Securities Financing Transactions (SFTs)"/>
+<table label="DBSLeverageRatioSolo_Layout5" header="Table 5: Calculation of the Leverage Ratio"/>
+</tableSet>
+<tableSet label="DBS_LeverageRatio_Consolidated">
+<table label="DBSLeverageRatioConsolidated_Layout1" header="Table 1: (A) On-balance sheet items (excluding derivatives and SFTs but including collateral)"/>
+<table label="DBSLeverageRatioConsolidated_Layout2" header="Table 2: (B) Off-balance sheet items"/>
+<table label="DBSLeverageRatioConsolidated_Layout3" header="Table 3: (C) Derivatives"/>
+<table label="DBSLeverageRatioConsolidated_Layout4" header="Table 4: (D) Securities Financing Transactions (SFTs)"/>
+<table label="DBSLeverageRatioConsolidated_Layout5" header="Table 5: Calculation of the Leverage Ratio"/>
+</tableSet>
+<tableSet label="DBSAuthorisedSignatory">
+<table label="DBSAuthorisedSignatory_Layout1" header="Table 1: Authorised Signatory"/>
+</tableSet>
+</tableModel>
