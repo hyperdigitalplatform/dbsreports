@@ -29,6 +29,8 @@ public class DBS01DBS01OFC_Layout1Entity {
     
         private String assetLiabilityAxis;
     
+        private String parameterAxis;
+    
         private String typeOfLoansAndAdvancesAxis;
     
     private String startDateField;

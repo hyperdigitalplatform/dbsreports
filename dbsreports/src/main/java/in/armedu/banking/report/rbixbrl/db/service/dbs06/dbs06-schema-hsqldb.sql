@@ -51,6 +51,8 @@ CREATE TABLE DBS06DBSLeverageRatioSolo_Layout2Entity (
     
         ConsolidatedAndSeparateFinancialStatementsAxis VARCHAR(255),
     
+        LeverageRatioExposureAxis VARCHAR(255),
+    
     StartDateField VARCHAR(255),
     StartDateValue VARCHAR(255),
     EndDateField VARCHAR(255),
@@ -66,6 +68,10 @@ CREATE TABLE DBS06DBSLeverageRatioSolo_Layout3Entity (
     
     
         ConsolidatedAndSeparateFinancialStatementsAxis VARCHAR(255),
+    
+        LeverageRatioExposureAxis VARCHAR(255),
+    
+        ExposureClassAxis VARCHAR(255),
     
     StartDateField VARCHAR(255),
     StartDateValue VARCHAR(255),
@@ -135,6 +141,8 @@ CREATE TABLE DBS06DBSLeverageRatioConsolidated_Layout2Entity (
     
         ConsolidatedAndSeparateFinancialStatementsAxis VARCHAR(255),
     
+        LeverageRatioExposureAxis VARCHAR(255),
+    
     StartDateField VARCHAR(255),
     StartDateValue VARCHAR(255),
     EndDateField VARCHAR(255),
@@ -150,6 +158,10 @@ CREATE TABLE DBS06DBSLeverageRatioConsolidated_Layout3Entity (
     
     
         ConsolidatedAndSeparateFinancialStatementsAxis VARCHAR(255),
+    
+        LeverageRatioExposureAxis VARCHAR(255),
+    
+        ExposureClassAxis VARCHAR(255),
     
     StartDateField VARCHAR(255),
     StartDateValue VARCHAR(255),

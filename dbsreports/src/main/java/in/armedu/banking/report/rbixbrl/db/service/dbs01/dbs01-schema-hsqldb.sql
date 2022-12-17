@@ -63,6 +63,14 @@ CREATE TABLE DBS01DBS01FS_Layout2Entity (
     
         ParameterAxis VARCHAR(255),
     
+        TypeOfBalanceAxis VARCHAR(255),
+    
+        TypeOfLoansAndAdvancesAxis VARCHAR(255),
+    
+        CounterPartyAxis VARCHAR(255),
+    
+        TypeOfDepositsAxis VARCHAR(255),
+    
     StartDateField VARCHAR(255),
     StartDateValue VARCHAR(255),
     EndDateField VARCHAR(255),
@@ -79,6 +87,8 @@ CREATE TABLE DBS01DBS01FS_Layout3Entity (
     
         TierCapitalDimension VARCHAR(255),
     
+        ParameterAxis VARCHAR(255),
+    
         TypeOfBalanceAxis VARCHAR(255),
     
         TierCapitalClassificationAxis VARCHAR(255),
@@ -90,6 +100,8 @@ CREATE TABLE DBS01DBS01FS_Layout3Entity (
         DevelopingCountryListAxis VARCHAR(255),
     
         GeographicalLocationAxis VARCHAR(255),
+    
+        CounterPartyAxis VARCHAR(255),
     
     StartDateField VARCHAR(255),
     StartDateValue VARCHAR(255),
@@ -106,6 +118,8 @@ CREATE TABLE DBS01DBS01OFC_Layout1Entity (
     
     
         AssetLiabilityAxis VARCHAR(255),
+    
+        ParameterAxis VARCHAR(255),
     
         TypeOfLoansAndAdvancesAxis VARCHAR(255),
     

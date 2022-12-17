@@ -2239,6 +2239,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap217.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap217.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue218 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap217);
                             
                                 startDate = startDateDefault;
@@ -2303,6 +2308,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap224.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap224.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OtherUnconditionallyCancellableCommitmentsMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue225 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap224);
                             
@@ -2369,6 +2379,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap231.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap231.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue232 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap231);
                             
                                 startDate = startDateDefault;
@@ -2433,6 +2448,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap238.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap238.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OffBalanceSheetItemsWith20PercentCreditConversionFactorMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue239 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap238);
                             
@@ -2499,6 +2519,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap245.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap245.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue246 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap245);
                             
                                 startDate = startDateDefault;
@@ -2563,6 +2588,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap252.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap252.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue253 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioSolo_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap252);
                             
@@ -2659,6 +2689,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap259.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap259.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue260 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap259);
                             
                                 startDate = startDateDefault;
@@ -2723,6 +2758,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap266.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap266.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue267 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap266);
                             
@@ -2789,6 +2829,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap273.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap273.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue274 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap273);
                             
                                 startDate = startDateDefault;
@@ -2853,6 +2898,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap280.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap280.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue281 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap280);
                             
@@ -2919,6 +2969,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap287.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap287.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue288 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap287);
                             
                                 startDate = startDateDefault;
@@ -2983,6 +3038,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap294.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap294.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue295 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap294);
                             
@@ -3049,6 +3109,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap301.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap301.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue302 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap301);
                             
                                 startDate = startDateDefault;
@@ -3113,6 +3178,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap308.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap308.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue309 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap308);
                             
@@ -3179,6 +3249,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap315.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap315.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue316 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap315);
                             
                                 startDate = startDateDefault;
@@ -3243,6 +3318,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap322.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap322.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue323 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap322);
                             
@@ -3309,6 +3389,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap329.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap329.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue330 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap329);
                             
                                 startDate = startDateDefault;
@@ -3373,6 +3458,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap336.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap336.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue337 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap336);
                             
@@ -3439,6 +3529,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap343.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap343.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap343.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue344 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap343);
                             
                                 startDate = startDateDefault;
@@ -3503,6 +3603,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap350.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap350.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap350.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue351 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap350);
                             
@@ -3569,6 +3679,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap357.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap357.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap357.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue358 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap357);
                             
                                 startDate = startDateDefault;
@@ -3633,6 +3753,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap364.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap364.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap364.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue365 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap364);
                             
@@ -3699,6 +3829,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap371.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap371.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap371.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue372 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap371);
                             
                                 startDate = startDateDefault;
@@ -3763,6 +3903,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap378.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap378.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap378.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue379 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap378);
                             
@@ -3829,6 +3979,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap385.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap385.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap385.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue386 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap385);
                             
                                 startDate = startDateDefault;
@@ -3893,6 +4053,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap392.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap392.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap392.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue393 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap392);
                             
@@ -3959,6 +4129,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap399.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap399.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap399.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue400 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap399);
                             
                                 startDate = startDateDefault;
@@ -4023,6 +4203,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap406.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap406.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap406.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue407 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap406);
                             
@@ -4089,6 +4279,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap413.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap413.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap413.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue414 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap413);
                             
                                 startDate = startDateDefault;
@@ -4153,6 +4353,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap420.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap420.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap420.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue421 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap420);
                             
@@ -4219,6 +4429,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap427.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap427.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue428 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap427);
                             
                                 startDate = startDateDefault;
@@ -4283,6 +4498,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap434.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap434.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue435 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap434);
                             
@@ -4349,6 +4569,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap441.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap441.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue442 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap441);
                             
                                 startDate = startDateDefault;
@@ -4413,6 +4638,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap448.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap448.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue449 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap448);
                             
@@ -4479,6 +4709,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap455.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap455.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue456 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap455);
                             
                                 startDate = startDateDefault;
@@ -4543,6 +4778,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap462.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap462.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue463 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap462);
                             
@@ -4609,6 +4849,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap469.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap469.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue470 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap469);
                             
                                 startDate = startDateDefault;
@@ -4673,6 +4918,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap476.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap476.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue477 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap476);
                             
@@ -4739,6 +4989,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap483.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap483.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue484 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap483);
                             
                                 startDate = startDateDefault;
@@ -4803,6 +5058,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap490.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap490.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:WrittenCreditDerivativesNetMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue491 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap490);
                             
@@ -4869,6 +5129,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap497.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap497.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue498 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap497);
                             
                                 startDate = startDateDefault;
@@ -4933,6 +5198,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap504.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap504.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue505 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap504);
                             
@@ -4999,6 +5269,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap511.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap511.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue512 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap511);
                             
                                 startDate = startDateDefault;
@@ -5063,6 +5338,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap518.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap518.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue519 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap518);
                             
@@ -5129,6 +5409,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap525.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap525.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue526 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap525);
                             
                                 startDate = startDateDefault;
@@ -5193,6 +5478,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap532.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap532.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue533 = DBS06ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap532);
                             
@@ -5262,6 +5552,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap539.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap539.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue540 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap539);
                             
                                 startDate = startDateDefault;
@@ -5326,6 +5621,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap546.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap546.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue547 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap546);
                             
@@ -5392,6 +5692,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap553.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap553.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue554 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap553);
                             
                                 startDate = startDateDefault;
@@ -5456,6 +5761,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap560.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap560.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue561 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap560);
                             
@@ -5522,6 +5832,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap567.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap567.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue568 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap567);
                             
                                 startDate = startDateDefault;
@@ -5586,6 +5901,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap574.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap574.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue575 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap574);
                             
@@ -5652,6 +5972,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap581.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap581.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue582 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap581);
                             
                                 startDate = startDateDefault;
@@ -5716,6 +6041,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap588.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap588.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue589 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap588);
                             
@@ -5782,6 +6112,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap595.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap595.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue596 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap595);
                             
                                 startDate = startDateDefault;
@@ -5846,6 +6181,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap602.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap602.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue603 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap602);
                             
@@ -5912,6 +6252,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap609.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap609.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue610 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap609);
                             
                                 startDate = startDateDefault;
@@ -5976,6 +6321,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap616.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap616.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue617 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap616);
                             
@@ -6042,6 +6392,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap623.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap623.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap623.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue624 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap623);
                             
                                 startDate = startDateDefault;
@@ -6106,6 +6466,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap630.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap630.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap630.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue631 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap630);
                             
@@ -6172,6 +6542,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap637.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap637.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap637.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue638 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap637);
                             
                                 startDate = startDateDefault;
@@ -6236,6 +6616,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap644.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap644.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap644.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue645 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap644);
                             
@@ -6302,6 +6692,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap651.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap651.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap651.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue652 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap651);
                             
                                 startDate = startDateDefault;
@@ -6366,6 +6766,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap658.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap658.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap658.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue659 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap658);
                             
@@ -6432,6 +6842,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap665.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap665.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap665.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue666 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap665);
                             
                                 startDate = startDateDefault;
@@ -6496,6 +6916,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap672.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap672.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap672.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue673 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap672);
                             
@@ -6562,6 +6992,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap679.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap679.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap679.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue680 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap679);
                             
                                 startDate = startDateDefault;
@@ -6626,6 +7066,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap686.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap686.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap686.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue687 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap686);
                             
@@ -6692,6 +7142,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap693.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap693.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap693.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue694 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap693);
                             
                                 startDate = startDateDefault;
@@ -6756,6 +7216,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap700.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap700.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap700.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue701 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap700);
                             
@@ -6822,6 +7292,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap707.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap707.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue708 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap707);
                             
                                 startDate = startDateDefault;
@@ -6886,6 +7361,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap714.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap714.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue715 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap714);
                             
@@ -6952,6 +7432,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap721.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap721.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue722 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap721);
                             
                                 startDate = startDateDefault;
@@ -7016,6 +7501,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap728.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap728.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue729 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap728);
                             
@@ -7082,6 +7572,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap735.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap735.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue736 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap735);
                             
                                 startDate = startDateDefault;
@@ -7146,6 +7641,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap742.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap742.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue743 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap742);
                             
@@ -7212,6 +7712,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap749.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap749.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue750 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap749);
                             
                                 startDate = startDateDefault;
@@ -7276,6 +7781,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap756.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap756.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue757 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap756);
                             
@@ -7342,6 +7852,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap763.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap763.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue764 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap763);
                             
                                 startDate = startDateDefault;
@@ -7406,6 +7921,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap770.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap770.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:WrittenCreditDerivativesNetMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue771 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap770);
                             
@@ -7472,6 +7992,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap777.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap777.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue778 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap777);
                             
                                 startDate = startDateDefault;
@@ -7536,6 +8061,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap784.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap784.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue785 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap784);
                             
@@ -7602,6 +8132,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap791.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap791.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue792 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap791);
                             
                                 startDate = startDateDefault;
@@ -7666,6 +8201,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap798.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap798.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue799 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap798);
                             
@@ -7732,6 +8272,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap805.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap805.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue806 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap805);
                             
                                 startDate = startDateDefault;
@@ -7796,6 +8341,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap812.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap812.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue813 = DBS06ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap812);
                             
@@ -7865,6 +8415,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap819.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap819.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue820 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap819);
                             
                                 startDate = startDateDefault;
@@ -7929,6 +8484,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap826.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap826.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue827 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap826);
                             
@@ -7995,6 +8555,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap833.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap833.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue834 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap833);
                             
                                 startDate = startDateDefault;
@@ -8059,6 +8624,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap840.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap840.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue841 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap840);
                             
@@ -8125,6 +8695,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap847.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap847.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue848 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap847);
                             
                                 startDate = startDateDefault;
@@ -8189,6 +8764,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap854.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap854.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue855 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap854);
                             
@@ -8255,6 +8835,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap861.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap861.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue862 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap861);
                             
                                 startDate = startDateDefault;
@@ -8319,6 +8904,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap868.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap868.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue869 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap868);
                             
@@ -8385,6 +8975,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap875.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap875.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue876 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap875);
                             
                                 startDate = startDateDefault;
@@ -8449,6 +9044,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap882.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap882.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue883 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap882);
                             
@@ -8515,6 +9115,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap889.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap889.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue890 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap889);
                             
                                 startDate = startDateDefault;
@@ -8579,6 +9184,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap896.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap896.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue897 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap896);
                             
@@ -8645,6 +9255,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap903.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap903.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap903.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue904 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap903);
                             
                                 startDate = startDateDefault;
@@ -8709,6 +9329,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap910.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap910.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap910.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue911 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap910);
                             
@@ -8775,6 +9405,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap917.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap917.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap917.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue918 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap917);
                             
                                 startDate = startDateDefault;
@@ -8839,6 +9479,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap924.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap924.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap924.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue925 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap924);
                             
@@ -8905,6 +9555,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap931.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap931.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap931.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue932 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap931);
                             
                                 startDate = startDateDefault;
@@ -8969,6 +9629,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap938.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap938.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap938.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue939 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap938);
                             
@@ -9035,6 +9705,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap945.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap945.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap945.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue946 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap945);
                             
                                 startDate = startDateDefault;
@@ -9099,6 +9779,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap952.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap952.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap952.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue953 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap952);
                             
@@ -9165,6 +9855,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap959.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap959.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap959.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue960 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap959);
                             
                                 startDate = startDateDefault;
@@ -9229,6 +9929,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap966.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap966.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap966.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue967 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap966);
                             
@@ -9295,6 +10005,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap973.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap973.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap973.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue974 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap973);
                             
                                 startDate = startDateDefault;
@@ -9359,6 +10079,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap980.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap980.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap980.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue981 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap980);
                             
@@ -9425,6 +10155,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap987.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap987.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue988 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap987);
                             
                                 startDate = startDateDefault;
@@ -9489,6 +10224,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap994.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap994.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue995 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap994);
                             
@@ -9555,6 +10295,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1001.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1001.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1002 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1001);
                             
                                 startDate = startDateDefault;
@@ -9619,6 +10364,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1008.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1008.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1009 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1008);
                             
@@ -9685,6 +10435,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1015.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1015.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1016 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1015);
                             
                                 startDate = startDateDefault;
@@ -9749,6 +10504,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1022.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1022.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1023 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1022);
                             
@@ -9815,6 +10575,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1029.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1029.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1030 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1029);
                             
                                 startDate = startDateDefault;
@@ -9879,6 +10644,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1036.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1036.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1037 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1036);
                             
@@ -9945,6 +10715,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1043.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1043.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1044 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1043);
                             
                                 startDate = startDateDefault;
@@ -10009,6 +10784,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1050.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1050.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:WrittenCreditDerivativesNetMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1051 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1050);
                             
@@ -10075,6 +10855,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1057.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1057.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1058 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1057);
                             
                                 startDate = startDateDefault;
@@ -10139,6 +10924,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1064.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1064.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1065 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1064);
                             
@@ -10205,6 +10995,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1071.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1071.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1072 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1071);
                             
                                 startDate = startDateDefault;
@@ -10269,6 +11064,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1078.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1078.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1079 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1078);
                             
@@ -10335,6 +11135,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1085.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1085.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1086 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1085);
                             
                                 startDate = startDateDefault;
@@ -10399,6 +11204,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1092.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1092.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1093 = DBS06ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1092);
                             
@@ -10468,6 +11278,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1099.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1099.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1100 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1099);
                             
                                 startDate = startDateDefault;
@@ -10532,6 +11347,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1106.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1106.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1107 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1106);
                             
@@ -10598,6 +11418,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1113.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1113.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1114 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1113);
                             
                                 startDate = startDateDefault;
@@ -10662,6 +11487,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1120.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1120.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1121 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1120);
                             
@@ -10728,6 +11558,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1127.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1127.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1128 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1127);
                             
                                 startDate = startDateDefault;
@@ -10792,6 +11627,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1134.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1134.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1135 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1134);
                             
@@ -10858,6 +11698,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1141.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1141.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1142 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1141);
                             
                                 startDate = startDateDefault;
@@ -10922,6 +11767,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1148.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1148.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1149 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1148);
                             
@@ -10988,6 +11838,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1155.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1155.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1156 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1155);
                             
                                 startDate = startDateDefault;
@@ -11052,6 +11907,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1162.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1162.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1163 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1162);
                             
@@ -11118,6 +11978,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1169.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1169.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1170 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1169);
                             
                                 startDate = startDateDefault;
@@ -11182,6 +12047,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1176.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1176.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1177 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1176);
                             
@@ -11248,6 +12118,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1183.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1183.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1183.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1184 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1183);
                             
                                 startDate = startDateDefault;
@@ -11312,6 +12192,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1190.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1190.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1190.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1191 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1190);
                             
@@ -11378,6 +12268,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1197.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1197.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1197.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1198 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1197);
                             
                                 startDate = startDateDefault;
@@ -11442,6 +12342,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1204.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1204.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1204.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1205 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1204);
                             
@@ -11508,6 +12418,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1211.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1211.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1211.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1212 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1211);
                             
                                 startDate = startDateDefault;
@@ -11572,6 +12492,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1218.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1218.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1218.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1219 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1218);
                             
@@ -11638,6 +12568,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1225.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1225.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1225.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1226 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1225);
                             
                                 startDate = startDateDefault;
@@ -11702,6 +12642,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1232.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1232.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1232.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1233 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1232);
                             
@@ -11768,6 +12718,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1239.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1239.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1239.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1240 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1239);
                             
                                 startDate = startDateDefault;
@@ -11832,6 +12792,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1246.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1246.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1246.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1247 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1246);
                             
@@ -11898,6 +12868,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1253.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1253.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1253.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1254 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1253);
                             
                                 startDate = startDateDefault;
@@ -11962,6 +12942,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1260.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1260.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1260.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1261 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1260);
                             
@@ -12028,6 +13018,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1267.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1267.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1268 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1267);
                             
                                 startDate = startDateDefault;
@@ -12092,6 +13087,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1274.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1274.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1275 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1274);
                             
@@ -12158,6 +13158,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1281.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1281.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1282 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1281);
                             
                                 startDate = startDateDefault;
@@ -12222,6 +13227,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1288.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1288.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1289 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1288);
                             
@@ -12288,6 +13298,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1295.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1295.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1296 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1295);
                             
                                 startDate = startDateDefault;
@@ -12352,6 +13367,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1302.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1302.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1303 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1302);
                             
@@ -12418,6 +13438,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1309.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1309.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1310 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1309);
                             
                                 startDate = startDateDefault;
@@ -12482,6 +13507,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1316.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1316.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1317 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1316);
                             
@@ -12548,6 +13578,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1323.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1323.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1324 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1323);
                             
                                 startDate = startDateDefault;
@@ -12612,6 +13647,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1330.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1330.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:WrittenCreditDerivativesNetMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1331 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioSolo_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1330);
                             
@@ -12678,6 +13718,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1337.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1337.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1338 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1337);
                             
                                 startDate = startDateDefault;
@@ -12742,6 +13787,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1344.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1344.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1345 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1344);
                             
@@ -12808,6 +13858,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1351.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1351.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1352 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1351);
                             
                                 startDate = startDateDefault;
@@ -12872,6 +13927,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1358.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1358.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1359 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioSolo_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1358);
                             
@@ -12938,6 +13998,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1365.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1365.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1366 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioSolo_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1365);
                             
                                 startDate = startDateDefault;
@@ -13002,6 +14067,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1372.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:StandaloneMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1372.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisStandaloneMemberValue1373 = DBS06ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBSLeverageRatioSolo_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1372);
                             
@@ -14367,6 +15437,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1519.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1519.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1520 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1519);
                             
                                 startDate = startDateDefault;
@@ -14431,6 +15506,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1526.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1526.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OtherUnconditionallyCancellableCommitmentsMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1527 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1526);
                             
@@ -14497,6 +15577,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1533.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1533.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1534 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1533);
                             
                                 startDate = startDateDefault;
@@ -14561,6 +15646,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1540.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1540.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OffBalanceSheetItemsWith20PercentCreditConversionFactorMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1541 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1540);
                             
@@ -14627,6 +15717,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1547.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1547.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1548 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1547);
                             
                                 startDate = startDateDefault;
@@ -14691,6 +15786,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1554.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1554.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1555 = DBS06ReportUtil.retrieveValueForElement(field.getCreditConversionFactor(), explictMember1DBSLeverageRatioConsolidated_Layout2CreditConversionFactorConsolidatedAndSeparateFinancialStatementsAxisMap1554);
                             
@@ -14787,6 +15887,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1561.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1561.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1562 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1561);
                             
                                 startDate = startDateDefault;
@@ -14851,6 +15956,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1568.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1568.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1569 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1568);
                             
@@ -14917,6 +16027,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1575.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1575.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1576 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1575);
                             
                                 startDate = startDateDefault;
@@ -14981,6 +16096,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1582.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1582.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1583 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1582);
                             
@@ -15047,6 +16167,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1589.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1589.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1590 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1589);
                             
                                 startDate = startDateDefault;
@@ -15111,6 +16236,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1596.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1596.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1597 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1596);
                             
@@ -15177,6 +16307,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1603.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1603.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1604 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1603);
                             
                                 startDate = startDateDefault;
@@ -15241,6 +16376,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1610.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1610.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1611 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1610);
                             
@@ -15307,6 +16447,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1617.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1617.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1618 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1617);
                             
                                 startDate = startDateDefault;
@@ -15371,6 +16516,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1624.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1624.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1625 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1624);
                             
@@ -15437,6 +16587,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1631.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1631.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1632 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1631);
                             
                                 startDate = startDateDefault;
@@ -15501,6 +16656,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1638.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1638.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1639 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1638);
                             
@@ -15567,6 +16727,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1645.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1645.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1645.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1646 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1645);
                             
                                 startDate = startDateDefault;
@@ -15631,6 +16801,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1652.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1652.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1652.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1653 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1652);
                             
@@ -15697,6 +16877,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1659.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1659.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1659.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1660 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1659);
                             
                                 startDate = startDateDefault;
@@ -15761,6 +16951,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1666.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1666.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1666.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1667 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1666);
                             
@@ -15827,6 +17027,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1673.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1673.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1673.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1674 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1673);
                             
                                 startDate = startDateDefault;
@@ -15891,6 +17101,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1680.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1680.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1680.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1681 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1680);
                             
@@ -15957,6 +17177,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1687.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1687.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1687.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1688 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1687);
                             
                                 startDate = startDateDefault;
@@ -16021,6 +17251,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1694.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1694.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1694.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1695 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1694);
                             
@@ -16087,6 +17327,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1701.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1701.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1701.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1702 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1701);
                             
                                 startDate = startDateDefault;
@@ -16151,6 +17401,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1708.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1708.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1708.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1709 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1708);
                             
@@ -16217,6 +17477,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1715.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1715.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1715.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1716 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1715);
                             
                                 startDate = startDateDefault;
@@ -16281,6 +17551,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1722.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1722.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1722.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1723 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1722);
                             
@@ -16347,6 +17627,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1729.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1729.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1730 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1729);
                             
                                 startDate = startDateDefault;
@@ -16411,6 +17696,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1736.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1736.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1737 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1736);
                             
@@ -16477,6 +17767,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1743.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1743.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1744 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1743);
                             
                                 startDate = startDateDefault;
@@ -16541,6 +17836,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1750.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1750.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1751 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1750);
                             
@@ -16607,6 +17907,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1757.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1757.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1758 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1757);
                             
                                 startDate = startDateDefault;
@@ -16671,6 +17976,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1764.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1764.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1765 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1764);
                             
@@ -16737,6 +18047,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1771.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1771.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1772 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1771);
                             
                                 startDate = startDateDefault;
@@ -16801,6 +18116,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1778.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1778.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1779 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1778);
                             
@@ -16867,6 +18187,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1785.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1785.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1786 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1785);
                             
                                 startDate = startDateDefault;
@@ -16931,6 +18256,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1792.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1792.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:WrittenCreditDerivativesNetMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1793 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1792);
                             
@@ -16997,6 +18327,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1799.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1799.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1800 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1799);
                             
                                 startDate = startDateDefault;
@@ -17061,6 +18396,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1806.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1806.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1807 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1806);
                             
@@ -17127,6 +18467,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1813.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1813.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1814 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1813);
                             
                                 startDate = startDateDefault;
@@ -17191,6 +18536,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1820.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1820.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1821 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1820);
                             
@@ -17257,6 +18607,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1827.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1827.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1828 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1827);
                             
                                 startDate = startDateDefault;
@@ -17321,6 +18676,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1834.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1834.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1835 = DBS06ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap1834);
                             
@@ -17390,6 +18750,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1841.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1841.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1842 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1841);
                             
                                 startDate = startDateDefault;
@@ -17454,6 +18819,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1848.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1848.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1849 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1848);
                             
@@ -17520,6 +18890,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1855.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1855.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1856 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1855);
                             
                                 startDate = startDateDefault;
@@ -17584,6 +18959,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1862.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1862.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1863 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1862);
                             
@@ -17650,6 +19030,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1869.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1869.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1870 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1869);
                             
                                 startDate = startDateDefault;
@@ -17714,6 +19099,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1876.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1876.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1877 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1876);
                             
@@ -17780,6 +19170,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1883.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1883.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1884 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1883);
                             
                                 startDate = startDateDefault;
@@ -17844,6 +19239,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1890.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1890.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1891 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1890);
                             
@@ -17910,6 +19310,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1897.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1897.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1898 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1897);
                             
                                 startDate = startDateDefault;
@@ -17974,6 +19379,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1904.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1904.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1905 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1904);
                             
@@ -18040,6 +19450,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1911.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1911.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1912 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1911);
                             
                                 startDate = startDateDefault;
@@ -18104,6 +19519,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1918.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1918.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1919 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1918);
                             
@@ -18170,6 +19590,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1925.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1925.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1925.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1926 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1925);
                             
                                 startDate = startDateDefault;
@@ -18234,6 +19664,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1932.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1932.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1932.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1933 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1932);
                             
@@ -18300,6 +19740,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1939.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1939.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1939.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1940 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1939);
                             
                                 startDate = startDateDefault;
@@ -18364,6 +19814,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1946.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1946.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1946.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1947 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1946);
                             
@@ -18430,6 +19890,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1953.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1953.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1953.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1954 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1953);
                             
                                 startDate = startDateDefault;
@@ -18494,6 +19964,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1960.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1960.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1960.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1961 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1960);
                             
@@ -18560,6 +20040,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1967.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1967.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1967.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1968 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1967);
                             
                                 startDate = startDateDefault;
@@ -18624,6 +20114,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1974.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1974.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1974.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1975 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1974);
                             
@@ -18690,6 +20190,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1981.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1981.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1981.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1982 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap1981);
                             
                                 startDate = startDateDefault;
@@ -18754,6 +20264,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1988.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1988.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1988.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1989 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap1988);
                             
@@ -18820,6 +20340,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1995.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1995.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1995.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue1996 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap1995);
                             
                                 startDate = startDateDefault;
@@ -18884,6 +20414,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2002.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2002.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2002.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2003 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2002);
                             
@@ -18950,6 +20490,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2009.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2009.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2010 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2009);
                             
                                 startDate = startDateDefault;
@@ -19014,6 +20559,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2016.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2016.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2017 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2016);
                             
@@ -19080,6 +20630,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2023.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2023.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2024 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2023);
                             
                                 startDate = startDateDefault;
@@ -19144,6 +20699,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2030.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2030.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2031 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2030);
                             
@@ -19210,6 +20770,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2037.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2037.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2038 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2037);
                             
                                 startDate = startDateDefault;
@@ -19274,6 +20839,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2044.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2044.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2045 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2044);
                             
@@ -19340,6 +20910,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2051.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2051.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2052 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2051);
                             
                                 startDate = startDateDefault;
@@ -19404,6 +20979,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2058.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2058.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2059 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2058);
                             
@@ -19470,6 +21050,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2065.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2065.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2066 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2065);
                             
                                 startDate = startDateDefault;
@@ -19534,6 +21119,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2072.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2072.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:WrittenCreditDerivativesNetMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2073 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2072);
                             
@@ -19600,6 +21190,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2079.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2079.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2080 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2079);
                             
                                 startDate = startDateDefault;
@@ -19664,6 +21259,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2086.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2086.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2087 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2086);
                             
@@ -19730,6 +21330,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2093.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2093.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2094 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2093);
                             
                                 startDate = startDateDefault;
@@ -19794,6 +21399,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2100.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2100.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2101 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2100);
                             
@@ -19860,6 +21470,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2107.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2107.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2108 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2107);
                             
                                 startDate = startDateDefault;
@@ -19924,6 +21539,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2114.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2114.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2115 = DBS06ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2114);
                             
@@ -19993,6 +21613,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2121.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2121.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2122 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2121);
                             
                                 startDate = startDateDefault;
@@ -20057,6 +21682,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2128.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2128.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2129 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2128);
                             
@@ -20123,6 +21753,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2135.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2135.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2136 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2135);
                             
                                 startDate = startDateDefault;
@@ -20187,6 +21822,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2142.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2142.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2143 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2142);
                             
@@ -20253,6 +21893,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2149.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2149.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2150 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2149);
                             
                                 startDate = startDateDefault;
@@ -20317,6 +21962,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2156.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2156.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2157 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2156);
                             
@@ -20383,6 +22033,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2163.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2163.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2164 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2163);
                             
                                 startDate = startDateDefault;
@@ -20447,6 +22102,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2170.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2170.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2171 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2170);
                             
@@ -20513,6 +22173,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2177.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2177.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2178 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2177);
                             
                                 startDate = startDateDefault;
@@ -20577,6 +22242,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2184.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2184.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2185 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2184);
                             
@@ -20643,6 +22313,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2191.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2191.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2192 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2191);
                             
                                 startDate = startDateDefault;
@@ -20707,6 +22382,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2198.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2198.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2199 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2198);
                             
@@ -20773,6 +22453,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2205.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2205.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2205.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2206 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2205);
                             
                                 startDate = startDateDefault;
@@ -20837,6 +22527,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2212.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2212.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2212.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2213 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2212);
                             
@@ -20903,6 +22603,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2219.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2219.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2219.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2220 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2219);
                             
                                 startDate = startDateDefault;
@@ -20967,6 +22677,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2226.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2226.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2226.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2227 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2226);
                             
@@ -21033,6 +22753,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2233.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2233.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2233.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2234 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2233);
                             
                                 startDate = startDateDefault;
@@ -21097,6 +22827,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2240.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2240.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2240.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2241 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2240);
                             
@@ -21163,6 +22903,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2247.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2247.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2247.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2248 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2247);
                             
                                 startDate = startDateDefault;
@@ -21227,6 +22977,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2254.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2254.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2254.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2255 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2254);
                             
@@ -21293,6 +23053,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2261.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2261.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2261.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2262 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2261);
                             
                                 startDate = startDateDefault;
@@ -21357,6 +23127,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2268.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2268.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2268.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2269 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2268);
                             
@@ -21423,6 +23203,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2275.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2275.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2275.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2276 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2275);
                             
                                 startDate = startDateDefault;
@@ -21487,6 +23277,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2282.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2282.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2282.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2283 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2282);
                             
@@ -21553,6 +23353,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2289.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2289.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2290 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2289);
                             
                                 startDate = startDateDefault;
@@ -21617,6 +23422,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2296.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2296.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2297 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2296);
                             
@@ -21683,6 +23493,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2303.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2303.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2304 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2303);
                             
                                 startDate = startDateDefault;
@@ -21747,6 +23562,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2310.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2310.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2311 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2310);
                             
@@ -21813,6 +23633,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2317.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2317.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2318 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2317);
                             
                                 startDate = startDateDefault;
@@ -21877,6 +23702,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2324.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2324.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2325 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2324);
                             
@@ -21943,6 +23773,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2331.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2331.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2332 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2331);
                             
                                 startDate = startDateDefault;
@@ -22007,6 +23842,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2338.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2338.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2339 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2338);
                             
@@ -22073,6 +23913,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2345.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2345.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2346 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2345);
                             
                                 startDate = startDateDefault;
@@ -22137,6 +23982,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2352.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2352.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:WrittenCreditDerivativesNetMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2353 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2352);
                             
@@ -22203,6 +24053,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2359.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2359.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2360 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2359);
                             
                                 startDate = startDateDefault;
@@ -22267,6 +24122,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2366.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2366.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2367 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2366);
                             
@@ -22333,6 +24193,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2373.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2373.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2374 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2373);
                             
                                 startDate = startDateDefault;
@@ -22397,6 +24262,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2380.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2380.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2381 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2380);
                             
@@ -22463,6 +24333,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2387.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2387.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2388 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2387);
                             
                                 startDate = startDateDefault;
@@ -22527,6 +24402,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2394.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2394.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2395 = DBS06ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2394);
                             
@@ -22596,6 +24476,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2401.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2401.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2402 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2401);
                             
                                 startDate = startDateDefault;
@@ -22660,6 +24545,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2408.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2408.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2409 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2408);
                             
@@ -22726,6 +24616,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2415.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2415.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionSoldMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2416 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2415);
                             
                                 startDate = startDateDefault;
@@ -22790,6 +24685,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2422.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2422.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2423 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2422);
                             
@@ -22856,6 +24756,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2429.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2429.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2430 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2429);
                             
                                 startDate = startDateDefault;
@@ -22920,6 +24825,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2436.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2436.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesProtectionBoughtMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2437 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2436);
                             
@@ -22986,6 +24896,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2443.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2443.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2444 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2443);
                             
                                 startDate = startDateDefault;
@@ -23050,6 +24965,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2450.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2450.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2451 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2450);
                             
@@ -23116,6 +25036,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2457.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2457.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:FinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2458 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2457);
                             
                                 startDate = startDateDefault;
@@ -23180,6 +25105,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2464.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2464.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2465 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2464);
                             
@@ -23246,6 +25176,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2471.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2471.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2472 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2471);
                             
                                 startDate = startDateDefault;
@@ -23310,6 +25245,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2478.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2478.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2479 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2478);
                             
@@ -23376,6 +25316,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2485.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2485.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2485.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2486 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2485);
                             
                                 startDate = startDateDefault;
@@ -23440,6 +25390,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2492.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2492.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2492.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2493 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2492);
                             
@@ -23506,6 +25466,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2499.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2499.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2499.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2500 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2499);
                             
                                 startDate = startDateDefault;
@@ -23570,6 +25540,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2506.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2506.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2506.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2507 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2506);
                             
@@ -23636,6 +25616,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2513.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2513.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2513.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2514 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2513);
                             
                                 startDate = startDateDefault;
@@ -23700,6 +25690,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2520.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2520.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureToNonQCCPsMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2520.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2521 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2520);
                             
@@ -23766,6 +25766,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2527.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2527.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2527.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2528 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2527);
                             
                                 startDate = startDateDefault;
@@ -23830,6 +25840,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2534.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2534.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2534.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2535 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2534);
                             
@@ -23896,6 +25916,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2541.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2541.put("in-rbi-rep:ExposureClassAxis", "rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2541.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2542 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2541);
                             
                                 startDate = startDateDefault;
@@ -23960,6 +25990,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2548.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2548.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2548.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2549 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2548);
                             
@@ -24026,6 +26066,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2555.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2555.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2555.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2556 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2555);
                             
                                 startDate = startDateDefault;
@@ -24090,6 +26140,16 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2562.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2562.put("in-rbi-rep:ExposureClassAxis", "rbi-core:OtherExposuresMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2562.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:AggregateOfCreditAndFinancialDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2563 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2562);
                             
@@ -24156,6 +26216,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2569.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2569.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2570 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2569);
                             
                                 startDate = startDateDefault;
@@ -24220,6 +26285,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2576.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2576.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2577 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2576);
                             
@@ -24286,6 +26356,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2583.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2583.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2584 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2583);
                             
                                 startDate = startDateDefault;
@@ -24350,6 +26425,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2590.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2590.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2591 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2590);
                             
@@ -24416,6 +26496,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2597.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2597.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2598 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2597);
                             
                                 startDate = startDateDefault;
@@ -24480,6 +26565,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2604.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2604.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2605 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2604);
                             
@@ -24546,6 +26636,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2611.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2611.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:CreditDerivativesBoughtMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2612 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2611);
                             
                                 startDate = startDateDefault;
@@ -24610,6 +26705,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2618.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2618.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2619 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2618);
                             
@@ -24676,6 +26776,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2625.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2625.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2626 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2625);
                             
                                 startDate = startDateDefault;
@@ -24740,6 +26845,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2632.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2632.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:WrittenCreditDerivativesNetMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2633 = DBS06ReportUtil.retrieveValueForElement(field.getNotionalPrincipalAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3NotionalPrincipalAmountConsolidatedAndSeparateFinancialStatementsAxisMap2632);
                             
@@ -24806,6 +26916,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2639.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2639.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2640 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2639);
                             
                                 startDate = startDateDefault;
@@ -24870,6 +26985,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2646.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2646.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2647 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2646);
                             
@@ -24936,6 +27056,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2653.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2653.put("rbi-core:LeverageRatioExposureAxis", "rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2654 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2653);
                             
                                 startDate = startDateDefault;
@@ -25000,6 +27125,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2660.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2660.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2661 = DBS06ReportUtil.retrieveValueForElement(field.getReplacementCost(), explictMember1DBSLeverageRatioConsolidated_Layout3ReplacementCostConsolidatedAndSeparateFinancialStatementsAxisMap2660);
                             
@@ -25066,6 +27196,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2667.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
                                     
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2667.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
+                                    
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2668 = DBS06ReportUtil.retrieveValueForElement(field.getPotentialFutureExposure(), explictMember1DBSLeverageRatioConsolidated_Layout3PotentialFutureExposureConsolidatedAndSeparateFinancialStatementsAxisMap2667);
                             
                                 startDate = startDateDefault;
@@ -25130,6 +27265,11 @@ public class DBS06Report implements XBRLReportIntf {
                                         
                                         
                                         explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2674.put("rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis", "in-rbi-rep:ConsolidatedMember");
+                                    
+                                        
+                                        
+                                        
+                                        explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2674.put("rbi-core:LeverageRatioExposureAxis", "in-rbi-rep:DerivativesMember");
                                     
                                 String explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisConsolidatedMemberValue2675 = DBS06ReportUtil.retrieveValueForElement(field.getExposureAmount(), explictMember1DBSLeverageRatioConsolidated_Layout3ExposureAmountConsolidatedAndSeparateFinancialStatementsAxisMap2674);
                             

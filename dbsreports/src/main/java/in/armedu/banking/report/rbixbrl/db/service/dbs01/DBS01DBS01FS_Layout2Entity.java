@@ -29,6 +29,14 @@ public class DBS01DBS01FS_Layout2Entity {
     
         private String parameterAxis;
     
+        private String typeOfBalanceAxis;
+    
+        private String typeOfLoansAndAdvancesAxis;
+    
+        private String counterPartyAxis;
+    
+        private String typeOfDepositsAxis;
+    
     private String startDateField;
     private String startDateValue;
     private String endDateField;

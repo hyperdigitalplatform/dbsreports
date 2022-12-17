@@ -29,6 +29,8 @@ public class DBS01DBS01FS_Layout3Entity {
     
         private String tierCapitalDimension;
     
+        private String parameterAxis;
+    
         private String typeOfBalanceAxis;
     
         private String tierCapitalClassificationAxis;
@@ -40,6 +42,8 @@ public class DBS01DBS01FS_Layout3Entity {
         private String developingCountryListAxis;
     
         private String geographicalLocationAxis;
+    
+        private String counterPartyAxis;
     
     private String startDateField;
     private String startDateValue;

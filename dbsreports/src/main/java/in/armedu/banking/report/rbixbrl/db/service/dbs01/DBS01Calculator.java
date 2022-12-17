@@ -4480,6 +4480,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4498,6 +4499,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4516,6 +4518,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4534,6 +4537,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4552,6 +4557,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4570,6 +4577,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4588,6 +4597,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4606,6 +4617,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4624,6 +4637,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4642,6 +4657,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4660,6 +4677,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4678,6 +4697,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4696,6 +4717,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4714,6 +4737,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4732,6 +4758,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4750,6 +4779,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4768,6 +4800,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4786,6 +4821,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4804,6 +4842,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4822,6 +4863,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4840,6 +4884,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4858,6 +4905,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4876,6 +4926,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4894,6 +4947,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -4912,6 +4968,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5236,6 +5294,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5254,6 +5313,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5272,6 +5332,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5290,6 +5351,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5308,6 +5370,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5326,6 +5389,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5344,6 +5408,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5362,6 +5427,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5380,6 +5446,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -5398,6 +5465,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6370,6 +6438,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6388,6 +6457,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6406,6 +6476,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6424,6 +6495,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6442,6 +6515,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6460,6 +6535,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6478,6 +6555,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6496,6 +6575,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6514,6 +6595,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6532,6 +6615,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6550,6 +6635,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6568,6 +6655,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6586,6 +6675,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6604,6 +6695,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6622,6 +6716,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6640,6 +6737,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6658,6 +6758,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6676,6 +6779,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6694,6 +6800,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6712,6 +6821,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6730,6 +6842,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6748,6 +6863,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6766,6 +6884,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6784,6 +6905,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -6802,6 +6926,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7126,6 +7252,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7144,6 +7271,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7162,6 +7290,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7180,6 +7309,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7198,6 +7328,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7216,6 +7347,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7234,6 +7366,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7252,6 +7385,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7270,6 +7404,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -7288,6 +7423,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8260,6 +8396,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8278,6 +8415,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8296,6 +8434,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8314,6 +8453,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8332,6 +8473,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8350,6 +8493,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8368,6 +8513,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8386,6 +8533,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8404,6 +8553,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8422,6 +8573,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8440,6 +8593,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8458,6 +8613,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8476,6 +8633,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8494,6 +8653,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8512,6 +8674,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8530,6 +8695,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8548,6 +8716,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8566,6 +8737,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8584,6 +8758,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8602,6 +8779,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8620,6 +8800,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8638,6 +8821,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8656,6 +8842,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8674,6 +8863,9 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -8692,6 +8884,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9016,6 +9210,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9034,6 +9229,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9052,6 +9248,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9070,6 +9267,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9088,6 +9286,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9106,6 +9305,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9124,6 +9324,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9142,6 +9343,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9160,6 +9362,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9178,6 +9381,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
+                                fieldDataValue.getMembers().put("TypeOfDepositsAxis", dbEntity.getTypeOfDepositsAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9968,6 +10172,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -9987,6 +10192,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10006,6 +10212,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalClassificationAxis", dbEntity.getTierCapitalClassificationAxis());
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10024,6 +10231,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10043,6 +10251,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10062,6 +10271,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalClassificationAxis", dbEntity.getTierCapitalClassificationAxis());
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10080,6 +10290,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalClassificationAxis", dbEntity.getTierCapitalClassificationAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10098,6 +10309,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10115,6 +10327,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RiskWeightedAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10132,6 +10345,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ValueOfLargeExposureReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10149,6 +10363,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiquidAssetsCoreReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10166,6 +10381,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiquidAssetsBroadMeasureReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10183,6 +10399,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ShortTermLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10202,6 +10419,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10220,6 +10438,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10238,6 +10457,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10257,6 +10477,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10276,6 +10497,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10295,6 +10517,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10315,6 +10538,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10336,6 +10560,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10356,6 +10581,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10376,6 +10602,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10396,6 +10623,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10416,6 +10644,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10436,6 +10665,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10454,6 +10684,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10471,6 +10702,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ForeignCurrencyLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10488,6 +10720,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ForeignCurrencyLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10505,6 +10738,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NetOpenPositionInEquitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10522,6 +10756,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NetOpenPositionInForeignCurrencyForOnBalanceSheetItems")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10540,6 +10775,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NetOpenPositionInForeignCurrencyForOnBalanceSheetItems")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10557,6 +10793,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RealizedGainsAndLossesOnFinancialInstrumentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10575,6 +10812,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("GainsAndLossesOnTheSaleOfFixedAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10592,6 +10830,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("VeryShortTermDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10610,6 +10849,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NewDepositsDuringThePeriodReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10628,6 +10868,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("WithdrawalOfDepositsDuringThePeriodReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10645,6 +10886,8 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiabilitiesOfBranchesOfForeignDepositTakersToTheirParentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10662,6 +10905,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SharesAndOtherEquityInvestmentsInDepositTakersInTheReportingPopulationReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10679,6 +10923,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InvestmentsAndReverseInvestmentsOfAssociatesOrUnconsolidatedSubsidiariesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10696,6 +10941,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InvestmentInOtherDepositTakersReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10714,6 +10960,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansToPublicSectorStateAndCentralReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10731,6 +10978,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DomesticGovernmentSecuritiesOwnedMarketValueReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10748,6 +10996,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10765,6 +11014,8 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10782,6 +11033,9 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10799,6 +11053,9 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10816,6 +11073,9 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10833,6 +11093,9 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10850,6 +11113,9 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10867,6 +11133,9 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("CounterPartyAxis", dbEntity.getCounterPartyAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10884,6 +11153,8 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10901,6 +11172,8 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReplacementLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10918,6 +11191,8 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("OtherNonPerformingAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10935,6 +11210,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoanLossReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10952,6 +11228,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SpecificProvisionsAgainstTotalDebtClaimsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10969,6 +11246,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ShortfallInProvisionsUnderTheIrbApproachOfBaselIiReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -10986,6 +11264,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ArrearsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11003,6 +11282,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ArrearsOfDepositTakersReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11020,6 +11300,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetsTransferredToSpecialPurposeEntitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11037,6 +11318,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("GuaranteesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11055,6 +11337,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("GuaranteesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11073,6 +11356,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("GuaranteesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11090,6 +11374,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CreditCommitmentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11108,6 +11393,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CreditCommitmentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11126,6 +11412,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CreditCommitmentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11143,6 +11430,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetsManagedButNotOwnedByBanksOrDepositTakersReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11160,6 +11448,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DurationOfAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11177,6 +11466,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DurationOfLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11194,6 +11484,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NumberOfLargeExposuresReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11211,6 +11502,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NumberOfLargeExposureByIndividualReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11228,6 +11520,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NumberOfLargeExposureByGroupReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11245,6 +11538,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExposuresToAffiliatedEntitiesAndOtherConnectedCounterpartiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11263,6 +11557,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11281,6 +11577,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11299,6 +11596,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11317,6 +11615,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ForeignCurrencyLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11335,6 +11634,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11353,6 +11653,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SharesAndOtherEquityReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11371,6 +11672,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("OtherAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11390,6 +11692,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11408,6 +11711,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CurrencyAndDepositLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11426,6 +11730,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CustomerDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11444,6 +11749,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InterbankDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11462,6 +11768,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("OtherCurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11480,6 +11787,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoanLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11498,6 +11806,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DebtSecuritiesLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11516,6 +11825,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("OtherLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11533,6 +11843,8 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ForeignCurrencyLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11550,6 +11862,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RiskWeightedAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11567,6 +11880,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ValueOfLargeExposureReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11584,6 +11898,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiquidAssetsCoreReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11601,6 +11916,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ShortTermLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11618,6 +11934,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NumberOfLargeExposuresReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11636,6 +11953,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11655,6 +11973,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11674,6 +11993,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalClassificationAxis", dbEntity.getTierCapitalClassificationAxis());
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11692,6 +12012,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11711,6 +12032,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11730,6 +12052,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalClassificationAxis", dbEntity.getTierCapitalClassificationAxis());
                                 fieldDataValue.getMembers().put("TierCapitalDimension", dbEntity.getTierCapitalDimension());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11748,6 +12071,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TierCapitalClassificationAxis", dbEntity.getTierCapitalClassificationAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11766,6 +12090,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRegulatoryCapitalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11783,6 +12108,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRiskWeightedAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11800,6 +12126,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForValueOfLargeExposureReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11817,6 +12144,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLiquidAssetsCoreReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11834,6 +12162,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLiquidAssetsBroadMeasureReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11851,6 +12180,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForShortTermLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11870,6 +12200,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11888,6 +12219,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11906,6 +12238,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11925,6 +12258,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11944,6 +12278,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11963,6 +12298,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -11983,6 +12319,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12004,6 +12341,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12024,6 +12362,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12044,6 +12383,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12064,6 +12404,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12084,6 +12425,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12104,6 +12446,7 @@ public class DBS01Calculator {
                                 fieldDataValue.getMembers().put("DevelopingCountryListAxis", dbEntity.getDevelopingCountryListAxis());
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfEconomiesAxis", dbEntity.getTypeOfEconomiesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12122,6 +12465,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12139,6 +12483,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForForeignCurrencyLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12156,6 +12501,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForForeignCurrencyLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12173,6 +12519,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNetOpenPositionInEquitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12190,6 +12537,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNetOpenPositionInForeignCurrencyForOnBalanceSheetItems")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12208,6 +12556,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNetOpenPositionInForeignCurrencyReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12225,6 +12574,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForRealizedGainsAndLossesOnFinancialInstrumentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12243,6 +12593,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForGainsAndLossesOnTheSaleOfFixedAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12260,6 +12611,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForVeryShortTermDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12278,6 +12630,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNewDepositsDuringThePeriodReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12296,6 +12649,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForWithdrawalOfDepositsDuringThePeriodReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12313,6 +12667,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNetLiabilitiesOfBranchesOfForeignDepositTakersToTheirParentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12330,6 +12685,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForSharesAndOtherEquityInvestmentsInDeposit-TakersInTheReportingPopulationReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12347,6 +12703,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInvestmentsAndReverseInvestmentsOfAssociatesOrUnconsolidatedSubsidiariesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12364,6 +12721,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInvestmentInOtherDepositTakersReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12382,6 +12740,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansToPublicSectorStateAndCentralReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12399,6 +12758,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDomesticGovernmentSecuritiesOwnedMarketValueReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12416,6 +12776,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForSectoralDistributionOfNonperformingLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12433,6 +12794,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForResidentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12450,6 +12812,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDepositTakersReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12467,6 +12830,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCentralBankReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12484,6 +12848,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherFinancialCorporationsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12501,6 +12866,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForGeneralGovernmentReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12518,6 +12884,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNonfinancialCorporationsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12535,6 +12902,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherDomesticSectorsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12552,6 +12920,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNonresidentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12569,6 +12938,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForReplacementLoansOutOfTotalLoanReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12586,6 +12956,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherNonperformingAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12603,6 +12974,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoanLossReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12620,6 +12992,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForSpecificProvisionsAgainstTotalDebtClaimsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12637,6 +13010,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForShortfallInProvisionsUnderTheIrbApproachOfBaselIiReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12654,6 +13028,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForArrearsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12671,6 +13046,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForArrearsOfDepositTakersReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12688,6 +13064,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForAssetsTransferredToSpecialPurposeEntitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12705,6 +13082,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForGuaranteesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12723,6 +13101,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForGuaranteesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12741,6 +13120,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForGuaranteesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12758,6 +13138,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCreditCommitmentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12776,6 +13157,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCreditCommitmentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12794,6 +13176,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCreditCommitmentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12811,6 +13194,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForAssetsManagedButNotOwnedByBanksOrDepositTakersReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12828,6 +13212,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDurationOfAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12845,6 +13230,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDurationOfLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12862,6 +13248,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNumberOfLargeExposuresReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12879,6 +13266,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNumberOfLargeExposuresByIndividualReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12896,6 +13284,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNumberOfLargeExposuresByGroupReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12913,6 +13302,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForExposuresToAffiliatedEntitiesAndOtherConnectedCounterpartiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12931,6 +13321,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForFinancialAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12949,6 +13340,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12967,6 +13359,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -12985,6 +13378,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForForeignCurrencyLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13003,6 +13397,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13021,6 +13416,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForSharesAndOtherEquityReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13039,6 +13435,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13058,6 +13455,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfBalanceAxis", dbEntity.getTypeOfBalanceAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13076,6 +13474,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCurrencyAndDepositLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13094,6 +13493,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCustomerDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13112,6 +13512,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInterbankDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13130,6 +13531,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherCurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13148,6 +13550,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoanLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13166,6 +13569,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDebtSecurityLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13184,6 +13588,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13201,6 +13606,7 @@ public class DBS01Calculator {
                         dbs01fs_layout3EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForForeignCurrencyLiabilitiesToNonresidentsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13235,6 +13641,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13253,6 +13660,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NonfinancialAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13271,6 +13679,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13289,6 +13698,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13307,6 +13717,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13325,6 +13736,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13343,6 +13755,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SharesAndOtherEquityReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13361,6 +13774,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InsuranceTechnicalReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13379,6 +13793,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialDerivativesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13397,6 +13812,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("OtherAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13415,6 +13831,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13433,6 +13850,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13451,6 +13869,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13469,6 +13888,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13487,6 +13907,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InsuranceTechnicalReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13505,6 +13926,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("OtherLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13523,6 +13945,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DebtReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13541,6 +13964,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialDerivativesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13559,6 +13983,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CapitalAndReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13576,6 +14001,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("BalanceSheetTotalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13593,6 +14019,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SharesAndOtherEquityInvestmentsInOtherFinancialCorporationsInTheReportingPopulation")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13610,6 +14037,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InvestmentsAndReverseInvestmentsOfAssociatesOrUnconsolidatedSubsidiariesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13627,6 +14055,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InvestmentsInOtherOtherFinancialCorporationsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13644,6 +14073,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NonperformingLoansOwnedBySpecialAssetManagementCompaniesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13661,6 +14091,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetsManagedButNotOwnedByOtherFinancialCorporationsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13679,6 +14110,8 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13698,6 +14131,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13717,6 +14151,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13736,6 +14171,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13755,6 +14191,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("SharesAndOtherEquityReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13774,6 +14211,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InsuranceTechnicalReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13793,6 +14231,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialDerivativesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13812,6 +14251,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("OtherAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13831,6 +14271,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13850,6 +14291,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("CurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13869,6 +14311,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13888,6 +14331,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13907,6 +14351,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("InsuranceTechnicalReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13926,6 +14371,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialDerivativesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13945,6 +14391,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("OtherLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13962,6 +14409,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiquidAssetsCoreReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13979,6 +14427,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("LiquidAssetsBroadMeasureReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -13996,6 +14445,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ShortTermLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14014,6 +14464,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14032,6 +14483,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNonfinancialAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14050,6 +14502,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForFinancialAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14068,6 +14521,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14086,6 +14540,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14104,6 +14559,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14122,6 +14578,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForSharesAndOtherEquityReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14140,6 +14597,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInsuranceTechnicalReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14158,6 +14616,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForFinancialDerivativesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14176,6 +14635,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14194,6 +14654,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14212,6 +14673,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14230,6 +14692,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14248,6 +14711,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14266,6 +14730,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInsuranceTechnicalReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14284,6 +14749,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14302,6 +14768,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDebtReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14320,6 +14787,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForFinancialDerivativesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14338,6 +14806,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCapitalAndReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14355,6 +14824,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForBalanceSheetTotalReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14372,6 +14842,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForSharesAndOtherEquityInvestmentsInOtherFinancialCorporationsInTheReportingPopulation")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14389,6 +14860,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInvestmentsAndReverseInvestmentsOfAssociatesOrUnconsolidatedSubsidiariesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14406,6 +14878,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInvestmentsInOtherOtherFinancialCorporationsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14423,6 +14896,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForNonperformingLoansOwnedBySpecialAssetManagementCompaniesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14440,6 +14914,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForAssetsManagedButNotOwnedByOtherFinancialCorporationsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14458,6 +14933,7 @@ public class DBS01Calculator {
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForFinancialAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14477,6 +14953,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14496,6 +14973,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14515,6 +14993,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14534,6 +15013,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForSharesAndOtherEquityReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14553,6 +15033,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInsuranceTechnicalReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14572,6 +15053,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForFinancialDerivativesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14591,6 +15073,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherAssetsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14610,6 +15093,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14629,6 +15113,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForCurrencyAndDepositsReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14648,6 +15133,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLoansReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14667,6 +15153,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForDebtSecuritiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14686,6 +15173,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForInsuranceTechnicalReservesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14705,6 +15193,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForFinancialDerivativesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14724,6 +15213,7 @@ public class DBS01Calculator {
                             // adding explicit members
                                 fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
                                 fieldDataValue.getMembers().put("TypeOfLoansAndAdvancesAxis", dbEntity.getTypeOfLoansAndAdvancesAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForOtherLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14741,6 +15231,8 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLiquidAssetsCoreReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14758,6 +15250,8 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("AssetLiabilityAxis", dbEntity.getAssetLiabilityAxis());
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForLiquidAssetsBroadMeasureReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
@@ -14775,6 +15269,7 @@ public class DBS01Calculator {
                         dbs01ofc_layout1EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
                             // adding explicit members
+                                fieldDataValue.getMembers().put("ParameterAxis", dbEntity.getParameterAxis());
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("RemarkForShortTermLiabilitiesReportedForFSI")) {
                                     fieldDataValue.setValue(dbEntity.getFieldValue());
