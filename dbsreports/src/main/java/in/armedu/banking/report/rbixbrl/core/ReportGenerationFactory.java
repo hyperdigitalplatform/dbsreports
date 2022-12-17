@@ -14,6 +14,9 @@ public class ReportGenerationFactory {
         else if(RBI_DBS13_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build DBS13 report
             return new XBRLReportBuilder().buildDBS13Report();
         }
+        else if(RBI_DBS12_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build DBS12 report
+            return new XBRLReportBuilder().buildDBS12Report();
+        }
         return null;
     }
 }

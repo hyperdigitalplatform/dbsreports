@@ -1,8 +1,4 @@
-
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -11,25 +7,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -39,11 +16,7 @@
                 'ReturnName',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -52,25 +25,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -80,11 +34,7 @@
                 'ReturnCode',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -93,25 +43,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -121,11 +52,7 @@
                 'NameOfReportingInstitution',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -134,25 +61,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -162,11 +70,7 @@
                 'BankCode',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -175,25 +79,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -203,11 +88,7 @@
                 'InstitutionType',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -216,25 +97,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -244,11 +106,7 @@
                 'ReportingFrequency',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -257,25 +115,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -285,11 +124,7 @@
                 'ReportingPeriodStartDate',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -298,25 +133,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -326,11 +142,7 @@
                 'ReportingPeriodEndDate',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -339,25 +151,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -367,11 +160,7 @@
                 'ReportingCurrency',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -380,25 +169,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -408,11 +178,7 @@
                 'ReportingScale',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -421,25 +187,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -449,11 +196,7 @@
                 'TaxonomyVersion',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -462,25 +205,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -490,11 +214,7 @@
                 'ToolName',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -503,25 +223,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -531,11 +232,7 @@
                 'ToolVersion',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -544,25 +241,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -572,11 +250,7 @@
                 'ReportStatus',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -585,25 +259,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -613,11 +268,7 @@
                 'DateOfAudit',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12FilingInfo_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -626,25 +277,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -654,14 +286,7 @@
                 'GeneralRemarks',
                 'dummy-value'
             );
-        
-    
-    
-
-    
             INSERT INTO DBS12FilingInfo_Layout2Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -670,10 +295,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -683,16 +304,8 @@
                 'WhetherBankSubmittingTheReturnIsForeignBank',
                 'dummy-value'
             );
-        
-    
-    
-
-    
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -701,14 +314,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -718,13 +324,8 @@
                 'TypeOfEntity',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -733,14 +334,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -750,16 +344,8 @@
                 'FinancialClassification',
                 'dummy-value'
             );
-        
-    
-    
-
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -768,29 +354,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -800,13 +364,8 @@
                 'TypeOfEntity',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -815,29 +374,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -847,13 +384,8 @@
                 'FinancialClassification',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -862,29 +394,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -894,13 +404,8 @@
                 'BanksEquityInvestmentInTheCompany',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -909,29 +414,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -941,13 +424,8 @@
                 'BanksPercentageInvestmentInCompanyEquity',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -956,29 +434,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -988,13 +444,8 @@
                 'AggregateAmountOutstandingForFundedExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1003,29 +454,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1035,13 +464,8 @@
                 'FundedCreditExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1050,29 +474,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1082,13 +484,8 @@
                 'AggregateAmountOutstandingForNonFundedExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1097,29 +494,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1129,13 +504,8 @@
                 'NonFundedCreditExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1144,29 +514,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1176,13 +524,8 @@
                 'AggregateInvestmentExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1191,29 +534,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1223,13 +544,8 @@
                 'ExemptedExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1238,29 +554,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1270,13 +564,8 @@
                 'AggregateAmountOutstanding',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1285,29 +574,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1317,13 +584,8 @@
                 'AggregateExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1332,29 +594,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1364,13 +604,8 @@
                 'AssetClassifications',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1379,29 +614,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1411,13 +624,8 @@
                 'AmountOfAggregateProvisionsHeldForNPAs',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1426,29 +634,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1458,13 +644,8 @@
                 'AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1473,29 +654,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1505,13 +664,8 @@
                 'ReasonsForBreachOfStipulatedPrudentialLimits',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-            
                 NameOfEntityAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1520,29 +674,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'NameOfEntityAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1552,18 +684,9 @@
                 'DescriptionOfIntraGroupSupportArrangementsOrAgreements',
                 'dummy-value'
             );
-        
-    
-    
-
-    
             INSERT INTO DBS12DBS12_SectionC_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1572,22 +695,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1597,15 +706,9 @@
                 'TypeOfEntity',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionC_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1614,22 +717,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1639,15 +728,9 @@
                 'TypeOfExposures',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionC_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1656,22 +739,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1681,15 +750,9 @@
                 'ExposureAmount',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionC_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1698,22 +761,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1723,15 +772,9 @@
                 'TermOfCreditExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionC_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1740,22 +783,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1765,15 +794,9 @@
                 'ValueOfSecuritiesCollateral',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionC_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1782,22 +805,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1807,15 +816,9 @@
                 'AssetClassifications',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionC_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1824,22 +827,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1849,18 +838,9 @@
                 'ProvisionForInvestment',
                 'dummy-value'
             );
-        
-    
-    
-
-    
             INSERT INTO DBS12DBS12_SectionD_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1869,21 +849,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1893,15 +860,9 @@
                 'TypeOfExposures',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1910,21 +871,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -1934,15 +882,9 @@
                 'ExposureAmount',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1951,21 +893,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -1975,15 +904,9 @@
                 'TermOfCreditExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1992,21 +915,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -2016,15 +926,9 @@
                 'ValueOfSecuritiesCollateral',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2033,21 +937,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2057,15 +948,9 @@
                 'AssetClassifications',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout1Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2074,21 +959,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -2098,20 +970,10 @@
                 'ProvisionForInvestment',
                 'dummy-value'
             );
-        
-    
-    
-
-    
             INSERT INTO DBS12DBS12_SectionD_Layout2Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
                 NameOfInterestedDirectorManagerAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2120,25 +982,9 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
                         'NameOfInterestedDirectorManagerAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2148,17 +994,10 @@
                 'TypeOfEntity',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout2Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
                 NameOfInterestedDirectorManagerAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2167,25 +1006,9 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
                         'NameOfInterestedDirectorManagerAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2195,17 +1018,10 @@
                 'TypeOfExposures',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout2Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
                 NameOfInterestedDirectorManagerAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2214,25 +1030,9 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
                         'NameOfInterestedDirectorManagerAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -2242,17 +1042,10 @@
                 'ExposureAmount',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout2Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
                 NameOfInterestedDirectorManagerAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2261,25 +1054,9 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
                         'NameOfInterestedDirectorManagerAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2289,17 +1066,10 @@
                 'TermOfCreditExposure',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout2Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
                 NameOfInterestedDirectorManagerAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2308,25 +1078,9 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
                         'NameOfInterestedDirectorManagerAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -2336,17 +1090,10 @@
                 'ValueOfSecuritiesCollateral',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout2Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
                 NameOfInterestedDirectorManagerAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2355,25 +1102,9 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
                         'NameOfInterestedDirectorManagerAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2383,17 +1114,10 @@
                 'AssetClassifications',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBS12_SectionD_Layout2Entity (
-            
                 UniqueTransactionCodeAxis,
-            
                 NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis,
-            
                 NameOfInterestedDirectorManagerAxis,
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2402,25 +1126,9 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
                         'UniqueTransactionCodeAxis-dummy',
-                    
-                
                         'NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis-dummy',
-                    
-                
                         'NameOfInterestedDirectorManagerAxis-dummy',
-                    
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 '',
                 'StartDate-Empty',
                 '',
@@ -2430,14 +1138,7 @@
                 'ProvisionForInvestment',
                 'dummy-value'
             );
-        
-    
-    
-
-    
             INSERT INTO DBS12DBSAuthorisedSignatory_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2446,15 +1147,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2464,11 +1156,7 @@
                 'NameOfSignatory',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBSAuthorisedSignatory_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2477,15 +1165,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2495,11 +1174,7 @@
                 'DesignationOfSignatory',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBSAuthorisedSignatory_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2508,15 +1183,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2526,11 +1192,7 @@
                 'AuthorisedSignatoryOfficialLandlineNumber',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBSAuthorisedSignatory_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2539,15 +1201,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2557,11 +1210,7 @@
                 'MobileNumberOfAuthorisedSignatory',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBSAuthorisedSignatory_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2570,15 +1219,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2588,11 +1228,7 @@
                 'EMailIDOfAuthorisedReportingOfficial',
                 'dummy-value'
             );
-        
-    
             INSERT INTO DBS12DBSAuthorisedSignatory_Layout1Entity (
-            
-            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -2601,15 +1237,6 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -2619,7 +1246,3 @@
                 'Remarks',
                 'dummy-value'
             );
-        
-    
-    
-

@@ -9,5 +9,10 @@ public class XBRLReportBuilder {
         DBS13Report report = new DBS13Report();
          return report;
      }
+     public XBRLReportIntf buildDBS12Report(){
+    
+          DBS12Report report = new DBS12Report();
+           return report;
+       }
 
 }
