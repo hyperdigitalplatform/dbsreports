@@ -1,4 +1,4 @@
-package in.armedu.banking;
+package in.armedu.banking.report.rbixbrl;
 
 import java.io.FileWriter;
 import java.io.StringWriter;
@@ -11,30 +11,30 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import in.armedu.banking.report.rbixbrl.core.ReportGenerationEngine;
 import in.armedu.banking.report.rbixbrl.core.ReportGenerationFactory;
 import in.armedu.banking.report.rbixbrl.core.impl.XBRLReportGenerationEngine;
-import in.armedu.banking.report.rbixbrl.db.service.dbs13.DBS13Calculator;
-import in.armedu.banking.report.rbixbrl.model.dbs13.DBS13ReportData;
+import in.armedu.banking.report.rbixbrl.db.service.dbs12.DBS12Calculator;
+import in.armedu.banking.report.rbixbrl.model.dbs12.DBS12ReportData;
 
 @SpringBootApplication
-public class SampleLEFDBTesting implements CommandLineRunner {
+public class SampleRCEDBTesting implements CommandLineRunner {
     
     @Autowired
-    private DBS13Calculator rosCalculator;
+    private DBS12Calculator rceCalculator;
     
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(SampleLEFDBTesting.class, args);
+        SpringApplication.run(SampleRCEDBTesting.class, args);
     }
 
     @Override
     public void run(String... args) throws Exception {
         
-        DBS13ReportData reportData = rosCalculator.prepareReportData();
+        DBS12ReportData reportData = rceCalculator.prepareReportData();
         reportData.setBankCode("600");
-        reportData.setStartDate("2022-01-01");
-        reportData.setEndDate("2022-03-31");
-        reportData.setPeriodDate("2022-03-31");
+        reportData.setStartDate("2022-04-01");
+        reportData.setEndDate("2022-06-30");
+        reportData.setPeriodDate("2022-06-30");
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
-        StringWriter sw = engine.execute(ReportGenerationFactory.RBI_DBS13_XBRL_REPORT, reportData);
-        FileWriter fw = new FileWriter("reports/lef-instance.xml");
+        StringWriter sw = engine.execute(ReportGenerationFactory.RBI_DBS12_XBRL_REPORT, reportData);
+        FileWriter fw = new FileWriter("reports/rce-instance.xml");
         fw.write(sw.toString());
         fw.close();
 
