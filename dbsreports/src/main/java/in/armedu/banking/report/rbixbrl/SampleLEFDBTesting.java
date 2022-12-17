@@ -1,4 +1,4 @@
-package in.armedu.banking;
+package in.armedu.banking.report.rbixbrl;
 
 import java.io.FileWriter;
 import java.io.StringWriter;

@@ -1,5 +1,6 @@
 package in.armedu.banking.report.rbixbrl.reports;
 
+import in.armedu.banking.report.rbixbrl.reports.dbs12.DBS12Report;
 import in.armedu.banking.report.rbixbrl.reports.dbs13.DBS13Report;
 
 public class XBRLReportBuilder {
