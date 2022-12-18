@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xbrli:xbrl xml:lang="en" xmlns:rbi-par="http://www.rbi.org/in/xbrl/rbi-par" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par">
+    <link:schemaRef xlink:type="simple" xlink:href="in-rbi-dbs12.xsd"/>
+    <xbrli:context id="fromto_20220401_20220630">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_PNBHousingFinanceLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB Housing Finance Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_PNBGiltsLimited">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB Gilts Limited</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_DrukPNBBankLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>Druk PNB  Bank Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_PNBInternationalLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB International Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_PNBInvestmentServicesLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB Investment Services Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_PNBCards&amp;ServicesLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB Cards &amp; Services Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_PNBHousingFinanceLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB Housing Finance Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_PNBGiltsLimited">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB Gilts Limited</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DrukPNBBankLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>Druk PNB  Bank Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_PNBInternationalLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB International Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_PNBInvestmentServicesLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB Investment Services Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_PNBCards&amp;ServicesLtd">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="rbi-core:NameOfEntityAxis">
+                    <rbi-par:NameOfEntityDomain>PNB Cards &amp; Services Ltd</rbi-par:NameOfEntityDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_1_NotApplicable">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>1</in-rbi-rep-par:UniqueTransactionCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis">
+                    <in-rbi-rep-par:NameOfAssistedShareholderOrShareholderInterestedEnterpriseDomain>Not Applicable</in-rbi-rep-par:NameOfAssistedShareholderOrShareholderInterestedEnterpriseDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_1_NotApplicable">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>1</in-rbi-rep-par:UniqueTransactionCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfAssistedShareholderOrShareholderInterestedEnterpriseAxis">
+                    <in-rbi-rep-par:NameOfAssistedShareholderOrShareholderInterestedEnterpriseDomain>Not Applicable</in-rbi-rep-par:NameOfAssistedShareholderOrShareholderInterestedEnterpriseDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_1_NotApplicable_NotApplicable">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>1</in-rbi-rep-par:UniqueTransactionCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis">
+                    <in-rbi-rep-par:NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestDomain>Not Applicable</in-rbi-rep-par:NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfInterestedDirectorManagerAxis">
+                    <in-rbi-rep-par:NameOfInterestedDirectorManagerDomain>Not Applicable</in-rbi-rep-par:NameOfInterestedDirectorManagerDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_1_NotApplicable_NotApplicable">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>1</in-rbi-rep-par:UniqueTransactionCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestAxis">
+                    <in-rbi-rep-par:NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestDomain>Not Applicable</in-rbi-rep-par:NameOfAssistedDirectorManagerOrEnterpriseOfTheirInterestDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfInterestedDirectorManagerAxis">
+                    <in-rbi-rep-par:NameOfInterestedDirectorManagerDomain>Not Applicable</in-rbi-rep-par:NameOfInterestedDirectorManagerDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="INR">
+        <xbrli:measure xmlns="http://www.xbrl.org/2003/iso4217">INR</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="PURE">
+        <xbrli:measure>xbrli:pure</xbrli:measure>
+    </xbrli:unit>
+    <in-rbi-rep:ReturnName contextRef="fromto_20220401_20220630">Report on Connected Exposure</in-rbi-rep:ReturnName>
+    <in-rbi-rep:ReturnCode contextRef="fromto_20220401_20220630">R029</in-rbi-rep:ReturnCode>
+    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20220401_20220630">Punjab National Bank</in-rbi-rep:NameOfReportingInstitution>
+    <in-rbi-rep:BankCode contextRef="asof_20220630">600</in-rbi-rep:BankCode>
+    <rbi-core:InstitutionType contextRef="fromto_20220401_20220630">Nationalised Banks</rbi-core:InstitutionType>
+    <in-rbi-rep:ReportingFrequency contextRef="fromto_20220401_20220630">Quarterly</in-rbi-rep:ReportingFrequency>
+    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20220630">2022-04-01</in-rbi-rep:ReportingPeriodStartDate>
+    <in-rbi-rep:ReportingPeriodEndDate contextRef="asof_20220630">2022-06-30</in-rbi-rep:ReportingPeriodEndDate>
+    <rbi-core:ReportingCurrency contextRef="fromto_20220401_20220630">INR</rbi-core:ReportingCurrency>
+    <rbi-core:ReportingScale contextRef="fromto_20220401_20220630">Actuals</rbi-core:ReportingScale>
+    <rbi-core:TaxonomyVersion contextRef="fromto_20220401_20220630">1.1.0</rbi-core:TaxonomyVersion>
+    <in-rbi-rep:ToolName contextRef="fromto_20220401_20220630">RBI iFile</in-rbi-rep:ToolName>
+    <rbi-core:ToolVersion contextRef="fromto_20220401_20220630">1.0.1</rbi-core:ToolVersion>
+    <in-rbi-rep:ReportStatus contextRef="fromto_20220401_20220630">Audited</in-rbi-rep:ReportStatus>
+    <in-rbi-rep:DateOfAudit contextRef="asof_20220630">2022-07-28</in-rbi-rep:DateOfAudit>
+    <in-rbi-rep:GeneralRemarks contextRef="fromto_20220401_20220630">Verified</in-rbi-rep:GeneralRemarks>
+    <rbi-core:WhetherBankSubmittingTheReturnIsForeignBank contextRef="fromto_20220401_20220630">false</rbi-core:WhetherBankSubmittingTheReturnIsForeignBank>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBHousingFinanceLtd">Associate</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBHousingFinanceLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBGiltsLimited">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBGiltsLimited">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_DrukPNBBankLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_DrukPNBBankLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBInternationalLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBInternationalLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBInvestmentServicesLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBInvestmentServicesLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBCards&amp;ServicesLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBCards&amp;ServicesLtd">Non-Financial Company</rbi-core:FinancialClassification>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBHousingFinanceLtd">Associate</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBHousingFinanceLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <in-rbi-rep:BanksEquityInvestmentInTheCompany decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">4514900000</in-rbi-rep:BanksEquityInvestmentInTheCompany>
+    <in-rbi-rep:BanksPercentageInvestmentInCompanyEquity decimals="INF" unitRef="PURE" contextRef="asof_20220630_PNBHousingFinanceLtd">0.3257</in-rbi-rep:BanksPercentageInvestmentInCompanyEquity>
+    <in-rbi-rep:AggregateAmountOutstandingForFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">43350000000</in-rbi-rep:AggregateAmountOutstandingForFundedExposure>
+    <in-rbi-rep:FundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">55919600000</in-rbi-rep:FundedCreditExposure>
+    <in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">0</in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure>
+    <in-rbi-rep:NonFundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">0</in-rbi-rep:NonFundedCreditExposure>
+    <in-rbi-rep:AggregateInvestmentExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">0</in-rbi-rep:AggregateInvestmentExposure>
+    <rbi-core:ExemptedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">0</rbi-core:ExemptedExposure>
+    <in-rbi-rep:AggregateAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">43350000000</in-rbi-rep:AggregateAmountOutstanding>
+    <in-rbi-rep:AggregateExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">55919600000</in-rbi-rep:AggregateExposure>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_PNBHousingFinanceLtd">Standard</rbi-core:AssetClassifications>
+    <in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">0</in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs>
+    <in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBHousingFinanceLtd">0</in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding>
+    <rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits contextRef="fromto_20220401_20220630_PNBHousingFinanceLtd">0</rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits>
+    <rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements contextRef="fromto_20220401_20220630_PNBHousingFinanceLtd">0</rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBGiltsLimited">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBGiltsLimited">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <in-rbi-rep:BanksEquityInvestmentInTheCompany decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">750000000</in-rbi-rep:BanksEquityInvestmentInTheCompany>
+    <in-rbi-rep:BanksPercentageInvestmentInCompanyEquity decimals="INF" unitRef="PURE" contextRef="asof_20220630_PNBGiltsLimited">0.7407</in-rbi-rep:BanksPercentageInvestmentInCompanyEquity>
+    <in-rbi-rep:AggregateAmountOutstandingForFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">7149200000</in-rbi-rep:AggregateAmountOutstandingForFundedExposure>
+    <in-rbi-rep:FundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">19000000000</in-rbi-rep:FundedCreditExposure>
+    <in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">0</in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure>
+    <in-rbi-rep:NonFundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">0</in-rbi-rep:NonFundedCreditExposure>
+    <in-rbi-rep:AggregateInvestmentExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">0</in-rbi-rep:AggregateInvestmentExposure>
+    <rbi-core:ExemptedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">0</rbi-core:ExemptedExposure>
+    <in-rbi-rep:AggregateAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">7149200000</in-rbi-rep:AggregateAmountOutstanding>
+    <in-rbi-rep:AggregateExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">19000000000</in-rbi-rep:AggregateExposure>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_PNBGiltsLimited">Standard</rbi-core:AssetClassifications>
+    <in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">0</in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs>
+    <in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBGiltsLimited">0</in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding>
+    <rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits contextRef="fromto_20220401_20220630_PNBGiltsLimited">0</rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits>
+    <rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements contextRef="fromto_20220401_20220630_PNBGiltsLimited">0</rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_DrukPNBBankLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_DrukPNBBankLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <in-rbi-rep:BanksEquityInvestmentInTheCompany decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">420700000</in-rbi-rep:BanksEquityInvestmentInTheCompany>
+    <in-rbi-rep:BanksPercentageInvestmentInCompanyEquity decimals="INF" unitRef="PURE" contextRef="asof_20220630_DrukPNBBankLtd">0.5100</in-rbi-rep:BanksPercentageInvestmentInCompanyEquity>
+    <in-rbi-rep:AggregateAmountOutstandingForFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">0</in-rbi-rep:AggregateAmountOutstandingForFundedExposure>
+    <in-rbi-rep:FundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">0</in-rbi-rep:FundedCreditExposure>
+    <in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">95500000</in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure>
+    <in-rbi-rep:NonFundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">350000000</in-rbi-rep:NonFundedCreditExposure>
+    <in-rbi-rep:AggregateInvestmentExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">0</in-rbi-rep:AggregateInvestmentExposure>
+    <rbi-core:ExemptedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">0</rbi-core:ExemptedExposure>
+    <in-rbi-rep:AggregateAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">95500000</in-rbi-rep:AggregateAmountOutstanding>
+    <in-rbi-rep:AggregateExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">350000000</in-rbi-rep:AggregateExposure>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_DrukPNBBankLtd">Standard</rbi-core:AssetClassifications>
+    <in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">0</in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs>
+    <in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_DrukPNBBankLtd">0</in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding>
+    <rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits contextRef="fromto_20220401_20220630_DrukPNBBankLtd">0</rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits>
+    <rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements contextRef="fromto_20220401_20220630_DrukPNBBankLtd">0</rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBInternationalLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBInternationalLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <in-rbi-rep:BanksEquityInvestmentInTheCompany decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">15571900000</in-rbi-rep:BanksEquityInvestmentInTheCompany>
+    <in-rbi-rep:BanksPercentageInvestmentInCompanyEquity decimals="INF" unitRef="PURE" contextRef="asof_20220630_PNBInternationalLtd">1</in-rbi-rep:BanksPercentageInvestmentInCompanyEquity>
+    <in-rbi-rep:AggregateAmountOutstandingForFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:AggregateAmountOutstandingForFundedExposure>
+    <in-rbi-rep:FundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:FundedCreditExposure>
+    <in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure>
+    <in-rbi-rep:NonFundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:NonFundedCreditExposure>
+    <in-rbi-rep:AggregateInvestmentExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:AggregateInvestmentExposure>
+    <rbi-core:ExemptedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</rbi-core:ExemptedExposure>
+    <in-rbi-rep:AggregateAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:AggregateAmountOutstanding>
+    <in-rbi-rep:AggregateExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:AggregateExposure>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_PNBInternationalLtd">Not Applicable</rbi-core:AssetClassifications>
+    <in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs>
+    <in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInternationalLtd">0</in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding>
+    <rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits contextRef="fromto_20220401_20220630_PNBInternationalLtd">0</rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits>
+    <rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements contextRef="fromto_20220401_20220630_PNBInternationalLtd">0</rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBInvestmentServicesLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBInvestmentServicesLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
+    <in-rbi-rep:BanksEquityInvestmentInTheCompany decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">200000000</in-rbi-rep:BanksEquityInvestmentInTheCompany>
+    <in-rbi-rep:BanksPercentageInvestmentInCompanyEquity decimals="INF" unitRef="PURE" contextRef="asof_20220630_PNBInvestmentServicesLtd">1</in-rbi-rep:BanksPercentageInvestmentInCompanyEquity>
+    <in-rbi-rep:AggregateAmountOutstandingForFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">600000</in-rbi-rep:AggregateAmountOutstandingForFundedExposure>
+    <in-rbi-rep:FundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">0</in-rbi-rep:FundedCreditExposure>
+    <in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">0</in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure>
+    <in-rbi-rep:NonFundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">0</in-rbi-rep:NonFundedCreditExposure>
+    <in-rbi-rep:AggregateInvestmentExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">0</in-rbi-rep:AggregateInvestmentExposure>
+    <rbi-core:ExemptedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">0</rbi-core:ExemptedExposure>
+    <in-rbi-rep:AggregateAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">600000</in-rbi-rep:AggregateAmountOutstanding>
+    <in-rbi-rep:AggregateExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">0</in-rbi-rep:AggregateExposure>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_PNBInvestmentServicesLtd">Standard</rbi-core:AssetClassifications>
+    <in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">0</in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs>
+    <in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBInvestmentServicesLtd">0</in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding>
+    <rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits contextRef="fromto_20220401_20220630_PNBInvestmentServicesLtd">0</rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits>
+    <rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements contextRef="fromto_20220401_20220630_PNBInvestmentServicesLtd">0</rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_PNBCards&amp;ServicesLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
+    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_PNBCards&amp;ServicesLtd">Non-Financial Company</rbi-core:FinancialClassification>
+    <in-rbi-rep:BanksEquityInvestmentInTheCompany decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">150000000</in-rbi-rep:BanksEquityInvestmentInTheCompany>
+    <in-rbi-rep:BanksPercentageInvestmentInCompanyEquity decimals="INF" unitRef="PURE" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">1</in-rbi-rep:BanksPercentageInvestmentInCompanyEquity>
+    <in-rbi-rep:AggregateAmountOutstandingForFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:AggregateAmountOutstandingForFundedExposure>
+    <in-rbi-rep:FundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:FundedCreditExposure>
+    <in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:AggregateAmountOutstandingForNonFundedExposure>
+    <in-rbi-rep:NonFundedCreditExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:NonFundedCreditExposure>
+    <in-rbi-rep:AggregateInvestmentExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:AggregateInvestmentExposure>
+    <rbi-core:ExemptedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</rbi-core:ExemptedExposure>
+    <in-rbi-rep:AggregateAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:AggregateAmountOutstanding>
+    <in-rbi-rep:AggregateExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:AggregateExposure>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_PNBCards&amp;ServicesLtd">Not Applicable</rbi-core:AssetClassifications>
+    <in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:AmountOfAggregateProvisionsHeldForNPAs>
+    <in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_PNBCards&amp;ServicesLtd">0</in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding>
+    <rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits contextRef="fromto_20220401_20220630_PNBCards&amp;ServicesLtd">0</rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits>
+    <rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements contextRef="fromto_20220401_20220630_PNBCards&amp;ServicesLtd">0</rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_1_NotApplicable">Not Applicable</rbi-core:TypeOfEntity>
+    <rbi-core:TypeOfExposures contextRef="fromto_20220401_20220630_1_NotApplicable">Not Applicable</rbi-core:TypeOfExposures>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:TermOfCreditExposure contextRef="fromto_20220401_20220630_1_NotApplicable">0</in-rbi-rep:TermOfCreditExposure>
+    <in-rbi-rep:ValueOfSecuritiesCollateral decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable">0</in-rbi-rep:ValueOfSecuritiesCollateral>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_1_NotApplicable">Not Applicable</rbi-core:AssetClassifications>
+    <in-rbi-rep:ProvisionForInvestment decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable">0</in-rbi-rep:ProvisionForInvestment>
+    <rbi-core:TypeOfExposures contextRef="fromto_20220401_20220630_1_NotApplicable">Not Applicable</rbi-core:TypeOfExposures>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:TermOfCreditExposure contextRef="fromto_20220401_20220630_1_NotApplicable">0</in-rbi-rep:TermOfCreditExposure>
+    <in-rbi-rep:ValueOfSecuritiesCollateral decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable">0</in-rbi-rep:ValueOfSecuritiesCollateral>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_1_NotApplicable">Not Applicable</rbi-core:AssetClassifications>
+    <in-rbi-rep:ProvisionForInvestment decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable">0</in-rbi-rep:ProvisionForInvestment>
+    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_1_NotApplicable_NotApplicable">Not Applicable</rbi-core:TypeOfEntity>
+    <rbi-core:TypeOfExposures contextRef="fromto_20220401_20220630_1_NotApplicable_NotApplicable">Not Applicable</rbi-core:TypeOfExposures>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable_NotApplicable">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:TermOfCreditExposure contextRef="fromto_20220401_20220630_1_NotApplicable_NotApplicable">Not Applicable</in-rbi-rep:TermOfCreditExposure>
+    <in-rbi-rep:ValueOfSecuritiesCollateral decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable_NotApplicable">0</in-rbi-rep:ValueOfSecuritiesCollateral>
+    <rbi-core:AssetClassifications contextRef="fromto_20220401_20220630_1_NotApplicable_NotApplicable">Not Applicable</rbi-core:AssetClassifications>
+    <in-rbi-rep:ProvisionForInvestment decimals="INF" unitRef="INR" contextRef="asof_20220630_1_NotApplicable_NotApplicable">0</in-rbi-rep:ProvisionForInvestment>
+    <in-rbi-rep:NameOfSignatory contextRef="fromto_20220401_20220630">abc</in-rbi-rep:NameOfSignatory>
+    <in-rbi-rep:DesignationOfSignatory contextRef="fromto_20220401_20220630">Chief Manager</in-rbi-rep:DesignationOfSignatory>
+    <rbi-core:AuthorisedSignatoryOfficialLandlineNumber contextRef="fromto_20220401_20220630">11111111111</rbi-core:AuthorisedSignatoryOfficialLandlineNumber>
+    <in-rbi-rep:MobileNumberOfAuthorisedSignatory contextRef="fromto_20220401_20220630">9999999999</in-rbi-rep:MobileNumberOfAuthorisedSignatory>
+    <in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20220401_20220630">abc@pnb.com</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+    <in-rbi-rep:Remarks contextRef="fromto_20220401_20220630">Verified</in-rbi-rep:Remarks>
+</xbrli:xbrl>
