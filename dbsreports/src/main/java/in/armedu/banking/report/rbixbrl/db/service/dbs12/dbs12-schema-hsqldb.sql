@@ -33,6 +33,8 @@ CREATE TABLE DBS12DBS12_SectionA_Layout1Entity (
         NameOfEntityAxis VARCHAR(255),
     
     
+        GeographicalLocationAxis VARCHAR(255),
+    
     StartDateField VARCHAR(255),
     StartDateValue VARCHAR(255),
     EndDateField VARCHAR(255),
@@ -48,6 +50,8 @@ CREATE TABLE DBS12DBS12_SectionB_Layout1Entity (
     
         NameOfEntityAxis VARCHAR(255),
     
+    
+        GeographicalLocationAxis VARCHAR(255),
     
     StartDateField VARCHAR(255),
     StartDateValue VARCHAR(255),

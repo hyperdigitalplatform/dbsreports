@@ -29,6 +29,8 @@ public class DBS12DBS12_SectionA_Layout1Entity {
         private String nameOfEntityAxis;
     
     
+        private String geographicalLocationAxis;
+    
     private String startDateField;
     private String startDateValue;
     private String endDateField;

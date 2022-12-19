@@ -306,6 +306,7 @@
             );
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -315,6 +316,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -326,6 +328,7 @@
             );
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -335,6 +338,95 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'FinancialClassification',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'TypeOfEntity',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'FinancialClassification',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'TypeOfEntity',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -346,6 +438,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -355,6 +448,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -366,6 +460,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -375,6 +470,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -386,6 +482,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -395,6 +492,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -406,6 +504,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -415,6 +514,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -426,6 +526,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -435,6 +536,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -446,6 +548,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -455,6 +558,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -466,6 +570,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -475,6 +580,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -486,6 +592,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -495,6 +602,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -506,6 +614,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -515,6 +624,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -526,6 +636,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -535,6 +646,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -546,6 +658,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -555,6 +668,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -566,6 +680,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -575,6 +690,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -586,6 +702,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -595,6 +712,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -606,6 +724,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -615,6 +734,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -626,6 +746,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -635,6 +756,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 'StartDate-Empty',
                 '',
@@ -646,6 +768,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -655,6 +778,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',
@@ -666,6 +790,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -675,6 +800,755 @@
             FieldName,
             FieldValue ) VALUES (
                         'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:DomesticMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'DescriptionOfIntraGroupSupportArrangementsOrAgreements',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'TypeOfEntity',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'FinancialClassification',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'BanksEquityInvestmentInTheCompany',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'BanksPercentageInvestmentInCompanyEquity',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateAmountOutstandingForFundedExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'FundedCreditExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateAmountOutstandingForNonFundedExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NonFundedCreditExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateInvestmentExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExemptedExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateAmountOutstanding',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'AssetClassifications',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AmountOfAggregateProvisionsHeldForNPAs',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'ReasonsForBreachOfStipulatedPrudentialLimits',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:OverseasMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'DescriptionOfIntraGroupSupportArrangementsOrAgreements',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'TypeOfEntity',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'FinancialClassification',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'BanksEquityInvestmentInTheCompany',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'BanksPercentageInvestmentInCompanyEquity',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateAmountOutstandingForFundedExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'FundedCreditExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateAmountOutstandingForNonFundedExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NonFundedCreditExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateInvestmentExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExemptedExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateAmountOutstanding',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AggregateExposure',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'AssetClassifications',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AmountOfAggregateProvisionsHeldForNPAs',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
+                'xs:date($refPeriodStartDate)',
+                'StartDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'EndDate-Empty',
+                '',
+                'InstantDate-Empty',
+                'ReasonsForBreachOfStipulatedPrudentialLimits',
+                'dummy-value'
+            );
+            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
+                NameOfEntityAxis,
+                GeographicalLocationAxis,
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 'StartDate-Empty',
                 'xs:date($refPeriodEndDate)',

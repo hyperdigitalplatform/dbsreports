@@ -841,7 +841,13 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
@@ -873,7 +879,13 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialClassification")) {
@@ -905,6 +917,162 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionA_Layout1.getTypeOfEntity().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectiona_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionA_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("FinancialClassification")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionA_Layout1.getFinancialClassification().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectiona_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionA_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionA_Layout1.getTypeOfEntity().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectiona_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionA_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("FinancialClassification")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionA_Layout1.getFinancialClassification().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectiona_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionA_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                         });
@@ -913,6 +1081,10 @@ public class DBS12Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
+                        
+                        
+                        
+                        
                         
                         
                         
@@ -959,7 +1131,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
@@ -1006,7 +1214,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FinancialClassification")) {
@@ -1053,7 +1297,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("BanksEquityInvestmentInTheCompany")) {
@@ -1100,7 +1380,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("BanksPercentageInvestmentInCompanyEquity")) {
@@ -1147,7 +1463,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstandingForFundedExposure")) {
@@ -1194,7 +1546,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("FundedCreditExposure")) {
@@ -1241,7 +1629,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstandingForNonFundedExposure")) {
@@ -1288,7 +1712,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("NonFundedCreditExposure")) {
@@ -1335,7 +1795,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateInvestmentExposure")) {
@@ -1382,7 +1878,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExemptedExposure")) {
@@ -1429,7 +1961,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstanding")) {
@@ -1476,7 +2044,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AggregateExposure")) {
@@ -1523,7 +2127,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AssetClassifications")) {
@@ -1570,7 +2210,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AmountOfAggregateProvisionsHeldForNPAs")) {
@@ -1617,7 +2293,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding")) {
@@ -1664,7 +2376,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ReasonsForBreachOfStipulatedPrudentialLimits")) {
@@ -1711,7 +2459,43 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("DescriptionOfIntraGroupSupportArrangementsOrAgreements")) {
@@ -1758,6 +2542,2862 @@ public class DBS12Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getTypeOfEntity().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("FinancialClassification")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getFinancialClassification().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("BanksEquityInvestmentInTheCompany")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getBanksEquityInvestmentInTheCompany().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("BanksPercentageInvestmentInCompanyEquity")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getBanksPercentageInvestmentInCompanyEquity().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstandingForFundedExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateAmountOutstandingForFundedExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("FundedCreditExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getFundedCreditExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstandingForNonFundedExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateAmountOutstandingForNonFundedExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NonFundedCreditExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getNonFundedCreditExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateInvestmentExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateInvestmentExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExemptedExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getExemptedExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstanding")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateAmountOutstanding().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AssetClassifications")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAssetClassifications().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AmountOfAggregateProvisionsHeldForNPAs")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAmountOfAggregateProvisionsHeldForNPAs().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ReasonsForBreachOfStipulatedPrudentialLimits")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getReasonsForBreachOfStipulatedPrudentialLimits().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("DescriptionOfIntraGroupSupportArrangementsOrAgreements")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getDescriptionOfIntraGroupSupportArrangementsOrAgreements().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("TypeOfEntity")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getTypeOfEntity().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("FinancialClassification")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getFinancialClassification().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("BanksEquityInvestmentInTheCompany")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getBanksEquityInvestmentInTheCompany().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("BanksPercentageInvestmentInCompanyEquity")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getBanksPercentageInvestmentInCompanyEquity().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstandingForFundedExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateAmountOutstandingForFundedExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("FundedCreditExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getFundedCreditExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstandingForNonFundedExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateAmountOutstandingForNonFundedExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NonFundedCreditExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getNonFundedCreditExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateInvestmentExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateInvestmentExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExemptedExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getExemptedExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateAmountOutstanding")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateAmountOutstanding().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AggregateExposure")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAggregateExposure().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AssetClassifications")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAssetClassifications().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AmountOfAggregateProvisionsHeldForNPAs")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAmountOfAggregateProvisionsHeldForNPAs().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getAmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ReasonsForBreachOfStipulatedPrudentialLimits")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getReasonsForBreachOfStipulatedPrudentialLimits().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("GeographicalLocationAxis", dbEntity.getGeographicalLocationAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("DescriptionOfIntraGroupSupportArrangementsOrAgreements")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBS12_SectionB_Layout1.getDescriptionOfIntraGroupSupportArrangementsOrAgreements().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbs12_sectionb_layout1EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                                dBS12_SectionB_Layout1.setNameOfEntityAxis(dbEntity.getNameOfEntityAxis());
+                                    //fieldDataValue.getMembers().put("NameOfEntityAxis", dbEntity.getNameOfEntityAxis());
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                         });
@@ -1766,6 +5406,40 @@ public class DBS12Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                         
