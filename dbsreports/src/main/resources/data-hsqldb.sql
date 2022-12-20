@@ -176,7 +176,7 @@
                 '',
                 '2022-06-30',
                 'ReportingScale',
-                'Actuals'
+                'Lakhs'
             );
             INSERT INTO DBS12FilingInfo_Layout1Entity (
             StartDateField,
@@ -194,7 +194,7 @@
                 '',
                 '2022-06-30',
                 'TaxonomyVersion',
-                '1.1.0'
+                '1.0.0'
             );
             INSERT INTO DBS12FilingInfo_Layout1Entity (
             StartDateField,
@@ -284,7 +284,7 @@
                 '',
                 '2022-06-30',
                 'GeneralRemarks',
-                'Verified'
+                ''
             );
             INSERT INTO DBS12FilingInfo_Layout2Entity (
             StartDateField,
@@ -302,10 +302,11 @@
                 '',
                 '2022-06-30',
                 'WhetherBankSubmittingTheReturnIsForeignBank',
-                'No'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -315,6 +316,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -326,6 +328,7 @@
             );
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -335,6 +338,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -343,51 +347,10 @@
                 '2022-06-30',
                 'FinancialClassification',
                 'Financial and Regulated Company'
-
-            );
-             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'TypeOfEntity',
-                'Subsidiary - Parent'
             );
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
                 NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'FinancialClassification',
-                'Financial and Regulated Company'
-
-            );
-             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
-                NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -397,6 +360,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -408,6 +372,7 @@
             );
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -417,6 +382,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -425,10 +391,10 @@
                 '2022-06-30',
                 'FinancialClassification',
                 'Financial and Regulated Company'
-
             );
-             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
+            INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -437,7 +403,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -445,10 +412,11 @@
                 '',
                 '2022-06-30',
                 'TypeOfEntity',
-                'Subsidiary - Parent'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -457,7 +425,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -465,93 +434,11 @@
                 '',
                 '2022-06-30',
                 'FinancialClassification',
-                'Financial and Regulated Company'
-
-            );
-             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'TypeOfEntity',
-                'Subsidiary - Parent'
-            );
-            INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'FinancialClassification',
-                'Non-Financial Company'
-
-            );
-             INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'TypeOfEntity',
-                'Associate'
-            );
-            INSERT INTO DBS12DBS12_SectionA_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'FinancialClassification',
-                'Financial and Regulated Company'
-
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -561,6 +448,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -572,6 +460,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -581,6 +470,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -592,6 +482,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -601,6 +492,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -612,6 +504,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -621,6 +514,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -632,6 +526,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -641,6 +536,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -652,6 +548,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -661,6 +558,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -672,6 +570,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -681,6 +580,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -692,6 +592,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -701,6 +602,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -712,6 +614,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -721,6 +624,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -732,6 +636,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -741,6 +646,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -752,6 +658,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -761,6 +668,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -772,6 +680,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -781,6 +690,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -792,6 +702,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -801,6 +712,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -812,6 +724,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -821,6 +734,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -832,6 +746,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -841,6 +756,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 '',
                 '2022-04-01',
                 '',
@@ -852,6 +768,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -861,6 +778,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -872,6 +790,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -881,6 +800,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB Gilts Limited',
+                    'in-rbi-rep:DomesticMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -892,6 +812,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -900,7 +821,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
+                        'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -912,6 +834,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -920,7 +843,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
+                        'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -932,306 +856,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'BanksEquityInvestmentInTheCompany',
-                '200000000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'BanksPercentageInvestmentInCompanyEquity',
-                '1'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstandingForFundedExposure',
-                '600000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'FundedCreditExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstandingForNonFundedExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'NonFundedCreditExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateInvestmentExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'ExemptedExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstanding',
-                '600000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'AssetClassifications',
-                'Standard'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AmountOfAggregateProvisionsHeldForNPAs',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'ReasonsForBreachOfStipulatedPrudentialLimits',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Investment Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'DescriptionOfIntraGroupSupportArrangementsOrAgreements',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1241,46 +866,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'TypeOfEntity',
-                'Subsidiary - Parent'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB International Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'FinancialClassification',
-                'Financial and Regulated Company'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1292,6 +878,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1301,6 +888,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1312,6 +900,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1321,6 +910,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1332,6 +922,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1341,6 +932,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1352,6 +944,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1361,6 +954,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1372,6 +966,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1381,6 +976,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1392,6 +988,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1401,6 +998,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1412,6 +1010,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1421,6 +1020,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1432,6 +1032,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1441,6 +1042,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1452,6 +1054,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1461,6 +1064,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1472,6 +1076,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1481,6 +1086,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -1492,6 +1098,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1501,6 +1108,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1512,6 +1120,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1521,6 +1130,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1532,6 +1142,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1541,6 +1152,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -1552,6 +1164,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1561,6 +1174,7 @@
             FieldName,
             FieldValue ) VALUES (
                         'PNB International Ltd',
+                    'in-rbi-rep:OverseasMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -1572,6 +1186,7 @@
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1580,7 +1195,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -1588,10 +1204,11 @@
                 '',
                 '2022-06-30',
                 'TypeOfEntity',
-                'Subsidiary - Parent'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1600,7 +1217,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -1608,10 +1226,11 @@
                 '',
                 '2022-06-30',
                 'FinancialClassification',
-                'Financial and Regulated Company'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1620,7 +1239,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1628,10 +1248,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'BanksEquityInvestmentInTheCompany',
-                '420700000'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1640,7 +1261,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1648,10 +1270,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'BanksPercentageInvestmentInCompanyEquity',
-                '0.5100'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1660,7 +1283,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1668,10 +1292,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'AggregateAmountOutstandingForFundedExposure',
-                '0'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1680,7 +1305,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1688,10 +1314,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'FundedCreditExposure',
-                '0'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1700,7 +1327,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1708,10 +1336,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'AggregateAmountOutstandingForNonFundedExposure',
-                '95500000'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1720,7 +1349,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1728,10 +1358,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'NonFundedCreditExposure',
-                '350000000'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1740,7 +1371,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1748,10 +1380,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'AggregateInvestmentExposure',
-                '0'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1760,7 +1393,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1768,10 +1402,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ExemptedExposure',
-                '0'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1780,7 +1415,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1788,10 +1424,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'AggregateAmountOutstanding',
-                '95500000'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1800,7 +1437,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1808,10 +1446,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'AggregateExposure',
-                '350000000'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1820,7 +1459,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -1828,10 +1468,11 @@
                 '',
                 '2022-06-30',
                 'AssetClassifications',
-                'Standard'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1840,7 +1481,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1848,10 +1490,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'AmountOfAggregateProvisionsHeldForNPAs',
-                '0'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1860,7 +1503,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 '',
                 '2022-04-01',
                 '',
@@ -1868,10 +1512,11 @@
                 'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding',
-                '0'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1880,7 +1525,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -1888,10 +1534,11 @@
                 '',
                 '2022-06-30',
                 'ReasonsForBreachOfStipulatedPrudentialLimits',
-                '0'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
+                GeographicalLocationAxis,
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -1900,7 +1547,8 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        'Druk PNB  Bank Ltd',
+                        'NameOfEntityAxis-dummy',
+                    'in-rbi-rep:NotApplicableMember',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
                 'xs:date($refPeriodEndDate)',
@@ -1908,687 +1556,7 @@
                 '',
                 '2022-06-30',
                 'DescriptionOfIntraGroupSupportArrangementsOrAgreements',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'TypeOfEntity',
-                'Subsidiary - Parent'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'FinancialClassification',
-                'Non-Financial Company'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'BanksEquityInvestmentInTheCompany',
-                '150000000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'BanksPercentageInvestmentInCompanyEquity',
-                '1'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstandingForFundedExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'FundedCreditExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstandingForNonFundedExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'NonFundedCreditExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateInvestmentExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'ExemptedExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstanding',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'AssetClassifications',
-                'Not Applicable'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AmountOfAggregateProvisionsHeldForNPAs',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'ReasonsForBreachOfStipulatedPrudentialLimits',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Cards & Services Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'DescriptionOfIntraGroupSupportArrangementsOrAgreements',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'TypeOfEntity',
-                'Associate'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'FinancialClassification',
-                'Financial and Regulated Company'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'BanksEquityInvestmentInTheCompany',
-                '4514900000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'BanksPercentageInvestmentInCompanyEquity',
-                '0.3257'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstandingForFundedExposure',
-                '43350000000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'FundedCreditExposure',
-                '55919600000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstandingForNonFundedExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'NonFundedCreditExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateInvestmentExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'ExemptedExposure',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateAmountOutstanding',
-                '43350000000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AggregateExposure',
-                '55919600000'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'AssetClassifications',
-                'Standard'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AmountOfAggregateProvisionsHeldForNPAs',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                '',
-                '2022-04-01',
-                '',
-                '2022-06-30',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                'AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'ReasonsForBreachOfStipulatedPrudentialLimits',
-                '0'
-            );
-            INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
-                NameOfEntityAxis,
-            StartDateField,
-            StartDateValue,
-            EndDateField,
-            EndDateValue,
-            InstantDateField,
-            InstantDateValue,
-            FieldName,
-            FieldValue ) VALUES (
-                        'PNB Housing Finance Ltd',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
-                '',
-                '2022-06-30',
-                'DescriptionOfIntraGroupSupportArrangementsOrAgreements',
-                '0'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionC_Layout1Entity (
                 UniqueTransactionCodeAxis,
@@ -2647,11 +1615,11 @@
             FieldValue ) VALUES (
                         '1',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ExposureAmount',
                 '0'
@@ -2691,11 +1659,11 @@
             FieldValue ) VALUES (
                         '1',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ValueOfSecuritiesCollateral',
                 '0'
@@ -2735,11 +1703,11 @@
             FieldValue ) VALUES (
                         '1',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ProvisionForInvestment',
                 '0'
@@ -2755,7 +1723,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '2',
                         'Not Applicable',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
@@ -2777,13 +1745,13 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '2',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ExposureAmount',
                 '0'
@@ -2799,7 +1767,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '2',
                         'Not Applicable',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
@@ -2821,13 +1789,13 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '2',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ValueOfSecuritiesCollateral',
                 '0'
@@ -2843,7 +1811,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '2',
                         'Not Applicable',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
@@ -2865,13 +1833,13 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '2',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ProvisionForInvestment',
                 '0'
@@ -2888,7 +1856,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '3',
                         'Not Applicable',
                         'Not Applicable',
                 'xs:date($refPeriodStartDate)',
@@ -2912,7 +1880,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '3',
                         'Not Applicable',
                         'Not Applicable',
                 'xs:date($refPeriodStartDate)',
@@ -2936,14 +1904,14 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '3',
                         'Not Applicable',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ExposureAmount',
                 '0'
@@ -2960,7 +1928,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '3',
                         'Not Applicable',
                         'Not Applicable',
                 'xs:date($refPeriodStartDate)',
@@ -2970,7 +1938,7 @@
                 '',
                 '2022-06-30',
                 'TermOfCreditExposure',
-                'Not Applicable'
+                '0'
             );
             INSERT INTO DBS12DBS12_SectionD_Layout2Entity (
                 UniqueTransactionCodeAxis,
@@ -2984,14 +1952,14 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '3',
                         'Not Applicable',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ValueOfSecuritiesCollateral',
                 '0'
@@ -3008,7 +1976,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '3',
                         'Not Applicable',
                         'Not Applicable',
                 'xs:date($refPeriodStartDate)',
@@ -3032,14 +2000,14 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                        '1',
+                        '3',
                         'Not Applicable',
                         'Not Applicable',
-                'xs:date($refPeriodStartDate)',
-                '2022-04-01',
-                'xs:date($refPeriodEndDate)',
-                '2022-06-30',
                 '',
+                '2022-04-01',
+                '',
+                '2022-06-30',
+                'xs:date($refPeriodEndDate)',
                 '2022-06-30',
                 'ProvisionForInvestment',
                 '0'
@@ -3060,7 +2028,7 @@
                 '',
                 '2022-06-30',
                 'NameOfSignatory',
-                'abc'
+                'abcd'
             );
             INSERT INTO DBS12DBSAuthorisedSignatory_Layout1Entity (
             StartDateField,

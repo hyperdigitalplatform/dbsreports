@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xbrli:xbrl xml:lang="en" xmlns:rbi-par="http://www.rbi.org/in/xbrl/rbi-par" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par">
-    <link:schemaRef xlink:type="simple" xlink:href="in-rbi-dbs12.xsd"/>
+    <link:schemaRef xlink:type="simple" xlink:href="dbs12-entry.xsd"/>
     <xbrli:context id="fromto_20220401_20220630">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
