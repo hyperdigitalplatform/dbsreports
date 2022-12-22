@@ -34,7 +34,7 @@ public class SampleRCEDBTesting implements CommandLineRunner {
         reportData.setPeriodDate("2022-06-30");
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
         StringWriter sw = engine.execute(ReportGenerationFactory.RBI_DBS12_XBRL_REPORT, reportData);
-        FileWriter fw = new FileWriter("reports/rce-instance.xml");
+        FileWriter fw = new FileWriter("rce-instance.xml");
         fw.write(sw.toString());
         fw.close();
 
