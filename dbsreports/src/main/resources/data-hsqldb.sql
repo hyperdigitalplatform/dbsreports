@@ -478,7 +478,7 @@
                 '',
                 '2022-06-30',
                 'FinancialClassification',
-                'Financial and Regulated Company'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
@@ -852,7 +852,7 @@
                 '',
                 '2022-06-30',
                 'FinancialClassification',
-                'Financial and Regulated Company'
+                ''
             );
             INSERT INTO DBS12DBS12_SectionB_Layout1Entity (
                 NameOfEntityAxis,
