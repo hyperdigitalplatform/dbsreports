@@ -7,6 +7,7 @@ public class ReportGenerationFactory {
 
     public static final String RBI_DBS13_XBRL_REPORT = "RBI_DBS13_XBRL_REPORT";
     public static final String RBI_DBS12_XBRL_REPORT = "RBI_DBS12_XBRL_REPORT";
+    public static final String RBI_DBS01_XBRL_REPORT = "RBI_DBS01_XBRL_REPORT";
 
     public XBRLReportIntf createXBRLReport(String reportType){
         // return null if report type is null
@@ -17,6 +18,9 @@ public class ReportGenerationFactory {
         }
         else if(RBI_DBS12_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build DBS12 report
             return new XBRLReportBuilder().buildDBS12Report();
+        }
+        else if(RBI_DBS01_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build DBS01 report
+            return new XBRLReportBuilder().buildDBS01Report();
         }
         return null;
     }

@@ -206,8 +206,6 @@
     <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_DomesticMember_PNBGiltsLimited">Financial and Regulated Company</rbi-core:FinancialClassification>
     <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_OverseasMember_PNBInternationalLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
     <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_OverseasMember_PNBInternationalLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
-    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_DomesticMember_PNBGiltsLimited">Subsidiary - Parent</rbi-core:TypeOfEntity>
-    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_DomesticMember_PNBGiltsLimited">Financial and Regulated Company</rbi-core:FinancialClassification>
     <in-rbi-rep:BanksEquityInvestmentInTheCompany decimals="INF" unitRef="INR" contextRef="asof_20220630_DomesticMember_PNBGiltsLimited">750000000</in-rbi-rep:BanksEquityInvestmentInTheCompany>
     <in-rbi-rep:BanksPercentageInvestmentInCompanyEquity decimals="INF" unitRef="PURE" contextRef="asof_20220630_DomesticMember_PNBGiltsLimited">0.7407</in-rbi-rep:BanksPercentageInvestmentInCompanyEquity>
     <in-rbi-rep:AggregateAmountOutstandingForFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DomesticMember_PNBGiltsLimited">7149200000</in-rbi-rep:AggregateAmountOutstandingForFundedExposure>
@@ -223,8 +221,6 @@
     <in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding decimals="INF" unitRef="INR" contextRef="asof_20220630_DomesticMember_PNBGiltsLimited">0</in-rbi-rep:AmountOfUnsecuredAmountOutstandingOfTotalAmountOutstanding>
     <rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits contextRef="fromto_20220401_20220630_DomesticMember_PNBGiltsLimited">0</rbi-core:ReasonsForBreachOfStipulatedPrudentialLimits>
     <rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements contextRef="fromto_20220401_20220630_DomesticMember_PNBGiltsLimited">0</rbi-core:DescriptionOfIntraGroupSupportArrangementsOrAgreements>
-    <rbi-core:TypeOfEntity contextRef="fromto_20220401_20220630_OverseasMember_PNBInternationalLtd">Subsidiary - Parent</rbi-core:TypeOfEntity>
-    <rbi-core:FinancialClassification contextRef="fromto_20220401_20220630_OverseasMember_PNBInternationalLtd">Financial and Regulated Company</rbi-core:FinancialClassification>
     <in-rbi-rep:BanksEquityInvestmentInTheCompany decimals="INF" unitRef="INR" contextRef="asof_20220630_OverseasMember_PNBInternationalLtd">15571900000</in-rbi-rep:BanksEquityInvestmentInTheCompany>
     <in-rbi-rep:BanksPercentageInvestmentInCompanyEquity decimals="INF" unitRef="PURE" contextRef="asof_20220630_OverseasMember_PNBInternationalLtd">1</in-rbi-rep:BanksPercentageInvestmentInCompanyEquity>
     <in-rbi-rep:AggregateAmountOutstandingForFundedExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_OverseasMember_PNBInternationalLtd">0</in-rbi-rep:AggregateAmountOutstandingForFundedExposure>
