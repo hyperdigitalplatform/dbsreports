@@ -159,7 +159,7 @@ public class DBS01FS_Layout3 {
     
         private List<FieldDataValue> remarkForNetLiabilitiesOfBranchesOfForeignDepositTakersToTheirParentsReportedForFSI = new ArrayList<FieldDataValue>();
     
-        private List<FieldDataValue> remarkForSharesAndOtherEquityInvestmentsInDeposit-TakersInTheReportingPopulationReportedForFSI = new ArrayList<FieldDataValue>();
+        private List<FieldDataValue> remarkForSharesAndOtherEquityInvestmentsInDepositTakersInTheReportingPopulationReportedForFSI = new ArrayList<FieldDataValue>();
     
         private List<FieldDataValue> remarkForInvestmentsAndReverseInvestmentsOfAssociatesOrUnconsolidatedSubsidiariesReportedForFSI = new ArrayList<FieldDataValue>();
     

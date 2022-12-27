@@ -137,6 +137,9 @@ public class DBS01ReportContextUtil {
         List<ExplicitMember> explicitMembers = new ArrayList<ExplicitMember>();
         emMap.forEach((type, value)->{
             if(type.equalsIgnoreCase("in-rbi-rep:TypedDefaultAxis")) return;
+            // ignore if value is empty or blank
+            if(value.isBlank() || value.isEmpty()) return;
+            
             ExplicitMember explicitMemberForExposureType = new org.xbrl._2006.xbrldi.ObjectFactory().createExplicitMember();
             String[] types = type.split(":");
             String[] values = value.split(":");
