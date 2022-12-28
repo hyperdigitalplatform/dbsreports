@@ -1639,6 +1639,178 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -1675,6 +1847,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -1711,6 +2003,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -1747,6 +2159,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -1783,6 +2315,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -1819,6 +2471,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -1847,6 +2619,178 @@ public class DBS06Calculator {
                     
                         dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             
                             
                             
@@ -1863,6 +2807,22 @@ public class DBS06Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                         
@@ -4826,9 +5786,30 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
@@ -4855,6 +5836,991 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioSolo_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratiosolo_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                         });
@@ -4863,6 +6829,25 @@ public class DBS06Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                     
@@ -5821,6 +7806,178 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -5857,6 +8014,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -5893,6 +8170,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -5929,6 +8326,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -5965,6 +8482,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -6001,6 +8638,126 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
@@ -6029,6 +8786,178 @@ public class DBS06Calculator {
                     
                         dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
                             FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("NotionalPrincipalAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getNotionalPrincipalAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout2.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout2EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             
                             
                             
@@ -6045,6 +8974,22 @@ public class DBS06Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                         
@@ -9008,9 +11953,30 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                                 fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
                             
                                 // set value for field
                                 if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
@@ -9037,6 +12003,991 @@ public class DBS06Calculator {
                             
                             
                             
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("ExposureClassAxis", dbEntity.getExposureClassAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            // adding explicit members
+                            
+                                fieldDataValue.getMembers().put("ConsolidatedAndSeparateFinancialStatementsAxis", dbEntity.getConsolidatedAndSeparateFinancialStatementsAxis());
+                            
+                                fieldDataValue.getMembers().put("LeverageRatioExposureAxis", dbEntity.getLeverageRatioExposureAxis());
+                            
+                                // set value for field
+                                if(dbEntity.getFieldName().equalsIgnoreCase("ExposureAmount")) {
+                                    fieldDataValue.setValue(dbEntity.getFieldValue());
+                                    // add startdate , enddate, and instantdate
+                                    fieldDataValue.setStartDateField(dbEntity.getStartDateField());
+                                    fieldDataValue.setStartDateValue(dbEntity.getStartDateValue());
+                                    fieldDataValue.setEndDateField(dbEntity.getEndDateField());
+                                    fieldDataValue.setEndDateValue(dbEntity.getEndDateValue());
+                                    fieldDataValue.setInstantDateField(dbEntity.getInstantDateField());
+                                    fieldDataValue.setInstantDateValue(dbEntity.getInstantDateValue());
+                                    
+                                    // add fieldDataValue to field
+                                    dBSLeverageRatioConsolidated_Layout4.getExposureAmount().add(fieldDataValue);
+                                }
+                                
+                            
+                        });
+                        
+                         
+                    
+                        dbsleverageratioconsolidated_layout4EntitiesList.forEach((dbEntity)->{
+                            FieldDataValue fieldDataValue = new FieldDataValue();
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
                             // adding explicit members
                             
                         });
@@ -9045,6 +12996,25 @@ public class DBS06Calculator {
                     
                     // end all datafields and create mapping
                     // add model to reportdata
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         
                         
                     

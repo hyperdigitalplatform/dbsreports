@@ -1499,6 +1499,187 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:StandaloneMember',
                 
                     'rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember',
@@ -1529,6 +1710,132 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OtherUnconditionallyCancellableCommitmentsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -1577,6 +1884,132 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OtherUnconditionallyCancellableCommitmentsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:StandaloneMember',
                 
                     'rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
@@ -1607,6 +2040,132 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith20PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -1655,6 +2214,132 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith20PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:StandaloneMember',
                 
                     'rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember',
@@ -1694,6 +2379,132 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:StandaloneMember',
                 
                     'rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember',
@@ -1705,6 +2516,171 @@
                 'xs:date($refPeriodEndDate)',
                 'InstantDate-Empty',
                 'CreditConversionFactor',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetExposureItemMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:OffBalanceSheetExposureItemMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
                 'dummy-value'
             );
         
@@ -4800,6 +5776,10 @@
             
                 ConsolidatedAndSeparateFinancialStatementsAxis,
             
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -4812,7 +5792,1113 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:AdjustmentsForSFTSalesAccountingTransactionsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember',
+                
+                    'rbi-core:ExposureToQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember',
+                
+                    'rbi-core:ExposureToNonQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember',
+                
+                    'rbi-core:ExposureDueToOtherSFTsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember',
+                
+                    'rbi-core:ExposureToQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:NettedAmountsOfGrossSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossCCRExpsoureForSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossCCRExpsoureForSFTAssetsMember',
+                
+                    'rbi-core:ExposureToQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossCCRExpsoureForSFTAssetsMember',
+                
+                    'rbi-core:ExposureToNonQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:GrossCCRExpsoureForSFTAssetsMember',
+                
+                    'rbi-core:ExposureDueToOtherSFTsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:AmountOfCCRExposureAfterNettingMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:AmountOfCCRExposureAfterNettingMember',
+                
+                    'rbi-core:ExposureToQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:CCRExpsoureForSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:AgentTransactionExposureForSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:ExposureDueToGuaranteeIndemnityProvidedMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:FutherExposureBeyondTheGuaranteeOrIndemnityProvidedMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioSolo_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:StandaloneMember',
+                
+                    'rbi-core:TotalSecuritiesFinancingTransactionsExposuresMember',
+                
+                    '',
                 
                 '',
                 'StartDate-Empty',
@@ -5750,6 +7836,187 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:ConsolidatedMember',
                 
                     'rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember',
@@ -5780,6 +8047,132 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OtherUnconditionallyCancellableCommitmentsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -5828,6 +8221,132 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OtherUnconditionallyCancellableCommitmentsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:ConsolidatedMember',
                 
                     'rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
@@ -5858,6 +8377,132 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith20PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -5906,6 +8551,132 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith20PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:ConsolidatedMember',
                 
                     'rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember',
@@ -5945,6 +8716,132 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:ConsolidatedMember',
                 
                     'rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember',
@@ -5956,6 +8853,171 @@
                 'xs:date($refPeriodEndDate)',
                 'InstantDate-Empty',
                 'CreditConversionFactor',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetExposureItemMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'NotionalPrincipalAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout2Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:OffBalanceSheetExposureItemMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
                 'dummy-value'
             );
         
@@ -9051,6 +12113,10 @@
             
                 ConsolidatedAndSeparateFinancialStatementsAxis,
             
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
             StartDateField,
             StartDateValue,
             EndDateField,
@@ -9063,7 +12129,1113 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                     'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:AdjustmentsForSFTSalesAccountingTransactionsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember',
+                
+                    'rbi-core:ExposureToQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember',
+                
+                    'rbi-core:ExposureToNonQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember',
+                
+                    'rbi-core:ExposureDueToOtherSFTsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember',
+                
+                    'rbi-core:ExposureToQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:NettedAmountsOfGrossSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossCCRExpsoureForSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossCCRExpsoureForSFTAssetsMember',
+                
+                    'rbi-core:ExposureToQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossCCRExpsoureForSFTAssetsMember',
+                
+                    'rbi-core:ExposureToNonQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:GrossCCRExpsoureForSFTAssetsMember',
+                
+                    'rbi-core:ExposureDueToOtherSFTsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:AmountOfCCRExposureAfterNettingMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:AmountOfCCRExposureAfterNettingMember',
+                
+                    'rbi-core:ExposureToQCCPsMember',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:CCRExpsoureForSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:AgentTransactionExposureForSFTAssetsMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:ExposureDueToGuaranteeIndemnityProvidedMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:FutherExposureBeyondTheGuaranteeOrIndemnityProvidedMember',
+                
+                    '',
+                
+                '',
+                'StartDate-Empty',
+                '',
+                'EndDate-Empty',
+                'xs:date($refPeriodEndDate)',
+                'InstantDate-Empty',
+                'ExposureAmount',
+                'dummy-value'
+            );
+        
+    
+            INSERT INTO DBS06DBSLeverageRatioConsolidated_Layout4Entity (
+            
+            
+                ConsolidatedAndSeparateFinancialStatementsAxis,
+            
+                LeverageRatioExposureAxis,
+            
+                ExposureClassAxis,
+            
+            StartDateField,
+            StartDateValue,
+            EndDateField,
+            EndDateValue,
+            InstantDateField,
+            InstantDateValue,
+            FieldName,
+            FieldValue ) VALUES (
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    'in-rbi-rep:ConsolidatedMember',
+                
+                    'rbi-core:TotalSecuritiesFinancingTransactionsExposuresMember',
+                
+                    '',
                 
                 '',
                 'StartDate-Empty',

@@ -17,6 +17,10 @@ import lombok.Setter;
 public class DBSLeverageRatioConsolidated_Layout2 {
     
     
+        private List<FieldDataValue> notionalPrincipalAmount = new ArrayList<FieldDataValue>();
+    
+        private List<FieldDataValue> exposureAmount = new ArrayList<FieldDataValue>();
+    
         private List<FieldDataValue> creditConversionFactor = new ArrayList<FieldDataValue>();
      
 }

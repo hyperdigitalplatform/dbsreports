@@ -29,6 +29,10 @@ public class DBS06DBSLeverageRatioSolo_Layout4Entity {
     
         private String consolidatedAndSeparateFinancialStatementsAxis;
     
+        private String leverageRatioExposureAxis;
+    
+        private String exposureClassAxis;
+    
     private String startDateField;
     private String startDateValue;
     private String endDateField;
