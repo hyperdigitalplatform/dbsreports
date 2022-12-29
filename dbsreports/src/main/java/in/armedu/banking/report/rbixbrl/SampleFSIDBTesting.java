@@ -34,7 +34,7 @@ import in.armedu.banking.report.rbixbrl.model.dbs01.DBS01ReportData;
             reportData.setPeriodDate("2022-06-30");
             ReportGenerationEngine engine = new XBRLReportGenerationEngine();
             StringWriter sw = engine.execute(ReportGenerationFactory.RBI_DBS01_XBRL_REPORT, reportData);
-            FileWriter fw = new FileWriter("fsi-instance.xml");
+            FileWriter fw = new FileWriter("reports/fsi-instance.xml");
             fw.write(sw.toString());
             fw.close();
     

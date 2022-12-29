@@ -11586,55 +11586,55 @@ public class DBS01Report implements XBRLReportIntf {
                             
                             // - LoansReportedForFSI
                             
-                                Map zeroDBS01FS_Layout3LoansReportedForFSIMap1440 = new HashMap<String, String>();
+                            //     Map zeroDBS01FS_Layout3LoansReportedForFSIMap1440 = new HashMap<String, String>();
                                 
                                 
                                 
                                         
                                         
-                                        zeroDBS01FS_Layout3LoansReportedForFSIMap1440.put("rbi-core:TypeOfBalanceAxis", "rbi-core:GrossMember");
+                            //             zeroDBS01FS_Layout3LoansReportedForFSIMap1440.put("rbi-core:TypeOfBalanceAxis", "rbi-core:GrossMember");
                                     
                                         
                                         
-                                        zeroDBS01FS_Layout3LoansReportedForFSIMap1440.put("in-rbi-rep:ParameterAxis", "rbi-core:ConsolidatedEntityIncludingInternationalOperationsMember");
+                            //             zeroDBS01FS_Layout3LoansReportedForFSIMap1440.put("in-rbi-rep:ParameterAxis", "rbi-core:ConsolidatedEntityIncludingInternationalOperationsMember");
                                     
                                     
-                                    String zeroDBS01FS_Layout3LoansReportedForFSIValue1438 = DBS01ReportUtil.retrieveValueForElement(field.getLoansReportedForFSI(), zeroDBS01FS_Layout3LoansReportedForFSIMap1440);
+                            //         String zeroDBS01FS_Layout3LoansReportedForFSIValue1438 = DBS01ReportUtil.retrieveValueForElement(field.getLoansReportedForFSI(), zeroDBS01FS_Layout3LoansReportedForFSIMap1440);
 
-                                    startDate = startDateDefault;
-                                    endDate = endDateDefault;
-                                    periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439 = DBS01ReportUtil.retrieveFieldDataForElement(field.getLoansReportedForFSI(), zeroDBS01FS_Layout3LoansReportedForFSIMap1440, "", "", "xs:date($refPeriodEndDate)");
+                            //         startDate = startDateDefault;
+                            //         endDate = endDateDefault;
+                            //         periodDate = periodDateDefault;
+                            //         FieldDataValue zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439 = DBS01ReportUtil.retrieveFieldDataForElement(field.getLoansReportedForFSI(), zeroDBS01FS_Layout3LoansReportedForFSIMap1440, "", "", "xs:date($refPeriodEndDate)");
                                     
-                                    zeroDBS01FS_Layout3LoansReportedForFSIValue1438 = zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439 == null ? "" : zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getValue();
-                                    if(zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439 != null ) {
-                                        if(!zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getStartDateValue();
-                                        if(!zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getEndDateValue();
-                                        if(!zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getInstantDateValue();
-                                    }
+                            //         zeroDBS01FS_Layout3LoansReportedForFSIValue1438 = zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439 == null ? "" : zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getValue();
+                            //         if(zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439 != null ) {
+                            //             if(!zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getStartDateValue();
+                            //             if(!zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getEndDateValue();
+                            //             if(!zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS01FS_Layout3LoansReportedForFSIFieldDataValue1439.getInstantDateValue();
+                            //         }
 
                                     
-                                            Context DBS01FS_Layout3LoansReportedForFSIContext1437 = DBS01ReportContextUtil.createAsOfContextWithMembers( bankCode, periodDate,  zeroDBS01FS_Layout3LoansReportedForFSIMap1440 );
+                            //                 Context DBS01FS_Layout3LoansReportedForFSIContext1437 = DBS01ReportContextUtil.createAsOfContextWithMembers( bankCode, periodDate,  zeroDBS01FS_Layout3LoansReportedForFSIMap1440 );
                                         
                                 
-                                if(zeroDBS01FS_Layout3LoansReportedForFSIValue1438 != null && !"".equals(zeroDBS01FS_Layout3LoansReportedForFSIValue1438)) {
+                            //     if(zeroDBS01FS_Layout3LoansReportedForFSIValue1438 != null && !"".equals(zeroDBS01FS_Layout3LoansReportedForFSIValue1438)) {
                                     
-                                    addContext(DBS01FS_Layout3LoansReportedForFSIContext1437, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    MonetaryItemType loansReportedForFSIValue1441 = new MonetaryItemType();
-                                    loansReportedForFSIValue1441.setContextRef(DBS01FS_Layout3LoansReportedForFSIContext1437);
-                                    
-                                    loansReportedForFSIValue1441.setUnitRef(INR1436);
-                                    loansReportedForFSIValue1441.setDecimals("INF");
-                                    loansReportedForFSIValue1441.setValue(new BigDecimal(zeroDBS01FS_Layout3LoansReportedForFSIValue1438));
+                            //         addContext(DBS01FS_Layout3LoansReportedForFSIContext1437, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<MonetaryItemType> loansReportedForFSIElement1442 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createLoansReportedForFSI(loansReportedForFSIValue1441);
-                                    bodyElements.add(loansReportedForFSIElement1442);
+                                    
+                            //         MonetaryItemType loansReportedForFSIValue1441 = new MonetaryItemType();
+                            //         loansReportedForFSIValue1441.setContextRef(DBS01FS_Layout3LoansReportedForFSIContext1437);
+                                    
+                            //         loansReportedForFSIValue1441.setUnitRef(INR1436);
+                            //         loansReportedForFSIValue1441.setDecimals("INF");
+                            //         loansReportedForFSIValue1441.setValue(new BigDecimal(zeroDBS01FS_Layout3LoansReportedForFSIValue1438));
+                                    
+                                    
+                            //         JAXBElement<MonetaryItemType> loansReportedForFSIElement1442 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createLoansReportedForFSI(loansReportedForFSIValue1441);
+                            //         bodyElements.add(loansReportedForFSIElement1442);
                                 
-                            }
+                            // }
                         
                             
                                 
@@ -16931,55 +16931,55 @@ public class DBS01Report implements XBRLReportIntf {
                             pure2094 = createUnitIfNotExist(pure2094, "PURE", "http://www.xbrl.org/2003/instance", "pure", unitElements);
                             
                             
-                            // - RemarkForLoansReportedForFSI
+                            // // - RemarkForLoansReportedForFSI
                             
-                                Map zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098 = new HashMap<String, String>();
+                            //     Map zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098 = new HashMap<String, String>();
                                 
                                 
                                 
                                         
                                         
-                                        zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098.put("rbi-core:TypeOfBalanceAxis", "rbi-core:GrossMember");
+                            //             zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098.put("rbi-core:TypeOfBalanceAxis", "rbi-core:GrossMember");
                                     
                                         
                                         
-                                        zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098.put("in-rbi-rep:ParameterAxis", "rbi-core:FSMember");
+                            //             zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098.put("in-rbi-rep:ParameterAxis", "rbi-core:FSMember");
                                     
                                     
-                                    String zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096 = DBS01ReportUtil.retrieveValueForElement(field.getRemarkForLoansReportedForFSI(), zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098);
+                            //         String zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096 = DBS01ReportUtil.retrieveValueForElement(field.getRemarkForLoansReportedForFSI(), zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098);
 
-                                    startDate = startDateDefault;
-                                    endDate = endDateDefault;
-                                    periodDate = periodDateDefault;
-                                    FieldDataValue zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097 = DBS01ReportUtil.retrieveFieldDataForElement(field.getRemarkForLoansReportedForFSI(), zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
+                            //         startDate = startDateDefault;
+                            //         endDate = endDateDefault;
+                            //         periodDate = periodDateDefault;
+                            //         FieldDataValue zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097 = DBS01ReportUtil.retrieveFieldDataForElement(field.getRemarkForLoansReportedForFSI(), zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098, "xs:date($refPeriodStartDate)", "xs:date($refPeriodEndDate)", "");
                                     
-                                    zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096 = zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097 == null ? "" : zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getValue();
-                                    if(zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097 != null ) {
-                                        if(!zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getStartDateValue();
-                                        if(!zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getEndDateValue();
-                                        if(!zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getInstantDateValue();
-                                    }
+                            //         zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096 = zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097 == null ? "" : zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getValue();
+                            //         if(zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097 != null ) {
+                            //             if(!zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getStartDateValue().equalsIgnoreCase("StartDate-Empty")) startDate = zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getStartDateValue();
+                            //             if(!zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getEndDateValue().equalsIgnoreCase("EndDate-Empty")) endDate = zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getEndDateValue();
+                            //             if(!zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getInstantDateValue().equalsIgnoreCase("InstantDate-Empty")) periodDate = zeroDBS01FS_Layout3RemarkForLoansReportedForFSIFieldDataValue2097.getInstantDateValue();
+                            //         }
 
                                     
-                                            Context DBS01FS_Layout3RemarkForLoansReportedForFSIContext2095 = DBS01ReportContextUtil.createFromToContextWithMembers( bankCode, startDate, endDate,  zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098 );
+                            //                 Context DBS01FS_Layout3RemarkForLoansReportedForFSIContext2095 = DBS01ReportContextUtil.createFromToContextWithMembers( bankCode, startDate, endDate,  zeroDBS01FS_Layout3RemarkForLoansReportedForFSIMap2098 );
                                             
                                 
-                                if(zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096 != null && !"".equals(zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096)) {
+                            //     if(zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096 != null && !"".equals(zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096)) {
                                     
-                                    addContext(DBS01FS_Layout3RemarkForLoansReportedForFSIContext2095, contextElements, contextIdentifiers);
-                                    
-                                    
-                                    
-                                    RemarkForFSI remarkForLoansReportedForFSIValue2099 = new RemarkForFSI();
-                                    remarkForLoansReportedForFSIValue2099.setContextRef(DBS01FS_Layout3RemarkForLoansReportedForFSIContext2095);
-                                    
-                                    remarkForLoansReportedForFSIValue2099.setValue(zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096);        
+                            //         addContext(DBS01FS_Layout3RemarkForLoansReportedForFSIContext2095, contextElements, contextIdentifiers);
                                     
                                     
-                                    JAXBElement<RemarkForFSI> remarkForLoansReportedForFSIElement2100 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createRemarkForLoansReportedForFSI(remarkForLoansReportedForFSIValue2099);
-                                    bodyElements.add(remarkForLoansReportedForFSIElement2100);
+                                    
+                            //         RemarkForFSI remarkForLoansReportedForFSIValue2099 = new RemarkForFSI();
+                            //         remarkForLoansReportedForFSIValue2099.setContextRef(DBS01FS_Layout3RemarkForLoansReportedForFSIContext2095);
+                                    
+                            //         remarkForLoansReportedForFSIValue2099.setValue(zeroDBS01FS_Layout3RemarkForLoansReportedForFSIValue2096);        
+                                    
+                                    
+                            //         JAXBElement<RemarkForFSI> remarkForLoansReportedForFSIElement2100 = new org.rbi.in.xbrl.rbi_core.ObjectFactory().createRemarkForLoansReportedForFSI(remarkForLoansReportedForFSIValue2099);
+                            //         bodyElements.add(remarkForLoansReportedForFSIElement2100);
                                 
-                            }
+                            // }
                         
                             
                             Unit pure2101 = unitElements.stream().filter(u -> u.getId().equalsIgnoreCase("PURE")).findAny().orElse(null);
