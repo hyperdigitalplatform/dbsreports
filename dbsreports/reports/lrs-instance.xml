@@ -1636,6 +1636,18 @@
             <xbrli:instant>2022-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
     <xbrli:unit id="PURE">
         <xbrli:measure>xbrli:pure</xbrli:measure>
     </xbrli:unit>
@@ -1860,6 +1872,7 @@
     <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_TotalSecuritiesFinancingTransactionsExposuresMember_ConsolidatedMember">10871300000</in-rbi-rep:ExposureAmount>
     <in-rbi-rep:Tier1Capital decimals="INF" unitRef="INR" contextRef="asof_20220630_ConsolidatedMember">645685300000</in-rbi-rep:Tier1Capital>
     <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_TotalExposureMember_ConsolidatedMember">14046231008000</in-rbi-rep:ExposureAmount>
+    <rbi-core:BaselIILeverageRatio decimals="INF" unitRef="PURE" contextRef="fromto_20220401_20220630_ConsolidatedMember">4.5968</rbi-core:BaselIILeverageRatio>
     <in-rbi-rep:NameOfSignatory contextRef="fromto_20220401_20220630">xyz</in-rbi-rep:NameOfSignatory>
     <in-rbi-rep:DesignationOfSignatory contextRef="fromto_20220401_20220630">Chief Manager</in-rbi-rep:DesignationOfSignatory>
     <rbi-core:AuthorisedSignatoryOfficialLandlineNumber contextRef="fromto_20220401_20220630">11111111111</rbi-core:AuthorisedSignatoryOfficialLandlineNumber>

@@ -4977,7 +4977,7 @@
             InstantDateValue,
             FieldName,
             FieldValue ) VALUES (
-                    'in-rbi-rep:StandaloneMember',
+                    'in-rbi-rep:ConsolidatedMember',
                     '',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
