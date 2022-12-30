@@ -2639,9 +2639,9 @@
                     '',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
-                '',
-                '2022-06-30',
                 'xs:date($refPeriodEndDate)',
+                '2022-06-30',
+                '',
                 '2022-06-30',
                 'BaselIILeverageRatio',
                 '4.5593'
@@ -4981,9 +4981,9 @@
                     '',
                 'xs:date($refPeriodStartDate)',
                 '2022-04-01',
-                '',
-                '2022-06-30',
                 'xs:date($refPeriodEndDate)',
+                '2022-06-30',
+                '',
                 '2022-06-30',
                 'BaselIILeverageRatio',
                 '4.5968'

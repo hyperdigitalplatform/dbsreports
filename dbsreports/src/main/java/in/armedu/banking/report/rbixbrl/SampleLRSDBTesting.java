@@ -34,7 +34,7 @@ public class SampleLRSDBTesting implements CommandLineRunner {
         reportData.setPeriodDate("2022-06-30");
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
         StringWriter sw = engine.execute(ReportGenerationFactory.RBI_DBS06_XBRL_REPORT, reportData);
-        FileWriter fw = new FileWriter("lrs-instance.xml");
+        FileWriter fw = new FileWriter("reports/lrs-instance.xml");
         fw.write(sw.toString());
         fw.close();
 

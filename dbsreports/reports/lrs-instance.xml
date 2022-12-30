@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xbrli:xbrl xml:lang="en" xmlns:rbi-par="http://www.rbi.org/in/xbrl/rbi-par" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:rbi-core="http://www.rbi.org/in/xbrl/rbi-core" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par">
+    <link:schemaRef xlink:type="simple" xlink:href="in-rbi-dbs06.xsd"/>
+    <xbrli:context id="fromto_20220401_20220630">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DomesticSovereignsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:DomesticSovereignsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ForeignSovereignsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ForeignSovereignsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_BanksIncorporatedInIndiaAndForeignBankBranchesInIndiaMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:BanksIncorporatedInIndiaAndForeignBankBranchesInIndiaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ForeignBanksMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">in-rbi-rep:ForeignBanksMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DomesticPublicSectorEntitiesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:DomesticPublicSectorEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ForeignPublicSectorEntitiesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ForeignPublicSectorEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_PrimaryDealersMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:PrimaryDealersMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CorporateMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">in-rbi-rep:CorporateMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToCCPsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExposureToCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToCapitalOfCCPsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExposureToCapitalOfCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToDefaultFundContributionOfCCPsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExposureToDefaultFundContributionOfCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OtherExposureToCCPsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OtherExposureToCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AllOtherExposuresMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AllOtherExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_BalanceSheetAssetsDeductedFromTier1CapitalAndNotReckonedForExposureMeasureMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:BalanceSheetAssetsDeductedFromTier1CapitalAndNotReckonedForExposureMeasureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_FiduciaryAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:FiduciaryAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OnBalanceSheetExposureExcludingDerivativesAndSFTsButIncludingCollateralMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OnBalanceSheetExposureExcludingDerivativesAndSFTsButIncludingCollateralMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetItemsWith10PercentCreditConversionFactorMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetItemsWith10PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_UnconditionallyCancellableCreditCardsCommitmentsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OtherUnconditionallyCancellableCommitmentsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OtherUnconditionallyCancellableCommitmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetItemsWith20PercentCreditConversionFactorMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetItemsWith20PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetItemsWith50PercentCreditConversionFactorMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetItemsWith100PercentCreditConversionFactorMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetExposureItemMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetExposureItemMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CreditDerivativesProtectionSoldMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:CreditDerivativesProtectionSoldMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CreditDerivativesProtectionBoughtMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:CreditDerivativesProtectionBoughtMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_FinancialDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:FinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToNonQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToNonQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureDueToNonCentrallyClearedDerivativesMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OtherExposuresMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:OtherExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExemptedCCPLegOfClientClearedTradeExposuresMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_EffectiveNotionalAmountOfWrittenCreditDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_NegativeChangeInFairValueOfWrittenCreditDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CreditDerivativesBoughtMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:CreditDerivativesBoughtMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_WrittenCreditDerivativesNetMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:WrittenCreditDerivativesNetMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_EligibleCashVariationMarginReceivedInDerivativeExpsouresMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DerivativesMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">in-rbi-rep:DerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_GrossSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AdjustmentsForSFTSalesAccountingTransactionsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AdjustmentsForSFTSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToNonQCCPsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToNonQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureDueToOtherSFTsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureDueToOtherSFTsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_NettedAmountsOfGrossSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NettedAmountsOfGrossSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_GrossCCRExpsoureForSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossCCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_GrossCCRExpsoureForSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossCCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToNonQCCPsMember_GrossCCRExpsoureForSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToNonQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossCCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureDueToOtherSFTsMember_GrossCCRExpsoureForSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureDueToOtherSFTsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossCCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AmountOfCCRExposureAfterNettingMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AmountOfCCRExposureAfterNettingMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_AmountOfCCRExposureAfterNettingMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AmountOfCCRExposureAfterNettingMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CCRExpsoureForSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:CCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AgentTransactionExposureForSFTAssetsMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AgentTransactionExposureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureDueToGuaranteeIndemnityProvidedMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExposureDueToGuaranteeIndemnityProvidedMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_FutherExposureBeyondTheGuaranteeOrIndemnityProvidedMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:FutherExposureBeyondTheGuaranteeOrIndemnityProvidedMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_TotalSecuritiesFinancingTransactionsExposuresMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:TotalSecuritiesFinancingTransactionsExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_TotalExposureMember_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">in-rbi-rep:TotalExposureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20220401_20220630_StandaloneMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:StandaloneMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2022-04-01</xbrli:startDate>
+            <xbrli:endDate>2022-06-30</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DomesticSovereignsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:DomesticSovereignsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ForeignSovereignsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ForeignSovereignsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_BanksIncorporatedInIndiaAndForeignBankBranchesInIndiaMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:BanksIncorporatedInIndiaAndForeignBankBranchesInIndiaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ForeignBanksMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">in-rbi-rep:ForeignBanksMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DomesticPublicSectorEntitiesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:DomesticPublicSectorEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ForeignPublicSectorEntitiesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ForeignPublicSectorEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_PrimaryDealersMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:PrimaryDealersMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CorporateMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">in-rbi-rep:CorporateMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToCCPsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExposureToCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToCapitalOfCCPsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExposureToCapitalOfCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToDefaultFundContributionOfCCPsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExposureToDefaultFundContributionOfCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OtherExposureToCCPsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OtherExposureToCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AllOtherExposuresMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AllOtherExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_BalanceSheetAssetsDeductedFromTier1CapitalAndNotReckonedForExposureMeasureMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:BalanceSheetAssetsDeductedFromTier1CapitalAndNotReckonedForExposureMeasureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_FiduciaryAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:FiduciaryAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OnBalanceSheetExposureExcludingDerivativesAndSFTsButIncludingCollateralMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OnBalanceSheetExposureExcludingDerivativesAndSFTsButIncludingCollateralMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetItemsWith10PercentCreditConversionFactorMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetItemsWith10PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_UnconditionallyCancellableCreditCardsCommitmentsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:UnconditionallyCancellableCreditCardsCommitmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OtherUnconditionallyCancellableCommitmentsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OtherUnconditionallyCancellableCommitmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetItemsWith20PercentCreditConversionFactorMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetItemsWith20PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetItemsWith50PercentCreditConversionFactorMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetItemsWith50PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetItemsWith100PercentCreditConversionFactorMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetItemsWith100PercentCreditConversionFactorMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OffBalanceSheetExposureItemMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:OffBalanceSheetExposureItemMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CreditDerivativesProtectionSoldMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:CreditDerivativesProtectionSoldMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CreditDerivativesProtectionBoughtMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:CreditDerivativesProtectionBoughtMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_FinancialDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:FinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToNonQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToNonQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureDueToNonCentrallyClearedDerivativesMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureDueToNonCentrallyClearedDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_OtherExposuresMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:OtherExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AggregateOfCreditAndFinancialDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExemptedCCPLegOfClientClearedTradeExposuresMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExemptedCCPLegOfClientClearedTradeExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_EffectiveNotionalAmountOfWrittenCreditDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_NegativeChangeInFairValueOfWrittenCreditDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NegativeChangeInFairValueOfWrittenCreditDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CreditDerivativesBoughtMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:CreditDerivativesBoughtMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_WrittenCreditDerivativesNetMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:WrittenCreditDerivativesNetMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_EligibleCashVariationMarginReceivedInDerivativeExpsouresMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:EligibleCashVariationMarginReceivedInDerivativeExpsouresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_DerivativesMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">in-rbi-rep:DerivativesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_GrossSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AdjustmentsForSFTSalesAccountingTransactionsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AdjustmentsForSFTSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToNonQCCPsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToNonQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureDueToOtherSFTsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureDueToOtherSFTsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_NettedAmountsOfGrossSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:NettedAmountsOfGrossSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_GrossCCRExpsoureForSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossCCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_GrossCCRExpsoureForSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossCCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToNonQCCPsMember_GrossCCRExpsoureForSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToNonQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossCCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureDueToOtherSFTsMember_GrossCCRExpsoureForSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureDueToOtherSFTsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:GrossCCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AmountOfCCRExposureAfterNettingMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AmountOfCCRExposureAfterNettingMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureToQCCPsMember_AmountOfCCRExposureAfterNettingMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureClassAxis">rbi-core:ExposureToQCCPsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AmountOfCCRExposureAfterNettingMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_CCRExpsoureForSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:CCRExpsoureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_AgentTransactionExposureForSFTAssetsMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:AgentTransactionExposureForSFTAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ExposureDueToGuaranteeIndemnityProvidedMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:ExposureDueToGuaranteeIndemnityProvidedMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_FutherExposureBeyondTheGuaranteeOrIndemnityProvidedMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:FutherExposureBeyondTheGuaranteeOrIndemnityProvidedMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_TotalSecuritiesFinancingTransactionsExposuresMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">rbi-core:TotalSecuritiesFinancingTransactionsExposuresMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20220630_TotalExposureMember_ConsolidatedMember">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="rbi-core:LeverageRatioExposureAxis">in-rbi-rep:TotalExposureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="rbi-core:ConsolidatedAndSeparateFinancialStatementsAxis">in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2022-06-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="PURE">
+        <xbrli:measure>xbrli:pure</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="INR">
+        <xbrli:measure xmlns="http://www.xbrl.org/2003/iso4217">INR</xbrli:measure>
+    </xbrli:unit>
+    <in-rbi-rep:ReturnName contextRef="fromto_20220401_20220630">Leverage Ratio Statement</in-rbi-rep:ReturnName>
+    <in-rbi-rep:ReturnCode contextRef="fromto_20220401_20220630">R030</in-rbi-rep:ReturnCode>
+    <in-rbi-rep:BankCode contextRef="asof_20220630">600</in-rbi-rep:BankCode>
+    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20220401_20220630">Punjab National Bank</in-rbi-rep:NameOfReportingInstitution>
+    <rbi-core:InstitutionType contextRef="fromto_20220401_20220630">Nationalised Banks</rbi-core:InstitutionType>
+    <in-rbi-rep:ReportingFrequency contextRef="fromto_20220401_20220630">Quarterly</in-rbi-rep:ReportingFrequency>
+    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20220630">2022-04-01</in-rbi-rep:ReportingPeriodStartDate>
+    <in-rbi-rep:ReportingPeriodEndDate contextRef="asof_20220630">2022-06-30</in-rbi-rep:ReportingPeriodEndDate>
+    <rbi-core:ReportingCurrency contextRef="fromto_20220401_20220630">INR</rbi-core:ReportingCurrency>
+    <rbi-core:ReportingScale contextRef="fromto_20220401_20220630">Actuals</rbi-core:ReportingScale>
+    <rbi-core:TaxonomyVersion contextRef="fromto_20220401_20220630">1.0.0</rbi-core:TaxonomyVersion>
+    <in-rbi-rep:ToolName contextRef="fromto_20220401_20220630">RBI iFile</in-rbi-rep:ToolName>
+    <rbi-core:ToolVersion contextRef="fromto_20220401_20220630">1.0.1</rbi-core:ToolVersion>
+    <in-rbi-rep:ReportStatus contextRef="fromto_20220401_20220630">Audited</in-rbi-rep:ReportStatus>
+    <in-rbi-rep:DateOfAudit contextRef="asof_20220630">2022-07-28</in-rbi-rep:DateOfAudit>
+    <in-rbi-rep:GeneralRemarks contextRef="fromto_20220401_20220630">Validated</in-rbi-rep:GeneralRemarks>
+    <rbi-core:WhetherBankHasSubsidiaries contextRef="asof_20220630">false</rbi-core:WhetherBankHasSubsidiaries>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_DomesticSovereignsMember_StandaloneMember">5078578769000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ForeignSovereignsMember_StandaloneMember">30279651000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_BanksIncorporatedInIndiaAndForeignBankBranchesInIndiaMember_StandaloneMember">246565819000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ForeignBanksMember_StandaloneMember">268322604000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_DomesticPublicSectorEntitiesMember_StandaloneMember">940731655000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ForeignPublicSectorEntitiesMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_PrimaryDealersMember_StandaloneMember">9793000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CorporateMember_StandaloneMember">4338136255000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToCCPsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToCapitalOfCCPsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToDefaultFundContributionOfCCPsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherExposureToCCPsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AllOtherExposuresMember_StandaloneMember">2308137475000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_BalanceSheetAssetsDeductedFromTier1CapitalAndNotReckonedForExposureMeasureMember_StandaloneMember">268825300000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_FiduciaryAssetsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OnBalanceSheetExposureExcludingDerivativesAndSFTsButIncludingCollateralMember_StandaloneMember">12941936721000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith10PercentCreditConversionFactorMember_StandaloneMember">761208341000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith10PercentCreditConversionFactorMember_StandaloneMember">76120834000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_UnconditionallyCancellableCreditCardsCommitmentsMember_StandaloneMember">17522741000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_UnconditionallyCancellableCreditCardsCommitmentsMember_StandaloneMember">0.1000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_UnconditionallyCancellableCreditCardsCommitmentsMember_StandaloneMember">1752274000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherUnconditionallyCancellableCommitmentsMember_StandaloneMember">743685600000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OtherUnconditionallyCancellableCommitmentsMember_StandaloneMember">0.1000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherUnconditionallyCancellableCommitmentsMember_StandaloneMember">74368560000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember_StandaloneMember">0.1000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith20PercentCreditConversionFactorMember_StandaloneMember">320001252000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OffBalanceSheetItemsWith20PercentCreditConversionFactorMember_StandaloneMember">0.2000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith20PercentCreditConversionFactorMember_StandaloneMember">64000250000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith50PercentCreditConversionFactorMember_StandaloneMember">389142856000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OffBalanceSheetItemsWith50PercentCreditConversionFactorMember_StandaloneMember">0.5000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith50PercentCreditConversionFactorMember_StandaloneMember">194571428000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith100PercentCreditConversionFactorMember_StandaloneMember">294801930000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OffBalanceSheetItemsWith100PercentCreditConversionFactorMember_StandaloneMember">1.0000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith100PercentCreditConversionFactorMember_StandaloneMember">294801930000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetExposureItemMember_StandaloneMember">1765154379000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetExposureItemMember_StandaloneMember">629494442000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionSoldMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionSoldMember_StandaloneMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionSoldMember_StandaloneMember">0</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionBoughtMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionBoughtMember_StandaloneMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionBoughtMember_StandaloneMember">0</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_FinancialDerivativesMember_StandaloneMember">5722781155000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_FinancialDerivativesMember_StandaloneMember">46147351000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_FinancialDerivativesMember_StandaloneMember">117755282000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">5722781155000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">46147351000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">117755282000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">4724559856000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">41841547000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">97741961000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">198389425000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">1100554000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">3978303000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToNonCentrallyClearedDerivativesMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">797849092000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToNonCentrallyClearedDerivativesMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">3204451000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToNonCentrallyClearedDerivativesMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">15991535000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherExposuresMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">1982782000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherExposuresMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">799000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherExposuresMember_AggregateOfCreditAndFinancialDerivativesMember_StandaloneMember">43483000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExemptedCCPLegOfClientClearedTradeExposuresMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ExemptedCCPLegOfClientClearedTradeExposuresMember_StandaloneMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_ExemptedCCPLegOfClientClearedTradeExposuresMember_StandaloneMember">0</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_EffectiveNotionalAmountOfWrittenCreditDerivativesMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_NegativeChangeInFairValueOfWrittenCreditDerivativesMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesBoughtMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_WrittenCreditDerivativesNetMember_StandaloneMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember_StandaloneMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_EligibleCashVariationMarginReceivedInDerivativeExpsouresMember_StandaloneMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember_StandaloneMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_DerivativesMember_StandaloneMember">46147351000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DerivativesMember_StandaloneMember">117755282000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_DerivativesMember_StandaloneMember">163902633000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_GrossSFTAssetsMember_StandaloneMember">238277800000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AdjustmentsForSFTSalesAccountingTransactionsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_StandaloneMember">238277800000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_StandaloneMember">238277800000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToOtherSFTsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember_StandaloneMember">227406500000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember_StandaloneMember">227406500000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_NettedAmountsOfGrossSFTAssetsMember_StandaloneMember">10871300000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_GrossCCRExpsoureForSFTAssetsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_GrossCCRExpsoureForSFTAssetsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_GrossCCRExpsoureForSFTAssetsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToOtherSFTsMember_GrossCCRExpsoureForSFTAssetsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AmountOfCCRExposureAfterNettingMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_AmountOfCCRExposureAfterNettingMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CCRExpsoureForSFTAssetsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AgentTransactionExposureForSFTAssetsMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToGuaranteeIndemnityProvidedMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_FutherExposureBeyondTheGuaranteeOrIndemnityProvidedMember_StandaloneMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_TotalSecuritiesFinancingTransactionsExposuresMember_StandaloneMember">10871300000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:Tier1Capital decimals="INF" unitRef="INR" contextRef="asof_20220630_StandaloneMember">626731500000</in-rbi-rep:Tier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_TotalExposureMember_StandaloneMember">13746205096000</in-rbi-rep:ExposureAmount>
+    <rbi-core:BaselIILeverageRatio decimals="INF" unitRef="PURE" contextRef="fromto_20220401_20220630_StandaloneMember">4.5593</rbi-core:BaselIILeverageRatio>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_DomesticSovereignsMember_ConsolidatedMember">5247925298000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ForeignSovereignsMember_ConsolidatedMember">34584953000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_BanksIncorporatedInIndiaAndForeignBankBranchesInIndiaMember_ConsolidatedMember">246585940000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ForeignBanksMember_ConsolidatedMember">277174124000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_DomesticPublicSectorEntitiesMember_ConsolidatedMember">940731655000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ForeignPublicSectorEntitiesMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_PrimaryDealersMember_ConsolidatedMember">9793000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CorporateMember_ConsolidatedMember">4338136255000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToCCPsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToCapitalOfCCPsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToDefaultFundContributionOfCCPsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherExposureToCCPsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AllOtherExposuresMember_ConsolidatedMember">2392273845000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_BalanceSheetAssetsDeductedFromTier1CapitalAndNotReckonedForExposureMeasureMember_ConsolidatedMember">251667600000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_FiduciaryAssetsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OnBalanceSheetExposureExcludingDerivativesAndSFTsButIncludingCollateralMember_ConsolidatedMember">13225754263000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith10PercentCreditConversionFactorMember_ConsolidatedMember">761208341000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith10PercentCreditConversionFactorMember_ConsolidatedMember">76120834000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_UnconditionallyCancellableCreditCardsCommitmentsMember_ConsolidatedMember">17522741000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_UnconditionallyCancellableCreditCardsCommitmentsMember_ConsolidatedMember">0.1000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_UnconditionallyCancellableCreditCardsCommitmentsMember_ConsolidatedMember">1752274000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherUnconditionallyCancellableCommitmentsMember_ConsolidatedMember">743685600000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OtherUnconditionallyCancellableCommitmentsMember_ConsolidatedMember">0.1000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherUnconditionallyCancellableCommitmentsMember_ConsolidatedMember">74368560000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember_ConsolidatedMember">0.1000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherOffBalanceSheetItemsWith10PercentCreditConversionFactorMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith20PercentCreditConversionFactorMember_ConsolidatedMember">320001252000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OffBalanceSheetItemsWith20PercentCreditConversionFactorMember_ConsolidatedMember">0.2000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith20PercentCreditConversionFactorMember_ConsolidatedMember">64000250000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith50PercentCreditConversionFactorMember_ConsolidatedMember">389142856000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OffBalanceSheetItemsWith50PercentCreditConversionFactorMember_ConsolidatedMember">0.5000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith50PercentCreditConversionFactorMember_ConsolidatedMember">194571428000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith100PercentCreditConversionFactorMember_ConsolidatedMember">311010300000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:CreditConversionFactor decimals="INF" unitRef="PURE" contextRef="asof_20220630_OffBalanceSheetItemsWith100PercentCreditConversionFactorMember_ConsolidatedMember">1.0000</in-rbi-rep:CreditConversionFactor>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetItemsWith100PercentCreditConversionFactorMember_ConsolidatedMember">311010300000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetExposureItemMember_ConsolidatedMember">1781362749000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OffBalanceSheetExposureItemMember_ConsolidatedMember">645702812000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionSoldMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionSoldMember_ConsolidatedMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionSoldMember_ConsolidatedMember">0</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionBoughtMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionBoughtMember_ConsolidatedMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesProtectionBoughtMember_ConsolidatedMember">0</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_FinancialDerivativesMember_ConsolidatedMember">5722781155000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_FinancialDerivativesMember_ConsolidatedMember">46147351000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_FinancialDerivativesMember_ConsolidatedMember">117755282000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">5722781155000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">46147351000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">117755282000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">4724559856000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">41841547000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">97741961000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">198389425000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">1100554000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">3978303000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToNonCentrallyClearedDerivativesMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">797849092000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToNonCentrallyClearedDerivativesMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">3204451000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToNonCentrallyClearedDerivativesMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">15991535000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherExposuresMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">1982782000</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherExposuresMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">799000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_OtherExposuresMember_AggregateOfCreditAndFinancialDerivativesMember_ConsolidatedMember">43483000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExemptedCCPLegOfClientClearedTradeExposuresMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ExemptedCCPLegOfClientClearedTradeExposuresMember_ConsolidatedMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_ExemptedCCPLegOfClientClearedTradeExposuresMember_ConsolidatedMember">0</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_EffectiveNotionalAmountOfWrittenCreditDerivativesMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_NegativeChangeInFairValueOfWrittenCreditDerivativesMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_EffectiveNotionalAmountOfWrittenCreditDerivativesAdjustedForNegativeChangeInFairValueMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CreditDerivativesBoughtMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_NetAdjustedEffectiveNotionalAmountOfWrittenCreditDerivativesMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_DeductionForAjustmentOfPFEAmountRelatingToWrittenCreditDerivativesMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:NotionalPrincipalAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_WrittenCreditDerivativesNetMember_ConsolidatedMember">0</in-rbi-rep:NotionalPrincipalAmount>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_GrossUpForDerivativeCollateralProvidedWhereDeductedFromTheBalanceSheetMember_ConsolidatedMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_EligibleCashVariationMarginReceivedInDerivativeExpsouresMember_ConsolidatedMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_ReceivableAssetsForCashVariationMarginProvidedInDerivativeExposuresMember_ConsolidatedMember">0</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:ReplacementCost decimals="INF" unitRef="INR" contextRef="asof_20220630_DerivativesMember_ConsolidatedMember">46147351000</in-rbi-rep:ReplacementCost>
+    <in-rbi-rep:PotentialFutureExposure decimals="INF" unitRef="INR" contextRef="asof_20220630_DerivativesMember_ConsolidatedMember">117755282000</in-rbi-rep:PotentialFutureExposure>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_DerivativesMember_ConsolidatedMember">163902633000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_GrossSFTAssetsMember_ConsolidatedMember">238277800000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AdjustmentsForSFTSalesAccountingTransactionsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_ConsolidatedMember">238277800000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_ConsolidatedMember">238277800000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToOtherSFTsMember_GrossSFTAssetsAfterAdjustmentsForSalesAccountingTransactionsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember_ConsolidatedMember">227406500000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_NettedAmountsOfCashPayablesAndCashReceivablesOfGrossSFTAssetsMember_ConsolidatedMember">227406500000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_NettedAmountsOfGrossSFTAssetsMember_ConsolidatedMember">10871300000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_GrossCCRExpsoureForSFTAssetsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_GrossCCRExpsoureForSFTAssetsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToNonQCCPsMember_GrossCCRExpsoureForSFTAssetsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToOtherSFTsMember_GrossCCRExpsoureForSFTAssetsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AmountOfCCRExposureAfterNettingMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureToQCCPsMember_AmountOfCCRExposureAfterNettingMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_CCRExpsoureForSFTAssetsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_AgentTransactionExposureForSFTAssetsMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_ExposureDueToGuaranteeIndemnityProvidedMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_FutherExposureBeyondTheGuaranteeOrIndemnityProvidedMember_ConsolidatedMember">0</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_TotalSecuritiesFinancingTransactionsExposuresMember_ConsolidatedMember">10871300000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:Tier1Capital decimals="INF" unitRef="INR" contextRef="asof_20220630_ConsolidatedMember">645685300000</in-rbi-rep:Tier1Capital>
+    <in-rbi-rep:ExposureAmount decimals="INF" unitRef="INR" contextRef="asof_20220630_TotalExposureMember_ConsolidatedMember">14046231008000</in-rbi-rep:ExposureAmount>
+    <in-rbi-rep:NameOfSignatory contextRef="fromto_20220401_20220630">xyz</in-rbi-rep:NameOfSignatory>
+    <in-rbi-rep:DesignationOfSignatory contextRef="fromto_20220401_20220630">Chief Manager</in-rbi-rep:DesignationOfSignatory>
+    <rbi-core:AuthorisedSignatoryOfficialLandlineNumber contextRef="fromto_20220401_20220630">11111111111</rbi-core:AuthorisedSignatoryOfficialLandlineNumber>
+    <in-rbi-rep:MobileNumberOfAuthorisedSignatory contextRef="fromto_20220401_20220630">9999999999</in-rbi-rep:MobileNumberOfAuthorisedSignatory>
+    <in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20220401_20220630">abc@pnb.co.in</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+    <in-rbi-rep:Remarks contextRef="fromto_20220401_20220630">Validated</in-rbi-rep:Remarks>
+</xbrli:xbrl>
